@@ -1,0 +1,8 @@
+{
+	"settings" : {
+		"Name" : "Loess Plateau",
+		"Script" : "loess_plateau.js",
+		"Description" : "Players start in the opposite sides of the map as rivers flow between them.",
+		"CircularMap" : true
+	}
+}

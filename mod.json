@@ -1,0 +1,9 @@
+{
+	"name": "HanChina",
+	"label": "0 A.D. Han China",
+	"version": "1.0.0",
+	"url": "https://github.com/0ADMods/HanChina",
+	"description": "Adds Han chinese civilization to 0 A.D.",
+	"dependencies": ["0ad=0.0.23"],
+	"type": "Factions"
+}

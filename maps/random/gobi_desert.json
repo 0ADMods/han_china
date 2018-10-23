@@ -1,0 +1,8 @@
+{
+	"settings" : {
+		"Name" : "Gobi Desert",
+		"Script" : "gobi_desert.js",
+		"Description" : "A flat dry desert with very few reources",
+		"CircularMap" : true
+	}
+}
