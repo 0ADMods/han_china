@@ -2,7 +2,7 @@
 <actor version="1">
   <group>
     <variant name="Base">
-      <mesh>props/helmet/new/chin_cap.dae</mesh>
+      <mesh>props/helmet/chin_cap.dae</mesh>
     </variant>
   </group>
   <group>
