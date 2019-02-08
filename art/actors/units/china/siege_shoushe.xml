@@ -16,7 +16,7 @@
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-projectile"/>
       </props>
       <textures>
-		<texture file="structural/chin_siege_shoushe.png" name="baseTex"/>	
+		<texture file="structural/chin_siege_shoushe.png" name="baseTex"/>
 	  </textures>
     </variant>
   </group>

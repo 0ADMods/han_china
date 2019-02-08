@@ -25,7 +25,7 @@
       <textures><texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/></textures>
     </variant>
   </group>
-  
+
   <group>
     <variant frequency="1" name="horse-color-black">
       <color>41 41 41</color>
@@ -52,7 +52,7 @@
       </props>
     </variant>
   </group>
-  
+
   <material>objectcolor.xml</material>
 
 </actor>

@@ -36,7 +36,7 @@
       <textures><texture file="skeletal/horse_celt_stripe_a.dds" name="baseTex"/></textures>
     </variant>
   </group>
-  
+
   <group>
     <variant frequency="1" name="horse-color-black">
       <color>41 41 41</color>
@@ -51,7 +51,7 @@
       <color>211 123 44</color>
     </variant>
   </group>
-  
+
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="quadraped/base_horse_death.xml"/>
@@ -63,7 +63,7 @@
       </props>
     </variant>
   </group>
-  
+
   <material>objectcolor.xml</material>
 
 </actor>
