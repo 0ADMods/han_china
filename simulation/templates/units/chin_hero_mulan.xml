@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_spearman">
-  <Auras datatype="tokens">
-    units/heros/chin_hero_mulan
-  </Auras>
-  <Identity>
-    <Civ>chin</Civ>
-    <SpecificName>Mulan</SpecificName>
-    <History>
-    To be added
-	</History>
-    <Icon>units/chin_hero_mulan.png</Icon>
-  </Identity>
-  <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/china/hero_mulan.xml</Actor>
-  </VisualActor>
+<Entity parent="template_unit_hero_infantry_swordsman">
+    <Auras datatype="tokens">
+        units/heroes/chin_hero_mulan
+    </Auras>
+    <Identity>
+        <Civ>chin</Civ>
+        <SpecificName>Mulan</SpecificName>
+        <Phenotype>female</Phenotype>
+        <Icon>units/chin_hero_mulan.png</Icon>
+    </Identity>
+    <VisualActor>
+        <Actor>units/china/hero_mulan.xml</Actor>
+    </VisualActor>
 </Entity>
