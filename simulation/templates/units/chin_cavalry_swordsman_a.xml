@@ -7,7 +7,9 @@
 	</Armour>
 	<Attack>
 		<Melee>
-			<Hack>16.0</Hack>
+            <Damage>
+                <Hack>16.0</Hack>
+            </Damage>
 		</Melee>
 	</Attack>
 	<Health>
@@ -20,6 +22,6 @@
 		<Entity>units/chin_cavalry_swordsman_e</Entity>
 	</Promotion>
 	<VisualActor>
-		<Actor>units/china/cavalry_swordsman_a.xml</Actor>
+		<Actor>units/china/cavalry_swordsman_a_m.xml</Actor>
 	</VisualActor>
 </Entity>

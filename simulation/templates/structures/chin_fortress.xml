@@ -18,20 +18,22 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_mechanical_siege_shoushe
-      units/{civ}_mechanical_siege_tower
+     <!-- -units/{civ}_mechanical_siege_shoushe
+      -units/{civ}_mechanical_siege_tower-->
       units/{civ}_hero_han_xin
       units/{civ}_hero_liu_bang
       units/{civ}_champion_cavalry
-      units/{civ}_champion_infantry_archer
-      units/{civ}_champion_infantry_swordsman
+      <!---units/{civ}_champion_infantry_archer
+      -units/{civ}_champion_infantry_swordsman-->
       units/{civ}_champion_chariot
     </Entities>
     <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
+<!--      -siege_attack
+      -siege_armor
+      -siege_cost_metal
+      -siege_cost_wood-->
+      chinese/attack_champion_infantry_swordsman
+      chinese/attack_champion_infantry_archer
     </Technologies>
   </ProductionQueue>
   <VisualActor>

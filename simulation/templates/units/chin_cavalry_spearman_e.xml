@@ -7,8 +7,10 @@
   </Armour>
     <Attack>
 	    <Melee>
-		    <Hack>5</Hack>
-		    <Pierce>9.5</Pierce>
+            <Damage>
+                <Hack>5</Hack>
+                <Pierce>9.5</Pierce>
+            </Damage>
 	    </Melee>
  	</Attack>
 	<Health>
@@ -21,13 +23,7 @@
 	<ResourceGatherer>
     	<BaseSpeed>0.5</BaseSpeed>
   	</ResourceGatherer>
-  	<UnitMotion>
-    	<WalkSpeed>13.5</WalkSpeed>
-    	<Run>
-      		<Speed>24.0</Speed>
-    	</Run>
-  	</UnitMotion>
 	<VisualActor>
-		<Actor>units/china/cavalry_spearman_e.xml</Actor>
+		<Actor>units/china/cavalry_spearman_e_m.xml</Actor>
 	</VisualActor>
 </Entity>

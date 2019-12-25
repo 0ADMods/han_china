@@ -91,6 +91,15 @@
 			"Requirements": "",
 			"Phase": "",
 			"Special": ""
+		},
+        {
+			"Name":"Siege Workshop",
+			"Class":"",
+			"Emblem":"",
+			"History":"The Han were innovators in area of siegecraft.",
+			"Requirements":"",
+			"Phase":"City",
+			"Special":"Constructs and upgrades all Han siege engines."
 		}
 	],
 	"WallSets":

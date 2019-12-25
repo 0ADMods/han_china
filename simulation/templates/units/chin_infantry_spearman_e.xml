@@ -10,8 +10,10 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>6</Hack>
-      <Pierce>11.5</Pierce>
+        <Damage>
+            <Hack>6</Hack>
+            <Pierce>11.5</Pierce>
+       </Damage>
     </Melee>
   </Attack>
   <Health>
@@ -21,12 +23,12 @@
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
+ <!-- <UnitMotion>
     <WalkSpeed>8.5</WalkSpeed>
     <Run>
       <Speed>21.0</Speed>
     </Run>
-  </UnitMotion>
+  </UnitMotion>-->
   <VisualActor>
     <Actor>units/china/infantry_spearman_e.xml</Actor>
   </VisualActor>

@@ -11,7 +11,10 @@
   </ResourceGatherer>
   <Attack>
     <Ranged>
-      <Spread>1.2</Spread>
+        <Damage></Damage>
+        <Projectile>
+            <Spread>1.2</Spread>
+        </Projectile>
     </Ranged>
   </Attack>
   <Armour>

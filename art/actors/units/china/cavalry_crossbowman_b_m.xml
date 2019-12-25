@@ -5,32 +5,22 @@
         <variant frequency="1" file="quadraped/base_horse_archer.xml" name="Archer Horse">
             <mesh>skeletal/horse.dae</mesh>
             <props>
-                <prop actor="units/china/cavalry_crossbowman_a_r.xml" attachpoint="rider"/>
-                <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
-                <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
+                <prop actor="units/china/cavalry_crossbowman_b_r.xml" attachpoint="rider"/>
+                <prop actor="props/horse/chest_colorband_02.xml" attachpoint="chest"/>
+                <prop actor="props/horse/cav_rein_leather.xml" attachpoint="head"/>
             </props>
         </variant>
     </group>
     <group>
-        <variant name="horse-texture-1">
+        <variant frequency="1" name="horse-texture-1">
             <textures>
-                <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
-            </textures>
-        </variant>
-        <variant name="horse-texture-2">
-            <textures>
-                <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
-            </textures>
-        </variant>
-        <variant name="horse-texture-3">
-            <textures>
-                <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
+                <texture file="skeletal/horse_pers_csw_b.dds" name="baseTex"/>
             </textures>
         </variant>
     </group>
     <group>
         <variant frequency="1" name="horse-color-black">
-            <color>46 46 46</color>
+            <color>41 41 41</color>
         </variant>
         <variant frequency="1" name="horse-color-biege">
             <color>247 213 111</color>
@@ -49,7 +39,7 @@
         <variant name="gather_meat">
             <props>
                 <prop actor="" attachpoint="rider"/>
-                <prop actor="units/china/cavalry_crossbowman_a_r.xml" attachpoint="rider_R"/>
+                <prop actor="units/china/cavalry_crossbowman_b_r.xml" attachpoint="rider_R"/>
             </props>
         </variant>
     </group>

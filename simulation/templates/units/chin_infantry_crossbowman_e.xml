@@ -5,7 +5,10 @@
   </Identity>
   <Attack>
     <Ranged>
-      <Spread>1.0</Spread>
+      <Damage></Damage>
+      <Projectile>
+        <Spread>1.0</Spread>
+      </Projectile>
     </Ranged>
   </Attack>
   <Armour>

@@ -13,6 +13,7 @@
     <GenericName>Fortified Civic Center</GenericName>
     <VisibleClasses datatype="tokens">
 	  Defensive
+      FortifedCivilCentre
 	</VisibleClasses>
     <Classes datatype="tokens">
 	  CivilCentre
@@ -23,10 +24,14 @@
     <Entities datatype="tokens">
       units/{civ}_champion_infantry_archer
       units/{civ}_champion_infantry_swordsman
+      <!---units/{civ}_infantry_spearman_b
+      -units/{civ}_infantry_archer_b
+      -units/{civ}_cavalry_spearman_b-->
     </Entities>
     <Technologies datatype="tokens">
-      chinese/attack_champion_infantry_swordsman
-      chinese/attack_champion_infantry_archer
+<!--      -chinese/attack_champion_infantry_swordsman
+      -chinese/attack_champion_infantry_archer-->
+      chinese/fortified_civ_center_range
     </Technologies>
   </ProductionQueue>
   <Upgrade disable=""/>

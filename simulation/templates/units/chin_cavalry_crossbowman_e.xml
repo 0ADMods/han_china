@@ -7,8 +7,11 @@
   </Armour>
   <Attack>
     <Ranged>
+      <Damage></Damage>
       <MaxRange>64.0</MaxRange>
-      <Spread>1.0</Spread>
+      <Projectile>
+          <Spread>1.0</Spread>
+      </Projectile>
     </Ranged>
   </Attack>
   <Health>
@@ -22,6 +25,6 @@
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/china/cavalry_crossbowman_e.xml</Actor>
+    <Actor>units/china/cavalry_crossbowman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

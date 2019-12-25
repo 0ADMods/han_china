@@ -15,9 +15,9 @@
     <BuildTime>500</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>500</wood>
-      <stone>500</stone>
-      <metal>500</metal>
+      <wood>200</wood>
+      <stone>150</stone>
+      <metal>100</metal>
     </Resources>
   </Cost>
   <Auras datatype="tokens">

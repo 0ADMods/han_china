@@ -8,8 +8,8 @@
 				<prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
 			</props>
 			<animations>
-				<animation file="biped/new/shoushe_walk_a.dae" name="walk" speed="18"/>
-				<animation file="biped/new/shoushe_walk_a.dae" name="run" speed="36"/>
+				<animation file="biped/infantry/siege_operators/shoushe_walk_a.dae" name="walk" speed="18"/>
+				<animation file="biped/infantry/siege_operators/shoushe_walk_a.dae" name="run" speed="36"/>
 				<animation file="biped/new/sword_shield_idle_ready.dae" name="idle" speed="60"/>
 			</animations>
 		</variant>

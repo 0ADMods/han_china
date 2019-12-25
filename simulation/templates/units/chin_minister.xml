@@ -7,16 +7,16 @@
   </Armour>
   <Attack>
     <Capture>
-      <Value>20</Value>
-      <MaxRange>4</MaxRange>
-      <RepeatTime>1000</RepeatTime>
+      <Capture>20</Capture>
     </Capture>
+    <MaxRange>4</MaxRange>
+    <RepeatTime>1000</RepeatTime>
   </Attack>
   <Auras datatype="tokens">
-    chin_minister_cost
-    chin_minister_garrison
-    chin_minister_gathering
-    chin_minister_building
+    units/chin_minister_cost
+    units/chin_minister_garrison
+    units/chin_minister_gathering
+    units/chin_minister_building
   </Auras>
   <Cost>
     <Population>2</Population>
@@ -77,14 +77,14 @@ Use to boost the efficiency of nearby units and buildings. Garrison within a bui
   <TrainingRestrictions>
     <Category>Minister</Category>
   </TrainingRestrictions>
-  <UnitMotion>
+<!--  <UnitMotion>
     <WalkSpeed>7</WalkSpeed>
     <Run>
       <Speed>12.0</Speed>
       <Range>200.0</Range>
       <RangeMin>0.0</RangeMin>
     </Run>
-  </UnitMotion>
+  </UnitMotion>-->
   <Vision>
     <Range>40</Range>
   </Vision>

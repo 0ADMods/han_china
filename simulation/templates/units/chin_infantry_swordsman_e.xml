@@ -7,7 +7,9 @@
   </Armour>
   <Attack>
     <Melee>
-      <Hack>16.5</Hack>
+        <Damage>
+            <Hack>16.5</Hack>
+        </Damage>
     </Melee>
   </Attack>
   <Health>
@@ -20,12 +22,12 @@
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
-  <UnitMotion>
+  <!--<UnitMotion>
     <WalkSpeed>8</WalkSpeed>
     <Run>
       <Speed>14.0</Speed>
     </Run>
-  </UnitMotion>
+  </UnitMotion>-->
   <VisualActor>
     <Actor>units/china/infantry_swordsman_e.xml</Actor>
   </VisualActor>
