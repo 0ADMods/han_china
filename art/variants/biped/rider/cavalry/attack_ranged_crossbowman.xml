@@ -1,0 +1,13 @@
+<variant name="attack_ranged">
+    <animations>
+        <animation file="biped/rider/cavalry/crossbow/attack_ranged.dae" name="attack_ranged" id="Attack1" load="0.44" event="0.85" speed="110"/>
+        <animation file="biped/rider/cavalry/crossbow/attack_ranged.dae" name="attack_ranged" id="Attack2" load="0.44" event="0.85" speed="110"/>
+        <animation file="biped/rider/cavalry/crossbow/attack_ranged.dae" name="attack_ranged" id="Attack3" load="0.44" event="0.85" speed="110"/>
+        <animation file="biped/rider/cavalry/crossbow/attack_ranged.dae" name="attack_ranged" id="Attack4" load="0.44" event="0.85" speed="110"/>
+    </animations>
+    <props>
+        <prop actor="" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-projectile"/>
+    </props>
+</variant>

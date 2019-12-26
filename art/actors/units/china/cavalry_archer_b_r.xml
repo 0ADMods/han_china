@@ -43,7 +43,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rider/cavalry/attack_ranged_archer_hip.xml"/>
+    <variant file="biped/rider/cavalry/attack_ranged_archer_back.xml"/>
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
     <variant file="biped/gather_meat.xml"/>

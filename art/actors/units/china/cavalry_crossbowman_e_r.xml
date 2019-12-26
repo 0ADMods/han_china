@@ -58,12 +58,12 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_cavalry_crossbowman.xml" name="Crossbowman-Relax-Back" frequency="1"/>
+    <variant file="biped/rider/cavalry/base_crossbowman.xml" name="Crossbowman" frequency="1"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_crossbowman_hip.xml"/>
+    <variant file="biped/rider/cavalry/attack_ranged_crossbowman.xml"/>
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
     <variant file="biped/gather_meat.xml"/>
