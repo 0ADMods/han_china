@@ -22,12 +22,6 @@
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
-  <!--<UnitMotion>
-    <WalkSpeed>8</WalkSpeed>
-    <Run>
-      <Speed>14.0</Speed>
-    </Run>
-  </UnitMotion>-->
   <VisualActor>
     <Actor>units/china/infantry_swordsman_e.xml</Actor>
   </VisualActor>

@@ -6,57 +6,50 @@
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear_lance_cavalry.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/aspis_athen_a.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/chin_ji.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Samnite-Attic-01">
-      <props>
-        <prop actor="props/units/helmets/hele_attic_a1.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Samnite-Attic-02">
-      <props>
-        <prop actor="props/units/helmets/hele_attic_a2.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Samnite-Attic-03">
-      <props>
-        <prop actor="props/units/helmets/hele_attic_a3.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Samnite-Attic-04">
-      <props>
-        <prop actor="props/units/helmets/hele_attic_a4.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Samnite-Phrygian-01">
-      <props>
-        <prop actor="props/units/helmets/hele_phrygian_a11.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="pectoral-tripledisc">
+    <variant frequency="1" name="old-b1">
       <textures>
-        <texture file="skeletal/kart_csp_a_1.dds" name="baseTex"/>
+        <texture file="skeletal/chin_isp_b_black.png" name="baseTex"/>
+        <texture file="skeletal/chin_icr_e_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="pectoral-square">
+    <variant frequency="3" name="chin-spearman-advanced-a">
       <textures>
-        <texture file="skeletal/kart_csp_a_2.dds" name="baseTex"/>
+        <texture file="skeletal/chin_isp_a_a.png" name="baseTex"/>
+        <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="pectoral-muscle">
+    <variant frequency="1" name="chin-spearman-advanced-b">
       <textures>
-        <texture file="skeletal/kart_csp_a_3.dds" name="baseTex"/>
+        <texture file="skeletal/chin_isp_a_b.png" name="baseTex"/>
+        <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis_reverse.xml" name="Spearman-Relax-Shield-Aspis-Reverse" frequency="1"/>
+    <variant frequency="1" name="cap-var">
+      <props>
+        <prop actor="props/units/helmets/chin_cap.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="open_helmet">
+      <props>
+        <prop actor="props/units/helmets/chin_hairbun.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/chin_advanced_melee_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="feather_helmet">
+      <props>
+        <prop actor="props/units/helmets/chin_heavy_helmet_b.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" name="Spearman-Relax-Shield" frequency="1"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

@@ -3,11 +3,48 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/horse_lusitano.dae</mesh>
+      <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/china/cavalry_spearman_b_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
       </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="7" name="feet">
+        <textures>
+            <texture file="skeletal/horse_celt_feet_a.dds" name="baseTex"/>
+        </textures>
+    </variant>
+    <variant frequency="5" name="blaze">
+        <textures>
+            <texture file="skeletal/horse_celt_blaze_a.dds" name="baseTex"/>
+        </textures>
+    </variant>
+    <variant frequency="5" name="face">
+        <textures>
+            <texture file="skeletal/horse_celt_face_a.dds" name="baseTex"/>
+        </textures>
+    </variant>
+    <variant frequency="7" name="star">
+        <textures>
+            <texture file="skeletal/horse_celt_star_a.dds" name="baseTex"/>
+        </textures>
+    </variant>
+    <variant frequency="3" name="dapple">
+        <textures>
+            <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
+        </textures>
+    </variant>
+    <variant frequency="2" name="snip">
+        <textures>
+            <texture file="skeletal/horse_celt_snip_a.dds" name="baseTex"/>
+        </textures>
+    </variant>
+    <variant frequency="5" name="stripe">
+        <textures>
+            <texture file="skeletal/horse_celt_stripe_a.dds" name="baseTex"/>
+        </textures>
     </variant>
   </group>
   <group>

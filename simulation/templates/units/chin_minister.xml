@@ -8,9 +8,9 @@
   <Attack>
     <Capture>
       <Capture>20</Capture>
+      <MaxRange>4</MaxRange>
+      <RepeatTime>1000</RepeatTime>
     </Capture>
-    <MaxRange>4</MaxRange>
-    <RepeatTime>1000</RepeatTime>
   </Attack>
   <Auras datatype="tokens">
     units/chin_minister_cost
@@ -22,7 +22,7 @@
     <Population>2</Population>
     <BuildTime>30</BuildTime>
     <Resources>
-      <metal>200</metal>
+      <metal>50</metal>
     </Resources>
   </Cost>
   <Health>
@@ -77,14 +77,6 @@ Use to boost the efficiency of nearby units and buildings. Garrison within a bui
   <TrainingRestrictions>
     <Category>Minister</Category>
   </TrainingRestrictions>
-<!--  <UnitMotion>
-    <WalkSpeed>7</WalkSpeed>
-    <Run>
-      <Speed>12.0</Speed>
-      <Range>200.0</Range>
-      <RangeMin>0.0</RangeMin>
-    </Run>
-  </UnitMotion>-->
   <Vision>
     <Range>40</Range>
   </Vision>

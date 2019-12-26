@@ -16,12 +16,6 @@
   <Promotion>
     <Entity>units/chin_infantry_spearman_a</Entity>
   </Promotion>
- <!-- <UnitMotion>
-    <WalkSpeed></WalkSpeed>
-    <Run>
-      <Speed></Speed>
-    </Run>
-  </UnitMotion>-->
   <VisualActor>
     <Actor>units/china/infantry_spearman_b.xml</Actor>
   </VisualActor>
