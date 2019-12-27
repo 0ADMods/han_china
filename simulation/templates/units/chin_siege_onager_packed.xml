@@ -29,6 +29,6 @@
     <State>packed</State>
   </Pack>
   <VisualActor>
-    <Actor>units/romans/siege_rock_packed.xml</Actor>
+    <Actor>units/china/siege_rock_packed.xml</Actor>
   </VisualActor>
 </Entity>

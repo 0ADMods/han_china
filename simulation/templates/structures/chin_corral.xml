@@ -15,7 +15,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      gaia/fauna_sheep_trainable
+      gaia/fauna_zebu_trainable
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
