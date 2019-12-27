@@ -2,9 +2,9 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="China Onager">
+    <variant frequency="100" name="rome onager">
       <animations>
-        <animation file="mechanical/siege_onager_idle.dae" name="Idle" speed="100"/>
+        <animation file="mechanical/siege_onager_idle.dae" name="Idle" speed="100" />
         <animation event="0.145" load="0.05" file="mechanical/siege_onager_attack.dae" name="attack_ranged" speed="100"/>
       </animations>
       <mesh>structural/siege_onager.dae</mesh>
@@ -18,5 +18,5 @@
       </props>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>player_trans_spec.xml</material>
 </actor>

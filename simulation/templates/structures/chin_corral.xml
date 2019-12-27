@@ -15,12 +15,13 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      gaia/fauna_zebu_trainable
+      -gaia/fauna_sheep_trainable
+      gaia/fauna_cattle_zebu_trainable
     </Entities>
     <Technologies datatype="tokens">
       gather_animals_stockbreeding
-      -speed_cavalry_01
-      -speed_cavalry_02
+      speed_cavalry_01
+      speed_cavalry_02
     </Technologies>
   </ProductionQueue>
   <VisualActor>
