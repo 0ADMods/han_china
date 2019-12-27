@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_siege_stonethrower">
+<Entity parent="template_unit_siege_boltshooter">
   <Attack>
     <Ranged>
       <MaxRange>80.0</MaxRange>
@@ -8,8 +8,8 @@
   </Attack>
   <Cost>
     <Resources>
-      <wood>400</wood>
-      <stone>350</stone>
+      <wood>300</wood>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <Footprint replace="">

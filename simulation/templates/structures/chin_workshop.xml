@@ -12,14 +12,15 @@
     <ProductionQueue>
         <BatchTimeModifier>0.7</BatchTimeModifier>
         <Entities datatype="tokens">
-            units/{civ}_mechanical_siege_shoushe
+            units/{civ}_siege_shoushe
+            units/{civ}_siege_onager_packed
         </Entities>
         <Technologies datatype="tokens">
             siege_attack
             siege_armor
             siege_cost_metal
             siege_cost_wood
-            -siege_bolt_accuracy
+            siege_bolt_accuracy
         </Technologies>
     </ProductionQueue>
     <VisualActor>

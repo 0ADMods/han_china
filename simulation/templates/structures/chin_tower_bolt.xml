@@ -15,6 +15,6 @@
     <HeightOffset>19.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/hellenes/tower_bolt.xml</Actor>
+    <Actor>structures/chinese/tower_bolt.xml</Actor>
   </VisualActor>
 </Entity>

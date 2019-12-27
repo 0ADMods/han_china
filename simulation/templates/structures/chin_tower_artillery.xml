@@ -15,6 +15,6 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/hellenes/tower_artillery.xml</Actor>
+    <Actor>structures/chinese/tower_artillery.xml</Actor>
   </VisualActor>
 </Entity>
