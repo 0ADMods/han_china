@@ -5,14 +5,17 @@
         <variant frequency="20" name="Dao-sword">
             <mesh>props/weap_chin_cavalry_bow.dae</mesh>
             <animations>
-                <animation event="0.35" file="mechanical/chin_weap_bow_attack.dae" load="0.75" name="Attack_ranged" speed="200"/>
+                <animation event="0.35" file="mechanical/chin_weap_bow_attack.dae" load="0.75" name="Attack_ranged" speed="200" id="Attack1"/>
+                <animation event="0.35" file="mechanical/chin_weap_bow_attack.dae" load="0.75" name="Attack_ranged" speed="200" id="Attack2"/>
+                <animation event="0.35" file="mechanical/chin_weap_bow_attack.dae" load="0.75" name="Attack_ranged" speed="200" id="Attack3"/>
+                <animation event="0.35" file="mechanical/chin_weap_bow_attack.dae" load="0.75" name="Attack_ranged" speed="200" id="Attack4"/>
             </animations>
         </variant>
     </group>
     <group>
         <variant frequency="100" name="Base">
             <textures>
-                <texture file="props/prop_swords_chin.png" name="baseTex"/>
+                <texture file="props/spart_sail_a.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

@@ -13,8 +13,9 @@
         <texture file="structural/rome_siege_onager_spec.png" name="specTex"/>
       </textures>
       <props>
-        <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
-        <prop actor="props/units/weapons/rock_flaming.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="projectile"/>
+<!--         <prop actor="props/units/siege_artillery/stone_ammo_med.xml" attachpoint="ammo"/> -->
       </props>
     </variant>
   </group>

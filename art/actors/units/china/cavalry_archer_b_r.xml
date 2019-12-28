@@ -12,7 +12,7 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="chin-spearman-advanced-b">
+    <variant frequency="1" name="chin-archer-advanced-b">
       <textures>
         <texture file="skeletal/chin_isp_a_b.png" name="baseTex"/>
         <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>

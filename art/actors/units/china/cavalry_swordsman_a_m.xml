@@ -50,9 +50,6 @@
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
-    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
-    <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
-    <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
   <group>

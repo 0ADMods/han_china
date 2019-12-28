@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/chin_cavalry_bow.xml" attachpoint="weapon_L"/>
+        <prop actor="props/units/weapons/chin_cavalry_bow.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
       </props>
     </variant>
@@ -18,7 +18,7 @@
         <texture file="skeletal/chin_icr_e_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="3" name="chin-spearman-advanced-a">
+    <variant frequency="3" name="chin-archer-advanced-a">
       <textures>
         <texture file="skeletal/chin_isp_a_a.png" name="baseTex"/>
         <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>

@@ -12,8 +12,9 @@
         <animation file="mechanical/chin_shoushe_death.dae" name="death" speed="80"/>
       </animations>
       <props>
-        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/siege_artillery/bolt_front_med.xml" attachpoint="loaded-projectile"/>
+        <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
+<!--         <prop actor="props/units/siege_artillery/bolt_ammo_med.xml" attachpoint="ammo"/> -->
       </props>
       <textures>
 		<texture file="structural/chin_siege_shoushe.png" name="baseTex"/>
