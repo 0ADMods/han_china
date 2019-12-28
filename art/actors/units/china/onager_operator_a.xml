@@ -3,45 +3,20 @@
     <castshadow/>
     <group>
         <variant frequency="100" name="Onager operator">
-        <animations>
-            <animation file="biped/infantry/siege_operators/onager_idle_a.dae" name="Idle" speed="100"/>
-            <animation event="0.145" file="biped/infantry/siege_operators/onager_attack_a.dae" load="0.05" name="attack_ranged" speed="100"/>
-        </animations>
-        <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
-        <props>
-            <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        </props>
-        </variant>
-    </group>
-    <group>
-        <variant frequency="1" name="Clothing-1">
-            <textures>
-                <texture file="skeletal/chin_icr_a.png" name="baseTex"/>
-            </textures>
-        </variant>
-        <variant frequency="2" name="Clothing-2">
-            <textures>
-                <texture file="skeletal/chin_isp_a_black.png" name="baseTex"/>
-            </textures>
-        </variant>
-    </group>
-    <group>
-        <variant frequency="1" name="cap-var">
+            <animations>
+                <animation file="biped/infantry/siege_operators/onager_idle_a.dae" name="Idle" speed="100"/>
+                <animation event="0.145" file="biped/infantry/siege_operators/onager_attack_a.dae" load="0.05" name="attack_ranged" speed="100"/>
+            </animations>
+            <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
-                <prop actor="props/units/helmets/chin_cap.xml" attachpoint="helmet"/>
-            </props>
-        </variant>
-        <variant frequency="1" name="open_helmet">
-            <props>
+                <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
                 <prop actor="props/units/helmets/chin_hairbun.xml" attachpoint="helmet"/>
                 <prop actor="props/units/helmets/chin_advanced_melee_helmet.xml" attachpoint="helmet"/>
             </props>
         </variant>
-        <variant frequency="1" name="feather_helmet">
-            <props>
-                <prop actor="props/units/helmets/chin_heavy_helmet_b.xml" attachpoint="helmet"/>
-            </props>
-        </variant>
+    </group>
+    <group>
+        <variant file="clothes/china/uniform_12.xml"/>
     </group>
     <group>
         <variant frequency="1" name="Idle"/>

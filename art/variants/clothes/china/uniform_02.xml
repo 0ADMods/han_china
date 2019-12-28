@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant frequency="0" name="old-a2">
+    <textures>
+        <texture file="skeletal/chin_isp_a_black.png" name="baseTex"/>
+    </textures>
+</variant>

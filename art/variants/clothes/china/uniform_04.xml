@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant frequency="3" name="chin-spearman-advanced-a">
+    <textures>
+        <texture file="skeletal/chin_isp_a_a.png" name="baseTex"/>
+        <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>
+    </textures>
+</variant>

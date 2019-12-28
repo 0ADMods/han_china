@@ -11,48 +11,25 @@
     </variant>
   </group>
   <group>
-    <variant frequency="7" name="feet">
-        <textures>
-            <texture file="skeletal/horse_celt_feet_a.dds" name="baseTex"/>
-        </textures>
+    <variant frequency="2" name="horse-texture-1">
+      <textures>
+        <texture file="skeletal/horse_pers_csw_e_1.dds" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="5" name="blaze">
-        <textures>
-            <texture file="skeletal/horse_celt_blaze_a.dds" name="baseTex"/>
-        </textures>
+    <variant frequency="2" name="horse-texture-2">
+      <textures>
+        <texture file="skeletal/horse_pers_csw_e_2.dds" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="5" name="face">
-        <textures>
-            <texture file="skeletal/horse_celt_face_a.dds" name="baseTex"/>
-        </textures>
-    </variant>
-    <variant frequency="7" name="star">
-        <textures>
-            <texture file="skeletal/horse_celt_star_a.dds" name="baseTex"/>
-        </textures>
-    </variant>
-    <variant frequency="3" name="dapple">
-        <textures>
-            <texture file="skeletal/horse_celt_dapple_a.dds" name="baseTex"/>
-        </textures>
-    </variant>
-    <variant frequency="2" name="snip">
-        <textures>
-            <texture file="skeletal/horse_celt_snip_a.dds" name="baseTex"/>
-        </textures>
-    </variant>
-    <variant frequency="5" name="stripe">
-        <textures>
-            <texture file="skeletal/horse_celt_stripe_a.dds" name="baseTex"/>
-        </textures>
+    <variant frequency="1" name="horse-texture-3">
+      <textures>
+        <texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
-    <variant file="quadraped/horse/beige.xml" frequency="1" name="beige"/>
-    <variant file="quadraped/horse/tan.xml" frequency="1" name="tan"/>
-    <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
   <group>

@@ -31,7 +31,6 @@
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
-    <variant file="quadraped/horse/pure_white.xml" frequency="1" name="pure_white"/>
     <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>

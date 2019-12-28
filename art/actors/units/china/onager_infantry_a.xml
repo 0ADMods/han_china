@@ -3,41 +3,16 @@
     <castshadow/>
     <group>
         <variant file="biped/base_citizen_soldier.xml">
-        <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
-        <props>
-            <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        </props>
-        </variant>
-    </group>
-    <group>
-        <variant frequency="1" name="Clothing-1">
-            <textures>
-                <texture file="skeletal/chin_icr_a.png" name="baseTex"/>
-            </textures>
-        </variant>
-        <variant frequency="2" name="Clothing-2">
-            <textures>
-                <texture file="skeletal/chin_isp_a_black.png" name="baseTex"/>
-            </textures>
-        </variant>
-    </group>
-    <group>
-        <variant frequency="1" name="cap-var">
+            <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
-                <prop actor="props/units/helmets/chin_cap.xml" attachpoint="helmet"/>
-            </props>
-        </variant>
-        <variant frequency="1" name="open_helmet">
-            <props>
+                <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
                 <prop actor="props/units/helmets/chin_hairbun.xml" attachpoint="helmet"/>
                 <prop actor="props/units/helmets/chin_advanced_melee_helmet.xml" attachpoint="helmet"/>
             </props>
         </variant>
-        <variant frequency="1" name="feather_helmet">
-            <props>
-                <prop actor="props/units/helmets/chin_heavy_helmet_b.xml" attachpoint="helmet"/>
-            </props>
-        </variant>
+    </group>
+    <group>
+        <variant file="clothes/china/uniform_12.xml"/>
     </group>
     <group>
         <variant frequency="1" name="Idle"/>

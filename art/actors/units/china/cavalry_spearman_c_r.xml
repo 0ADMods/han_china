@@ -7,41 +7,13 @@
       <props>
         <prop actor="props/units/helmets/chin_heavy_cavalry_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/chin_ji.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/chin_champion_spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/chin_shield3.xml" attachpoint="shield_arm"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="chin-spearman-elite-b">
-      <textures>
-        <texture file="skeletal/chin_isp_e_b.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_e_b_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="chin-spearman-elite-c">
-      <textures>
-        <texture file="skeletal/chin_isp_e_c.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_e_c_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="chin-spearman-elite-d">
-      <textures>
-        <texture file="skeletal/chin_isp_e_d.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_e_d_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="chin-spearman-elite-e">
-      <textures>
-        <texture file="skeletal/chin_isp_e_e.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_e_e_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="chin-spearman-elite-f">
-      <textures>
-        <texture file="skeletal/chin_isp_e_f.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_e_f_spec.png" name="specTex"/>
-      </textures>
-    </variant>
+    <variant file="clothes/china/uniform_07.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_spearman_fast_shield_01.xml" name="Spearman-Fast-Shield" frequency="1"/>

@@ -12,16 +12,7 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="minister">
-      <textures>
-        <texture file="skeletal/chin_minister.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="minister-b">
-      <textures>
-        <texture file="skeletal/chin_minister_b.png" name="baseTex"/>
-      </textures>
-    </variant>
+    <variant file="clothes/china/minister_02.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

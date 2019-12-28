@@ -12,7 +12,24 @@
     </variant>
   </group>
   <group>
-    <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
+    <variant frequency="2" name="horse-texture-1">
+      <textures>
+        <texture file="skeletal/horse_pers_csw_e_1.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="horse-texture-2">
+      <textures>
+        <texture file="skeletal/horse_pers_csw_e_2.dds" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="horse-texture-3">
+      <textures>
+        <texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+<!--     <variant file="quadraped/horse/black.xml" frequency="1" name="black"/> -->
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/cherrybay.xml" frequency="1" name="cherrybay"/>
     <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>

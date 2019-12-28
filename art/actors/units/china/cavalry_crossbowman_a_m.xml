@@ -8,6 +8,7 @@
         <prop actor="units/china/cavalry_crossbowman_a_r.xml" attachpoint="rider"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
         <prop actor="props/horse/chest_colorband_01.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_leather.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -31,7 +32,6 @@
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>
-    <variant file="quadraped/horse/pure_white.xml" frequency="1" name="pure_white"/>
     <variant file="quadraped/horse/white.xml" frequency="1" name="white"/>
     <variant file="quadraped/horse/gray.xml" frequency="1" name="gray"/>
   </group>
@@ -41,7 +41,7 @@
     <variant file="quadraped/base_horse_run.xml"/>
     <variant file="quadraped/base_horse_gather_meat.xml" name="gather_meat">
       <props>
-        <prop actor="units/china/cavalry_archer_a_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/china/cavalry_crossbowman_a_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

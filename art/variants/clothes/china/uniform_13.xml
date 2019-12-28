@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant frequency="1" name="Clothes-3">
+    <textures>
+        <texture file="skeletal/chin_iar_e_b.png" name="baseTex"/>
+        <texture file="skeletal/chin_isp_a_b_spec.png" name="specTex"/>
+    </textures>
+</variant>
