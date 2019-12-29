@@ -5,7 +5,6 @@
   </Identity>
   <Attack>
     <Ranged>
-      <Damage></Damage>
       <MaxRange>55.0</MaxRange>
       <Projectile>
         <Spread>1.2</Spread>
