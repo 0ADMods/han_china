@@ -23,6 +23,6 @@
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/china/infantry_swordsman_e.xml</Actor>
+    <Actor>units/han/infantry_swordsman_e.xml</Actor>
   </VisualActor>
 </Entity>

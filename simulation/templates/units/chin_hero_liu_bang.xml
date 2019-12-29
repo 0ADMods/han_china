@@ -12,6 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/china/hero_cavalry_swordsman_liu_bang_m.xml</Actor>
+    <Actor>units/han/hero_cavalry_swordsman_liu_bang_m.xml</Actor>
   </VisualActor>
 </Entity>

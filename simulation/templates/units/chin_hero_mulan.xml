@@ -10,6 +10,6 @@
         <Icon>units/chin_hero_mulan.png</Icon>
     </Identity>
     <VisualActor>
-        <Actor>units/china/hero_mulan.xml</Actor>
+        <Actor>units/han/hero_mulan.xml</Actor>
     </VisualActor>
 </Entity>

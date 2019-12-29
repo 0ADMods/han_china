@@ -14,7 +14,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/china/uniform_b_01.xml"/>
+    <variant file="clothes/han/uniform_b_01.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_crossbowman.xml" name="Crossbowman" frequency="1"/>

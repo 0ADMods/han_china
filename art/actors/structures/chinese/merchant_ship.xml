@@ -6,9 +6,9 @@
     <variant name="Chinese Merchant Ship">
       <mesh>structural/chin_ship_merchant.dae</mesh>
       <props>
-        <prop actor="units/china/fisherman.xml" attachpoint="driver"/>
+        <prop actor="units/han/fisherman.xml" attachpoint="driver"/>
         <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag"/>
-        <prop actor="props/structures/chinese/merchant_sail.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/merchant_sail.xml" attachpoint="root"/>
       </props>
 	    <textures>
         <texture file="structural/chin_ship.png" name="baseTex"/>

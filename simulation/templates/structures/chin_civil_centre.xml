@@ -36,6 +36,6 @@
   </Upgrade>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/chinese/civil_centre_no_towers.xml</Actor>
+    <Actor>structures/han/civil_centre_no_towers.xml</Actor>
   </VisualActor>
 </Entity>

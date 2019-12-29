@@ -23,6 +23,6 @@
     </Identity>
     <Promotion disable=""/>
     <VisualActor>
-        <Actor>units/china/female_citizen.xml</Actor>
+        <Actor>units/han/female_citizen.xml</Actor>
     </VisualActor>
 </Entity>

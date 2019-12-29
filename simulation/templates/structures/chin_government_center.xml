@@ -83,6 +83,6 @@
   </TerritoryInfluence>
   <VisualActor>
   	<FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/chinese/government_center.xml</Actor>
+    <Actor>structures/han/government_center.xml</Actor>
   </VisualActor>
 </Entity>

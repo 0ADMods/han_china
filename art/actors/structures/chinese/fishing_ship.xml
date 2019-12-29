@@ -12,7 +12,7 @@
         <texture file="structural/ao/chin_ship_fishing_ao.png" name="aoTex"/>
 		  </textures>
       <props>
-	      <prop actor="units/china/fisherman.xml" attachpoint="fisher"/>
+	      <prop actor="units/han/fisherman.xml" attachpoint="fisher"/>
       </props>
     </variant>
   </group>

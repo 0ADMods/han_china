@@ -4,9 +4,9 @@
     <variant frequency="1" name="Shoushe Nu">
       <mesh>structural/chin_shoushe_pivot.dae</mesh>
       <props>
-        <prop actor="units/china/shoushe_infantry_b.xml" attachpoint="engineer_b"/>
-        <prop actor="units/china/shoushe_infantry_a.xml" attachpoint="engineer_a"/>
-        <prop actor="units/china/siege_shoushe.xml" attachpoint="shoushe"/>
+        <prop actor="units/han/shoushe_infantry_b.xml" attachpoint="engineer_b"/>
+        <prop actor="units/han/shoushe_infantry_a.xml" attachpoint="engineer_a"/>
+        <prop actor="units/han/siege_shoushe.xml" attachpoint="shoushe"/>
       </props>
       <textures>
         <texture file="skeletal/chin_icr_a.png" name="baseTex"/>

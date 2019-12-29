@@ -8,7 +8,7 @@
     <SpecificName>Jūn Yíng</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/barracks.xml</Actor>
+    <Actor>structures/han/barracks.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
   <Footprint>

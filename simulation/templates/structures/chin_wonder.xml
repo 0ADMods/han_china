@@ -31,6 +31,6 @@
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/chinese/wonder.xml</Actor>
+    <Actor>structures/han/wonder.xml</Actor>
   </VisualActor>
 </Entity>

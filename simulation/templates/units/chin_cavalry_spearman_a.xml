@@ -26,6 +26,6 @@
 		<Entity>units/chin_cavalry_spearman_e</Entity>
 	</Promotion>
 	<VisualActor>
-		<Actor>units/china/cavalry_spearman_a_m.xml</Actor>
+		<Actor>units/han/cavalry_spearman_a_m.xml</Actor>
 	</VisualActor>
 </Entity>

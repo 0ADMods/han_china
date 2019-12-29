@@ -4,6 +4,6 @@
 		<Civ>chin</Civ>
 	</Identity>
 	<VisualActor>
-		<Actor>structures/chinese/wooden_tower.xml</Actor>
+		<Actor>structures/han/wooden_tower.xml</Actor>
 	</VisualActor>
 </Entity>

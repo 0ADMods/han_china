@@ -14,12 +14,12 @@
                 <texture file="structural/chin_struct2_spec.png" name="specTex"/>
             </textures>
             <props>
-                <prop actor="units/china/chariot_crossbowman_c_d.xml" attachpoint="rider1"/>
-                <prop actor="units/china/chariot_crossbowman_c_r.xml" attachpoint="rider2"/>
-                <prop actor="units/china/chariot_crossbowman_b_h1.xml" attachpoint="horse1"/>
-                <prop actor="units/china/chariot_crossbowman_b_h2.xml" attachpoint="horse2"/>
-                <prop actor="units/china/chariot_crossbowman_b_h3.xml" attachpoint="horse3"/>
-                <prop actor="units/china/chariot_crossbowman_b_h4.xml" attachpoint="horse4"/>
+                <prop actor="units/han/chariot_crossbowman_c_d.xml" attachpoint="rider1"/>
+                <prop actor="units/han/chariot_crossbowman_c_r.xml" attachpoint="rider2"/>
+                <prop actor="units/han/chariot_crossbowman_b_h1.xml" attachpoint="horse1"/>
+                <prop actor="units/han/chariot_crossbowman_b_h2.xml" attachpoint="horse2"/>
+                <prop actor="units/han/chariot_crossbowman_b_h3.xml" attachpoint="horse3"/>
+                <prop actor="units/han/chariot_crossbowman_b_h4.xml" attachpoint="horse4"/>
                 <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag"/>
             </props>
         </variant>

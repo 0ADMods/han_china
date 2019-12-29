@@ -5,8 +5,8 @@
     <variant frequency="100" name="Base">
       <mesh>structural/chin_workshop.dae</mesh>
       <props>
-        <prop actor="props/structures/chinese/workshop_cloth.xml" attachpoint="root"/>
-        <prop actor="props/structures/chinese/workshop_shoushe.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/workshop_cloth.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/workshop_shoushe.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke01"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke02"/>

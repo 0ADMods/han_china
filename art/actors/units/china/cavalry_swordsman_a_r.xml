@@ -13,7 +13,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/china/uniform_a_01.xml"/>
+    <variant file="clothes/han/uniform_a_01.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" name="Swordsman-Relax-Shield" frequency="1"/>

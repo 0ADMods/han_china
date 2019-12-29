@@ -12,6 +12,6 @@
     <Entity>units/chin_cavalry_crossbowman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/china/cavalry_crossbowman_b_m.xml</Actor>
+    <Actor>units/han/cavalry_crossbowman_b_m.xml</Actor>
   </VisualActor>
 </Entity>

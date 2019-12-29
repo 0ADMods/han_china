@@ -20,6 +20,6 @@
 	</Identity>
 		<Promotion disable=""/>
 	<VisualActor>
-		<Actor>units/china/cavalry_swordsman_e_m.xml</Actor>
+		<Actor>units/han/cavalry_swordsman_e_m.xml</Actor>
 	</VisualActor>
 </Entity>

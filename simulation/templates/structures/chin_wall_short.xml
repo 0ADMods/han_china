@@ -14,7 +14,7 @@
     <Static width="13.0" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/chinese/wall_short.xml</Actor>
+    <Actor>structures/han/wall_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>13.0</Length>

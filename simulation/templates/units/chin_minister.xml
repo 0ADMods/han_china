@@ -81,6 +81,6 @@ Use to boost the efficiency of nearby units and buildings. Garrison within a bui
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>units/china/minister.xml</Actor>
+    <Actor>units/han/minister.xml</Actor>
   </VisualActor>
 </Entity>

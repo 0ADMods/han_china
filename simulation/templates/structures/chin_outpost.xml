@@ -13,6 +13,6 @@
     <History>?</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/outpost.xml</Actor>
+    <Actor>structures/han/outpost.xml</Actor>
   </VisualActor>
 </Entity>

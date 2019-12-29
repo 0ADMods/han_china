@@ -26,7 +26,7 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/chinese/tower.xml</Actor>
+    <Actor>structures/han/tower.xml</Actor>
   </VisualActor>
   <Upgrade>
     <Tower1>

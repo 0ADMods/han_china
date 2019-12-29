@@ -38,7 +38,7 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/chinese/fortress.xml</Actor>
+    <Actor>structures/han/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>34.0</Length>

@@ -20,6 +20,6 @@
     </SwitchToSword>
   </Upgrade>
   <VisualActor>
-    <Actor>units/china/infantry_archer_c.xml</Actor>
+    <Actor>units/han/infantry_archer_c.xml</Actor>
   </VisualActor>
 </Entity>

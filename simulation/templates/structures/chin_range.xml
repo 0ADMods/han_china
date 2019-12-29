@@ -7,7 +7,7 @@
     <Civ>chin</Civ>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/range.xml</Actor>
+    <Actor>structures/han/range.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
   <Footprint>

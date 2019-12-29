@@ -36,7 +36,7 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/chinese/wall_gate.xml</Actor>
+    <Actor>structures/han/wall_gate.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>37.6</Length>

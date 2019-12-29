@@ -6,7 +6,7 @@
     <variant name="Chinese Trireme">
       <mesh>structural/chin_ship_trireme.dae</mesh>
       <props>
-        <prop actor="props/structures/chinese/trireme_sail.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/trireme_sail.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
       <textures>

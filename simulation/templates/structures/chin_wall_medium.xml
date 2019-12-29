@@ -27,7 +27,7 @@
     <Static width="25.0" depth="7.5"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/chinese/wall_medium.xml</Actor>
+    <Actor>structures/han/wall_medium.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>25.0</Length>

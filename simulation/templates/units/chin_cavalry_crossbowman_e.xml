@@ -25,6 +25,6 @@
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/china/cavalry_crossbowman_e_m.xml</Actor>
+    <Actor>units/han/cavalry_crossbowman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

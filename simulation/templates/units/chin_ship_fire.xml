@@ -7,7 +7,7 @@
     <Icon>units/chin_ship_fire.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/fireship.xml</Actor>
+    <Actor>structures/han/fireship.xml</Actor>
   </VisualActor>
   <Footprint>
     <Square width="7.0" depth="16.0"/>

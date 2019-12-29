@@ -19,7 +19,7 @@
     <Icon>units/chin_ship_tower.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/towership.xml</Actor>
+    <Actor>structures/han/towership.xml</Actor>
   </VisualActor>
   <Footprint>
     <Square width="20.0" depth="46.0"/>

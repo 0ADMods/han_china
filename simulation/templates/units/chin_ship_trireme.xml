@@ -13,7 +13,7 @@
     <Icon>units/chin_ship_trireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/trireme.xml</Actor>
+    <Actor>structures/han/trireme.xml</Actor>
   </VisualActor>
   <Footprint>
     <Square width="14.0" depth="36.0"/>

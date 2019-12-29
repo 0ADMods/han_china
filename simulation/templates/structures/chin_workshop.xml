@@ -24,6 +24,6 @@
         </Technologies>
     </ProductionQueue>
     <VisualActor>
-        <Actor>structures/chinese/workshop.xml</Actor>
+        <Actor>structures/han/workshop.xml</Actor>
     </VisualActor>
 </Entity>

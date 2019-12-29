@@ -19,6 +19,6 @@
     <Technologies datatype="tokens">chinese/iron_casting</Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/chinese/blacksmith.xml</Actor>
+    <Actor>structures/han/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

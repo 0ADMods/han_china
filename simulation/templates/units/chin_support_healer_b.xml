@@ -11,6 +11,6 @@
     <Entity>units/chin_support_healer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/china/healer.xml</Actor>
+    <Actor>units/han/healer.xml</Actor>
   </VisualActor>
 </Entity>

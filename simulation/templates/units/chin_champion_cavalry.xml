@@ -6,6 +6,6 @@
     <Icon>units/chin_cavalry_spearman.png</Icon>
   </Identity>
 	<VisualActor>
-		<Actor>units/china/cavalry_spearman_c_m.xml</Actor>
+		<Actor>units/han/cavalry_spearman_c_m.xml</Actor>
 	</VisualActor>
 </Entity>

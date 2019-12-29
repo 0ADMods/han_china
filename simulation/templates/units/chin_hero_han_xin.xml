@@ -13,6 +13,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/china/hero_han_xin.xml</Actor>
+    <Actor>units/han/hero_han_xin.xml</Actor>
   </VisualActor>
 </Entity>

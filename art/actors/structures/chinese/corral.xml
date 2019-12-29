@@ -6,13 +6,13 @@
       <mesh>structural/chin_corral.dae</mesh>
       <props>
          <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-         <prop actor="props/structures/chinese/barrel.xml" attachpoint="barrel"/>
-         <prop actor="props/structures/chinese/box.xml" attachpoint="box"/>
-         <prop actor="props/structures/chinese/corral_feeding_box.xml" attachpoint="bucket_water"/>
-         <prop actor="props/structures/chinese/corral_water.xml" attachpoint="bucket_water"/>
-         <prop actor="props/structures/chinese/corral_feeding_box_full.xml" attachpoint="bucket_food"/>
-         <prop actor="props/structures/chinese/corral_decal.xml" attachpoint="root"/>
-         <prop actor="props/structures/chinese/corral_flowers.xml" attachpoint="flowers"/>
+         <prop actor="props/structures/han/barrel.xml" attachpoint="barrel"/>
+         <prop actor="props/structures/han/box.xml" attachpoint="box"/>
+         <prop actor="props/structures/han/corral_feeding_box.xml" attachpoint="bucket_water"/>
+         <prop actor="props/structures/han/corral_water.xml" attachpoint="bucket_water"/>
+         <prop actor="props/structures/han/corral_feeding_box_full.xml" attachpoint="bucket_food"/>
+         <prop actor="props/structures/han/corral_decal.xml" attachpoint="root"/>
+         <prop actor="props/structures/han/corral_flowers.xml" attachpoint="flowers"/>
       </props>
       <textures>
         <texture file="structural/chin_struct2.png" name="baseTex"/>

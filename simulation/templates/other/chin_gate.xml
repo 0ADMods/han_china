@@ -22,6 +22,6 @@
     </Obstructions>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/chinese/misc_gate.xml</Actor>
+    <Actor>structures/han/misc_gate.xml</Actor>
   </VisualActor>
 </Entity>

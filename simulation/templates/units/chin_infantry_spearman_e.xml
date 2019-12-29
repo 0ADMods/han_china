@@ -24,6 +24,6 @@
     <BaseSpeed>0.5</BaseSpeed>
   </ResourceGatherer>
   <VisualActor>
-    <Actor>units/china/infantry_spearman_e.xml</Actor>
+    <Actor>units/han/infantry_spearman_e.xml</Actor>
   </VisualActor>
 </Entity>

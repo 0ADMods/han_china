@@ -14,7 +14,7 @@
     <Icon>units/chin_ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/chinese/bireme.xml</Actor>
+    <Actor>structures/han/bireme.xml</Actor>
   </VisualActor>
   <Footprint>
     <Square width="14.0" depth="36.0"/>

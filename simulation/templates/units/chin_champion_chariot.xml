@@ -34,6 +34,6 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <VisualActor>
-    <Actor>units/china/chariot_crossbowman_c_m.xml</Actor>
+    <Actor>units/han/chariot_crossbowman_c_m.xml</Actor>
   </VisualActor>
 </Entity>

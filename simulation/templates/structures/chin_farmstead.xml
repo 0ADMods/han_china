@@ -20,7 +20,7 @@
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/chinese/farmstead.xml</Actor>
+    <Actor>structures/han/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

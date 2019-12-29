@@ -12,6 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>structures/chinese/siege_tower.xml</Actor>
+    <Actor>structures/han/siege_tower.xml</Actor>
   </VisualActor>
 </Entity>
