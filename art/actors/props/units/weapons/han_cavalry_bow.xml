@@ -15,7 +15,7 @@
     <group>
         <variant frequency="100" name="Base">
             <textures>
-                <texture file="props/spart_sail_a.png" name="baseTex"/>
+                <texture file="props/maur_props_1.png" name="baseTex"/>
             </textures>
         </variant>
     </group>
