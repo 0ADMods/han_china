@@ -13,7 +13,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/china/uniform_08.xml"/>
+    <variant file="clothes/china/uniform_a_01.xml"/>
   </group>
   <group>
     <variant file="biped/base_crossbowman_ready.xml"/>

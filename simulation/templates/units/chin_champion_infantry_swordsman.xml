@@ -20,6 +20,6 @@
     </SwitchToBow>
   </Upgrade>
   <VisualActor>
-    <Actor>units/china/champion_infantry_swordsman.xml</Actor>
+    <Actor>units/china/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

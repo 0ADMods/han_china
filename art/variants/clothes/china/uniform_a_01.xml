@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<variant frequency="1" name="chin-spearman-elite-d">
+<variant frequency="1" name="chin-advanced-rank-1">
     <textures>
         <texture file="skeletal/chin_isp_e_d.png" name="baseTex"/>
         <texture file="skeletal/chin_isp_e_d_spec.png" name="specTex"/>

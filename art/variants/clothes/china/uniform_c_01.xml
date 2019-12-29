@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<variant frequency="1" name="chin-spearman-elite-c">
+<variant frequency="1" name="chin-champ-rank-1">
     <textures>
         <texture file="skeletal/chin_isp_e_c.png" name="baseTex"/>
         <texture file="skeletal/chin_isp_e_c_spec.png" name="specTex"/>

@@ -14,7 +14,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/china/uniform_05.xml"/>
+    <variant file="clothes/china/uniform_b_01.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

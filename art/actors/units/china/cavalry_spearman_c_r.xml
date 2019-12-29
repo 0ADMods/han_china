@@ -13,7 +13,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/china/uniform_07.xml"/>
+    <variant file="clothes/china/uniform_c_01.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_spearman_fast_shield_01.xml" name="Spearman-Fast-Shield" frequency="1"/>
