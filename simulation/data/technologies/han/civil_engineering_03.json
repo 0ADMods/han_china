@@ -3,7 +3,7 @@
 	"specificName": {
 		"chin": "Gōngchéng"
 	},
-	"supersedes": "chinese/civil_engineering_02",
+	"supersedes": "han/civil_engineering_02",
 	"description": "",
 	"cost": {"food": 0, "wood": 800, "stone": 800, "metal": 0},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},

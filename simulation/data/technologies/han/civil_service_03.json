@@ -3,7 +3,7 @@
 	"specificName": {
 		"chin": "Guānliáo"
 	},
-	"supersedes": "chinese/civil_service_02",
+	"supersedes": "han/civil_service_02",
 	"description": "",
 	"cost": {"food": 200, "wood": 200, "stone": 200, "metal": 700},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},

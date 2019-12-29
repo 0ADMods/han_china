@@ -7,7 +7,7 @@
       <mesh>structural/han_ship_merchant.dae</mesh>
       <props>
         <prop actor="units/han/fisherman.xml" attachpoint="driver"/>
-        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="flag"/>
         <prop actor="props/structures/han/merchant_sail.xml" attachpoint="root"/>
       </props>
 	    <textures>

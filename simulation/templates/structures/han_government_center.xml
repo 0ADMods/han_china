@@ -59,18 +59,18 @@
       units/han_minister
     </Entities>
     <Technologies datatype="tokens">
-      chinese/civil_service_01
-      chinese/civil_service_02
-      chinese/civil_service_03
-      chinese/civil_engineering_01
-      chinese/civil_engineering_02
-      chinese/civil_engineering_03
-      chinese/nationalized_industries_01
-      chinese/nationalized_industries_02
-      chinese/nationalized_industries_03
+      han/civil_service_01
+      han/civil_service_02
+      han/civil_service_03
+      han/civil_engineering_01
+      han/civil_engineering_02
+      han/civil_engineering_03
+      han/nationalized_industries_01
+      han/nationalized_industries_02
+      han/nationalized_industries_03
       unlock_spies
       spy_counter
-      chinese/art_of_war
+      han/art_of_war
     </Technologies>
   </ProductionQueue>
   <Vision>

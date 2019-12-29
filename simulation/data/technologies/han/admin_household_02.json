@@ -3,7 +3,7 @@
 	"specificName": {
 		"chin": "Jiātíng Guǎnlǐ"
 	},
-	"supersedes": "chinese/admin_household_01",
+	"supersedes": "han/admin_household_01",
 	"description": "",
 	"cost": {"food": 0, "wood": 0, "stone": 200, "metal": 200},
 	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "chin"}]},

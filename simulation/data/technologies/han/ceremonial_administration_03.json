@@ -3,7 +3,7 @@
 	"specificName": {
 		"chin": "Yíshì Guǎnlǐ"
 	},
-	"supersedes": "chinese/ceremonial_administration_02",
+	"supersedes": "han/ceremonial_administration_02",
 	"description": "",
 	"cost": {"food": 0, "wood": 400, "stone": 400, "metal": 800},
 	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},

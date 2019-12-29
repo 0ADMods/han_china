@@ -20,7 +20,7 @@
                 <prop actor="units/han/chariot_crossbowman_b_h2.xml" attachpoint="horse2"/>
                 <prop actor="units/han/chariot_crossbowman_b_h3.xml" attachpoint="horse3"/>
                 <prop actor="units/han/chariot_crossbowman_b_h4.xml" attachpoint="horse4"/>
-                <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag"/>
+                <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="flag"/>
             </props>
         </variant>
     </group>

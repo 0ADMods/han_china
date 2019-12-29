@@ -25,8 +25,8 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag_right"/>
-        <prop actor="props/special/common/garrison_flag_chin.xml" attachpoint="flag_left"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="flag_right"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="flag_left"/>
       </props>
     </variant>
   </group>

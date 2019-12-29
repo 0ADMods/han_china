@@ -33,8 +33,8 @@
       -siege_armor
       -siege_cost_metal
       -siege_cost_wood-->
-      chinese/attack_champion_infantry_swordsman
-      chinese/attack_champion_infantry_archer
+      han/attack_champion_infantry_swordsman
+      han/attack_champion_infantry_archer
     </Technologies>
   </ProductionQueue>
   <VisualActor>

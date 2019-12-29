@@ -1,5 +1,5 @@
 {
 	"genericName": "Hero Attack vs. Hero Armor",
-	"top": "chinese/attack_heroes",
-	"bottom": "chinese/armor_heroes"
+	"top": "han/attack_heroes",
+	"bottom": "han/armor_heroes"
 }
