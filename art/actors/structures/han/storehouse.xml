@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Han Chinese storehouse">
-      <mesh>structural/chin_storehouse.dae</mesh>
+      <mesh>structural/han_storehouse.dae</mesh>
       <props>
         <prop actor="props/wooden_planks.xml" attachpoint="below_side_shed"/>
         <prop actor="props/wooden_cart.xml" attachpoint="main_building_west"/>
@@ -14,10 +14,10 @@
         <prop actor="props/structures/decals/rome_corral_mud.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_storehouse_ao.png" name="aoTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_storehouse_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

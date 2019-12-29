@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant frequency="100" name="Base">
-            <mesh>props/chin_crossbow_quiver.dae</mesh>
+            <mesh>props/han_crossbow_quiver.dae</mesh>
             <props>
                 <prop actor="props/units/weapons/arrow_front.xml" attachpoint="bolt_a"/>
                 <prop actor="props/units/weapons/arrow_front.xml" attachpoint="bolt_b"/>
@@ -18,7 +18,7 @@
     <group>
         <variant frequency="100" name="Base_a">
             <textures>
-                <texture file="props/chin_quiver.png" name="baseTex"/>
+                <texture file="props/han_quiver.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

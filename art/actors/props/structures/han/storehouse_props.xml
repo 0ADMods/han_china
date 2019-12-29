@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>props/chin_storehouse_props.dae</mesh>
+      <mesh>props/han_storehouse_props.dae</mesh>
       <textures>
         <texture file="props/hele_props_a.dds" name="baseTex"/>
         <texture file="props/hele_props_a_norm.png" name="normTex"/>

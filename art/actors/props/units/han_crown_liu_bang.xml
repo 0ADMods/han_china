@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant frequency="100" name="Base">
-            <mesh>props/chin_crown_liu_bang.dae</mesh>
+            <mesh>props/han_crown_liu_bang.dae</mesh>
             <textures>
                 <texture file="bronze_age_materials.png" name="baseTex"/>
             </textures>

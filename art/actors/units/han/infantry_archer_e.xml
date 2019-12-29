@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/chin_cap.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_cap.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_bamboo_long.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
@@ -24,7 +24,7 @@
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml">
       <props>
-        <prop actor="props/units/helmets/chin_ricehat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant file="biped/gather_fruit.xml"/>
@@ -37,7 +37,7 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/carry_food.xml">
       <props>
-        <prop actor="props/units/helmets/chin_ricehat.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant file="biped/carry_meat.xml"/>

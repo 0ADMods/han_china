@@ -2,8 +2,8 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant frequency="1" name="Chin_Barracks_Props_a">
-			<mesh>structural/chin_corral_decal.dae</mesh>
+		<variant frequency="1" name="han_Barracks_Props_a">
+			<mesh>structural/han_corral_decal.dae</mesh>
 			<textures>
 				<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
 				<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant frequency="1" name="old-b1">
     <textures>
-        <texture file="skeletal/chin_isp_b_black.png" name="baseTex"/>
-        <texture file="skeletal/chin_icr_e_spec.png" name="specTex"/>
+        <texture file="skeletal/han_isp_b_black.png" name="baseTex"/>
+        <texture file="skeletal/han_icr_e_spec.png" name="specTex"/>
     </textures>
 </variant>

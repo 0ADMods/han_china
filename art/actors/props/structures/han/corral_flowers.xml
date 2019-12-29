@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant>
-            <mesh>structural/chin_corral_flowers.dae</mesh>
+            <mesh>structural/han_corral_flowers.dae</mesh>
             <textures>
                 <texture file="props/structs_nature.png" name="baseTex"/>
             </textures>

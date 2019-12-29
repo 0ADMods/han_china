@@ -4,12 +4,12 @@
   <float/>
   <group>
     <variant frequency="100" name="base">
-      <mesh>structural/chin_bridge.dae</mesh>
+      <mesh>structural/han_bridge.dae</mesh>
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_bridge_ao.png" name="aoTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_bridge_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -4,9 +4,9 @@
   <group>
     <variant frequency="100" name="Base">
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -15,27 +15,27 @@
   </group>
   <group>
   	<variant frequency="25" name="House Var-A">
-  		<mesh>structural/chin_house_a.dae</mesh>
+  		<mesh>structural/han_house_a.dae</mesh>
       <textures>
-        <texture file="structural/ao/chin_house_a_ao.png" name="aoTex"/>
+        <texture file="structural/ao/han_house_a_ao.png" name="aoTex"/>
       </textures>
   	</variant>
   	<variant frequency="25" name="House Var-B">
-  		<mesh>structural/chin_house_b.dae</mesh>
+  		<mesh>structural/han_house_b.dae</mesh>
       <textures>
-        <texture file="structural/ao/chin_house_b_ao.png" name="aoTex"/>
+        <texture file="structural/ao/han_house_b_ao.png" name="aoTex"/>
       </textures>
   	</variant>
     <variant frequency="25" name="House Var-C">
-  		<mesh>structural/chin_house_c.dae</mesh>
+  		<mesh>structural/han_house_c.dae</mesh>
       <textures>
-        <texture file="structural/ao/chin_house_c_ao.png" name="aoTex"/>
+        <texture file="structural/ao/han_house_c_ao.png" name="aoTex"/>
       </textures>
   	</variant>
     <variant frequency="25" name="House Var-D">
-  		<mesh>structural/chin_house_d.dae</mesh>
+  		<mesh>structural/han_house_d.dae</mesh>
       <textures>
-        <texture file="structural/ao/chin_house_d_ao.png" name="aoTex"/>
+        <texture file="structural/ao/han_house_d_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -6,7 +6,7 @@
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/chin_outpost.dae</mesh>
+      <mesh>structural/han_outpost.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
@@ -16,10 +16,10 @@
   <group>
     <variant>
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_outpost_ao.png" name="aoTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_outpost_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

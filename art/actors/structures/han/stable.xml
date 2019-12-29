@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/chin_stable.dae</mesh>
+      <mesh>structural/han_stable.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/hele_corral_mud.xml" attachpoint="root"/>
@@ -12,10 +12,10 @@
         <prop actor="props/structures/persians/stable_horse_c.xml" attachpoint="horse_2"/>
       </props>
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_stable.png" name="aoTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_stable.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

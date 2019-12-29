@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/chin_wall_long.dae</mesh>
+      <mesh>structural/han_wall_long.dae</mesh>
       <props>
         <prop actor="props/structures/han/wall_gutter.xml" attachpoint="gutter001"/>
         <prop actor="props/structures/han/wall_gutter.xml" attachpoint="gutter002"/>
@@ -13,10 +13,10 @@
         <prop actor="props/structures/han/wall_gutter.xml" attachpoint="gutter006"/>
       </props>
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_wall_long_ao.png" name="aoTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_wall_long_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

@@ -4,12 +4,12 @@
   <float/>
   <group>
     <variant name="Chinese Fire Ship">
-      <mesh>structural/chin_ship_fire.dae</mesh>
+      <mesh>structural/han_ship_fire.dae</mesh>
       <textures>
-        <texture file="structural/chin_ship.png" name="baseTex"/>
-        <texture file="structural/chin_ship_norm.png" name="normTex"/>
-        <texture file="structural/chin_ship_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_ship_fire_ao.png" name="aoTex"/>
+        <texture file="structural/han_ship.png" name="baseTex"/>
+        <texture file="structural/han_ship_norm.png" name="normTex"/>
+        <texture file="structural/han_ship_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_ship_fire_ao.png" name="aoTex"/>
       </textures>
       <props>
         <prop actor="particle/bigflame.xml" attachpoint="root"/>

@@ -3,9 +3,9 @@
     <castshadow/>
     <group>
         <variant name="helmet_A">
-            <mesh>props/helmet/chin_cavalry_helmet.dae</mesh>
+            <mesh>props/helmet/han_cavalry_helmet.dae</mesh>
             <textures>
-                <texture file="props/helmet/chin_cavalry_helmet.png" name="baseTex"/>
+                <texture file="props/helmet/han_cavalry_helmet.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

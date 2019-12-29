@@ -3,14 +3,14 @@
     <castshadow/>
     <group>
         <variant frequency="5" name="old-sword1">
-            <mesh>props/weap_chin_sword1.dae</mesh>
+            <mesh>props/weap_han_sword1.dae</mesh>
         </variant>
     </group>
     <group>
         <variant frequency="100" name="Base">
             <textures>
                 <texture file="props/prop_swords_chin.png" name="baseTex"/>
-                <texture file="props/prop_swords_chin_spec.png" name="specTex"/>
+                <texture file="props/prop_swords_han_spec.png" name="specTex"/>
             </textures>
         </variant>
     </group>

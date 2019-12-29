@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Base">
-      <mesh>structural/chin_temple.dae</mesh>
+      <mesh>structural/han_temple.dae</mesh>
       <props>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="cauldron"/>
         <prop actor="props/structures/han/temple_cauldron.xml" attachpoint="cauldron"/>
@@ -11,10 +11,10 @@
         <prop actor="props/structures/han/temple_lantern.xml" attachpoint="lantern002" maxheight="20" minheight="-20"/>
       </props>
       <textures>
-        <texture file="structural/chin_struct2.png" name="baseTex"/>
-        <texture file="structural/chin_struct2_norm.png" name="normTex"/>
-        <texture file="structural/chin_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/chin_temple_ao.png" name="aoTex"/>
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_temple_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

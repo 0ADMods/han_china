@@ -2,8 +2,8 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="1" name="Chin_Barracks_Props_Weapons">
-            <mesh>props/chin_barracks_weapons.dae</mesh>
+        <variant frequency="1" name="han_Barracks_Props_Weapons">
+            <mesh>props/han_barracks_weapons.dae</mesh>
         </variant>
     </group>
     <group>

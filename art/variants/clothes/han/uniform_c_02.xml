@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant frequency="1" name="chin-champ-rank-2">
     <textures>
-        <texture file="skeletal/chin_isp_e_e.png" name="baseTex"/>
-        <texture file="skeletal/chin_isp_e_e_spec.png" name="specTex"/>
+        <texture file="skeletal/han_isp_e_e.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_e_spec.png" name="specTex"/>
     </textures>
 </variant>

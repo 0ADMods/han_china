@@ -3,9 +3,9 @@
     <castshadow/>
     <group>
         <variant frequency="100" name="chinese merchant sail">
-            <mesh>props/chin_merchant_sail.dae</mesh>
+            <mesh>props/han_merchant_sail.dae</mesh>
             <textures>
-                <texture file="props/chin_sail_dragon.png" name="baseTex"/>
+                <texture file="props/han_sail_dragon.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

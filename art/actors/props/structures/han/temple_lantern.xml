@@ -2,14 +2,14 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="1" name="Chin_Barracks_Props_Shield_c">
-            <mesh>structural/chin_temple_lantern.dae</mesh>
+        <variant frequency="1" name="han_Barracks_Props_Shield_c">
+            <mesh>structural/han_temple_lantern.dae</mesh>
         </variant>
     </group>
     <group>
         <variant>
             <textures>
-                <texture file="structural/chin_temple_lantern.png" name="baseTex"/>
+                <texture file="structural/han_temple_lantern.png" name="baseTex"/>
             </textures>
         </variant>
     </group>

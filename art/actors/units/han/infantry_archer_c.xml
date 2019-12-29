@@ -6,8 +6,8 @@
       <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/chin_hairbun.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/chin_advanced_melee_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
