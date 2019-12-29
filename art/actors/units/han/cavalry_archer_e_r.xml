@@ -6,7 +6,7 @@
       <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/han_cap.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/han_cap.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/han_cavalry_bow.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/quiver_back_bamboo.xml" attachpoint="back"/>
       </props>
