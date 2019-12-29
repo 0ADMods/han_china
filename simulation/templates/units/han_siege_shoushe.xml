@@ -17,9 +17,9 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <SpecificName>Shoushe Nu</SpecificName>
-    <Icon>units/chin_mechanical_siege_shoushe.png</Icon>
+    <Icon>units/han_mechanical_siege_shoushe.png</Icon>
   </Identity>
   <Pack disable=""/>
   <Promotion disable=""/>

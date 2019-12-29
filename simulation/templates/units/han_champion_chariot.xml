@@ -4,7 +4,7 @@
     <Hack>6.0</Hack>
   </Armour>
   <Auras datatype="tokens">
-	units/chin_chariot_trample_e
+	units/han_chariot_trample_e
   </Auras>
   <Cost>
     <Population>4</Population>
@@ -23,13 +23,13 @@
     <Max>280</Max>
   </Health>
   <Identity>
-    <Civ>chin</Civ>
-    <SelectionGroupName>units/chin_champion_chariot</SelectionGroupName>
+    <Civ>han</Civ>
+    <SelectionGroupName>units/han_champion_chariot</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot Trample</VisibleClasses>
     <GenericName>War Chariot</GenericName>
 	<SpecificName>Zhàn Chē</SpecificName>
     <History>.</History>
-    <Icon>units/chin_champion_chariot.png</Icon>
+    <Icon>units/han_champion_chariot.png</Icon>
     <Tooltip>Fast Speed, Heavy Armor, Harassment, Trample, Heavy Charge.</Tooltip>
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>

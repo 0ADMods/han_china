@@ -5,10 +5,10 @@
 		<Height>8.0</Height>
 	</Footprint>
 	<Identity>
-		<Civ>chin</Civ>
+		<Civ>han</Civ>
 		<SpecificName>Shāng Chuán</SpecificName>
 		<History>Need History</History>
-		<Icon>units/chin_ship_merchant.png</Icon>
+		<Icon>units/han_ship_merchant.png</Icon>
 	</Identity>
 	<VisualActor>
 		<Actor>structures/han/merchant_ship.xml</Actor>

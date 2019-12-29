@@ -8,7 +8,7 @@
     <List datatype="tokens">Support Infantry Cavalry Siege Minister</List>
   </GarrisonHolder>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <SpecificName>Yào Sài</SpecificName>
     <Tooltip>Build siege engines. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
     <History>(History goes here.)</History>

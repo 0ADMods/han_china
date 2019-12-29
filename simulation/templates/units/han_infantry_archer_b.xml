@@ -7,14 +7,14 @@
         </Entities>
     </Builder>
     <Identity>
-        <Civ>chin</Civ>
-        <SelectionGroupName>units/chin_infantry_archer_b</SelectionGroupName>
+        <Civ>han</Civ>
+        <SelectionGroupName>units/han_infantry_archer_b</SelectionGroupName>
         <SpecificName>Gōng Shǒu</SpecificName>
         <History>Needs history.</History>
-        <Icon>units/chin_infantry_archer.png</Icon>
+        <Icon>units/han_infantry_archer.png</Icon>
     </Identity>
     <Promotion>
-        <Entity>units/chin_infantry_archer_a</Entity>
+        <Entity>units/han_infantry_archer_a</Entity>
     </Promotion>
     <Attack>
         <Ranged>

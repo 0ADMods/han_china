@@ -4,7 +4,7 @@
     <List datatype="tokens">Infantry Cavalry Minister</List>
   </GarrisonHolder>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
   </Identity>
   <VisualActor>
     <Actor>structures/han/range.xml</Actor>

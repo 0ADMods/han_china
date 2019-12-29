@@ -15,7 +15,7 @@
 		<Max>1000</Max>
 	</Health>
 	<Identity>
-		<Civ>chin</Civ>
+		<Civ>han</Civ>
 		<SelectionGroupName>other/wallset_palisade</SelectionGroupName>
 		<GenericName>Bamboo Wall</GenericName>
 		<SpecificName>Zhà</SpecificName> <!-- Jiàn for Bamboo Wall -->

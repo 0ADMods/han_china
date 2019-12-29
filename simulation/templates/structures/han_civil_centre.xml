@@ -8,7 +8,7 @@
     <List datatype="tokens">Support Infantry Cavalry Minister</List>
   </GarrisonHolder>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <SpecificName>Guān Sì</SpecificName>
     <History></History>
   </Identity>
@@ -24,7 +24,7 @@
   </ProductionQueue>
   <Upgrade>
     <FortifiedCivicCenter>
-      <Entity>structures/chin_civil_centre_fortified</Entity>
+      <Entity>structures/han_civil_centre_fortified</Entity>
       <Tooltip>Greatly increase the health, capture resistance, and garrison capacity of this Civic Center.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
       <Cost>

@@ -20,12 +20,12 @@
     <Height>5.0</Height>
   </Footprint>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <SpecificName>Onager</SpecificName>
     <Icon>units/rome_siege_onager_packed.png</Icon>
   </Identity>
   <Pack>
-    <Entity>units/chin_siege_onager_unpacked</Entity>
+    <Entity>units/han_siege_onager_unpacked</Entity>
     <State>packed</State>
   </Pack>
   <VisualActor>

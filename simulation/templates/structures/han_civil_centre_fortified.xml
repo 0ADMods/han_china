@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/chin_civil_centre">
+<Entity parent="structures/han_civil_centre">
   <Capturable>
     <CapturePoints op="mul">1.5</CapturePoints>
   </Capturable>

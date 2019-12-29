@@ -13,10 +13,10 @@
     </Capture>
   </Attack>
   <Auras datatype="tokens">
-    units/chin_minister_cost
-    units/chin_minister_garrison
-    units/chin_minister_gathering
-    units/chin_minister_building
+    units/han_minister_cost
+    units/han_minister_garrison
+    units/han_minister_gathering
+    units/han_minister_building
   </Auras>
   <Cost>
     <Population>2</Population>
@@ -29,11 +29,11 @@
     <Max>300</Max>
   </Health>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <Classes datatype="tokens">Organic Human</Classes>
 	<GenericName>Government Minister</GenericName>
     <SpecificName>Zhèngfǔ Bùzhǎng</SpecificName>
-    <Icon>units/chin_minister.png</Icon>
+    <Icon>units/han_minister.png</Icon>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
 	<Tooltip>
 Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only han buildings can garrison ministers</Tooltip>

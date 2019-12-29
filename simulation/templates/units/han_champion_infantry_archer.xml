@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <GenericName>Palace Guard Archer</GenericName>
     <SpecificName>Hu Ben</SpecificName>
-    <SelectionGroupName>units/chin_champion_infantry_archer</SelectionGroupName>
+    <SelectionGroupName>units/han_champion_infantry_archer</SelectionGroupName>
     <History>.</History>
-    <Icon>units/chin_champion_infantry_archer.png</Icon>
+    <Icon>units/han_champion_infantry_archer.png</Icon>
   </Identity>
   <Upgrade>
     <SwitchToSword>
-      <Entity>units/chin_champion_infantry_swordsman</Entity>
+      <Entity>units/han_champion_infantry_swordsman</Entity>
       <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
 	  <RequiredTechnology>chinese/attack_champion_infantry_archer</RequiredTechnology>
       <Cost>

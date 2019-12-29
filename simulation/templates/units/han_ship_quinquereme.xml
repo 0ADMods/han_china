@@ -13,10 +13,10 @@
     <Max>1600</Max>
   </Health>
   <Identity>
-    <Civ>chin</Civ>
+    <Civ>han</Civ>
     <SpecificName>Dà Lóu Chuán</SpecificName>
     <History></History>
-    <Icon>units/chin_ship_tower.png</Icon>
+    <Icon>units/han_ship_tower.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/han/towership.xml</Actor>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/chin_infantry_archer_b">
+<Entity parent="units/han_infantry_archer_b">
     <Identity>
         <Rank>Advanced</Rank>
     </Identity>
     <Promotion>
-        <Entity>units/chin_infantry_archer_e</Entity>
+        <Entity>units/han_infantry_archer_e</Entity>
     </Promotion>
     <Attack>
         <Ranged>

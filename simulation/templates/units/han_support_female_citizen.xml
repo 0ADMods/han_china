@@ -16,10 +16,10 @@
         <Max>75</Max>
     </Health>
     <Identity>
-        <Civ>chin</Civ>
+        <Civ>han</Civ>
         <SpecificName>Nǚ</SpecificName>
         <History>Needs history.</History>
-        <Icon>units/chin_support_female_citizen.png</Icon>
+        <Icon>units/han_support_female_citizen.png</Icon>
     </Identity>
     <Promotion disable=""/>
     <VisualActor>
