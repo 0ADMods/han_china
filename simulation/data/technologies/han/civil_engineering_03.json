@@ -1,12 +1,12 @@
 {
 	"genericName": "Civil Engineering - Level 3",
 	"specificName": {
-		"chin": "Gōngchéng"
+		"han": "Gōngchéng"
 	},
 	"supersedes": "han/civil_engineering_02",
 	"description": "",
 	"cost": {"food": 0, "wood": 800, "stone": 800, "metal": 0},
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "han"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chinese_engineering_03.png",
 	"researchTime": 180,

@@ -1,12 +1,12 @@
 {
 	"genericName": "Ceremonial Administration - Level 3",
 	"specificName": {
-		"chin": "Yíshì Guǎnlǐ"
+		"han": "Yíshì Guǎnlǐ"
 	},
 	"supersedes": "han/ceremonial_administration_02",
 	"description": "",
 	"cost": {"food": 0, "wood": 400, "stone": 400, "metal": 800},
-	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "chin"}]},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "han"}]},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chinese_ceremonial_03.png",
 	"researchTime": 180,

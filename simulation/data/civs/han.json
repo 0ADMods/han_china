@@ -92,7 +92,16 @@
 			"Phase": "",
 			"Special": ""
 		},
-        {
+		{
+			"Name": "Cavalry Stable",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Han Dynasty's best soldiers were Horsemen.",
+			"Requirements": "",
+			"Phase": "Town",
+			"Special": "Train Cavalry citizen-soldiers."
+		},
+		{
 			"Name":"Siege Workshop",
 			"Class":"",
 			"Emblem":"",
@@ -177,7 +186,7 @@
 	"SkirmishReplacements":
 	{
 		"skirmish/units/default_infantry_ranged_b": "units/han_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b_r"
+		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b"
 	},
 	"SelectableInGameSetup": true
 }

@@ -1,11 +1,11 @@
 {
 	"genericName": "Household Administration - Level 1",
 	"specificName": {
-		"chin": "Jiātíng Guǎnlǐ"
+		"han": "Jiātíng Guǎnlǐ"
 	},
 	"description": "",
 	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
-	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "chin"}]},
+	"requirements": {"all": [{"tech": "phase_town"}, {"han": "chin"}]},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "chinese_household_1.png",
 	"researchTime": 90,

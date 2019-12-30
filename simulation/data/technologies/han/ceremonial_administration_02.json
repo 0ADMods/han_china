@@ -1,12 +1,12 @@
 {
 	"genericName": "Ceremonial Administration - Level 2",
 	"specificName": {
-		"chin": "Yíshì Guǎnlǐ"
+		"han": "Yíshì Guǎnlǐ"
 	},
 	"supersedes": "han/ceremonial_administration_01",
 	"description": "",
 	"cost": {"food": 300, "wood": 0, "stone": 0, "metal": 300},
-	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "chin"}]},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "han"}]},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "chinese_ceremonial_02.png",
 	"researchTime": 120,

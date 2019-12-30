@@ -29,8 +29,6 @@
       -units/{civ}_cavalry_spearman_b
     </Entities>
     <Technologies datatype="tokens">
-<!--      -han/attack_champion_infantry_swordsman
-      -han/attack_champion_infantry_archer-->
       han/fortified_civ_center_range
     </Technologies>
   </ProductionQueue>
