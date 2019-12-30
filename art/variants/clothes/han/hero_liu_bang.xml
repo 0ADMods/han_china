@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant frequency="1" name="hero-1">
+    <textures>
+        <texture file="skeletal/han_liu_bang_gown.png" name="baseTex"/>
+    </textures>
+</variant>

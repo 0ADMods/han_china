@@ -9,12 +9,10 @@
         <prop actor="props/units/weapons/han_swords.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/han_shield1.xml" attachpoint="shield"/>
       </props>
-      <textures>
-        <texture file="skeletal/han_isw_e_norm.png" name="normTex"/>
-        <texture file="skeletal/han_mulan.png" name="baseTex"/>
-        <texture file="skeletal/han_isw_e_spec.png" name="specTex"/>
-      </textures>
     </variant>
+  </group>
+  <group>
+      <variant file="clothes/han/hero_mulan.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

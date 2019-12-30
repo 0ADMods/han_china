@@ -10,10 +10,10 @@
         <prop actor="props/units/weapons/han_sword_liu_bang.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/han_shield2.xml" attachpoint="shield_arm"/>
       </props>
-      <textures>
-        <texture file="skeletal/han_liu_bang_gown.png" name="baseTex"/>
-      </textures>
     </variant>
+  </group>
+  <group>
+      <variant file="clothes/han/hero_liu_bang.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_swordsman_ready_shield.xml" name="Swordsman-Ready-Shield" frequency="1"/>
