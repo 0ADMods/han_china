@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variant frequency="1" name="chin-elite-rank-1">
+    <textures>
+        <texture file="skeletal/han_isp_e_f.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_f_spec.png" name="specTex"/>
+    </textures>
+</variant>

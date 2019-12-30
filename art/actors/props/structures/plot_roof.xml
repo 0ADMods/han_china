@@ -2,8 +2,8 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="1" name="Chin_Plot_Roof">
-            <mesh>props/chin_plot_roof.dae</mesh>
+        <variant frequency="1" name="han_Plot_Roof">
+            <mesh>props/han_plot_roof.dae</mesh>
         </variant>
     </group>
     <group>

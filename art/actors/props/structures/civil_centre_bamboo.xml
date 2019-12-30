@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant frequency="100" name="bamboo">
-            <mesh>props/chin_civil_centre_bamboo.dae</mesh>
+            <mesh>props/han_civil_centre_bamboo.dae</mesh>
             <textures>
                 <texture file="gaia/bamboo.png" name="baseTex"/>
             </textures>

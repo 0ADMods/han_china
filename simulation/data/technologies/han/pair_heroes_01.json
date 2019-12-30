@@ -1,0 +1,5 @@
+{
+	"genericName": "Hero Attack vs. Hero Armor",
+	"top": "han/attack_heroes",
+	"bottom": "han/armor_heroes"
+}
