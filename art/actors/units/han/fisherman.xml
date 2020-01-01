@@ -9,10 +9,10 @@
         <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
         <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
       </props>
-      <textures>
-        <texture file="skeletal/han_iar_b.png" name="baseTex"/>
-      </textures>
     </variant>
+  </group>
+  <group>
+    <variant file="clothes/han/clothes_01.xml"/>
   </group>
   <group>
     <variant file="biped/fisher/base_ptol.xml"/>

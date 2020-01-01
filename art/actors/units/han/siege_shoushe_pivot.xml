@@ -8,9 +8,6 @@
         <prop actor="units/han/shoushe_infantry_a.xml" attachpoint="engineer_a"/>
         <prop actor="units/han/siege_shoushe.xml" attachpoint="shoushe"/>
       </props>
-      <textures>
-        <texture file="skeletal/han_icr_a.png" name="baseTex"/>
-      </textures>
     </variant>
   </group>
 </actor>

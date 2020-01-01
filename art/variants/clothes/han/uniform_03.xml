@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<variant frequency="1" name="chin-spearman-elite-b">
-    <textures>
-        <texture file="skeletal/han_isp_e_b.png" name="baseTex"/>
-        <texture file="skeletal/han_isp_e_b_spec.png" name="specTex"/>
-    </textures>
-</variant>

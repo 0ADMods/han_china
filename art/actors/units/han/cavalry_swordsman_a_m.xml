@@ -12,7 +12,7 @@
       </props>
     </variant>
   </group>
-  <group>
+<!--  <group>
     <variant frequency="2" name="horse-texture-1">
       <textures>
         <texture file="skeletal/horse_pers_csw_e_1.dds" name="baseTex"/>
@@ -28,7 +28,7 @@
         <texture file="skeletal/horse_pers_csw_e_3.dds" name="baseTex"/>
       </textures>
     </variant>
-  </group>
+  </group>-->
   <group>
     <variant file="quadraped/horse/brown.xml" frequency="1" name="brown"/>
     <variant file="quadraped/horse/black.xml" frequency="1" name="black"/>

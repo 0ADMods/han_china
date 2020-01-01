@@ -17,8 +17,9 @@
     </Health>
     <Identity>
         <Civ>han</Civ>
-        <SpecificName>Nǚ</SpecificName>
+        <GenericName>Nǚ</GenericName>
         <History>Needs history.</History>
+        <Phenotype>female</Phenotype>
         <Icon>units/han_support_female_citizen.png</Icon>
     </Identity>
     <Promotion disable=""/>
