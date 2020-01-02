@@ -10,4 +10,7 @@
       </props>
     </variant>
   </group>
+  <group>
+    <variant file="clothes/han/uniform_a_05.xml"/>
+  </group>
 </actor>

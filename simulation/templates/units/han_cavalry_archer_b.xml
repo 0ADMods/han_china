@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_archer">
+  <Attack>
+    <Ranged>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+    </Ranged>
+  </Attack>
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han_cavalry_archer_b</SelectionGroupName>

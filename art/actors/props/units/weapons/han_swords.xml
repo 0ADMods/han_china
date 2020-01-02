@@ -3,16 +3,16 @@
     <castshadow/>
     <group>
         <variant frequency="32" name="Dao-sword">
-            <mesh>props/weap_han_dao.dae</mesh>
+            <mesh>props/weap_han_sword3.dae</mesh>
         </variant>
         <variant frequency="32" name="Dao-sword">
-            <mesh>props/weap_han_dao_bronze.dae</mesh>
+            <mesh>props/weap_han_sword4.dae</mesh>
         </variant>
         <variant frequency="4" name="Han-Sword-Bronze">
-            <mesh>props/weap_han_sword8.dae</mesh>
+            <mesh>props/weap_han_sword1.dae</mesh>
         </variant>
         <variant frequency="32" name="Han-Sword-Iron">
-            <mesh>props/weap_han_sword9.dae</mesh>
+            <mesh>props/weap_han_sword2.dae</mesh>
         </variant>
     </group>
     <group>

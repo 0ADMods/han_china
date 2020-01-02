@@ -16,7 +16,7 @@
     <variant file="clothes/han/uniform_a_01.xml"/>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" name="Archer-Relax-Hip" frequency="1"/>
+    <variant file="biped/rider/cavalry/base_archer_relax_back.xml" name="Archer-Relax-Hip" frequency="1"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
