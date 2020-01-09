@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/han_infantry_spearman_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Armour>
+    <Hack>4</Hack>
+    <Pierce>6</Pierce>
+    <Crush>5</Crush>
+  </Armour>
+  <Attack>
+    <Melee>
+        <Damage>
+            <Hack>6</Hack>
+            <Pierce>11.5</Pierce>
+       </Damage>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>140</Max>
+  </Health>
+  <Promotion disable=""/>
+  <ResourceGatherer>
+    <BaseSpeed>0.5</BaseSpeed>
+  </ResourceGatherer>
+  <VisualActor>
+    <Actor>units/han/infantry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

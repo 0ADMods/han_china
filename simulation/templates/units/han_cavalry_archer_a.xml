@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/han_cavalry_archer_b">
+    <Armour>
+        <Hack>2</Hack>
+        <Pierce>4</Pierce>
+        <Crush>2</Crush>
+    </Armour>
+    <Attack>
+        <Ranged>
+            <MaxRange>60.0</MaxRange>
+            <MinRange>16.0</MinRange>
+            <Projectile>
+                <Spread>1.3</Spread>
+            </Projectile>
+        </Ranged>
+    </Attack>
+    <Health>
+        <Max>160</Max>
+    </Health>
+    <Identity>
+        <Rank>Advanced</Rank>
+    </Identity>
+    <Promotion>
+        <Entity>units/han_cavalry_archer_e</Entity>
+    </Promotion>
+    <ResourceGatherer>
+        <BaseSpeed>0.75</BaseSpeed>
+    </ResourceGatherer>
+    <VisualActor>
+        <Actor>units/han/cavalry_archer_a_m.xml</Actor>
+    </VisualActor>
+</Entity>
