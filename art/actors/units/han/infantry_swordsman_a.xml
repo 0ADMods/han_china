@@ -9,7 +9,8 @@
         <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/shields/han_shield2.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/han_swords.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath/han_jian_sheath_left_e.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>

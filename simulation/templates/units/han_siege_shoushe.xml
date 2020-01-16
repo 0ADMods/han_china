@@ -2,7 +2,6 @@
 <Entity parent="template_unit_siege_boltshooter">
   <Attack>
     <Ranged>
-      <MaxRange>80.0</MaxRange>
       <MinRange>12.0</MinRange>
     </Ranged>
   </Attack>

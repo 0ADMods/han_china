@@ -11,7 +11,7 @@
     <group>
         <variant frequency="1" name="beard-a">
             <props>
-                <prop actor="props/units/beard_liu_bang.xml" attachpoint="chin"/><!-- prop-chin exists in head_liu_bang -->
+                <prop actor="props/units/heads/beard_liu_bang.xml" attachpoint="chin"/><!-- prop-chin exists in head_liu_bang -->
             </props>
         </variant>
     </group>
@@ -19,12 +19,12 @@
     <group>
         <variant frequency="1" name="face-f">
             <textures>
-                <texture file="props/head/han_f.png" name="baseTex"/>
+                <texture file="props/heads/han_f.png" name="baseTex"/>
             </textures>
         </variant>
         <variant frequency="1" name="face-old-beardy">
             <textures>
-                <texture file="props/head/han_old_b.png" name="baseTex"/>
+                <texture file="props/heads/han_old_b.png" name="baseTex"/>
             </textures>
         </variant>
     </group>
