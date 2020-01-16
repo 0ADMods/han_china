@@ -3,156 +3,28 @@
     <castshadow/>
     <group>
         <variant frequency="100" name="Base">
-            <textures>
-                <texture file="props/quivers/han_quiver2.png" name="baseTex"/>
-                <texture file="props/quivers/han_quiver2_norm.png" name="normTex"/>
-                <texture file="props/quivers/han_quiver2_spec.png" name="specTex"/>
-            </textures>
+        <textures>
+            <texture file="props/quivers/han_quiver2.png" name="baseTex"/>
+            <texture file="props/quivers/han_quiver2_norm.png" name="normTex"/>
+            <texture file="props/quivers/han_quiver2_spec.png" name="specTex"/>
+        </textures>
         </variant>
     </group>
     <group>
         <variant name="med">
             <mesh>props/weapons/sheath/weap_han_sword_a_sheath_right.dae</mesh>
+            <props>
+                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
+            </props>
         </variant>
         <variant name="light">
             <mesh>props/weapons/sheath/weap_han_sword_b_sheath_right.dae</mesh>
+            <props>
+                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
+            </props>
         </variant>
         <variant name="Small">
             <mesh>props/weapons/sheath/weap_han_sword_d_sheath_right.dae</mesh>
-        </variant>
-    </group>
-    <group>
-        <variant frequency="100" name="idle">
-            <props>
-                <prop actor="" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="attack_ranged">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="attack_melee">
-            <props>
-                <prop actor="" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="walk">
-            <props>
-                <prop actor="" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="run">
-            <props>
-                <prop actor="" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_meat">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_wood">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_metal">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_fruit">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_grain">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="build">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_meat_idle">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_meat">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_fruit_idle">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_meat">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_metal_idle">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_metal">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_wood_idle">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant name="carry_wood">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_tree">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_rock">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="gather_ore">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="carry_fruit">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="carry_grain">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="carry_tree">
-            <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-            </props>
-        </variant>
-        <variant frequency="100" name="carry_rock">
-        <props>
-                <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
-        </props>
-        </variant>
-        <variant frequency="100" name="carry_ore">
             <props>
                 <prop actor="props/units/weapons/sword/han_jian.xml" attachpoint="sword"/>
             </props>
