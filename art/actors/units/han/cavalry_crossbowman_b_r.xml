@@ -15,6 +15,7 @@
   </group>
   <group>
     <variant file="clothes/han/uniform_b_02.xml"/>
+    <variant file="clothes/han/uniform_b_03.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_crossbowman.xml" name="Crossbowman" frequency="1"/>

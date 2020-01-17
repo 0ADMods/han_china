@@ -16,6 +16,7 @@
   </group>
   <group>
     <variant file="clothes/han/uniform_b_02.xml"/>
+    <variant file="clothes/han/uniform_b_03.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_swordsman_relax_shield.xml" name="Swordsman-Relax-Shield" frequency="1"/>

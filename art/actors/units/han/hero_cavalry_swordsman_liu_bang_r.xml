@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_long_sleeves.dae</mesh>
       <props>
 <!--         <prop actor="props/units/helmets/han_crown_liu_bang_as_helmet.xml" attachpoint="helmet"/> -->
         <prop actor="props/units/heads/head_liu_bang.xml" attachpoint="head"/>
@@ -13,7 +13,7 @@
     </variant>
   </group>
   <group>
-      <variant file="clothes/han/hero_liu_bang.xml"/>
+      <variant file="clothes/han/clothes_e.xml"/>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_swordsman_ready_shield.xml" name="Swordsman-Ready-Shield" frequency="1"/>
