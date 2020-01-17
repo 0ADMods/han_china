@@ -9,8 +9,8 @@
     <group>
         <variant frequency="1" name="texture">
             <textures>
-                <texture file="props/prop_swords_han.png" name="baseTex"/>
-                <texture file="props/prop_swords_han_spec.png" name="specTex"/>
+                <texture file="props/weapons/prop_swords_han.png" name="baseTex"/>
+                <texture file="props/weapons/prop_swords_han_spec.png" name="specTex"/>
             </textures>
             <mesh>props/weapons/sword/weap_han_sword1.dae</mesh>
         </variant>
