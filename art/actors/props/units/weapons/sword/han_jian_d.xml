@@ -6,9 +6,10 @@
             <textures>
                 <texture file="props/prop_weap.dds" name="baseTex"/>
             </textures>
+            <mesh>props/weapons/sword/weap_han_sword_d.dae</mesh>
         </variant>
     </group>
-    <group>
+<!--    <group>
         <variant name="med">
             <mesh>props/weapons/sword/weap_han_sword_a.dae</mesh>
         </variant>
@@ -21,5 +22,5 @@
         <variant name="Small">
             <mesh>props/weapons/sword/weap_han_sword_d.dae</mesh>
         </variant>
-    </group>
+    </group>-->
 </actor>

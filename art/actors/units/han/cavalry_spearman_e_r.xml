@@ -8,6 +8,7 @@
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/han_cavalry_swordsman_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath/han_jian_sheath_left_d.xml" attachpoint="sheath_L"/>
       </props>
     </variant>
   </group>
