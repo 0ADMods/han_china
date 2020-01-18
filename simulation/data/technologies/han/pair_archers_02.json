@@ -2,5 +2,5 @@
 	"genericName": "Archers vs. Crossbows",
 	"top": "han/attack_archers_recurved_bows",
 	"bottom": "han/rate_crossbows",
-    "supersedes": "han/pair_archers_01"
+	"supersedes": "han/pair_archers_01"
 }
