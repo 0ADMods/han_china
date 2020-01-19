@@ -24,7 +24,7 @@
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml">
       <props>
-        <prop actor="props/units/weapons/sword/han_sword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sword/han_jian_a.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant file="biped/gather_tree.xml"/>
