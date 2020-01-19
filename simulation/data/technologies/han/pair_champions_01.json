@@ -1,6 +1,0 @@
-{
-	"genericName": "Champion Infantry vs. Champion Cavalry",
-	"top": "han/attack_champion_infantry",
-	"bottom": "han/attack_champion_cav",
-    "supersedes": "han/pair_melee_01"
-}
