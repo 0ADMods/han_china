@@ -29,7 +29,7 @@
     <Actor>structures/han/tower.xml</Actor>
   </VisualActor>
   <Upgrade>
-    <Tower1>
+<!--    <Tower1>
       <Entity>structures/{civ}_tower_artillery</Entity>
       <Tooltip>Reinforce with stone block, and install small stone throwers to upgrade this defense tower into a slow, area of effect, and siege resistant artillery tower.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
@@ -39,7 +39,7 @@
       </Cost>
       <Time>200</Time>
       <Variant>upgrading</Variant>
-    </Tower1>
+    </Tower1>-->
     <Tower2>
       <Entity>structures/{civ}_tower_bolt</Entity>
       <Tooltip>Reinforce with stone block, and install scorpions to upgrade this defense tower into a prompt, long range, and accurate bolt tower.</Tooltip>

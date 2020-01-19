@@ -5,18 +5,18 @@
     <Height>8.0</Height>
   </Footprint>
   <BuildRestrictions>
-    <Category>GovernmentCenter</Category>
+    <Category>UniqueBuilding</Category>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
   </Capturable>
   <Cost>
-    <PopulationBonus>20</PopulationBonus>
+    <PopulationBonus>50</PopulationBonus>
     <BuildTime>400</BuildTime>
     <Resources>
       <food>0</food>
       <wood>200</wood>
-      <stone>150</stone>
+      <stone>250</stone>
       <metal>100</metal>
     </Resources>
   </Cost>
@@ -24,7 +24,7 @@
     structures/loyalty_regen
   </Auras>
   <GarrisonHolder>
-    <Max>9</Max>
+    <Max>5</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Minister</List>
@@ -33,10 +33,10 @@
   </GarrisonHolder>
   <Identity>
     <Civ>han</Civ>
+    <GenericName>GovernmentCenter</GenericName>
     <SpecificName>Government Center</SpecificName>
     <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <VisibleClasses datatype="tokens">City</VisibleClasses>
     <Icon>structures/government_center.png</Icon>
   </Identity>
   <Health>
@@ -77,7 +77,7 @@
     <Range>90</Range>
   </Vision>
   <TerritoryInfluence>
-    <Root>false</Root>
+    <Root>true</Root>
     <Radius>70</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
