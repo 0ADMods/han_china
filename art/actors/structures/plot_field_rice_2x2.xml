@@ -5,10 +5,10 @@
         <variant frequency="90" name="common_cliff">
             <mesh>structural/han_plot_rice_earthwalls_deep_2x2.dae</mesh>
             <props>
-                <prop actor="props/flora/bush_rice_a.xml" attachpoint="waterlevel_001" maxheight="20" minheight="-20"/>
+<!--                <prop actor="props/flora/bush_rice_a.xml" attachpoint="waterlevel_001" maxheight="20" minheight="-20"/>
                 <prop actor="props/flora/bush_rice_a.xml" attachpoint="waterlevel_002" maxheight="20" minheight="-20"/>
                 <prop actor="props/flora/bush_rice_a.xml" attachpoint="waterlevel_003" maxheight="20" minheight="-20"/>
-                <prop actor="props/flora/bush_rice_a.xml" attachpoint="waterlevel_004" maxheight="20" minheight="-20"/>
+                <prop actor="props/flora/bush_rice_a.xml" attachpoint="waterlevel_004" maxheight="20" minheight="-20"/>-->
             </props>
             <textures>
                 <texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>

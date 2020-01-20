@@ -3,6 +3,7 @@
     <Builder>
         <Entities datatype="tokens">
             structures/{civ}_government_center
+            structures/{civ}_field_rice
         </Entities>
     </Builder>
     <Attack>
