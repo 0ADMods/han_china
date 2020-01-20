@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<castshadow/>
-	<group>
-		<variant frequency="90" name="common_cliff">
-			<mesh>structural/han_plot_rice_earthwalls_deep.dae</mesh>
-			<props>
+    <castshadow/>
+    <group>
+        <variant frequency="90" name="common_cliff">
+            <mesh>structural/han_plot_rice_earthwalls_deep.dae</mesh>
+            <props>
                 <prop actor="props/structures/water_4x4.xml" attachpoint="waterlevel"/>
-<!--                <prop actor="props/structures/civic_water.xml" attachpoint="root"/>-->
                 <prop actor="props/structures/rice_8x8.xml" attachpoint="root"/>
-<!--                <prop actor="decals/field_rice_5x5.xml" attachpoint="root" maxheight="20" minheight="-20"/> -->
-			</props>
-			<textures>
-				<texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
-				<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
-				<texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
-			</textures>
-		</variant>
-	</group>
-	<material>basic_trans.xml</material>
+            </props>
+            <textures>
+                <texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
+                <texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
+                <texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
+            </textures>
+        </variant>
+    </group>
+    <material>basic_trans.xml</material>
 </actor>
