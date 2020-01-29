@@ -6,8 +6,11 @@
   <Promotion>
     <Entity>units/han_infantry_crossbowman_e</Entity>
   </Promotion>
-    <ResourceGatherer>
+  <ResourceGatherer>
     <BaseSpeed>0.75</BaseSpeed>
+    <Rates>
+      <food.rice>0.35</food.rice>
+    </Rates>
   </ResourceGatherer>
   <Attack>
     <Ranged>

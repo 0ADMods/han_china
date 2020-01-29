@@ -1,0 +1,28 @@
+{
+	"genericName": "Chain Pump",
+	"specificName": {
+		"han": "Chain Pump"
+	},
+	"description": "Chain Pump.",
+	"cost": {"food": 0, "wood": 500, "stone": 0, "metal": 250 },
+	"requirements": {
+		"all": [
+			{
+				"tech": "phase_city"
+			},
+			{
+				"civ": "han"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "gather_chain_pump.png",
+	"researchTime": 40,
+	"tooltip": "Workers +25% rice gather rate.",
+	"modifications": [
+		{
+			"value": "ResourceGatherer/Rates/food.rice", "multiply": 1.25
+		}
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

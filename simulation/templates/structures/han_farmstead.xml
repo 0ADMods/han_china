@@ -16,6 +16,18 @@
     <Civ>han</Civ>
     <SpecificName>Cāng</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Technologies datatype="tokens">
+      gather_wicker_baskets
+      han/gather_seed_drill
+      han/gather_water_weeding
+      han/gather_chain_pump
+      -gather_farming_plows
+      -gather_farming_training
+      -gather_farming_fertilizer
+    </Technologies>
+  </ProductionQueue>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
