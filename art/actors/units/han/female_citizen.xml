@@ -31,11 +31,11 @@
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml"/>
     <variant file="biped/female_gather_tree.xml"/>
-    <variant file="biped/female_gather_grain.xml">
-      <props>
+    <variant file="biped/female_gather_rice.xml"/>
+<!--      <props>
         <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
       </props>
-    </variant>
+    </variant>-->
     <variant file="biped/female_gather_fruit.xml"/>
     <variant file="biped/female_gather_meat.xml"/>
     <variant file="biped/female_gather_rock.xml"/>

@@ -8,7 +8,7 @@
 		"fruit": "Fruit",
 		"grain": "Grain",
 		"meat": "Meat",
-		"rice": "Rice"
+		"civs": ["han"],"rice": "Rice"
 	},
 	"properties": ["barterable", "tradable", "tributable"],
 	"truePrice": 100,

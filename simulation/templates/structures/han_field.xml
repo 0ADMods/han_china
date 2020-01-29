@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_field">
+    <BuildRestrictions>
+        <Category>Field</Category>
+    </BuildRestrictions>
+    <Identity>
+        <Civ>han</Civ>
+        <GenericName>Field</GenericName>
+        <SpecificName>Tián</SpecificName>
+        <History>South China cultivated rice instead of wheat</History>
+        <VisibleClasses datatype="tokens">Field</VisibleClasses>
+        <Icon>structures/field_rice.png</Icon>
+<!--         <RequiredTechnology>phase_town</RequiredTechnology> -->
+    </Identity>
+    <Footprint>
+        <Square width="18.0" depth="18.0"/>
+        <Height>2.0</Height>
+    </Footprint>
+    <Cost>
+        <BuildTime>50</BuildTime>
+        <Resources>
+            <wood>100</wood>
+        </Resources>
+    </Cost>
+    <ResourceSupply>
+        <Type>food.rice</Type>
+        <MaxGatherers>5</MaxGatherers>
+        <DiminishingReturns>0.90</DiminishingReturns>
+    </ResourceSupply>
+    <VisualActor>
+        <FoundationActor>structures/plot_field_found.xml</FoundationActor>
+        <Actor>structures/plot_field_rice_terrace.xml</Actor>
+    </VisualActor>
+</Entity>
+
+<!--<Entity parent="template_structure_resource_field">
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Tián</SpecificName>
@@ -8,4 +42,4 @@
   <VisualActor>
     <Actor>structures/plot_field_medit.xml</Actor>
   </VisualActor>
-</Entity>
+</Entity>-->
