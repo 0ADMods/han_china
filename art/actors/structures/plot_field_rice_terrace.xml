@@ -9,7 +9,7 @@
                 <prop actor="structures/plot_field_rice_2x2.xml" attachpoint="waterlevel"/>
                 <prop actor="structures/plot_field_rice_1x1.xml" attachpoint="waterlevel"/>
                 <prop actor="props/structures/rice_8x8.xml" attachpoint="root"/>
-<!--                 <prop actor="props/flora/grass_tropic_field.xml" attachpoint="waterlevel"/> -->
+                <prop actor="props/structures/decals/field_rice_4x4.xml" attachpoint="root"/>
             </props>
             <textures>
                 <texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
