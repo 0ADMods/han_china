@@ -13,15 +13,14 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <GarrisonHolder>
-    <Max>4</Max>
+    <Max>5</Max>
     <BuffHeal>1</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectClassesOnDestroy datatype="tokens">Unit Animal</EjectClassesOnDestroy>
     <List datatype="tokens">Zebu Animal</List>
     <LoadingRange>5</LoadingRange>
   </GarrisonHolder>
   <ProductionQueue>
-<!--    <BatchTimeModifier>0.7</BatchTimeModifier>-->
     <Entities datatype="tokens">
       -gaia/fauna_sheep_trainable
       gaia/fauna_cattle_zebu_trainable
@@ -34,7 +33,7 @@
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <food>1.0</food>
+      <food>0</food>
     </Rates>
   <Interval>2000</Interval>
   </ResourceTrickle>

@@ -22,5 +22,14 @@
       </textures>
     </variant>
   </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="fauna/zebu.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/corral_decal.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
