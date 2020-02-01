@@ -4,6 +4,7 @@
     <Civ>han</Civ>
     <SpecificName>Yōng</SpecificName>
     <History>Few civilizations are as widely recognized for their wall building as the Han Chinese.</History>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <WallSet>
     <Templates>

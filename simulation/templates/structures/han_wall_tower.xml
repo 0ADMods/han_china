@@ -4,10 +4,17 @@
     <Square width="12.5" depth="12.5"/>
     <Height>18.0</Height>
   </Footprint>
+  <Cost>
+    <BuildTime>75</BuildTime>
+    <Resources>
+      <stone>85</stone>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Chéng Lóu</SpecificName>
     <History>(Insert history here)</History>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="9.5" depth="9.5"/>

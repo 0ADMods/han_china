@@ -4,6 +4,12 @@
     <Square width="38.5" depth="9.0"/>
     <Height>9.0</Height>
   </Footprint>
+  <Cost>
+    <BuildTime>40</BuildTime>
+    <Resources>
+      <stone>23</stone>
+    </Resources>
+  </Cost>
   <GarrisonHolder>
     <VisibleGarrisonPoints>
       <Archer1>
@@ -28,6 +34,7 @@
     <SelectionGroupName>structures/han_wallset_stone</SelectionGroupName>
     <SpecificName>Chéng Yuán</SpecificName>
     <History>Few civilizations are as widely recognized for their wall building as the Han Chinese.</History>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Static width="37.0" depth="7.5"/>

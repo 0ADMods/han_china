@@ -4,6 +4,12 @@
     <Square width="38.5" depth="9.0"/>
     <Height>20.0</Height>
   </Footprint>
+  <Cost>
+    <BuildTime>33</BuildTime>
+    <Resources>
+      <stone>55</stone>
+    </Resources>
+  </Cost>
   <GarrisonHolder>
     <Max>3</Max>
     <List datatype="tokens">Ranged+Infantry</List>
@@ -27,6 +33,7 @@
     <Civ>han</Civ>
     <SpecificName>Chéng Mén</SpecificName>
     <History>(Insert history)</History>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
   <Obstruction>
     <Obstructions>
