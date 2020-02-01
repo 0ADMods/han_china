@@ -36,7 +36,7 @@
     <GenericName>GovernmentCenter</GenericName>
     <SpecificName>Government Center</SpecificName>
     <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <Icon>structures/government_center.png</Icon>
   </Identity>
   <Health>

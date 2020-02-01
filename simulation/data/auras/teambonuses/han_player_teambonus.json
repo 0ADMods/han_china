@@ -1,6 +1,6 @@
 {
-	"type": "player",
-	"affects": ["Structure"],
+	"type": "global",
+	"affects": ["Defensive"],
 	"affectedPlayers": ["ExclusiveMutualAlly"],
 	"modifications": [
 		{
