@@ -6,8 +6,8 @@
 	"description": "",
 	"cost": {
 		"food": 0,
-		"wood": 0,
-		"stone": 0,
+		"wood": 100,
+		"stone": 100,
 		"metal": 0
 	},
 	"requirements": {
@@ -22,7 +22,7 @@
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "chinese_engineering_01.png",
-	"researchTime": 90,
+	"researchTime": 40,
 	"tooltip": "All structures -10% build time and -10% cost.",
 	"modifications": [
 		{

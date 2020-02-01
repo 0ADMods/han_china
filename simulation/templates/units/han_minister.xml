@@ -20,7 +20,7 @@
   </Auras>
   <Cost>
     <Population>2</Population>
-    <BuildTime>30</BuildTime>
+    <BuildTime>15</BuildTime>
     <Resources>
       <metal>50</metal>
     </Resources>

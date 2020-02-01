@@ -13,7 +13,7 @@
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
   <GarrisonHolder>
-    <Max>1</Max>
+    <Max>4</Max>
     <BuffHeal>1</BuffHeal>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
@@ -34,7 +34,7 @@
   </ProductionQueue>
   <ResourceTrickle>
     <Rates>
-      <food>0.0</food>
+      <food>1.0</food>
     </Rates>
   <Interval>2000</Interval>
   </ResourceTrickle>
