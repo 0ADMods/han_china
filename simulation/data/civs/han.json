@@ -36,7 +36,7 @@
 				},
 				{
 					"Name": "Wei Qing",
-					"Class": "Cavalry Hero",
+					"Class": "Infantry Hero",
 					"Armament": "Lian Nu",
 					"Emblem": "",
 					"History": "As a general of the Han Dynasty, Wei Qing is best acclaimed for his campaigns against Xiongnu, a series of nomadic tribes residing in northern China during the time period. In addition to his unmatched quality as a leader of men, he was a brilliant marksman and possessed remarkable horsemanship."
@@ -67,7 +67,7 @@
 		{
 			"Name": "Taoism",
 			"History": "The Three Jewels of Taoism: compassion, moderation and humility. These pinnacles will dictate the nature of relations between allies of the Chinese.",
-			"Description": "Trade for all allies is 30% cheaper."
+			"Description": "Allied structures +20% health."
 		}
 	],
 	"Structures": [
@@ -97,6 +97,15 @@
 			"Requirements": "",
 			"Phase": "City",
 			"Special": "Constructs and upgrades all Han siege engines."
+		},
+		{
+			"Name": "Rice field",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Han cultivated rice in the south.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "High yield rice fields"
 		}
 	],
 	"WallSets": [
@@ -169,7 +178,12 @@
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_ranged_b": "units/han_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b"
+		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b",
+		"skirmish/structures/han_wall_short": "structures/han_wall_short",
+		"skirmish/structures/han_wall_medium": "structures/han_wall_medium",
+		"skirmish/structures/han_wall_long": "structures/han_wall_long",
+		"skirmish/structures/han_wall_gate": "structures/han_wall_gate",
+		"skirmish/structures/han_wall_tower": "structures/han_wall_tower"
 	},
 	"SelectableInGameSetup": true
 }

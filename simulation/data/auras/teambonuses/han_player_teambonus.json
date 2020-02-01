@@ -1,0 +1,12 @@
+{
+	"type": "global",
+	"affects": ["Defensive"],
+	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"modifications": [
+		{
+			"value": "Health/Max", "multiply": 1.2
+		}
+	],
+	"auraName": "Taoism",
+	"auraDescription": "Allied structures +20% health."
+}

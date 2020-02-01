@@ -5,6 +5,7 @@
       structures/{civ}_government_center
       structures/{civ}_workshop
       structures/{civ}_stable
+      -structures/wallset_palisade
     </Entities>
   </Builder>
   <Identity>
@@ -13,6 +14,9 @@
     <SpecificName>Cháng Máo Bīng</SpecificName>
     <History>Needs history.</History>
     <Icon>units/han_infantry_spearman.png</Icon>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
   </Identity>
   <Promotion>
     <Entity>units/han_infantry_spearman_a</Entity>

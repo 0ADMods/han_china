@@ -16,6 +16,9 @@
   <Promotion disable=""/>
   <ResourceGatherer>
     <BaseSpeed>0.5</BaseSpeed>
+    <Rates>
+      <food.rice>0.35</food.rice>
+    </Rates>
   </ResourceGatherer>
   <VisualActor>
     <Actor>units/han/infantry_crossbowman_e.xml</Actor>
