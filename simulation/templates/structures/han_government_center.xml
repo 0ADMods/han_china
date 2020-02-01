@@ -23,8 +23,34 @@
   <Auras datatype="tokens">
     structures/loyalty_regen
   </Auras>
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>12.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>72.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>1200</PrepareTime>
+      <RepeatTime>2000</RepeatTime>
+      <Delay>0</Delay>
+      <Projectile>
+        <Speed>75.0</Speed>
+        <Spread>1.5</Spread>
+        <Gravity>9.81</Gravity>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+    </Ranged>
+  </Attack>
   <GarrisonHolder>
-    <Max>5</Max>
+    <Max>9</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
     <List datatype="tokens">Support Minister</List>
@@ -43,6 +69,10 @@
     <Max>3000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
+  <BuildingAI>
+    <DefaultArrowCount>3</DefaultArrowCount>
+    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+  </BuildingAI>
   <Obstruction>
     <Static width="32.0" depth="36.0"/>
   </Obstruction>

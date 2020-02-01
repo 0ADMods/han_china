@@ -13,7 +13,7 @@
 	"requirements": {
 		"all": [
 			{
-				"tech": "phase_town"
+				"tech": "phase_village"
 			},
 			{
 				"civ": "han"
