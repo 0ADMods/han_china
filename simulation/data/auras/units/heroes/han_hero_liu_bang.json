@@ -1,15 +1,16 @@
 {
 	"type": "global",
+	"affectedPlayers": [
+		"Enemy"
+	],
 	"affects": [
 		"Worker"
 	],
 	"modifications": [
-		{
-			"value": "ResourceGatherer/Rates/food/grain",
-			"multiply": 1.2
-		}
+		{ "value": "ResourceGatherer/Rates/food/grain", "multiply": 0.8 },
+		{  "value": "Trader/GainMultiplier", "multiply": 0.85 }
 	],
-	"auraName": "Provincial Hero",
-	"auraDescription": "Farming rate +20% during his lifetime.",
+	"auraName": "Confucian Reforms",
+	"auraDescription": "Enemy farming rate -20% and land traders -15% trade gain during his lifetime.",
 	"overlayIcon": "art/textures/ui/session/auras/farm_bonus.png"
 }

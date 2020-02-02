@@ -20,9 +20,6 @@
         <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
     <ProductionQueue>
-        <Entities datatype="tokens">
-            units/{civ}_cavalry_crossbowman_b
-        </Entities>
         <Technologies datatype="tokens">
             heal_barracks
             speed_cavalry_01
