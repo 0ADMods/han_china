@@ -8,7 +8,7 @@
     </Promotion>
     <Attack>
         <Ranged>
-            <MaxRange>50.0</MaxRange>
+<!--             <MaxRange>50.0</MaxRange> -->
             <Projectile>
                 <Spread>1.4</Spread>
             </Projectile>

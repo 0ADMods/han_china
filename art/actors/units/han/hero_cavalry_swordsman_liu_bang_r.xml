@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant>
+    <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_long_sleeves.dae</mesh>
       <props>
 <!--         <prop actor="props/units/helmets/han_crown_liu_bang_as_helmet.xml" attachpoint="helmet"/> -->

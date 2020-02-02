@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_crossbow">
+<Entity parent="template_unit_infantry_ranged_crossbowman">
   <Builder>
     <Entities datatype="tokens">
       structures/{civ}_government_center
@@ -12,12 +12,18 @@
     <Civ>han</Civ>
 	<SelectionGroupName>units/han_infantry_crossbowman_b</SelectionGroupName>
     <SpecificName>Nǔ Shǒu</SpecificName>
-    <GenericName>Crossbowman</GenericName>
     <Icon>units/han_infantry_crossbowman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/han_infantry_crossbowman_a</Entity>
   </Promotion>
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.rice>0.35</food.rice>
+    </Rates>
+  </ResourceGatherer>
   <VisualActor>
     <Actor>units/han/infantry_crossbowman_b.xml</Actor>
   </VisualActor>

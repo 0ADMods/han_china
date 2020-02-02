@@ -20,9 +20,9 @@
       <metal>100</metal>
     </Resources>
   </Cost>
-  <Auras datatype="tokens">
+<!--  <Auras datatype="tokens">
     structures/loyalty_regen
-  </Auras>
+  </Auras>-->
   <Attack>
     <Ranged>
       <Damage>

@@ -15,6 +15,13 @@
     <History>Needs history.</History>
     <Icon>units/han_infantry_swordsman.png</Icon>
   </Identity>
+  <ResourceGatherer>
+    <MaxDistance>2.0</MaxDistance>
+    <BaseSpeed>1.0</BaseSpeed>
+    <Rates>
+      <food.rice>0.35</food.rice>
+    </Rates>
+  </ResourceGatherer>
   <Promotion>
     <Entity>units/han_infantry_swordsman_a</Entity>
   </Promotion>

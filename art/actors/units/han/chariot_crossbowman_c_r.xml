@@ -2,7 +2,7 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant file="biped/base_crossbowman_chariot_ready.xml">
+        <variant name="Base" frequency="1">
             <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
             <props>
                 <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
@@ -16,8 +16,12 @@
         <variant file="clothes/han/uniform_c_02.xml"/>
     </group>
     <group>
+        <variant file="biped/rider/cavalry/base_crossbowman.xml" name="Crossbowman" frequency="1"/>
+        <variant file="biped/rider/carry_meat.xml"/>
+    </group>
+    <group>
         <variant frequency="1" name="Idle"/>
-        <variant file="biped/attack_ranged_crossbowman_back.xml" name="attack_ranged"/>
+        <variant file="biped/attack_ranged_crossbowman_back.xml"/>
         <variant file="biped/attack_capture.xml"/>
         <variant file="biped/gather_praise.xml"/>
         <variant name="carry_meat"/>

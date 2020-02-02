@@ -18,12 +18,19 @@
     <Promotion>
         <Entity>units/han_infantry_archer_a</Entity>
     </Promotion>
-    <Attack>
+    <ResourceGatherer>
+        <MaxDistance>2.0</MaxDistance>
+        <BaseSpeed>1.0</BaseSpeed>
+        <Rates>
+            <food.rice>0.35</food.rice>
+        </Rates>
+    </ResourceGatherer>
+<!--    <Attack>
         <Ranged>
             <Damage></Damage>
-            <MaxRange>60.0</MaxRange><!-- less in comparison to the crossbowman and other archers-->
+            <MaxRange>60.0</MaxRange>
         </Ranged>
-    </Attack>
+    </Attack>-->
     <Cost>
         <Resources>
             <food>50</food>

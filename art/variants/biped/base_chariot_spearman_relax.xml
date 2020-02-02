@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <variant name="Base" frequency="1">
     <animations>
         <animation file="biped/infantry/spearman/idle_relax.dae" name="Idle" id="idle1" speed="30"/>
