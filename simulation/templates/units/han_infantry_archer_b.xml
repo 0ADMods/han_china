@@ -25,12 +25,6 @@
             <food.rice>0.35</food.rice>
         </Rates>
     </ResourceGatherer>
-<!--    <Attack>
-        <Ranged>
-            <Damage></Damage>
-            <MaxRange>60.0</MaxRange>
-        </Ranged>
-    </Attack>-->
     <Cost>
         <Resources>
             <food>50</food>

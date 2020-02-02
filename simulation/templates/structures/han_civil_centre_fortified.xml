@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/han_civil_centre">
-  <Capturable>
-    <CapturePoints op="mul">1.5</CapturePoints>
-  </Capturable>
-  <GarrisonHolder>
-    <Max op="mul">2</Max>
-  </GarrisonHolder>
-  <Health>
-    <Max op="mul">1.5</Max>
-  </Health>
-  <Identity>
-    <GenericName>Fortified Civic Center</GenericName>
-    <VisibleClasses datatype="tokens">
-	  Defensive
-      FortifedCivilCentre
-	</VisibleClasses>
-    <Classes datatype="tokens">
-	  CivilCentre
-	</Classes>
-    <History></History>
-  </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_infantry_archer
-      units/{civ}_champion_infantry_swordsman
-      -units/{civ}_infantry_spearman_b
-      -units/{civ}_infantry_archer_b
-      -units/{civ}_cavalry_spearman_b
-    </Entities>
-    <Technologies datatype="tokens">
-      han/fortified_civ_center_range
-    </Technologies>
-  </ProductionQueue>
-  <Upgrade disable=""/>
-  <VisualActor>
-    <Actor>structures/han/civil_centre.xml</Actor>
-  </VisualActor>
+    <Capturable>
+        <CapturePoints op="mul">1.5</CapturePoints>
+    </Capturable>
+    <GarrisonHolder>
+        <Max op="mul">2</Max>
+    </GarrisonHolder>
+    <Health>
+        <Max op="mul">1.5</Max>
+    </Health>
+    <Identity>
+        <GenericName>Fortified Civic Center</GenericName>
+        <VisibleClasses datatype="tokens">Defensive FortifedCivilCentre</VisibleClasses>
+        <Classes datatype="tokens">CivilCentre</Classes>
+        <History></History>
+    </Identity>
+    <ProductionQueue>
+        <Entities datatype="tokens">
+            units/{civ}_champion_infantry_archer
+            units/{civ}_champion_infantry_swordsman
+            -units/{civ}_infantry_spearman_b
+            -units/{civ}_infantry_archer_b
+            -units/{civ}_cavalry_spearman_b
+        </Entities>
+        <Technologies datatype="tokens">
+            han/fortified_civ_center_range
+        </Technologies>
+    </ProductionQueue>
+    <Upgrade disable=""/>
+    <VisualActor>
+        <Actor>structures/han/civil_centre.xml</Actor>
+    </VisualActor>
 </Entity>

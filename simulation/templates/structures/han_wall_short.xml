@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
-  <Footprint>
-    <Square width="14.5" depth="9.0"/>
-    <Height>9.0</Height>
-  </Footprint>
-  <Cost>
-    <BuildTime>10</BuildTime>
-    <Resources>
-      <stone>10</stone>
-    </Resources>
-  </Cost>
-  <Identity>
-    <Civ>han</Civ>
-	<SelectionGroupName>structures/han_wallset_stone</SelectionGroupName>
-    <SpecificName>Yōng</SpecificName>
-    <History>Few civilizations are as widely recognized for their wall building as the Han Chinese.</History>
-    <RequiredTechnology>phase_village</RequiredTechnology>
-  </Identity>
-  <Obstruction>
-    <Static width="13.0" depth="7.5"/>
-  </Obstruction>
-  <VisualActor>
-    <Actor>structures/han/wall_short.xml</Actor>
-  </VisualActor>
-  <WallPiece>
-    <Length>13.0</Length>
-  </WallPiece>
+    <Footprint>
+        <Square width="14.5" depth="9.0"/>
+        <Height>9.0</Height>
+    </Footprint>
+    <Cost>
+        <BuildTime>10</BuildTime>
+        <Resources>
+            <stone>10</stone>
+        </Resources>
+    </Cost>
+    <Identity>
+        <Civ>han</Civ>
+        <SelectionGroupName>structures/han_wallset_stone</SelectionGroupName>
+        <SpecificName>Yōng</SpecificName>
+        <History>Few civilizations are as widely recognized for their wall building as the Han Chinese.</History>
+        <RequiredTechnology>phase_village</RequiredTechnology>
+    </Identity>
+    <Obstruction>
+        <Static width="13.0" depth="7.5"/>
+    </Obstruction>
+    <VisualActor>
+        <Actor>structures/han/wall_short.xml</Actor>
+    </VisualActor>
+    <WallPiece>
+        <Length>13.0</Length>
+    </WallPiece>
 </Entity>

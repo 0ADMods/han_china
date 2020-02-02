@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged">
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Hack>0</Hack>
-        <Pierce>7.0</Pierce>
-        <Crush>0</Crush>
-      </Damage>
-      <MaxRange>82.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PrepareTime>900</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
-      <Projectile>
-        <Speed>150.0</Speed>
-        <Gravity>39.81</Gravity>
-        <Spread>2.0</Spread>
-      </Projectile>
-    </Ranged>
-  </Attack>
-  <Identity>
-    <Classes datatype="tokens">Crossbowman</Classes>
-    <GenericName>Crossbowman</GenericName>
-    <SpecificName>?</SpecificName>
-    <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
-    <RequiredTechnology>phase_town</RequiredTechnology>
-  </Identity>
-  <Cost>
-    <BuildTime>15</BuildTime>
-    <Resources>
-      <food>90</food>
-      <wood>70</wood>
-      <metal>20</metal>
-    </Resources>
-  </Cost>
-  <Loot>
-    <wood>20</wood>
-    <metal>4</metal>
-  </Loot>
-  <Identity>
-    <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
-    <GenericName>Cavalry Crossbowman</GenericName>
-  </Identity>
+    <Attack>
+        <Ranged>
+            <Damage>
+                <Hack>0</Hack>
+                <Pierce>7.0</Pierce>
+                <Crush>0</Crush>
+            </Damage>
+            <MaxRange>82.0</MaxRange>
+            <MinRange>0.0</MinRange>
+            <PrepareTime>900</PrepareTime>
+            <RepeatTime>3000</RepeatTime>
+            <Projectile>
+                <Speed>150.0</Speed>
+                <Gravity>39.81</Gravity>
+                <Spread>2.0</Spread>
+            </Projectile>
+        </Ranged>
+    </Attack>
+    <Identity>
+        <Classes datatype="tokens">Crossbowman</Classes>
+        <GenericName>Crossbowman</GenericName>
+        <SpecificName>?</SpecificName>
+        <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
+        <RequiredTechnology>phase_town</RequiredTechnology>
+    </Identity>
+    <Cost>
+        <BuildTime>15</BuildTime>
+        <Resources>
+            <food>90</food>
+            <wood>70</wood>
+            <metal>20</metal>
+        </Resources>
+    </Cost>
+    <Loot>
+        <wood>20</wood>
+        <metal>4</metal>
+    </Loot>
+    <Identity>
+        <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
+        <GenericName>Cavalry Crossbowman</GenericName>
+    </Identity>
 </Entity>

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero_cavalry">
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Hack>0</Hack>
-        <Pierce>40</Pierce>
-        <Crush>0</Crush>
-      </Damage>
-      <MaxRange>90.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
-      <Projectile>
-        <Speed>150.0</Speed>
-        <Spread>0.5</Spread>
-        <Gravity>39.81</Gravity>
-        <LaunchPoint y="3"/>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-    </Ranged>
-  </Attack>
-  <Identity>
-    <VisibleClasses datatype="tokens">Ranged Crossbowman</VisibleClasses>
-    <GenericName>Hero Cavalry Crossbowman</GenericName>
-    <Formations datatype="tokens">
-      special/formations/skirmish
-    </Formations>
-  </Identity>
+    <Attack>
+        <Ranged>
+            <Damage>
+                <Hack>0</Hack>
+                <Pierce>40</Pierce>
+                <Crush>0</Crush>
+            </Damage>
+            <MaxRange>90.0</MaxRange>
+            <MinRange>0.0</MinRange>
+            <PrepareTime>1200</PrepareTime>
+            <RepeatTime>2000</RepeatTime>
+            <Delay>0</Delay>
+            <Projectile>
+                <Speed>150.0</Speed>
+                <Spread>0.5</Spread>
+                <Gravity>39.81</Gravity>
+                <LaunchPoint y="3"/>
+            </Projectile>
+            <PreferredClasses datatype="tokens">Human</PreferredClasses>
+        </Ranged>
+    </Attack>
+    <Identity>
+        <VisibleClasses datatype="tokens">Ranged Crossbowman</VisibleClasses>
+        <GenericName>Hero Cavalry Crossbowman</GenericName>
+        <Formations datatype="tokens">
+            special/formations/skirmish
+        </Formations>
+    </Identity>
 </Entity>

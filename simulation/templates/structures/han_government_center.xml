@@ -1,115 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic">
-  <Footprint>
-    <Square width="36.0" depth="40.0"/>
-    <Height>8.0</Height>
-  </Footprint>
-  <BuildRestrictions>
-    <Category>UniqueBuilding</Category>
-  </BuildRestrictions>
-  <Capturable>
-    <CapturePoints>3000</CapturePoints>
-  </Capturable>
-  <Cost>
-    <PopulationBonus>50</PopulationBonus>
-    <BuildTime>400</BuildTime>
-    <Resources>
-      <food>0</food>
-      <wood>200</wood>
-      <stone>250</stone>
-      <metal>100</metal>
-    </Resources>
-  </Cost>
-<!--  <Auras datatype="tokens">
-    structures/loyalty_regen
-  </Auras>-->
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Hack>0.0</Hack>
-        <Pierce>12.0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>72.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
-      <Projectile>
-        <Speed>75.0</Speed>
-        <Spread>1.5</Spread>
-        <Gravity>9.81</Gravity>
-        <LaunchPoint y="3"/>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <RangeOverlay>
-        <LineTexture>outline_border.png</LineTexture>
-        <LineTextureMask>outline_border_mask.png</LineTextureMask>
-        <LineThickness>0.175</LineThickness>
-      </RangeOverlay>
-    </Ranged>
-  </Attack>
-  <GarrisonHolder>
-    <Max>9</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Minister</List>
-    <BuffHeal>1</BuffHeal>
-    <LoadingRange>1</LoadingRange>
-  </GarrisonHolder>
-  <Identity>
-    <Civ>han</Civ>
-    <GenericName>GovernmentCenter</GenericName>
-    <SpecificName>Government Center</SpecificName>
-    <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
-    <RequiredTechnology>phase_village</RequiredTechnology>
-    <Icon>structures/government_center.png</Icon>
-  </Identity>
-  <Health>
-    <Max>3000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
-  <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
-    <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
-  </BuildingAI>
-  <Obstruction>
-    <Static width="32.0" depth="36.0"/>
-  </Obstruction>
-  <Loot>
-    <xp>200</xp>
-    <food>0</food>
-    <wood>50</wood>
-    <stone>50</stone>
-    <metal>50</metal>
-  </Loot>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/han_minister
-    </Entities>
-    <Technologies datatype="tokens">
-      han/civil_service_01
-      han/civil_service_02
-      han/civil_service_03
-      han/civil_engineering_01
-      han/civil_engineering_02
-      han/civil_engineering_03
-      unlock_spies
-      spy_counter
-      han/art_of_war
-    </Technologies>
-  </ProductionQueue>
-  <Vision>
-    <Range>90</Range>
-  </Vision>
-  <TerritoryInfluence>
-    <Root>true</Root>
-    <Radius>70</Radius>
-    <Weight>30000</Weight>
-  </TerritoryInfluence>
-  <VisualActor>
-  	<FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/han/government_center.xml</Actor>
-  </VisualActor>
+    <Footprint>
+        <Square width="36.0" depth="40.0"/>
+        <Height>8.0</Height>
+    </Footprint>
+    <BuildRestrictions>
+        <Category>UniqueBuilding</Category>
+    </BuildRestrictions>
+    <Capturable>
+        <CapturePoints>3000</CapturePoints>
+    </Capturable>
+    <Cost>
+        <PopulationBonus>50</PopulationBonus>
+        <BuildTime>400</BuildTime>
+        <Resources>
+            <food>0</food>
+            <wood>200</wood>
+            <stone>250</stone>
+            <metal>100</metal>
+        </Resources>
+    </Cost>
+    <!--  <Auras datatype="tokens">
+        structures/loyalty_regen
+    </Auras>-->
+    <Attack>
+        <Ranged>
+            <Damage>
+                <Hack>0.0</Hack>
+                <Pierce>12.0</Pierce>
+                <Crush>0.0</Crush>
+            </Damage>
+            <MaxRange>72.0</MaxRange>
+            <MinRange>0.0</MinRange>
+            <PrepareTime>1200</PrepareTime>
+            <RepeatTime>2000</RepeatTime>
+            <Delay>0</Delay>
+            <Projectile>
+                <Speed>75.0</Speed>
+                <Spread>1.5</Spread>
+                <Gravity>9.81</Gravity>
+                <LaunchPoint y="3"/>
+            </Projectile>
+            <PreferredClasses datatype="tokens">Human</PreferredClasses>
+            <RangeOverlay>
+                <LineTexture>outline_border.png</LineTexture>
+                <LineTextureMask>outline_border_mask.png</LineTextureMask>
+                <LineThickness>0.175</LineThickness>
+            </RangeOverlay>
+        </Ranged>
+    </Attack>
+    <GarrisonHolder>
+        <Max>9</Max>
+        <EjectHealth>0</EjectHealth>
+        <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+        <List datatype="tokens">Support Minister</List>
+        <BuffHeal>1</BuffHeal>
+        <LoadingRange>1</LoadingRange>
+    </GarrisonHolder>
+    <Identity>
+        <Civ>han</Civ>
+        <GenericName>GovernmentCenter</GenericName>
+        <SpecificName>Government Center</SpecificName>
+        <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
+        <RequiredTechnology>phase_village</RequiredTechnology>
+        <Icon>structures/government_center.png</Icon>
+    </Identity>
+    <Health>
+        <Max>3000</Max>
+        <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+    </Health>
+    <BuildingAI>
+        <DefaultArrowCount>3</DefaultArrowCount>
+        <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
+    </BuildingAI>
+    <Obstruction>
+        <Static width="32.0" depth="36.0"/>
+    </Obstruction>
+    <Loot>
+        <xp>200</xp>
+        <food>0</food>
+        <wood>50</wood>
+        <stone>50</stone>
+        <metal>50</metal>
+    </Loot>
+    <ProductionQueue>
+        <BatchTimeModifier>0.8</BatchTimeModifier>
+        <Entities datatype="tokens">
+            units/han_minister
+        </Entities>
+        <Technologies datatype="tokens">
+            han/civil_service_01
+            han/civil_service_02
+            han/civil_service_03
+            han/civil_engineering_01
+            han/civil_engineering_02
+            han/civil_engineering_03
+            unlock_spies
+            spy_counter
+            han/art_of_war
+        </Technologies>
+    </ProductionQueue>
+    <Vision>
+        <Range>90</Range>
+    </Vision>
+    <TerritoryInfluence>
+        <Root>true</Root>
+        <Radius>70</Radius>
+        <Weight>30000</Weight>
+    </TerritoryInfluence>
+    <VisualActor>
+        <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+        <Actor>structures/han/government_center.xml</Actor>
+    </VisualActor>
 </Entity>

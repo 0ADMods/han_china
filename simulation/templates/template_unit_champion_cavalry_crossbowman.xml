@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry">
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Hack>0</Hack>
-        <Pierce>14.0</Pierce>
-        <Crush>0</Crush>
-      </Damage>
-      <MaxRange>86.0</MaxRange>
-      <MinRange>0.0</MinRange>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-      <Delay>0</Delay>
-      <Projectile>
-        <Speed>150.0</Speed>
-        <Spread>1.0</Spread>
-        <Gravity>39.81</Gravity>
-        <LaunchPoint y="3"/>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-    </Ranged>
-  </Attack>
-  <Cost>
-    <Resources>
-      <wood>100</wood>
-    </Resources>
-  </Cost>
-  <Identity>
-    <VisibleClasses datatype="tokens">Ranged Crossbowman</VisibleClasses>
-    <GenericName>Champion Cavalry Crossbowman</GenericName>
-    <Formations datatype="tokens">
-      special/formations/skirmish
-    </Formations>
-  </Identity>
-  <Sound>
-    <SoundGroups>
-      <death>actor/fauna/death/death_horse.xml</death>
-    </SoundGroups>
-  </Sound>
+    <Attack>
+        <Ranged>
+            <Damage>
+                <Hack>0</Hack>
+                <Pierce>14.0</Pierce>
+                <Crush>0</Crush>
+            </Damage>
+            <MaxRange>86.0</MaxRange>
+            <MinRange>0.0</MinRange>
+            <PrepareTime>500</PrepareTime>
+            <RepeatTime>1000</RepeatTime>
+            <Delay>0</Delay>
+            <Projectile>
+                <Speed>150.0</Speed>
+                <Spread>1.0</Spread>
+                <Gravity>39.81</Gravity>
+                <LaunchPoint y="3"/>
+            </Projectile>
+            <PreferredClasses datatype="tokens">Human</PreferredClasses>
+        </Ranged>
+    </Attack>
+    <Cost>
+        <Resources>
+            <wood>100</wood>
+        </Resources>
+    </Cost>
+    <Identity>
+        <VisibleClasses datatype="tokens">Ranged Crossbowman</VisibleClasses>
+        <GenericName>Champion Cavalry Crossbowman</GenericName>
+        <Formations datatype="tokens">
+            special/formations/skirmish
+        </Formations>
+    </Identity>
+    <Sound>
+        <SoundGroups>
+        <death>actor/fauna/death/death_horse.xml</death>
+        </SoundGroups>
+    </Sound>
 </Entity>

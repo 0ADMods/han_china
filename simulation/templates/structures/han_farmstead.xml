@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
-  <Footprint>
-    <Square width="18.0" depth="18.0"/>
-    <Height>5.0</Height>
-  </Footprint>
-  <GarrisonHolder>
-    <BuffHeal>0</BuffHeal>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Minister</List>
-    <LoadingRange>1</LoadingRange>
-    <Max>1</Max>
-  </GarrisonHolder>
-  <Identity>
-    <Civ>han</Civ>
-    <SpecificName>Cāng</SpecificName>
-  </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Technologies datatype="tokens">
-      gather_wicker_baskets
-      han/gather_seed_drill
-      han/gather_water_weeding
-      han/gather_chain_pump
-      -gather_farming_plows
-      -gather_farming_training
-      -gather_farming_fertilizer
-    </Technologies>
-  </ProductionQueue>
-  <Obstruction>
-    <Static width="16.0" depth="16.0"/>
-  </Obstruction>
-  <VisualActor>
-    <Actor>structures/han/farmstead.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
-  </VisualActor>
+    <Footprint>
+        <Square width="18.0" depth="18.0"/>
+        <Height>5.0</Height>
+    </Footprint>
+    <GarrisonHolder>
+        <BuffHeal>0</BuffHeal>
+        <EjectHealth>0.1</EjectHealth>
+        <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+        <List datatype="tokens">Minister</List>
+        <LoadingRange>1</LoadingRange>
+        <Max>1</Max>
+    </GarrisonHolder>
+    <Identity>
+        <Civ>han</Civ>
+        <SpecificName>Cāng</SpecificName>
+    </Identity>
+    <ProductionQueue>
+        <BatchTimeModifier>0.7</BatchTimeModifier>
+        <Technologies datatype="tokens">
+            gather_wicker_baskets
+            han/gather_seed_drill
+            han/gather_water_weeding
+            han/gather_chain_pump
+            -gather_farming_plows
+            -gather_farming_training
+            -gather_farming_fertilizer
+        </Technologies>
+    </ProductionQueue>
+    <Obstruction>
+        <Static width="16.0" depth="16.0"/>
+    </Obstruction>
+    <VisualActor>
+        <Actor>structures/han/farmstead.xml</Actor>
+        <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    </VisualActor>
 </Entity>

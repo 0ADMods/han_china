@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower_stone">
-  <GarrisonHolder>
-    <!--<VisibleGarrisonPoints>
-      <Archer1>
-        <X>0</X><Y>16</Y><Z>0</Z>
-      </Archer1>
-    </VisibleGarrisonPoints>-->
-    <List datatype="tokens">Support Infantry Minister</List>
-  </GarrisonHolder>
-  <Footprint>
-    <Square width="10.0" depth="10.5"/>
-    <Height>15.0</Height>
-  </Footprint>
-  <Identity>
-    <Civ>han</Civ>
-    <SpecificName>Dū</SpecificName>
-    <History>Towers were an important part of city fortifications. The defending troops shot arrows at the enemy and poured boiling oil over the assailants.</History>
-  </Identity>
-  <Obstruction>
-    <Static width="7.0" depth="8.0"/>
-  </Obstruction>
-  <StatusBars>
-    <BarWidth>6.0</BarWidth>
-    <BarHeight>0.6</BarHeight>
-    <HeightOffset>22.0</HeightOffset>
-  </StatusBars>
-  <VisualActor>
-    <Actor>structures/han/tower.xml</Actor>
-  </VisualActor>
-  <Upgrade>
-<!--    <Tower1>
-      <Entity>structures/{civ}_tower_artillery</Entity>
-      <Tooltip>Reinforce with stone block, and install small stone throwers to upgrade this defense tower into a slow, area of effect, and siege resistant artillery tower.</Tooltip>
-      <RequiredTechnology>phase_city</RequiredTechnology>
-      <Cost>
-        <wood>150</wood>
-        <stone>100</stone>
-      </Cost>
-      <Time>200</Time>
-      <Variant>upgrading</Variant>
-    </Tower1>-->
-    <Tower2>
-      <Entity>structures/{civ}_tower_bolt</Entity>
-      <Tooltip>Reinforce with stone block, and install scorpions to upgrade this defense tower into a prompt, long range, and accurate bolt tower.</Tooltip>
-      <RequiredTechnology>phase_city</RequiredTechnology>
-      <Cost>
-        <metal>100</metal>
-        <stone>100</stone>
-      </Cost>
-      <Time>200</Time>
-      <Variant>upgrading</Variant>
-    </Tower2>
-  </Upgrade>
+    <GarrisonHolder>
+        <!--<VisibleGarrisonPoints>
+        <Archer1>
+            <X>0</X><Y>16</Y><Z>0</Z>
+        </Archer1>
+        </VisibleGarrisonPoints>-->
+        <List datatype="tokens">Support Infantry Minister</List>
+    </GarrisonHolder>
+    <Footprint>
+        <Square width="10.0" depth="10.5"/>
+        <Height>15.0</Height>
+    </Footprint>
+    <Identity>
+        <Civ>han</Civ>
+        <SpecificName>Dū</SpecificName>
+        <History>Towers were an important part of city fortifications. The defending troops shot arrows at the enemy and poured boiling oil over the assailants.</History>
+    </Identity>
+    <Obstruction>
+        <Static width="7.0" depth="8.0"/>
+    </Obstruction>
+    <StatusBars>
+        <BarWidth>6.0</BarWidth>
+        <BarHeight>0.6</BarHeight>
+        <HeightOffset>22.0</HeightOffset>
+    </StatusBars>
+    <VisualActor>
+        <Actor>structures/han/tower.xml</Actor>
+    </VisualActor>
+    <Upgrade>
+    <!--    <Tower1>
+        <Entity>structures/{civ}_tower_artillery</Entity>
+        <Tooltip>Reinforce with stone block, and install small stone throwers to upgrade this defense tower into a slow, area of effect, and siege resistant artillery tower.</Tooltip>
+        <RequiredTechnology>phase_city</RequiredTechnology>
+        <Cost>
+            <wood>150</wood>
+            <stone>100</stone>
+        </Cost>
+        <Time>200</Time>
+        <Variant>upgrading</Variant>
+        </Tower1>-->
+        <Tower2>
+            <Entity>structures/{civ}_tower_bolt</Entity>
+            <Tooltip>Reinforce with stone block, and install scorpions to upgrade this defense tower into a prompt, long range, and accurate bolt tower.</Tooltip>
+            <RequiredTechnology>phase_city</RequiredTechnology>
+            <Cost>
+                <metal>100</metal>
+                <stone>100</stone>
+            </Cost>
+            <Time>200</Time>
+            <Variant>upgrading</Variant>
+        </Tower2>
+    </Upgrade>
 </Entity>
