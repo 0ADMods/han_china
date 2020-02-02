@@ -11,6 +11,6 @@
         <Icon>units/han_wei_qing.png</Icon>
     </Identity>
     <VisualActor>
-        <Actor>units/han/hero_wei_qing.xml</Actor>
+        <Actor>units/han/hero_infantry_wei_qing.xml</Actor>
     </VisualActor>
 </Entity>

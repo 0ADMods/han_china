@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_hero_infantry_swordsman">
+<Entity parent="template_unit_hero_cavalry_swordsman">
   <Auras datatype="tokens">
     units/heroes/han_hero_liu_bang
   </Auras>
@@ -12,6 +12,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/han/hero_infantry_liu_bang.xml</Actor>
+    <Actor>units/han/hero_cavalry_swordsman_liu_bang_m.xml</Actor>
   </VisualActor>
 </Entity>
