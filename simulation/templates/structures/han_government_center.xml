@@ -12,7 +12,7 @@
     </Capturable>
     <Cost>
         <PopulationBonus>50</PopulationBonus>
-        <BuildTime>400</BuildTime>
+        <BuildTime>200</BuildTime>
         <Resources>
             <food>0</food>
             <wood>200</wood>

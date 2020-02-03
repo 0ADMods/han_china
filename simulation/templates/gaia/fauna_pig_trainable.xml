@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="gaia/fauna_cattle_zebu">
+<Entity parent="gaia/fauna_pig">
   <Cost>
-    <BuildTime>53</BuildTime>
+    <BuildTime>35</BuildTime>
     <Resources>
-      <food>75</food>
+      <food>50</food>
     </Resources>
   </Cost>
   <Auras datatype="tokens">
     units/han_animal_garrison
   </Auras>
-  <ResourceSupply>
-    <Amount>150</Amount>
-  </ResourceSupply>
   <Visibility>
     <RetainInFog>false</RetainInFog>
   </Visibility>

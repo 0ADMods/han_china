@@ -16,8 +16,6 @@
         <Icon>units/han_infantry_swordsman.png</Icon>
     </Identity>
     <ResourceGatherer>
-        <MaxDistance>2.0</MaxDistance>
-        <BaseSpeed>1.0</BaseSpeed>
         <Rates>
             <food.rice>0.35</food.rice>
         </Rates>

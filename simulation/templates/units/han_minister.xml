@@ -22,11 +22,11 @@
         <Population>2</Population>
         <BuildTime>15</BuildTime>
         <Resources>
-        <metal>50</metal>
+            <metal>50</metal>
         </Resources>
     </Cost>
     <Health>
-        <Max>300</Max>
+        <Max>150</Max>
     </Health>
     <Identity>
         <Civ>han</Civ>

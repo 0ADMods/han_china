@@ -23,6 +23,7 @@
     <ProductionQueue>
         <Entities datatype="tokens">
             -gaia/fauna_sheep_trainable
+            gaia/fauna_pig_trainable
             gaia/fauna_cattle_zebu_trainable
         </Entities>
         <Technologies datatype="tokens">

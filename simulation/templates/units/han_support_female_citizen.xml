@@ -24,11 +24,9 @@
         <Icon>units/han_support_female_citizen.png</Icon>
     </Identity>
     <ResourceGatherer>
-      <MaxDistance>2.0</MaxDistance>
-      <BaseSpeed>1.0</BaseSpeed>
-      <Rates>
-        <food.rice>0.6</food.rice>
-      </Rates>
+        <Rates>
+            <food.rice>0.6</food.rice>
+        </Rates>
     </ResourceGatherer>
     <Promotion disable=""/>
     <VisualActor>
