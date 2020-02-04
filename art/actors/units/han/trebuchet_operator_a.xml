@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="100" name="Onager operator">
+        <variant frequency="100" name="Trebuchet operator">
             <animations>
-                <animation file="biped/infantry/siege_operators/onager_idle_c.dae" name="Idle" speed="100"/>
-                <animation event="0.145" file="biped/infantry/siege_operators/onager_attack_c.dae" load="0.05" name="attack_ranged" speed="100"/>
+                <animation file="biped/han_trebuchet_operator_idle_3.dae" name="Idle" speed="100"/>
             </animations>
             <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
@@ -21,6 +20,7 @@
     <group>
         <variant frequency="1" name="Idle"/>
         <variant file="biped/death_infantry.xml"/>
+        <variant file="biped/attack_ranged_traction_trebuchet.xml" name="attack_ranged"/>
     </group>
     <material>player_trans.xml</material>
 </actor>

@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="100" name="Onager operator">
-            <animations>
-                <animation file="biped/infantry/siege_operators/onager_idle_a.dae" name="Idle" speed="100"/>
-                <animation event="0.145" file="biped/infantry/siege_operators/onager_attack_a.dae" load="0.05" name="attack_ranged" speed="100"/>
-            </animations>
+        <variant frequency="100" name="Trebuchet operator">
             <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
                 <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>

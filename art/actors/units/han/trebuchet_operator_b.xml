@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="100" name="Onager operator">
+        <variant frequency="100" name="Trebuchet operator">
             <animations>
-                <animation file="biped/infantry/siege_operators/onager_idle_b.dae" name="Idle" speed="100"/>
-                <animation event="0.145" file="biped/infantry/siege_operators/onager_attack_b.dae" load="0.05" name="attack_ranged" speed="100"/>
+                <animation file="biped/han_trebuchet_operator_idle_2.dae" name="Idle" speed="100"/>
+                <animation event="0.11" file="biped/han_traction_trebuchet_operator_attack_1.dae" name="attack_ranged" speed="80"/>
             </animations>
             <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
                 <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-                <prop actor="props/units/helmets/han_heavy_helmet_b.xml" attachpoint="helmet"/>
-                <prop actor="props/units/weapons/sheath/han_jian_sheath_left_b.xml" attachpoint="sheath_L"/>
+                <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
+                <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>
             </props>
         </variant>
     </group>
