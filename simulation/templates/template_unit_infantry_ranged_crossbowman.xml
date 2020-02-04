@@ -25,6 +25,7 @@
     <Identity>
         <Classes datatype="tokens">Crossbowman</Classes>
         <GenericName>Crossbowman</GenericName>
+        <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
         <History>The crossbow occurred as early as 600BC or earlier in Asia and other places around the world, featuring bronze arrows.</History>
         <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
@@ -35,10 +36,6 @@
             <metal>10</metal>
         </Resources>
     </Cost>
-    <Identity>
-        <VisibleClasses datatype="tokens">Crossbowman</VisibleClasses>
-        <GenericName>Crossbowman</GenericName>
-    </Identity>
     <Loot>
         <wood>20</wood>
     </Loot>
