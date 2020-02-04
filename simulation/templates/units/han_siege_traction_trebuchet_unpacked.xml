@@ -3,7 +3,7 @@
     <Attack>
         <Ranged>
             <MaxRange>85</MaxRange>
-            <MinRange>45.0</MinRange>
+            <MinRange>35.0</MinRange>
             <Projectile>
                     <Speed>75.5</Speed>
                     <Gravity>9.81</Gravity>

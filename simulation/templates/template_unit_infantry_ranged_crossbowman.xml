@@ -3,6 +3,7 @@
     <Armour>
         <Hack>2</Hack>
         <Pierce>2</Pierce>
+        <Crush>12</Crush>
     </Armour>
     <Attack>
         <Ranged>
@@ -31,8 +32,8 @@
     </Identity>
     <Cost>
         <Resources>
-            <food>30</food>
-            <wood>70</wood>
+            <food>40</food>
+            <wood>60</wood>
             <metal>10</metal>
         </Resources>
     </Cost>
@@ -40,6 +41,6 @@
         <wood>20</wood>
     </Loot>
     <UnitMotion>
-        <WalkSpeed op="mul">1.1</WalkSpeed>
+        <WalkSpeed op="mul">1.08</WalkSpeed>
     </UnitMotion>
 </Entity>

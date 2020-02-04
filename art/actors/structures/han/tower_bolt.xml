@@ -6,17 +6,17 @@
       <animations>
         <animation event="0.5" load="0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/maur_tower_double_a.dae</mesh>
-      <props>
+      <mesh>structural/han_artillery_tower.dae</mesh>
+<!--      <props>
         <prop actor="props/structures/mauryas/tower_double_b.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/bolt_tower.xml" attachpoint="projectile"/>
-      </props>
+      </props>-->
       <textures>
         <texture file="structural/han_struct2.png" name="baseTex"/>
         <texture file="structural/han_struct2_norm.png" name="normTex"/>
         <texture file="structural/han_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/maur_tower_double_AO.png" name="aoTex"/>
+        <texture file="structural/ao/han_tower_a_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

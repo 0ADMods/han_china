@@ -23,7 +23,9 @@
     </Attack>
     <Cost>
         <Resources>
-            <wood>100</wood>
+            <food>80</food>
+            <wood>90</wood>
+            <metal>30</metal>
         </Resources>
     </Cost>
     <Health>
