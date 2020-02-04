@@ -10,7 +10,7 @@
         <BatchTimeModifier>0.7</BatchTimeModifier>
         <Entities datatype="tokens">
             units/{civ}_siege_shoushe
-            units/{civ}_siege_onager_packed
+            units/{civ}_siege_traction_trebuchet_packed
         </Entities>
         <Technologies datatype="tokens">
             siege_attack

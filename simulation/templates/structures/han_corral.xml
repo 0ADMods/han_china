@@ -23,7 +23,6 @@
     <ProductionQueue>
         <Entities datatype="tokens">
             -gaia/fauna_sheep_trainable
-            gaia/fauna_pig_trainable
             gaia/fauna_cattle_zebu_trainable
         </Entities>
         <Technologies datatype="tokens">
@@ -36,7 +35,7 @@
         <Rates>
             <food>0</food>
         </Rates>
-    <Interval>2000</Interval>
+        <Interval>2000</Interval>
     </ResourceTrickle>
     <VisualActor>
         <Actor>structures/han/corral.xml</Actor>

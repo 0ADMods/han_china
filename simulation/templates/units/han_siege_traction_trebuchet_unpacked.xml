@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+    <Attack>
+        <Ranged>
+            <MaxRange>85</MaxRange>
+            <MinRange>45.0</MinRange>
+            <Projectile>
+                    <Speed>75.5</Speed>
+                    <Gravity>9.81</Gravity>
+            </Projectile>
+            <PrepareTime>5650</PrepareTime>
+            <RepeatTime>7000</RepeatTime>
+            <Splash>
+                <Shape>Circular</Shape>
+                <Range>10</Range>
+                <FriendlyFire>false</FriendlyFire>
+                <Damage>
+                    <Hack>40.0</Hack>
+                    <Pierce>0.0</Pierce>
+                    <Crush>40.0</Crush>
+                </Damage>
+            </Splash>
+        </Ranged>
+    </Attack>
+    <Cost>
+        <Resources>
+            <wood>300</wood>
+            <metal>200</metal>
+            <stone>100</stone>
+        </Resources>
+    </Cost>
+    <Footprint replace="">
+        <Square width="11.0" depth="20.0"/>
+        <Height>8.0</Height>
+    </Footprint>
+    <Identity>
+        <Civ>han</Civ>
+        <SpecificName>Trebuchet</SpecificName>
+        <Icon>units/rome_siege_onager.png</Icon>
+    </Identity>
+    <Pack>
+        <Entity>units/han_siege_traction_trebuchet_packed</Entity>
+        <State>unpacked</State>
+    </Pack>
+    <UnitMotion>
+        <WalkSpeed>0.001</WalkSpeed>
+<!--         <RunMultiplier>0.001</RunMultiplier> -->
+    </UnitMotion>
+    <Vision>
+        <Range>88</Range>
+    </Vision>
+    <VisualActor>
+        <Actor>units/han/siege_traction_trebuchet.xml</Actor>
+    </VisualActor>
+</Entity>

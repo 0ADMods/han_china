@@ -7,7 +7,7 @@
                 <Pierce>9.0</Pierce>
                 <Crush>0</Crush>
             </Damage>
-            <MaxRange>82.0</MaxRange>
+            <MaxRange>80.0</MaxRange>
             <MinRange>0.0</MinRange>
             <PrepareTime>900</PrepareTime>
             <RepeatTime>3000</RepeatTime>
