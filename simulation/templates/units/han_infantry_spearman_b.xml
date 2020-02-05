@@ -5,6 +5,7 @@
             structures/{civ}_government_center
             structures/{civ}_workshop
             structures/{civ}_stable
+            structures/{civ}_tower_bolt
             -structures/wallset_palisade
         </Entities>
     </Builder>

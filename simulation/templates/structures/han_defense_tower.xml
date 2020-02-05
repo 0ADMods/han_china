@@ -39,6 +39,6 @@
             </Cost>
             <Time>200</Time>
             <Variant>upgrading</Variant>
-        </Tower2>
+        </Tower1>
     </Upgrade>
 </Entity>
