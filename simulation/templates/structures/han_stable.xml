@@ -17,13 +17,13 @@
         <Civ>han</Civ>
         <Icon>structures/pers_stable.png</Icon>
         <SpecificName>Jūn Yíng</SpecificName>
+        <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
     <ProductionQueue>
-        <Entities datatype="tokens">
-            units/{civ}_cavalry_crossbowman_b
-        </Entities>
         <Technologies datatype="tokens">
             heal_barracks
+            speed_cavalry_01
+            speed_cavalry_02
             han/training_conscription_cavalry
         </Technologies>
     </ProductionQueue>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_crossbowman">
+    <Auras datatype="tokens">
+        units/han_chariot_trample
+        units/heroes/han_hero_wei_qing
+    </Auras>
+    <Footprint replace="">
+        <Square width="10.0" depth="10.0"/>
+        <Height>5.0</Height>
+    </Footprint>
+    <Identity>
+        <Civ>han</Civ>
+        <SelectionGroupName>units/han_hero_chariot</SelectionGroupName>
+        <VisibleClasses datatype="tokens">Chariot Trample</VisibleClasses>
+        <SpecificName>Wei Qing</SpecificName>
+        <History>Wei Qing was a famous Western Han military general acclaimed for his campaigns against the Xiongnu, and his rags to riches life.</History>
+        <Icon>units/han_champion_chariot.png</Icon>
+        <Tooltip>Fast Speed, Heavy Armor, Harassment, Trample, Heavy Charge.</Tooltip>
+    </Identity>
+    <VisualActor>
+        <Actor>units/han/hero_chariot_crossbowman_wei_qing_m.xml</Actor>
+    </VisualActor>
+</Entity>

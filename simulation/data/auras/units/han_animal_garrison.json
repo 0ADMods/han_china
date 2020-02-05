@@ -1,0 +1,10 @@
+{
+    "type": "garrison",
+    "affects": ["Corral"],
+    "modifications": [
+        { "value": "ResourceTrickle/Rates/food", "add": 1.0 }
+    ],
+    "auraName": "Food trickle",
+    "auraDescription": "When garrisoned, the corral has a +1 food tickle.",
+    "stackable": true
+}

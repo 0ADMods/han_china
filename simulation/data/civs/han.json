@@ -30,7 +30,7 @@
 				{
 					"Name": "Liu Bang (Han Guazo)",
 					"Class": "Cavalry Hero",
-					"Armament": "Bronze Jian",
+					"Armament": "Jian",
 					"Emblem": "",
 					"History": "Liu Bang was a peasant who joined a rebellion force to topple the Qin dynasty and due to the other leaders becoming overcontent and falling in battle, proceeded to become one of the rebellion leaders. Liu was no military genious but did know how do make use of good advisors and should become the first Emperor of the Han dynasty of unified China. During his reign he had to make up for the long period of wars and lowered taxes and encouraged agricultural growth to make the in the mountains and swamps hiding people return to their homeplace where they are registered for taxation. Wearing of silk clothes and the use of carts for travel was forbidden to traders to make all people take part in the rebuild of the economy. He made peace with the Xiongnu through marriage after he was decisively beaten and hopelessly encircled. As Liu Bang was of common origin and of few aristocratic knowledge, he followed his idiom that he had 'conquered the world on horseback and will also govern it from horseback', much to the outcry of some of his advisors."
 				},
@@ -67,7 +67,7 @@
 		{
 			"Name": "Taoism",
 			"History": "The Three Jewels of Taoism: compassion, moderation and humility. These pinnacles will dictate the nature of relations between allies of the Chinese.",
-			"Description": "Trade for all allies is 30% cheaper."
+			"Description": "Allied structures +20% health."
 		}
 	],
 	"Structures": [
@@ -97,6 +97,15 @@
 			"Requirements": "",
 			"Phase": "City",
 			"Special": "Constructs and upgrades all Han siege engines."
+		},
+		{
+			"Name": "Rice field",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Han cultivated rice in the south.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "High yield rice fields"
 		}
 	],
 	"WallSets": [
@@ -134,7 +143,8 @@
 		"special/formations/skirmish",
 		"special/formations/wedge",
 		"special/formations/battle_line",
-		"special/formations/phalanx"
+		"special/formations/phalanx",
+		"special/formations/anti_cavalry"
 	],
 	"AINames": [
 		"Liu Bang",
@@ -169,7 +179,12 @@
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_ranged_b": "units/han_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b"
+		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b",
+		"skirmish/structures/han_wall_short": "structures/han_wall_short",
+		"skirmish/structures/han_wall_medium": "structures/han_wall_medium",
+		"skirmish/structures/han_wall_long": "structures/han_wall_long",
+		"skirmish/structures/han_wall_gate": "structures/han_wall_gate",
+		"skirmish/structures/han_wall_tower": "structures/han_wall_tower"
 	},
 	"SelectableInGameSetup": true
 }

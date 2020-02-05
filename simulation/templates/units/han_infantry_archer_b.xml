@@ -5,6 +5,8 @@
             structures/{civ}_government_center
             structures/{civ}_workshop
             structures/{civ}_stable
+            structures/{civ}_tower_bolt
+            -structures/wallset_palisade
         </Entities>
     </Builder>
     <Identity>
@@ -17,12 +19,11 @@
     <Promotion>
         <Entity>units/han_infantry_archer_a</Entity>
     </Promotion>
-    <Attack>
-        <Ranged>
-            <Damage></Damage>
-            <MaxRange>60.0</MaxRange><!-- less in comparison to the crossbowman and other archers-->
-        </Ranged>
-    </Attack>
+    <ResourceGatherer>
+        <Rates>
+            <food.rice>0.35</food.rice>
+        </Rates>
+    </ResourceGatherer>
     <Cost>
         <Resources>
             <food>50</food>

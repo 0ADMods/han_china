@@ -6,7 +6,7 @@
       <animations>
         <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
       </animations>
-      <mesh>structural/rome_wooden_tower.dae</mesh>
+      <mesh>structural/han_outpost.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
@@ -14,10 +14,14 @@
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="structural/han_ship.png" name="baseTex"/>
+<!--        <texture file="structural/han_ship.png" name="baseTex"/>
         <texture file="structural/han_ship_norm.png" name="normTex"/>
         <texture file="structural/han_ship_spec.png" name="specTex"/>
-        <texture file="structural/ao/rome_wooden_tower_AO.png" name="aoTex"/>
+        <texture file="structural/ao/rome_wooden_tower_AO.png" name="aoTex"/>-->
+        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct2_norm.png" name="normTex"/>
+        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/ao/han_outpost_ao.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

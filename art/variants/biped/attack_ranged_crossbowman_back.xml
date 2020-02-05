@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <variant name="attack_ranged">
     <animations>
         <animation file="biped/infantry/crossbowman/attack_ranged_back.dae" event="0.85" load="0.44" name="attack_ranged" speed="110" id="Attack1"/>

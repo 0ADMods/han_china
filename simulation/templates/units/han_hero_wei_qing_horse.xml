@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_crossbowman">
+    <Auras datatype="tokens">
+        units/heroes/han_hero_wei_qing
+    </Auras>
+    <Identity>
+        <Civ>han</Civ>
+        <SpecificName>Wei Qing</SpecificName>
+        <RequiredTechnology>phase_town</RequiredTechnology>
+        <History>Wei Qing was a famous Western Han military general acclaimed for his campaigns against the Xiongnu, and his rags to riches life.</History>
+        <Icon>units/han_wei_qing.png</Icon>
+    </Identity>
+    <VisualActor>
+        <Actor>units/han/hero_cavalry_crossbowman_wei_qing_m.xml</Actor>
+    </VisualActor>
+</Entity>

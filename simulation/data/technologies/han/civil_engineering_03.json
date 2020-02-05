@@ -23,7 +23,7 @@
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "chinese_engineering_03.png",
-	"researchTime": 180,
+	"researchTime": 40,
 	"tooltip": "All structures -20% build time and +20% health.",
 	"modifications": [
 		{
