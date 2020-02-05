@@ -4,8 +4,7 @@
     <group>
         <variant frequency="100" name="Trebuchet operator">
             <animations>
-                <animation file="biped/han_trebuchet_operator_idle_2.dae" name="Idle" speed="100"/>
-                <animation event="0.11" file="biped/han_traction_trebuchet_operator_attack_1.dae" name="attack_ranged" speed="80"/>
+                <animation file="biped/infantry/siege_operators/mangonel_operator_idle_a.dae" name="Idle" speed="100"/>
             </animations>
             <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
@@ -21,6 +20,7 @@
     <group>
         <variant frequency="1" name="Idle"/>
         <variant file="biped/death_infantry.xml"/>
+        <variant file="biped/attack_ranged_mangonel_a.xml" name="attack_ranged"/>
     </group>
     <material>player_trans.xml</material>
 </actor>

@@ -3,7 +3,7 @@
     <Attack>
         <Ranged>
             <MaxRange>85</MaxRange>
-            <MinRange>35.0</MinRange>
+            <MinRange>30.0</MinRange>
             <Projectile>
                     <Speed>75.5</Speed>
                     <Gravity>9.81</Gravity>
@@ -22,34 +22,23 @@
             </Splash>
         </Ranged>
     </Attack>
-    <Cost>
-        <Resources>
-            <wood>300</wood>
-            <metal>200</metal>
-            <stone>100</stone>
-        </Resources>
-    </Cost>
     <Footprint replace="">
         <Square width="11.0" depth="20.0"/>
         <Height>8.0</Height>
     </Footprint>
     <Identity>
         <Civ>han</Civ>
-        <SpecificName>Trebuchet</SpecificName>
+        <SpecificName>Mangonel</SpecificName>
         <Icon>units/rome_siege_onager.png</Icon>
     </Identity>
     <Pack>
-        <Entity>units/han_siege_traction_trebuchet_packed</Entity>
+        <Entity>units/han_siege_trebuchet_packed</Entity>
         <State>unpacked</State>
     </Pack>
-    <UnitMotion>
-        <WalkSpeed>0.001</WalkSpeed>
-<!--         <RunMultiplier>0.001</RunMultiplier> -->
-    </UnitMotion>
     <Vision>
         <Range>88</Range>
     </Vision>
     <VisualActor>
-        <Actor>units/han/siege_traction_trebuchet.xml</Actor>
+        <Actor>units/han/siege_mangonel.xml</Actor>
     </VisualActor>
 </Entity>

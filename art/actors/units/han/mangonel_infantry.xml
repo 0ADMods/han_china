@@ -2,10 +2,7 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="100" name="Trebuchet operator">
-            <animations>
-                <animation file="biped/han_trebuchet_operator_idle_3.dae" name="Idle" speed="100"/>
-            </animations>
+        <variant file="biped/base_citizen_soldier.xml">
             <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
             <props>
                 <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
@@ -20,7 +17,6 @@
     <group>
         <variant frequency="1" name="Idle"/>
         <variant file="biped/death_infantry.xml"/>
-        <variant file="biped/attack_ranged_traction_trebuchet.xml" name="attack_ranged"/>
     </group>
     <material>player_trans.xml</material>
 </actor>
