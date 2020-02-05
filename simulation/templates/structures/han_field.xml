@@ -6,6 +6,6 @@
         <History>South China cultivated rice instead of wheat</History>
     </Identity>
     <VisualActor>
-        <Actor>structures/plot_field_rice_terrace.xml</Actor>
+        <Actor>structures/plot_field_rice_4x4.xml</Actor>
     </VisualActor>
 </Entity>
