@@ -37,6 +37,9 @@
             <metal>10</metal>
         </Resources>
     </Cost>
+    <Health>
+        <Max>60</Max>
+    </Health>
     <Loot>
         <wood>20</wood>
     </Loot>

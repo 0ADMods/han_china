@@ -2,7 +2,7 @@
 <actor version="1">
     <group>
         <variant name="base">
-            <mesh>props/water_4x4.dae</mesh>
+            <mesh>gaia/geo_water_4x4.dae</mesh>
             <textures>
                 <texture file="props/gardens_turf.png" name="baseTex"/>
             </textures>

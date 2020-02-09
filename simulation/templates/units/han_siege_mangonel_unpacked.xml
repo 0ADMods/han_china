@@ -32,11 +32,11 @@
         <Icon>units/rome_siege_onager.png</Icon>
     </Identity>
     <Pack>
-        <Entity>units/han_siege_trebuchet_packed</Entity>
+        <Entity>units/han_siege_mangonel_packed</Entity>
         <State>unpacked</State>
     </Pack>
     <Vision>
-        <Range>88</Range>
+        <Range>125</Range>
     </Vision>
     <VisualActor>
         <Actor>units/han/siege_mangonel.xml</Actor>

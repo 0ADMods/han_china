@@ -5,7 +5,7 @@
         <variant frequency="90" name="common_cliff">
             <mesh>structural/han_plot_rice_earthwalls_deep.dae</mesh>
             <props>
-                <prop actor="props/structures/water_4x4.xml" attachpoint="waterlevel"/>
+                <prop actor="geology/water_4x4.xml" attachpoint="waterlevel"/>
                 <prop actor="structures/plot_field_rice_2x2.xml" attachpoint="waterlevel"/>
                 <prop actor="structures/plot_field_rice_1x1.xml" attachpoint="waterlevel"/>
                 <prop actor="props/structures/rice_8x8.xml" attachpoint="root"/>

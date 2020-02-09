@@ -29,7 +29,7 @@
         </Resources>
     </Cost>
     <Health>
-        <Max>120</Max>
+        <Max>130</Max>
     </Health>
     <Identity>
         <VisibleClasses datatype="tokens">Ranged Crossbowman</VisibleClasses>

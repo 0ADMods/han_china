@@ -4,7 +4,8 @@
 		"Enemy"
 	],
 	"affects": [
-		"Worker"
+		"Worker",
+		"CitizenSoldier"
 	],
 	"modifications": [
 		{ "value": "ResourceGatherer/Rates/food/grain", "multiply": 0.8 },
