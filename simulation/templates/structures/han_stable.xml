@@ -18,6 +18,7 @@
         <Icon>structures/pers_stable.png</Icon>
         <SpecificName>Jūn Yíng</SpecificName>
         <RequiredTechnology>phase_town</RequiredTechnology>
+        <VisibleClasses datatype="tokens">Town Stable</VisibleClasses>
     </Identity>
     <ProductionQueue>
         <Technologies datatype="tokens">

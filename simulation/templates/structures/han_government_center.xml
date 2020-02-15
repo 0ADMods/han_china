@@ -53,7 +53,7 @@
         <Max>9</Max>
         <EjectHealth>0</EjectHealth>
         <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-        <List datatype="tokens">Support Minister</List>
+        <List datatype="tokens">Support Minister Infantry</List>
         <BuffHeal>1</BuffHeal>
         <LoadingRange>1</LoadingRange>
     </GarrisonHolder>
@@ -62,7 +62,7 @@
         <GenericName>GovernmentCenter</GenericName>
         <SpecificName>Government Center</SpecificName>
         <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
-        <RequiredTechnology>phase_village</RequiredTechnology>
+        <RequiredTechnology>phase_town</RequiredTechnology>
         <Icon>structures/government_center.png</Icon>
     </Identity>
     <Health>
@@ -91,13 +91,11 @@
         <Technologies datatype="tokens">
             han/civil_service_01
             han/civil_service_02
-            han/civil_service_03
             han/civil_engineering_01
             han/civil_engineering_02
-            han/civil_engineering_03
+            han/art_of_war
             unlock_spies
             spy_counter
-            han/art_of_war
         </Technologies>
     </ProductionQueue>
     <Vision>

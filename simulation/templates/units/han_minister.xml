@@ -13,7 +13,6 @@
         </Capture>
     </Attack>
     <Auras datatype="tokens">
-    <!--    units/han_minister_cost-->
         units/han_minister_garrison
         units/han_minister_gathering
         units/han_minister_building

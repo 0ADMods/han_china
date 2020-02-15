@@ -6,12 +6,6 @@
     <Promotion>
         <Entity>units/han_infantry_swordsman_e</Entity>
     </Promotion>
-    <ResourceGatherer>
-        <BaseSpeed>0.75</BaseSpeed>
-        <Rates>
-            <food.rice>0.35</food.rice>
-        </Rates>
-    </ResourceGatherer>
     <VisualActor>
         <Actor>units/han/infantry_swordsman_a.xml</Actor>
     </VisualActor>

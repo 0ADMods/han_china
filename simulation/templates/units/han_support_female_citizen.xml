@@ -3,7 +3,7 @@
     <Builder>
         <Entities datatype="tokens">
             structures/{civ}_government_center
-            structures/{civ}_government_center_fortified
+            structures/{civ}_civil_centre_fortified
         </Entities>
     </Builder>
     <Attack>

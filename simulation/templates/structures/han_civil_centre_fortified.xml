@@ -6,13 +6,25 @@
     <GarrisonHolder>
         <Max op="mul">2</Max>
     </GarrisonHolder>
+    <Cost>
+        <BuildTime>500</BuildTime>
+        <Resources>
+            <food>0</food>
+            <wood>850</wood>
+            <stone>700</stone>
+            <metal>500</metal>
+        </Resources>
+    </Cost>
     <Health>
         <Max op="mul">1.5</Max>
     </Health>
     <Identity>
         <GenericName>Fortified Civic Center</GenericName>
+        <Civ>han</Civ>
         <VisibleClasses datatype="tokens">Defensive FortifedCivilCentre</VisibleClasses>
-        <Classes datatype="tokens">CivilCentre</Classes>
+        <Classes datatype="tokens">CivCentre FortifiedCivilCentre</Classes>
+        <RequiredTechnology>phase_town</RequiredTechnology>
+        <Icon>structures/military_settlement.png</Icon>
         <History></History>
     </Identity>
     <ProductionQueue>
@@ -25,6 +37,9 @@
         </Entities>
         <Technologies datatype="tokens">
             han/fortified_civ_center_range
+            han/attack_champion_infantry_swordsman
+            han/attack_champion_infantry_archer
+            -phase_town_{civ}
         </Technologies>
     </ProductionQueue>
     <Upgrade disable=""/>

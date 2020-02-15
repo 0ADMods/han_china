@@ -13,5 +13,5 @@
 	],
 	"auraName": "Confucian Reforms",
 	"auraDescription": "Enemy farming rate -20% and land traders -15% trade gain during his lifetime.",
-	"overlayIcon": "art/textures/ui/session/auras/farm_bonus.png"
+	"overlayIcon": "art/textures/ui/session/auras/farming_penalty.png"
 }

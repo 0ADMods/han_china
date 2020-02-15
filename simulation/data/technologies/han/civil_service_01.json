@@ -5,15 +5,15 @@
 	},
 	"description": "",
 	"cost": {
-		"food": 100,
-		"wood": 0,
+		"food": 250,
+		"wood": 250,
 		"stone": 0,
-		"metal": 100
+		"metal": 0
 	},
 	"requirements": {
 		"all": [
 			{
-				"tech": "phase_village"
+				"tech": "phase_town"
 			},
 			{
 				"civ": "han"
@@ -23,27 +23,27 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "chinese_bureaucracy_1.png",
 	"researchTime": 40,
-	"tooltip": "Technologies at all buildings, except the Blacksmith, -10% cost and -10% research time.",
+	"tooltip": "Technologies at all buildings, except the Blacksmith, -15% cost and -15% research time.",
 	"modifications": [
 		{
 			"value": "ProductionQueue/TechCostMultiplier/time",
-			"multiply": 0.9
+			"multiply": 0.85
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/wood",
-			"multiply": 0.9
+			"multiply": 0.85
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/food",
-			"multiply": 0.9
+			"multiply": 0.85
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/metal",
-			"multiply": 0.9
+			"multiply": 0.85
 		},
 		{
 			"value": "ProductionQueue/TechCostMultiplier/stone",
-			"multiply": 0.9
+			"multiply": 0.85
 		}
 	],
 	"affects": [

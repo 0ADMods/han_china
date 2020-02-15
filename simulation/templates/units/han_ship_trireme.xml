@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_trireme">
-    <Cost>
+<!--    <Cost>
         <Resources>
             <wood>400</wood>
             <metal>0</metal>
         </Resources>
-    </Cost>
+    </Cost>-->
     <Identity>
         <Civ>han</Civ>
         <SpecificName>Lóu Chuán</SpecificName>

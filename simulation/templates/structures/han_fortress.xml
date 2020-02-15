@@ -24,10 +24,6 @@
             units/{civ}_champion_cavalry_spearman
             units/{civ}_champion_cavalry_crossbowman
         </Entities>
-        <Technologies datatype="tokens">
-            han/attack_champion_infantry_swordsman
-            han/attack_champion_infantry_archer
-        </Technologies>
     </ProductionQueue>
     <VisualActor>
         <Actor>structures/han/fortress.xml</Actor>

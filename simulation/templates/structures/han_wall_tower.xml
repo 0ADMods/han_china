@@ -14,7 +14,7 @@
         <Civ>han</Civ>
         <SpecificName>Chéng Lóu</SpecificName>
         <History>(Insert history here)</History>
-        <RequiredTechnology>phase_village</RequiredTechnology>
+<!--         <RequiredTechnology>phase_village</RequiredTechnology> -->
     </Identity>
     <Obstruction>
         <Static width="9.5" depth="9.5"/>

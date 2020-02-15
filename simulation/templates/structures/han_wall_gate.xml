@@ -33,7 +33,7 @@
         <Civ>han</Civ>
         <SpecificName>Chéng Mén</SpecificName>
         <History>(Insert history)</History>
-        <RequiredTechnology>phase_village</RequiredTechnology>
+<!--         <RequiredTechnology>phase_village</RequiredTechnology> -->
     </Identity>
     <Obstruction>
         <Obstructions>

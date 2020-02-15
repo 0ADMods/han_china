@@ -7,6 +7,7 @@
             structures/{civ}_stable
             structures/{civ}_tower_bolt
             -structures/wallset_palisade
+            structures/{civ}_civil_centre_fortified
         </Entities>
     </Builder>
     <Identity>
@@ -26,8 +27,8 @@
     </ResourceGatherer>
     <Cost>
         <Resources>
-            <food>50</food>
-            <wood>40</wood>
+            <food op="add">-10</food>
+            <wood op="add">-10</wood>
         </Resources>
     </Cost>
     <VisualActor>

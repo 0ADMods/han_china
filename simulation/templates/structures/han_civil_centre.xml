@@ -27,7 +27,7 @@
         </Technologies>
     </ProductionQueue>
     <Upgrade>
-        <FortifiedCivicCenter>
+        <FortifiedCivilCenter>
             <Entity>structures/han_civil_centre_fortified</Entity>
             <Tooltip>Greatly increase the health, capture resistance, and garrison capacity of this Civic Center.</Tooltip>
             <RequiredTechnology>phase_town</RequiredTechnology>
@@ -37,7 +37,7 @@
             </Cost>
             <Time>30</Time>
             <Variant>upgrading</Variant>
-        </FortifiedCivicCenter>
+        </FortifiedCivilCenter>
     </Upgrade>
     <VisualActor>
         <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
