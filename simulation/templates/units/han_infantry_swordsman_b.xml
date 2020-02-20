@@ -16,6 +16,7 @@
         <SpecificName>Dāo Fú Shǒu</SpecificName>
         <History>Needs history.</History>
         <Icon>units/han_infantry_swordsman.png</Icon>
+        <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
     <ResourceGatherer>
         <Rates>

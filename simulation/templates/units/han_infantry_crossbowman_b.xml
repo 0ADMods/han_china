@@ -15,6 +15,7 @@
         <SelectionGroupName>units/han_infantry_crossbowman_b</SelectionGroupName>
         <SpecificName>Nǔ Shǒu</SpecificName>
         <Icon>units/han_infantry_crossbowman.png</Icon>
+        <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
     <Promotion>
         <Entity>units/han_infantry_crossbowman_a</Entity>

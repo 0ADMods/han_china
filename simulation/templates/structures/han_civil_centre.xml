@@ -30,7 +30,7 @@
         <FortifiedCivilCenter>
             <Entity>structures/han_civil_centre_fortified</Entity>
             <Tooltip>Greatly increase the health, capture resistance, and garrison capacity of this Civic Center.</Tooltip>
-            <RequiredTechnology>phase_town</RequiredTechnology>
+            <RequiredTechnology>phase_city</RequiredTechnology>
             <Cost>
                 <stone>200</stone>
                 <wood>350</wood>

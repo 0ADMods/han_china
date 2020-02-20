@@ -23,7 +23,7 @@
         <Civ>han</Civ>
         <VisibleClasses datatype="tokens">Defensive FortifedCivilCentre</VisibleClasses>
         <Classes datatype="tokens">CivCentre FortifiedCivilCentre</Classes>
-        <RequiredTechnology>phase_town</RequiredTechnology>
+        <RequiredTechnology>phase_city</RequiredTechnology>
         <Icon>structures/military_settlement.png</Icon>
         <History></History>
     </Identity>
@@ -40,6 +40,7 @@
             han/attack_champion_infantry_swordsman
             han/attack_champion_infantry_archer
             -phase_town_{civ}
+            -phase_city_{civ}
         </Technologies>
     </ProductionQueue>
     <Upgrade disable=""/>
