@@ -6,7 +6,7 @@
 			<mesh>structural/han_market.dae</mesh>
 			<props>
 				<prop actor="props/structures/han/market_props.xml" attachpoint="root"/>
-				<prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+				<prop actor="props/structures/decals/dirt_7x7.xml" attachpoint="root"/>
 			</props>
 			<textures>
 				<texture file="structural/han_struct2.png" name="baseTex"/>
