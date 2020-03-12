@@ -3,7 +3,7 @@
 	<castshadow/>
 	<group>
 		<variant frequency="100" name="Base">
-			<mesh>structural/han_market_props.dae</mesh>
+			<mesh>props/structural/han_market_props.dae</mesh>
 			<textures>
 				<texture file="structural/han_struct.png" name="baseTex"/>
 				<texture file="structural/han_struct_norm.png" name="normTex"/>

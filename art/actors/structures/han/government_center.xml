@@ -2,7 +2,10 @@
 <actor version="1">
 	<castshadow/>
 	<group>
-		<variant name="base">
+		<variant frequency="1" name="Han Government Center">
+			<animations>
+				<animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
+			</animations>
 			<mesh>structural/han_government.dae</mesh>
 			<props>
 				<prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
@@ -14,6 +17,18 @@
 				<texture file="structural/han_struct2_spec.png" name="specTex"/>
 				<texture file="structural/ao/han_government_ao.png" name="aoTex"/>
 			</textures>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="1" name="ungarrisoned"/>
+		<variant name="garrisoned">
+			<props>
+				<prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_01"/>
+				<prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_02"/>
+				<prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_03"/>
+				<prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_04"/>
+				<prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_05"/>
+			</props>
 		</variant>
 	</group>
 	<material>player_trans_ao_parallax_spec.xml</material>
