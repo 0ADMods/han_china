@@ -46,12 +46,13 @@
             </textures>
         </variant>
         <variant name="waypoint_macedonians">
-            <textures><texture file="props/banner_macedonians.png" name="baseTex"/>
+            <textures>
+                <texture file="props/banner_macedonians.png" name="baseTex"/>
             </textures>
         </variant>
-        <variant name="waypoint_chinese">
+        <variant name="waypoint_han">
             <textures>
-                <texture file="props/banner_chinese.png" name="baseTex"/>
+                <texture file="props/banner_han.png" name="baseTex"/>
             </textures>
         </variant>
     </group>
