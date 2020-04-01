@@ -20,6 +20,7 @@
                 <Speed>150.0</Speed>
                 <Gravity>39.81</Gravity>
                 <Spread>1.9</Spread>
+                <FriendlyFire>false</FriendlyFire>
             </Projectile>
         </Ranged>
     </Attack>

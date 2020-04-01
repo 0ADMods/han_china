@@ -5,8 +5,8 @@
             <MaxRange>85</MaxRange>
             <MinRange>30.0</MinRange>
             <Projectile>
-                    <Speed>75.5</Speed>
-                    <Gravity>9.81</Gravity>
+                <Speed>75.5</Speed>
+                <Gravity>9.81</Gravity>
             </Projectile>
             <PrepareTime>5650</PrepareTime>
             <RepeatTime>7000</RepeatTime>
