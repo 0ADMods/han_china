@@ -79,33 +79,6 @@
 			"Requirements": "",
 			"Phase": "Town",
 			"Special": ""
-		},
-		{
-			"Name": "Cavalry Stable",
-			"Class": "",
-			"Emblem": "",
-			"History": "The Han Dynasty's best soldiers were Horsemen.",
-			"Requirements": "",
-			"Phase": "Town",
-			"Special": "Train Cavalry citizen-soldiers."
-		},
-		{
-			"Name": "Siege Workshop",
-			"Class": "",
-			"Emblem": "",
-			"History": "The Han were innovators in area of siegecraft.",
-			"Requirements": "",
-			"Phase": "City",
-			"Special": "Constructs and upgrades all Han siege engines."
-		},
-		{
-			"Name": "Rice field",
-			"Class": "",
-			"Emblem": "",
-			"History": "The Han cultivated rice in the south.",
-			"Requirements": "",
-			"Phase": "",
-			"Special": "High yield rice fields"
 		}
 	],
 	"WallSets": [

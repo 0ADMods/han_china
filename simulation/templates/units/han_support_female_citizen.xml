@@ -23,11 +23,6 @@
         <Phenotype>female</Phenotype>
         <Icon>units/han_support_female_citizen.png</Icon>
     </Identity>
-    <ResourceGatherer>
-        <Rates>
-            <food.rice>0.6</food.rice>
-        </Rates>
-    </ResourceGatherer>
     <Promotion disable=""/>
     <VisualActor>
         <Actor>units/han/female_citizen.xml</Actor>

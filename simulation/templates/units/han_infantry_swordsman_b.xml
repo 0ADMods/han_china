@@ -18,11 +18,6 @@
         <Icon>units/han_infantry_swordsman.png</Icon>
         <RequiredTechnology>phase_town</RequiredTechnology>
     </Identity>
-    <ResourceGatherer>
-        <Rates>
-            <food.rice>0.35</food.rice>
-        </Rates>
-    </ResourceGatherer>
     <Promotion>
         <Entity>units/han_infantry_swordsman_a</Entity>
     </Promotion>

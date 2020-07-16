@@ -20,11 +20,6 @@
     <Promotion>
         <Entity>units/han_infantry_archer_a</Entity>
     </Promotion>
-    <ResourceGatherer>
-        <Rates>
-            <food.rice>0.35</food.rice>
-        </Rates>
-    </ResourceGatherer>
     <Cost>
         <Resources>
             <food op="add">-10</food>

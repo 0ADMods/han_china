@@ -20,11 +20,6 @@
     <Promotion>
         <Entity>units/han_infantry_crossbowman_a</Entity>
     </Promotion>
-    <ResourceGatherer>
-        <Rates>
-            <food.rice>0.35</food.rice>
-        </Rates>
-    </ResourceGatherer>
     <VisualActor>
         <Actor>units/han/infantry_crossbowman_b.xml</Actor>
     </VisualActor>
