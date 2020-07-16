@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
   <Armour>
-    <Hack>2.0</Hack>
-    <Pierce>4.0</Pierce>
-    <Crush>4.0</Crush>
+    <Hack>2</Hack>
+    <Pierce>4</Pierce>
+    <Crush>4</Crush>
   </Armour>
   <Attack>
     <Capture>
@@ -46,8 +46,8 @@
     <Overlay>
       <AlwaysVisible/>
       <Texture>
-        <MainTexture>hash/256x256.png</MainTexture>
-        <MainTextureMask>hash/256x256_mask.png</MainTextureMask>
+        <MainTexture>128x128/octagram.png</MainTexture>
+        <MainTextureMask>128x128/octagram_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
