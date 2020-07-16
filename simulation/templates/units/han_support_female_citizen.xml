@@ -2,20 +2,10 @@
 <Entity parent="template_unit_support_female_citizen">
   <Builder>
     <Entities datatype="tokens">
-      structures/{civ}_government_center
       structures/{civ}_civil_centre_fortified
+      structures/{civ}_government_center
     </Entities>
   </Builder>
-  <Attack>
-    <Melee>
-      <Damage>
-        <Hack>10.0</Hack>
-      </Damage>
-    </Melee>
-  </Attack>
-  <Health>
-    <Max>75</Max>
-  </Health>
   <Identity>
     <Civ>han</Civ>
     <GenericName>Nǚ</GenericName>
