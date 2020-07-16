@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_stable">
-    <Cost>
-        <Resources>
-            <wood>0</wood>
-            <stone>200</stone>
-        </Resources>
-    </Cost>
-    <GarrisonHolder>
-        <List datatype="tokens">Cavalry Minister</List>
-    </GarrisonHolder>
-    <Footprint>
-        <Square width="25.0" depth="25.0"/>
-        <Height>12.0</Height>
-    </Footprint>
-    <Identity>
-        <Civ>han</Civ>
-        <Icon>structures/pers_stable.png</Icon>
-        <SpecificName>Jūn Yíng</SpecificName>
-        <RequiredTechnology>phase_town</RequiredTechnology>
-        <VisibleClasses datatype="tokens">Town Stable</VisibleClasses>
-    </Identity>
-    <ProductionQueue>
-        <Technologies datatype="tokens">
-            heal_barracks
-            speed_cavalry_01
-            speed_cavalry_02
-            han/training_conscription_cavalry
-        </Technologies>
-    </ProductionQueue>
-    <Obstruction>
-        <Static width="20.0" depth="20.0"/>
-    </Obstruction>
-    <VisualActor>
-        <Actor>structures/han/stable.xml</Actor>
-        <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
-    </VisualActor>
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Minister</List>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>han</Civ>
+    <SpecificName>Jūn Yíng</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/han/stable.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
 </Entity>
