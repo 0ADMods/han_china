@@ -6,7 +6,6 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Wei Qing</SpecificName>
-    <History>Wei Qing was a famous Western Han military general acclaimed for his campaigns against the Xiongnu, and his rags to riches life.</History>
     <Icon>units/han_wei_qing.png</Icon>
   </Identity>
   <VisualActor>
