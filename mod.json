@@ -3,7 +3,7 @@
 	"label": "Han China",
 	"version": "1.0.0",
 	"url": "https://github.com/0ADMods/han_china",
-	"description": "Adds Han chinese civilization to 0 A.D.",
+	"description": "Adds the Han dynasty (r. 202 BC – AD 220) to 0 A.D.",
 	"dependencies": ["0ad=0.0.24"],
-	"type": "Factions"
+	"type": "civ"
 }
