@@ -83,27 +83,28 @@ He subsequently invaded the Xiongnu territory, but was defeated (200 BC), instea
 
 ### Maps
 
-![China proper](https://commons.wikimedia.org/wiki/File:Eastern_China_blank_relief_map.svg)
-
-![Bohai Sea](https://commons.wikimedia.org/wiki/File:Bohaiseamap2.png)
-
-![Yellow River watershed](https://commons.wikimedia.org/wiki/File:Yellowrivermap.jpg)
-
-![Yangtze River watershed](https://commons.wikimedia.org/wiki/File:Yangtze_River_drainage_basin_map.svg)
-
-![Rice and millet](https://commons.wikimedia.org/wiki/File:Spatial_distribution_of_rice,_millet_and_mixed_farming_sites_with_a_boundary_of_rice_and_millet_and_possible_centers_of_agriculture.png)
-
-![Spread of barley](https://commons.wikimedia.org/wiki/File:Genetic_analysis_on_the_spread_of_barley_from_9000_to_2000_BCE.jpg)
-
-![Birth places of Chinese philosophers](https://commons.wikimedia.org/wiki/File:Birth_Places_of_Chinese_Philosophers.png)
-
-![China c. 500 BC](https://commons.wikimedia.org/wiki/File:Chinese_plain_5c._BC-en.svg)
-
-![Qin](https://commons.wikimedia.org/wiki/File:Qin_Dynasty.png)
-
-![Eighteen kingdoms](https://commons.wikimedia.org/wiki/File:Eighteen_Kingdoms.png)
-
-![Han](https://commons.wikimedia.org/wiki/File:Han_dynasty_Kingdoms_195_BC.png)
+* [China proper](https://commons.wikimedia.org/wiki/File:Eastern_China_blank_relief_map.svg):
+![China proper](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Eastern_China_blank_relief_map.svg/920px-Eastern_China_blank_relief_map.svg.png)
+* [Bohai Sea](https://commons.wikimedia.org/wiki/File:Bohaiseamap2.png):
+![Bohai Sea](https://upload.wikimedia.org/wikipedia/commons/0/03/Bohaiseamap2.png)
+* [Yellow River watershed](https://commons.wikimedia.org/wiki/File:Yellowrivermap.jpg):
+![Yellow River watershed](https://upload.wikimedia.org/wikipedia/commons/8/8b/Yellowrivermap.jpg)
+* [Yangtze River watershed](https://commons.wikimedia.org/wiki/File:Yangtze_River_drainage_basin_map.svg):
+![Yangtze River watershed](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Yangtze_River_drainage_basin_map.svg/1280px-Yangtze_River_drainage_basin_map.svg.png)
+* [Rice and millet](https://commons.wikimedia.org/wiki/File:Spatial_distribution_of_rice,_millet_and_mixed_farming_sites_with_a_boundary_of_rice_and_millet_and_possible_centers_of_agriculture.png):
+![Rice and millet](https://upload.wikimedia.org/wikipedia/commons/8/8a/Spatial_distribution_of_rice%2C_millet_and_mixed_farming_sites_with_a_boundary_of_rice_and_millet_and_possible_centers_of_agriculture.png)
+* [Spread of barley](https://commons.wikimedia.org/wiki/File:Genetic_analysis_on_the_spread_of_barley_from_9000_to_2000_BCE.jpg):
+![Spread of barley](https://upload.wikimedia.org/wikipedia/commons/9/97/Genetic_analysis_on_the_spread_of_barley_from_9000_to_2000_BCE.jpg)
+* [Birth places of Chinese philosophers](https://commons.wikimedia.org/wiki/File:Birth_Places_of_Chinese_Philosophers.png):
+![Birth places of Chinese philosophers](https://upload.wikimedia.org/wikipedia/commons/2/23/Birth_Places_of_Chinese_Philosophers.png)
+* [China c. 500 BC](https://commons.wikimedia.org/wiki/File:Chinese_plain_5c._BC-en.svg):
+![China c. 500 BC](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Chinese_plain_5c._BC-en.svg/1280px-Chinese_plain_5c._BC-en.svg.png)
+* [Qin dynasty](https://commons.wikimedia.org/wiki/File:Qin_Dynasty.png):
+![Qin dynasty](https://upload.wikimedia.org/wikipedia/commons/1/17/Qin_Dynasty.png)
+* [Eighteen kingdoms](https://commons.wikimedia.org/wiki/File:Eighteen_Kingdoms.png):
+![Eighteen kingdoms](https://upload.wikimedia.org/wikipedia/commons/1/10/Eighteen_Kingdoms.png)
+* [Han dynasty](https://commons.wikimedia.org/wiki/File:Han_dynasty_Kingdoms_195_BC.png):
+![Han dynasty](https://upload.wikimedia.org/wikipedia/commons/a/a2/Han_dynasty_Kingdoms_195_BC.png)
 
 [(Return to table of contents.)](https://github.com/0ADMods/han_china#table-of-contents)
 
