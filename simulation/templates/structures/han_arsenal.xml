@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_workshop">
+<Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>han</Civ>
   </Identity>
@@ -13,6 +13,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/han/workshop.xml</Actor>
+    <Actor>structures/han/arsenal.xml</Actor>
   </VisualActor>
 </Entity>
