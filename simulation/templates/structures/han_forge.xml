@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_blacksmith">
+<Entity parent="template_structure_military_forge">
   <Footprint>
     <Square width="24.0" depth="24.0"/>
     <Height>8.0</Height>
@@ -16,9 +16,11 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Technologies datatype="tokens">han/iron_casting</Technologies>
+    <Technologies datatype="tokens">
+      han/iron_casting
+    </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/han/blacksmith.xml</Actor>
+    <Actor>structures/han/forge.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,9 +3,9 @@
   <group>
     <variant>
 	<animations>
-	   <animation file="mechanical/han_blacksmith_wheel_turn.dae" name="Idle" speed="100"/>
+	   <animation file="mechanical/han_forge_wheel_turn.dae" name="Idle" speed="100"/>
 	</animations>
-      <mesh>props/han_blacksmith_wheel.dae</mesh>
+      <mesh>props/han_forge_wheel.dae</mesh>
       <textures>
         <texture file="structural/han_struct2.png" name="baseTex"/>
         <texture file="structural/han_struct2_norm.png" name="normTex"/>

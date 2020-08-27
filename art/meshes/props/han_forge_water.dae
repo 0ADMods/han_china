@@ -70,9 +70,9 @@
   <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="blacksmith_001" name="blacksmith_001" type="NODE">
+      <node id="forge" name="forge" type="NODE">
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-        <instance_geometry url="#Cube_018-mesh" name="blacksmith_001"/>
+        <instance_geometry url="#Cube_018-mesh" name="forge"/>
       </node>
     </visual_scene>
   </library_visual_scenes>
