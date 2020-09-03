@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <Armour>
-    <Hack>2</Hack>
-    <Pierce>4</Pierce>
-    <Crush>4</Crush>
-  </Armour>
   <Attack>
     <Capture>
       <Capture>20</Capture>
@@ -32,16 +27,25 @@
     <Civ>han</Civ>
     <GenericName>Government Minister</GenericName>
     <SpecificName>Zhèngfǔ Bùzhǎng</SpecificName>
+    <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only han buildings can garrison ministers</Tooltip>
     <History>The Nine Ministers of the Han Dynasty were the chief administrators of the empire. Highly paid and respected, they oversaw the vast holdings of the Han Dynasty, while they each commanded one of nine ministries of government.</History>
     <Classes datatype="tokens">Organic Human</Classes>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
-    <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only han buildings can garrison ministers</Tooltip>
     <Icon>units/han_minister.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Minimap>
     <Type>hero</Type>
   </Minimap>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>4</Pierce>
+        <Crush>6</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <Selectable>
     <Overlay>
       <AlwaysVisible/>
