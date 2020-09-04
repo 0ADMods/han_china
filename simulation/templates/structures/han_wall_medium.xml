@@ -17,20 +17,25 @@
   <TurretHolder>
     <TurretPoints>
       <One>
-        <X>0</X>
+        <X>1.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </One>
       <Two>
-        <X>4</X>
+        <X>-1.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Two>
       <Three>
-        <X>-4</X>
+        <X>4.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
+      </Four>
     </TurretPoints>
   </TurretHolder>
   <VisualActor>

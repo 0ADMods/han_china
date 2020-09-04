@@ -4,9 +4,6 @@
     <Square width="37.0" depth="9.0"/>
     <Height>11.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>6</Max>
-  </GarrisonHolder>
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Chéng Yuán</SpecificName>
@@ -20,35 +17,45 @@
   <TurretHolder>
     <TurretPoints>
       <One>
-        <X>2</X>
+        <X>1.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </One>
       <Two>
-        <X>-2</X>
+        <X>-1.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Two>
       <Three>
-        <X>6</X>
+        <X>4.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Three>
       <Four>
-        <X>-6</X>
+        <X>-4.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Four>
       <Five>
-        <X>10</X>
+        <X>7.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Five>
       <Six>
-        <X>-10</X>
+        <X>-7.5</X>
         <Y>10</Y>
         <Z>0</Z>
       </Six>
+      <Seven>
+        <X>10.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
+      </Seven>
+      <Eight>
+        <X>-10.5</X>
+        <Y>10</Y>
+        <Z>0</Z>
+      </Eight>
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
