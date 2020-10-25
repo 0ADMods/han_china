@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant frequency="1" name="sword">
-            <mesh>props/weapons/sword/weap_han_sword3.dae</mesh>
+            <mesh>props/weapons/sword/weap_han_sword_03.dae</mesh>
         </variant>
     </group>
     <group>
@@ -12,7 +12,7 @@
                 <texture file="props/weapons/prop_swords_han.png" name="baseTex"/>
                 <texture file="props/weapons/prop_swords_han_spec.png" name="specTex"/>
             </textures>
-            <mesh>props/weapons/sword/weap_han_sword3.dae</mesh>
+            <mesh>props/weapons/sword/weap_han_sword_03.dae</mesh>
         </variant>
     </group>
     <material>basic_spec.xml</material>

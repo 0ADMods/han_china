@@ -14,7 +14,7 @@
                 <prop actor="props/structures/han/cc_nature.xml" attachpoint="root"/>
             </props>
             <textures>
-                <texture file="structural/han_struct2.png" name="baseTex"/>
+                <texture file="structural/han_struct_02.png" name="baseTex"/>
                 <texture file="structural/han_struct2_norm.png" name="normTex"/>
                 <texture file="structural/han_struct2_spec.png" name="specTex"/>
                 <texture file="structural/ao/han_civic_center_no_towers.png" name="aoTex"/>

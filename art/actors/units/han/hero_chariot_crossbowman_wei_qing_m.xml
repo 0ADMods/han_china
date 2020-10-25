@@ -22,10 +22,10 @@
       <props>
         <prop actor="units/han/hero_chariot_crossbowman_d.xml" attachpoint="driver1"/>
         <prop actor="units/han/hero_chariot_crossbowman_wei_qing_r.xml" attachpoint="rider1"/>
-        <prop actor="units/han/hero_chariot_crossbowman_h1.xml" attachpoint="horse1"/>
-        <prop actor="units/han/hero_chariot_crossbowman_h2.xml" attachpoint="horse2"/>
-        <prop actor="units/han/hero_chariot_crossbowman_h3.xml" attachpoint="horse3"/>
-        <prop actor="units/han/hero_chariot_crossbowman_h4.xml" attachpoint="horse4"/>
+        <prop actor="units/han/hero_chariot_crossbowman_h_01.xml" attachpoint="horse1"/>
+        <prop actor="units/han/hero_chariot_crossbowman_h_02.xml" attachpoint="horse2"/>
+        <prop actor="units/han/hero_chariot_crossbowman_h_03.xml" attachpoint="horse3"/>
+        <prop actor="units/han/hero_chariot_crossbowman_h_04.xml" attachpoint="horse4"/>
         <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="han_flag"/>
       </props>
     </variant>

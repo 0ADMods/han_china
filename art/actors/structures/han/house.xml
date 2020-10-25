@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="Base">
       <textures>
-        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct_02.png" name="baseTex"/>
         <texture file="structural/han_struct2_norm.png" name="normTex"/>
         <texture file="structural/han_struct2_spec.png" name="specTex"/>
       </textures>
