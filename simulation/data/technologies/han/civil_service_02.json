@@ -22,7 +22,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "chinese_bureaucracy_2.png",
+	"icon": "chinese_bureaucracy_02.png",
 	"researchTime": 40,
 	"tooltip": "Technologies at all buildings, except the Blacksmith, -15% cost and -15% research time.",
 	"modifications": [
