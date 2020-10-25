@@ -12,7 +12,7 @@
         <texture file="structural/han_struct2.png" name="baseTex"/>
         <texture file="structural/han_struct2_norm.png" name="normTex"/>
         <texture file="structural/han_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/han_wall_short_ao.png" name="aoTex"/>
+        <texture file="structural/ao/han_wall_short.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
