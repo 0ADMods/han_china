@@ -29,7 +29,7 @@
                 <texture file="structural/han_ship.png" name="baseTex"/>
                 <texture file="structural/han_ship_norm.png" name="normTex"/>
                 <texture file="structural/han_ship_spec.png" name="specTex"/>
-                <texture file="structural/ao/han_ship_tower_ao.png" name="aoTex"/>
+                <texture file="structural/ao/han_ship_tower.png" name="aoTex"/>
             </textures>
         </variant>
     </group>

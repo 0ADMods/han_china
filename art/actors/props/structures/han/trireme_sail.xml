@@ -6,7 +6,7 @@
       <mesh>props/han_trireme_sail.dae</mesh>
       <textures>
 	  <texture file="props/han_sail_square.png" name="baseTex"/>
-	  <texture file="props/ao/han_sail_square_ao.png" name="aoTex"/>
+	  <texture file="props/ao/han_sail_square.png" name="aoTex"/>
 	  </textures>
     </variant>
   </group>

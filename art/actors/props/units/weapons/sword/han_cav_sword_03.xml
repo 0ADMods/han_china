@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant frequency="1" name="sword">
-            <mesh>props/weapons/sword/weap_han_sword7.dae</mesh>
+            <mesh>props/weapons/sword/weap_han_sword_07.dae</mesh>
         </variant>
     </group>
     <group>

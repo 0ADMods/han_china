@@ -5,10 +5,10 @@
     <variant name="Wall gate">
       <mesh>structural/han_wall_gate_struct.dae</mesh>
       <textures>
-        <texture file="structural/han_struct2.png" name="baseTex"/>
+        <texture file="structural/han_struct_02.png" name="baseTex"/>
         <texture file="structural/han_struct2_norm.png" name="normTex"/>
         <texture file="structural/han_struct2_spec.png" name="specTex"/>
-        <texture file="structural/ao/han_wall_gate_ao.png" name="aoTex"/>
+        <texture file="structural/ao/han_wall_gate.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
