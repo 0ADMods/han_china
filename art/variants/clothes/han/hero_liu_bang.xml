@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <variant frequency="1" name="hero-1">
   <textures>
     <texture file="skeletal/han_hero_liu_bang.png" name="baseTex"/>

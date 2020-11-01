@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <variant name="gather_rice">
   <animations>
     <animation file="biped/gatherer/farming.dae" name="gather_rice" speed="100"/>

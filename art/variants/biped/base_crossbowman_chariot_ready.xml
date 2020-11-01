@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <variant name="Base" frequency="1">
   <animations>
     <animation file="biped/infantry/crossbowman/idle_ready.dae" name="Idle" id="idle1" speed="30"/>
