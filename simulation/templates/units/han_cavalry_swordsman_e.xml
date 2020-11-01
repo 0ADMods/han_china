@@ -3,7 +3,7 @@
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
-    <Promotion disable=""/>
+  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/han/cavalry_swordsman_e_m.xml</Actor>
   </VisualActor>
