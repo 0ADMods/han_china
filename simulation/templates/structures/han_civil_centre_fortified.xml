@@ -3,9 +3,6 @@
   <Capturable>
     <CapturePoints op="mul">1.5</CapturePoints>
   </Capturable>
-  <GarrisonHolder>
-    <Max op="mul">2</Max>
-  </GarrisonHolder>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
@@ -14,6 +11,9 @@
       <metal>500</metal>
     </Resources>
   </Cost>
+  <GarrisonHolder>
+    <Max op="mul">2</Max>
+  </GarrisonHolder>
   <Health>
     <Max op="mul">1.5</Max>
   </Health>

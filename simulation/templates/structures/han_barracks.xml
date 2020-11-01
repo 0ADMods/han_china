@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="structures/pers_barracks">
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
   <GarrisonHolder>
     <List datatype="tokens">Minister</List>
   </GarrisonHolder>
@@ -7,10 +11,6 @@
     <Civ>han</Civ>
     <SpecificName>Jūn Yíng</SpecificName>
   </Identity>
-  <Footprint>
-    <Square width="22.0" depth="22.0"/>
-    <Height>5.0</Height>
-  </Footprint>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>

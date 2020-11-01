@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_ship_fire">
+  <Footprint>
+    <Square width="7.0" depth="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Chì Chuán</SpecificName>
@@ -9,8 +13,4 @@
   <VisualActor>
     <Actor>structures/han/fireship.xml</Actor>
   </VisualActor>
-  <Footprint>
-    <Square width="7.0" depth="16.0"/>
-    <Height>8.0</Height>
-  </Footprint>
 </Entity>
