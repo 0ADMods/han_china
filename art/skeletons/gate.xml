@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <skeletons>
   <standard_skeleton id="gate" title="gate">
     <bone name="origin">
       <bone name="door_left">
-        <bone name="lock_left" />
+        <bone name="lock_left"/>
       </bone>
       <bone name="door_right">
-        <bone name="lock_right" />
+        <bone name="lock_right"/>
       </bone>
     </bone>
   </standard_skeleton>

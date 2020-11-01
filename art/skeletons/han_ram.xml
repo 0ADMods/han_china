@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <skeletons>
   <standard_skeleton id="Armature_004" title="Armature 004">
     <bone name="Trunk_root">
-      <bone name="Trunk_weap" />
+      <bone name="Trunk_weap"/>
     </bone>
   </standard_skeleton>
   <skeleton target="Armature_004" title="Armature 004">

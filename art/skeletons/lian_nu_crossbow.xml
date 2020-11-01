@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <skeletons>
   <standard_skeleton id="lian_nu_crossbow" title="lian nu crossbow">
     <bone name="lian_nu_crossbow_root">
       <bone name="lian_nu_crossbow_stock">
-        <bone name="lian_nu_crossbowstock_Nub" />
-        <bone name="lian_nu_crossbow_lath_nub_R" />
-        <bone name="lian_nu_crossbow_lath_nub_L" />
+        <bone name="lian_nu_crossbowstock_Nub"/>
+        <bone name="lian_nu_crossbow_lath_nub_R"/>
+        <bone name="lian_nu_crossbow_lath_nub_L"/>
       </bone>
       <bone name="lian_nu_crossbow_lower_lever">
         <bone name="lian_nu_crossbow_upper_lever">
           <bone name="lian_nu_crossbow_magazine">
-            <bone name="lian_nu_crossbow_sling" />
+            <bone name="lian_nu_crossbow_sling"/>
           </bone>
         </bone>
       </bone>

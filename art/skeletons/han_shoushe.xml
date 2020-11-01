@@ -1,43 +1,43 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <skeletons>
   <standard_skeleton id="Shoushe_Armature" title="Shoushe Armature">
     <bone name="Shoushe_Root">
       <bone name="Shoushe_base">
         <bone name="Shoushe_pivot">
-          <bone name="Shoushe_slide" />
+          <bone name="Shoushe_slide"/>
         </bone>
       </bone>
-      <bone name="Shoushe_Wheel_Back" />
-      <bone name="Shoushe_Wheel_Front" />
-      <bone name="Shoushe_Rear_Trunk_R" />
-      <bone name="Shoushe_Rear_Trunk_L" />
+      <bone name="Shoushe_Wheel_Back"/>
+      <bone name="Shoushe_Wheel_Front"/>
+      <bone name="Shoushe_Rear_Trunk_R"/>
+      <bone name="Shoushe_Rear_Trunk_L"/>
       <bone name="Shoushe_Weap">
-        <bone name="Shoushe_sling" />
+        <bone name="Shoushe_sling"/>
         <bone name="Shoushe_Arm_01_R">
           <bone name="Shoushe_Arm_02_R">
             <bone name="Shoushe_Arm_03_R">
-              <bone name="Shoushe_Arm_04_R" />
+              <bone name="Shoushe_Arm_04_R"/>
             </bone>
           </bone>
         </bone>
         <bone name="Shoushe_Arm_01_L">
           <bone name="Shoushe_Arm_02_L">
             <bone name="Shoushe_Arm_03_L">
-              <bone name="Shoushe_Arm_04_L" />
+              <bone name="Shoushe_Arm_04_L"/>
             </bone>
           </bone>
         </bone>
       </bone>
-      <bone name="Shoushe_Lower_Plank_R" />
-      <bone name="Shoushe_Lower_Plank_L" />
-      <bone name="Shoushe_Front_Trunk_Upper" />
-      <bone name="Shoushe_Front_Trunk_Lower" />
-      <bone name="Shoushe_Rear_Trunk_Upper" />
-      <bone name="Shoushe_Rear_Trunk_Lower" />
-      <bone name="Shoushe_Front_Trunk_L" />
-      <bone name="Shoushe_Front_Trunk_R" />
+      <bone name="Shoushe_Lower_Plank_R"/>
+      <bone name="Shoushe_Lower_Plank_L"/>
+      <bone name="Shoushe_Front_Trunk_Upper"/>
+      <bone name="Shoushe_Front_Trunk_Lower"/>
+      <bone name="Shoushe_Rear_Trunk_Upper"/>
+      <bone name="Shoushe_Rear_Trunk_Lower"/>
+      <bone name="Shoushe_Front_Trunk_L"/>
+      <bone name="Shoushe_Front_Trunk_R"/>
     </bone>
-    <bone name="Shoushe" />
+    <bone name="Shoushe"/>
   </standard_skeleton>
   <skeleton target="Shoushe_Armature" title="Shoushe Armature">
     <identifier>

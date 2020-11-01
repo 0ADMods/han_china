@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <skeletons>
   <standard_skeleton id="Nu_chin_nu" title="Nu chin nu">
     <bone name="Nu_base">
       <bone name="Nu_pivot">
-        <bone name="Nu_slide" />
-        <bone name="Nu_sling" />
-        <bone name="Nu_crank" />
-        <bone name="Nu_arm_L" />
-        <bone name="Nu_arm_R" />
+        <bone name="Nu_slide"/>
+        <bone name="Nu_sling"/>
+        <bone name="Nu_crank"/>
+        <bone name="Nu_arm_L"/>
+        <bone name="Nu_arm_R"/>
       </bone>
     </bone>
   </standard_skeleton>
