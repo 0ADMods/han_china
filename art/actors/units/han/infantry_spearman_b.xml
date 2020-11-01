@@ -15,7 +15,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/.xml"/>
+    <variant file="clothes/han/uniform_b_02.xml"/>
     <variant file="clothes/han/uniform_b_01.xml"/>
   </group>
   <group>
