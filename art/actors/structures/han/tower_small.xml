@@ -23,7 +23,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-      <variant name="upgrading">
+    <variant name="upgrading">
       <props>
         <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
         <prop actor="props/flora/bush_tempe_underbrush.xml" attachpoint="root"/>

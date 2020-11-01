@@ -19,7 +19,7 @@
       </textures>
     </variant>
   </group>
-   <group>
+  <group>
     <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>

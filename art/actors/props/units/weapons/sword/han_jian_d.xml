@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-    <castshadow/>
-    <group>
-        <variant frequency="100" name="Base">
-            <textures>
-                <texture file="props/prop_weap.dds" name="baseTex"/>
-            </textures>
-            <mesh>props/weapons/sword/weap_han_sword_d.dae</mesh>
-        </variant>
-    </group>
-<!--    <group>
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <textures>
+        <texture file="props/prop_weap.dds" name="baseTex"/>
+      </textures>
+      <mesh>props/weapons/sword/weap_han_sword_d.dae</mesh>
+    </variant>
+  </group>
+  <!--    <group>
         <variant name="med">
             <mesh>props/weapons/sword/weap_han_sword_a.dae</mesh>
         </variant>

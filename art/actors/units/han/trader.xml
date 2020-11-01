@@ -29,8 +29,8 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="quadraped/base_camel_run.xml" />
-    <variant file="quadraped/base_camel_death.xml" />
+    <variant file="quadraped/base_camel_run.xml"/>
+    <variant file="quadraped/base_camel_death.xml"/>
   </group>
   <material>default.xml</material>
 </actor>

@@ -5,8 +5,8 @@
     <variant>
       <decal angle="90" depth="25" offsetx="0" offsetz="0" width="25"/>
       <textures>
-            <texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
-            <texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
+        <texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
+        <texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

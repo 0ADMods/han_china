@@ -16,7 +16,7 @@
   <group>
     <variant file="clothes/han/uniform_c_03.xml"/>
   </group>
-    <!--  <group>
+  <!--  <group>
     <variant frequency="1" name="open_helmet">
         <props>
             <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>

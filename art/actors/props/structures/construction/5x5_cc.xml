@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-    <castshadow/>
-    <group>
-        <variant frequency="100" name="Base">
-            <animations/>
-            <mesh>structural/wrld_scaf_5x5_t.dae</mesh>
-            <props/>
-            <textures>
-                <texture file="props/scaffold.png" name="baseTex"/>
-            </textures>
-        </variant>
-    </group>
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <animations/>
+      <mesh>structural/wrld_scaf_5x5_t.dae</mesh>
+      <props/>
+      <textures>
+        <texture file="props/scaffold.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
 </actor>

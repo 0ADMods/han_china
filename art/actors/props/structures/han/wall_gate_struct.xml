@@ -22,8 +22,7 @@
         <prop actor="props/structures/hellenes/gate_door.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant name="garrisoned">
-    </variant>
+    <variant name="garrisoned"></variant>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

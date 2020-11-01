@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant file="biped/base_operator_shoushe_02.xml">
-        <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
-        <props>
-          <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
-          <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
-          <prop actor="props/units/weapons/sheath/han_jian_sheath_left_b.xml" attachpoint="sheath_L"/>
-        </props>
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
+        <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/sheath/han_jian_sheath_left_b.xml" attachpoint="sheath_L"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -23,7 +23,7 @@
     <variant frequency="1" name="open_helmet">
       <props>
         <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>				
+        <prop actor="props/units/helmets/han_advanced_melee_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="feather_helmet">
