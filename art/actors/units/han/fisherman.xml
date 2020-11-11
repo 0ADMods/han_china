@@ -15,8 +15,8 @@
     <variant file="clothes/han/uniform_b_02.xml"/>
   </group>
   <group>
-    <variant file="biped/fisher/base_ptol.xml"/>
-    <variant file="biped/fisher/carry_ptol.xml">
+    <variant file="biped/fisher/base_han.xml"/>
+    <variant file="biped/fisher/carry_han.xml">
       <props>
         <prop actor="props/units/row.xml" attachpoint="weapon_L"/>
       </props>
