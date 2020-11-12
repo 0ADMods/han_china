@@ -3,15 +3,15 @@
   <castshadow/>
   <group>
     <variant name="base">
-      <mesh>structural/han_cc.dae</mesh>
+      <mesh>structural/han_civic_center.dae</mesh>
       <props>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/cc_bixie.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/cc_leaves.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/cc_trunks.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/cc_nature.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_bixie.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_nature.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
@@ -28,12 +28,17 @@
         <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
+  </group>
+  <group>
     <variant name="death">
       <props>
-        <prop attachpoint="garrisoned"/>
         <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_bixie.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_nature.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

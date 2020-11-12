@@ -2,9 +2,9 @@
 <actor version="1">
   <group>
     <variant>
-	<animations>
-	   <animation file="mechanical/han_forge_wheel_turn.dae" name="Idle" speed="100"/>
-	</animations>
+  <animations>
+     <animation file="mechanical/han_forge_wheel_turn.dae" name="Idle" speed="100"/>
+  </animations>
       <mesh>props/han_forge_wheel.dae</mesh>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>

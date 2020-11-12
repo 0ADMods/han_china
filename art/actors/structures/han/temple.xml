@@ -19,7 +19,7 @@
     </variant>
   </group>
     <group>
-	<variant frequency="100" name="ungarrisoned"/>
+  <variant frequency="100" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned"/>

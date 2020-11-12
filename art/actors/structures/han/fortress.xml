@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="100" name="Han Fortress">
-	  <mesh>structural/han_fortress.dae</mesh>
+    <mesh>structural/han_fortress.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>

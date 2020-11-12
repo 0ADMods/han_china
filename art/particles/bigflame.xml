@@ -26,7 +26,7 @@
     <uniform name="color.g" min="0.4" max="0.8"/>
     <copy name="color.b" from="color.g"/>
 
-		<force y="-15.0"/>
-		<force x="-10.0"/>
+    <force y="-15.0"/>
+    <force x="-10.0"/>
 
 </particles>
