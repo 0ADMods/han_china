@@ -9,7 +9,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Nǚ</GenericName>
-    <Icon>units/han_support_female_citizen.png</Icon>
+    <Icon>units/han/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/han/female_citizen.xml</Actor>

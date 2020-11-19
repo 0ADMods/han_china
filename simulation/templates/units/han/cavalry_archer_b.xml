@@ -4,7 +4,7 @@
     <Civ>han</Civ>
     <SelectionGroupName>units/han/cavalry_archer_b</SelectionGroupName>
     <SpecificName>Gōng qí</SpecificName>
-    <Icon>units/han_cavalry_archer.png</Icon>
+    <Icon>units/han/cavalry_archer.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

@@ -5,7 +5,7 @@
     <GenericName>Palace Guard Swordsman</GenericName>
     <SpecificName>Hu Ben</SpecificName>
     <SelectionGroupName>units/han/champion_infantry_swordsman</SelectionGroupName>
-    <Icon>units/han_champion_infantry_swordsman.png</Icon>
+    <Icon>units/han/infantry_swordsman_c.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/han/infantry_swordsman_c.xml</Actor>

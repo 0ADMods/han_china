@@ -32,7 +32,7 @@
     <History>The Nine Ministers of the Han Dynasty were the chief administrators of the empire. Highly paid and respected, they oversaw the vast holdings of the Han Dynasty, while they each commanded one of nine ministries of government.</History>
     <Classes datatype="tokens">Organic Human</Classes>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
-    <Icon>units/han_minister.png</Icon>
+    <Icon>units/han/minister.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Minimap>

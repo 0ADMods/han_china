@@ -7,7 +7,7 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Shāng Chuán</SpecificName>
-    <Icon>units/han_ship_merchant.png</Icon>
+    <Icon>units/han/ship_merchant.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/han/merchant_ship.xml</Actor>

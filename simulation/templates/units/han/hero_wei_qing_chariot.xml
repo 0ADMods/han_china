@@ -11,7 +11,7 @@
     <Civ>han</Civ>
     <SpecificName>Wei Qing</SpecificName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <Icon>units/han_wei_qing.png</Icon>
+    <Icon>units/han/hero_wei_qing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/han/hero_chariot_crossbowman_wei_qing_m.xml</Actor>

@@ -4,7 +4,7 @@
     <Civ>han</Civ>
     <SpecificName>Zhuàng Chuán</SpecificName>
     <History>Serves to effectively take out buildings and larger enemy ships effectively at close range. Without a ranged attack, however, it is disadvantaged against siege projectiles and must be accompanied by ranged allies to approach enemy ships.</History>
-    <Icon>units/han_ship_bireme.png</Icon>
+    <Icon>units/han/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/han/bireme.xml</Actor>
