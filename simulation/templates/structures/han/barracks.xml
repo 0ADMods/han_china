@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="structures/pers/barracks">
+  <GarrisonHolder>
+    <List datatype="tokens">Minister</List>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>han</Civ>
+    <SpecificName>Jūn Yíng</SpecificName>
+  </Identity>
+  <Footprint>
+    <Square width="22.0" depth="22.0"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/han/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

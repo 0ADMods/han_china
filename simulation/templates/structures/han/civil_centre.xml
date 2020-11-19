@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="43.0" depth="35.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <List datatype="tokens">Minister</List>
+  </GarrisonHolder>
+  <Identity>
+    <Civ>han</Civ>
+    <SpecificName>Guān Sì</SpecificName>
+    <History></History>
+  </Identity>
+  <Obstruction>
+    <Static width="41.0" depth="33.0"/>
+  </Obstruction>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_spearman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/cavalry_spearman_b
+    </Entities>
+    <Technologies datatype="tokens">
+      -unlock_spies
+      -spy_counter
+    </Technologies>
+  </ProductionQueue>
+  <Upgrade>
+    <FortifiedCivilCenter>
+      <Entity>structures/han/civil_centre_fortified</Entity>
+      <Tooltip>Greatly increase the health, capture resistance, and garrison capacity of this Civic Center.</Tooltip>
+      <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <stone>200</stone>
+        <wood>350</wood>
+      </Cost>
+      <Time>30</Time>
+      <Variant>upgrading</Variant>
+    </FortifiedCivilCenter>
+  </Upgrade>
+  <VisualActor>
+    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <Actor>structures/han/civil_centre_no_towers.xml</Actor>
+  </VisualActor>
+</Entity>

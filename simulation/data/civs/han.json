@@ -86,26 +86,26 @@
 	],
 	"WallSets": [
 		"other/wallset_palisade",
-		"structures/han_wallset_stone"
+		"structures/han/wallset_stone"
 	],
 	"StartEntities": [
 		{
-			"Template": "structures/han_civil_centre"
+			"Template": "structures/han/civil_centre"
 		},
 		{
-			"Template": "units/han_support_female_citizen",
+			"Template": "units/han/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/han_infantry_spearman_b",
+			"Template": "units/han/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/han_infantry_archer_b",
+			"Template": "units/han/infantry_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/han_cavalry_spearman_b"
+			"Template": "units/han/cavalry_spearman_b"
 		}
 	],
 	"Formations": [
@@ -154,13 +154,13 @@
 		"Liu Xie"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/han_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/han_cavalry_spearman_b",
-		"skirmish/structures/han_wall_short": "structures/han_wall_short",
-		"skirmish/structures/han_wall_medium": "structures/han_wall_medium",
-		"skirmish/structures/han_wall_long": "structures/han_wall_long",
-		"skirmish/structures/han_wall_gate": "structures/han_wall_gate",
-		"skirmish/structures/han_wall_tower": "structures/han_wall_tower"
+		"skirmish/units/default_infantry_ranged_b": "units/han/infantry_archer_b",
+		"skirmish/units/default_cavalry": "units/han/cavalry_spearman_b",
+		"skirmish/structures/han/wall_short": "structures/han/wall_short",
+		"skirmish/structures/han/wall_medium": "structures/han/wall_medium",
+		"skirmish/structures/han/wall_long": "structures/han/wall_long",
+		"skirmish/structures/han/wall_gate": "structures/han/wall_gate",
+		"skirmish/structures/han/wall_tower": "structures/han/wall_tower"
 	},
 	"SelectableInGameSetup": true
 }

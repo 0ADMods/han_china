@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/{civ}/civil_centre_fortified
+      structures/{civ}/government_center
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>han</Civ>
+    <GenericName>Nǚ</GenericName>
+    <Icon>units/han_support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/han/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>
