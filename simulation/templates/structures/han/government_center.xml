@@ -62,8 +62,9 @@
   </GarrisonHolder>
   <Identity>
     <Civ>han</Civ>
-    <GenericName>GovernmentCenter</GenericName>
-    <SpecificName>Government Center</SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <GenericName>Government Center</GenericName>
+    <SpecificName>Zhi Hui Zhong Xin</SpecificName>
     <History>As a genuinely sophisticated educational society, China revered government and administration very highly.</History>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/government_center.png</Icon>

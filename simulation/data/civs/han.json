@@ -73,17 +73,6 @@
 			"Description": "Allied structures +20% health."
 		}
 	],
-	"Structures": [
-		{
-			"Name": "Zhi Hui Zhong Xin",
-			"Class": "",
-			"Emblem": "",
-			"History": "'Government Center' As a genuinely sophisticated educational society, China revered government very highly. This structure will provide tech upgrades for economic factors, specifically trade.",
-			"Requirements": "",
-			"Phase": "Town",
-			"Special": ""
-		}
-	],
 	"WallSets": [
 		"other/wallset_palisade",
 		"structures/han/wallset_stone"
