@@ -40,7 +40,6 @@
     <CapturePoints>3000</CapturePoints>
   </Capturable>
   <Cost>
-    <PopulationBonus>50</PopulationBonus>
     <BuildTime>250</BuildTime>
     <Resources>
       <wood>250</wood>
@@ -82,6 +81,9 @@
     <stone>50</stone>
     <metal>20</metal>
   </Loot>
+  <Population>
+    <Bonus>50</Bonus>
+  </Population>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
