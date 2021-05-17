@@ -8,7 +8,6 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
         <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/civic_center_bixie.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_nature.xml" attachpoint="root"/>
