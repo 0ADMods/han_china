@@ -16,8 +16,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}/champion_cavalry_spearman
-      units/{civ}/champion_cavalry_crossbowman
       units/{civ}/hero_han_xin
       units/{civ}/hero_liu_bang_horse
       units/{civ}/hero_wei_qing_chariot
