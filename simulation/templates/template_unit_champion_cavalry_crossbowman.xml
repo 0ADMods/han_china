@@ -5,17 +5,17 @@
       <AttackName>Crossbow</AttackName>
       <Damage>
         <Hack>0</Hack>
-        <Pierce>40</Pierce>
-        <Crush>0</Crush>
+        <Pierce>11</Pierce>
+        <Crush>0.5</Crush>
       </Damage>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
-      <PrepareTime>2400</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <PrepareTime>3000</PrepareTime>
+      <RepeatTime>800</RepeatTime>
       <Delay>0</Delay>
       <Projectile>
-        <Speed>100.0</Speed>
-        <Spread>1.0</Spread>
+        <Speed>200.0</Speed>
+        <Spread>0.1</Spread>
         <Gravity>9.81</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
