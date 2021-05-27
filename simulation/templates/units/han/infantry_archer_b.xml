@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_archer">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/{civ}/civil_centre_fortified
-      structures/{civ}/government_center
-    </Entities>
-  </Builder>
+<Entity parent="civ/han|template_unit_infantry_ranged_archer">
   <Identity>
-    <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_archer_b</SelectionGroupName>
     <SpecificName>Gōng Shǒu</SpecificName>
     <Icon>units/han/infantry_archer.png</Icon>

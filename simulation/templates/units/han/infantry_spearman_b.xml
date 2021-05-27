@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman">
-  <Builder>
-    <Entities datatype="tokens">
-      structures/{civ}/civil_centre_fortified
-      structures/{civ}/government_center
-    </Entities>
-  </Builder>
+<Entity parent="civ/han|template_unit_infantry_melee_spearman">
   <Identity>
-    <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Cháng Máo Bīng</SpecificName>
     <Icon>units/han/infantry_spearman.png</Icon>
