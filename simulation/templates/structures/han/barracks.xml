@@ -11,6 +11,14 @@
     <Civ>han</Civ>
     <SpecificName>Jūn Yíng</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_crossbowman_b
+    </Entities>
+    <Technologies datatype="tokens">
+      han/special_archery_tradition
+    </Technologies>
+  </ProductionQueue>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>

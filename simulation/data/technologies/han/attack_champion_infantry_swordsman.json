@@ -2,7 +2,7 @@
 	"genericName": "Secondary Bows",
 	"description": ".",
 	"cost": {"food": 0, "wood": 1000, "stone": 0, "metal": 0},
-	"requirements": {"tech": "phase_city"},
+	"requirements": {"tech": "phase_city", "tech": "unlock_champion_infantry"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "bow_recurved.png",
 	"researchTime": 60,
