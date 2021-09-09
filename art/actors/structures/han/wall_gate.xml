@@ -12,8 +12,8 @@
       <mesh>structural/han_wall_gate.dae</mesh>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct2_norm.png" name="normTex"/>
-        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/structures/han/wall_gate_gutters.xml" attachpoint="root"/>
@@ -31,13 +31,11 @@
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="alive"/>
-    <variant name="death">
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml">
       <props>
-        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
-        <prop actor="props/structures/hellenes/gate_door.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/wall_gate_gutters.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/wall_gate_struct.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

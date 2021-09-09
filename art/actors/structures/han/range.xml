@@ -10,8 +10,8 @@
       </props>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct2_norm.png" name="normTex"/>
-        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
         <texture file="structural/ao/han_range.png" name="aoTex"/>
       </textures>
     </variant>
@@ -21,6 +21,14 @@
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml">
+      <props>
+        <prop actor="props/structures/han/range_nature.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
