@@ -5,8 +5,8 @@
     <variant frequency="100" name="Base">
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct2_norm.png" name="normTex"/>
-        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
       </textures>
       <props>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
@@ -38,6 +38,18 @@
         <texture file="structural/ao/han_house_d.png" name="aoTex"/>
       </textures>
     </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>
 </actor>
