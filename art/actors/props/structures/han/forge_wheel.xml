@@ -2,16 +2,16 @@
 <actor version="1">
   <group>
     <variant>
-  <animations>
-     <animation file="mechanical/han_forge_wheel_turn.dae" name="Idle" speed="100"/>
-  </animations>
+      <animations>
+        <animation file="mechanical/han_forge_wheel_turn.dae" name="Idle" speed="100"/>
+      </animations>
       <mesh>props/han_forge_wheel.dae</mesh>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct2_norm.png" name="normTex"/>
-        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans_parallax_spec.xml</material>
+  <material>no_trans_parallax_spec.xml</material>
 </actor>

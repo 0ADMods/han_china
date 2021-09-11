@@ -4,14 +4,10 @@
   <group>
     <variant frequency="1" name="han_Barracks_Props_a">
       <mesh>structural/han_barrel.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct2_norm.png" name="normTex"/>
-        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

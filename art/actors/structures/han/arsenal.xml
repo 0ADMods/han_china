@@ -13,17 +13,26 @@
       </props>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct2_norm.png" name="normTex"/>
-        <texture file="structural/han_struct2_spec.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
         <texture file="structural/ao/han_arsenal.png" name="aoTex"/>
       </textures>
     </variant>
   </group>
-   <group>
+  <group>
     <variant name="ungarrisoned" frequency="1"/>
     <variant name="garrisoned">
       <props>
         <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml">
+      <props>
+        <prop actor="props/structures/han/arsenal_cloth.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/arsenal_shoushe.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
