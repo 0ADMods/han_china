@@ -25,6 +25,9 @@
       </RangeOverlay>
     </Ranged>
   </Attack>
+  <BuildRestrictions>
+    <Category>GreatTower</Category>
+  </BuildRestrictions>
   <BuildingAI>
     <DefaultArrowCount>1</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
