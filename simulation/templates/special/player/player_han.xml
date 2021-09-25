@@ -6,7 +6,7 @@
   <EntityLimits>
     <Limits>
       <GovernmentCenter>1</GovernmentCenter>
-      <GreatTower>4</GreatTower>
+      <GreatTower>5</GreatTower>
     </Limits>
   </EntityLimits>
 </Entity>
