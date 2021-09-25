@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <BuildRestrictions>
+    <Territory>own neutral enemy</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>50</wood>
+      <stone>0</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="37.0" depth="7.0"/>
+    <Height>12.5</Height>
+  </Footprint>
+  <Health>
+    <Max op="mul">0.75</Max>
+  </Health>
+  <Identity>
+    <Civ>han</Civ>
+    <GenericName>Siege Wall Gate</GenericName>
+    <SpecificName>Porta Circummūnītiōnis</SpecificName>
+    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <Icon>structures/wooden_gate.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <wood>10</wood>
+    <stone>0</stone>
+  </Loot>
+  <Obstruction>
+    <Obstructions>
+      <Right width="11.5" depth="5" x="12.25" z="0"/>
+      <Left width="11.5" depth="5" x="-12.25" z="0"/>
+      <Door width="13" depth="5" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>15</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <StatusBars>
+    <HeightOffset>13.5</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence disable=""/>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>8</X>
+        <Y>11.5</Y>
+        <Z>1.5</Z>
+      </One>
+      <Two>
+        <X>-8</X>
+        <Y>11.5</Y>
+        <Z>1.5</Z>
+      </Two>
+      <Three>
+        <X>8</X>
+        <Y>11.5</Y>
+        <Z>-1.5</Z>
+      </Three>
+      <Four>
+        <X>-8</X>
+        <Y>11.5</Y>
+        <Z>-1.5</Z>
+      </Four>
+      <Five>
+        <X>11</X>
+        <Y>11.5</Y>
+        <Z>1.5</Z>
+      </Five>
+      <Six>
+        <X>-11</X>
+        <Y>11.5</Y>
+        <Z>1.5</Z>
+      </Six>
+      <Seven>
+        <X>11</X>
+        <Y>11.5</Y>
+        <Z>-1.5</Z>
+      </Seven>
+      <Eight>
+        <X>-11</X>
+        <Y>11.5</Y>
+        <Z>-1.5</Z>
+      </Eight>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/romans/siege_wall_gate.xml</Actor>
+  </VisualActor>
+</Entity>
