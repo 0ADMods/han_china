@@ -34,7 +34,7 @@
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
   <BuildRestrictions>
-    <Category>UniqueBuilding</Category>
+    <Category>GovernmentCenter</Category>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
@@ -66,6 +66,7 @@
     <SpecificName>Zhi Hui Zhong Xin</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/government_center.png</Icon>
+    <VisibleClasses datatype="tokens">GovernmentCenter</VisibleClasses>
   </Identity>
   <Health>
     <Max>3000</Max>

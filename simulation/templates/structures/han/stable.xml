@@ -11,6 +11,13 @@
     <Civ>han</Civ>
     <SpecificName>Jūn Yíng</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/champion_cavalry_crossbowman
+      units/{civ}/champion_cavalry_spearman
+    </Entities>
+  </ProductionQueue>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>

@@ -3,4 +3,10 @@
   <Auras datatype="tokens">
     teambonuses/han_player_teambonus
   </Auras>
+  <EntityLimits>
+    <Limits>
+      <GovernmentCenter>1</GovernmentCenter>
+      <GreatTower>5</GreatTower>
+    </Limits>
+  </EntityLimits>
 </Entity>

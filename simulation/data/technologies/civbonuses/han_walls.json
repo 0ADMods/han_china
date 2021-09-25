@@ -1,0 +1,12 @@
+{
+	"genericName": "Earth Walls",
+	"autoResearch": true,
+	"description": "Han built massive walls, the great wall.",
+	"icon": "wall.png",
+	"tooltip": "City Walls and +100% health.",
+	"requirements": { "civ": "han" },
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 2 }
+	],
+	"affects": ["Wall"]
+}
