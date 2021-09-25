@@ -4,6 +4,7 @@
     <Entities datatype="tokens">
       structures/{civ}/civil_centre_fortified
       structures/{civ}/government_center
+      -structures/{civ}/field
       structures/{civ}/field_rice
       structures/{civ}/great_tower
       -structures/wallset_palisade
