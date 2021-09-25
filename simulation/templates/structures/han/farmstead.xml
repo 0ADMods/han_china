@@ -16,6 +16,13 @@
     <Civ>han</Civ>
     <SpecificName>Cāng</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+        han/gather_seed_drill
+        han/gather_water_weeding
+        han/gather_chain_pump
+    </Technologies>
+</ProductionQueue>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>

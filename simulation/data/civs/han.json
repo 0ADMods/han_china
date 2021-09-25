@@ -20,6 +20,17 @@
 			"Description": "A diverse navy will grant the Chinese a generously favorable position at sea."
 		}
 	],
+		"Structures": [
+		{
+			"Name": "Rice field",
+			"Class": "",
+			"Emblem": "",
+			"History": "The Han cultivated rice in the south.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "High yield rice fields"
+		}
+	],
 	"WallSets": [
 		"other/wallset_palisade",
 		"structures/han/wallset_stone"
