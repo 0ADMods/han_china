@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
-  <BuildRestrictions>
+<!--  <BuildRestrictions>
     <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>
+  </BuildRestrictions>-->
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>
@@ -19,9 +19,9 @@
   </Health>
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Siege Wall Gate</GenericName>
-    <SpecificName>Porta Circummūnītiōnis</SpecificName>
-    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <GenericName>Rammed Earth Wall Gate</GenericName>
+    <SpecificName>Hāng tǔ qiáng</SpecificName>
+    <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
     <Icon>structures/wooden_gate.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>

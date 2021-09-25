@@ -2,7 +2,7 @@
 
 <setup>
 	<icon name="icon_food_rice"
-		sprite="stretched:session/icons/resources/grain_small.png"
+		sprite="stretched:session/icons/resources/rice_small.png"
 		size="16 16"
 	/>
 </setup>

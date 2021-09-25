@@ -3,9 +3,9 @@
   <Auras datatype="tokens">
     structures/wall_garrisoned
   </Auras>
-  <BuildRestrictions>
+<!--  <BuildRestrictions>
     <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>
+  </BuildRestrictions>-->
   <Cost>
     <BuildTime>40</BuildTime>
     <Resources>
@@ -23,10 +23,10 @@
   </Health>
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Siege Wall Tower</GenericName>
-    <SpecificName>Turris Circummūnītiōnis</SpecificName>
+    <GenericName>Rammed Earth Wall Tower</GenericName>
+    <SpecificName>Hāng tǔ qiáng</SpecificName>
     <SelectionGroupName>structures/han_earth_wall_tower</SelectionGroupName>
-    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
     <Icon>structures/siege_wall.png</Icon>
   </Identity>
   <Loot>

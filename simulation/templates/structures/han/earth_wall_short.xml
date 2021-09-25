@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
-  <BuildRestrictions>
+<!--  <BuildRestrictions>
     <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>
+  </BuildRestrictions>-->
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -20,9 +20,9 @@
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>structures/han/wallset_earth</SelectionGroupName>
-    <GenericName>Siege Wall</GenericName>
-    <SpecificName>Mūrus Circummūnītiōnis</SpecificName>
-    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <GenericName>Rammed Earth Wall</GenericName>
+    <SpecificName>Hāng tǔ qiáng</SpecificName>
+    <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
     <Icon>structures/siege_wall.png</Icon>
   </Identity>
   <Loot>

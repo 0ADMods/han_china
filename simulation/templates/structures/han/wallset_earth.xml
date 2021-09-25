@@ -2,11 +2,11 @@
 <Entity parent="template_wallset">
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Siege Wall</GenericName>
-    <SpecificName>Mūrus Circummūnītiōnis</SpecificName>
-    <Tooltip>Wall off an area. Build in own, neutral, or enemy territory.</Tooltip>
+    <GenericName>Rammed Earth Wall</GenericName>
+    <SpecificName>Hāng tǔ qiáng</SpecificName>
+    <Tooltip>Wall off an area.</Tooltip>
     <Classes datatype="tokens">CivSpecific</Classes>
-    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
     <Icon>structures/siege_wall.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
