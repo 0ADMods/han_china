@@ -24,7 +24,7 @@
   </Footprint>
   <Health>
     <Max>1200</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x2</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>han</Civ>
