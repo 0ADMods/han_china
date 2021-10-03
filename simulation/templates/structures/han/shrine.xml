@@ -24,7 +24,7 @@
   </Footprint>
   <Health>
     <Max>1200</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x6</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>han</Civ>
@@ -40,7 +40,7 @@
     <metal>20</metal>
   </Loot>
   <Obstruction>
-    <Static width="6.0" depth="6.0"/>
+    <Static width="23.0" depth="7.0"/>
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
@@ -62,6 +62,6 @@
   <TerritoryDecay disable=""/>
   <VisualActor>
     <Actor>structures/han/shrine.xml</Actor>
-    <FoundationActor>structures/fndn_2x6.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x2.xml</FoundationActor>
   </VisualActor>
 </Entity>
