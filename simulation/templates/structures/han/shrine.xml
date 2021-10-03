@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
   <Auras datatype="tokens">
-    structures/temple_heal
+    structures/han_shrine
   </Auras>
   <BuildRestrictions>
     <Category>Shrine</Category>
@@ -29,7 +29,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Shrine</GenericName>
-    <SpecificName>Shrine</SpecificName>
+    <SpecificName>Shrine of Laozi</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Shrine Town</VisibleClasses>
     <Icon>structures/temple_epic.png</Icon>
