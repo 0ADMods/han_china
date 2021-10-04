@@ -1,6 +1,6 @@
 {
-	"genericName": "Archery Tradition",
-	"description": "The Chinese had a tradition of fine archery and a penchant for using massed archers in battle.",
+	"genericName": "Crossbow Tradition",
+	"description": "The Chinese had a tradition of fine archery and a penchant for using massed crossbowmen in battle.",
 	"cost": {
 		"food": 500,
 		"wood": 500,
@@ -10,17 +10,17 @@
 	"requirements": {
 		"all": [
 			{
-				"tech": "phase_village"
+				"tech": "phase_town"
 			},
 			{
 				"civ": "han"
 			}
 		]
 	},
-	"requirementsTooltip": "Unlocked in Village Phase.",
+	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "armor_plates_ranged.png",
 	"researchTime": 60,
-	"tooltip": "Range +10 meters for bow-wielding units.",
+	"tooltip": "Range +10 meters for crossbow-wielding units.",
 	"modifications": [
 		{
 			"value": "Attack/Ranged/MaxRange",
@@ -36,7 +36,7 @@
 		}
 	],
 	"affects": [
-		"Archer"
+		"Crossbowman"
 	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

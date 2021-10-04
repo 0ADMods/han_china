@@ -7,9 +7,9 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "gather_water_weeding.png",
 	"researchTime": 40,
-	"tooltip": "Workers +15% rice gather rate.",
+	"tooltip": "Workers +20% rice gather rate.",
 	"modifications": [
-		{ "value": "ResourceGatherer/Rates/food.rice", "multiply": 1.15 }
+		{ "value": "ResourceGatherer/Rates/food.rice", "multiply": 1.2 }
 	],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

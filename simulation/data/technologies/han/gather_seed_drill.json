@@ -6,9 +6,9 @@
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "gather_seed_drill.png",
 	"researchTime": 40,
-	"tooltip": "Workers +15% rice gather rate.",
+	"tooltip": "Workers +20% rice gather rate.",
 	"modifications": [
-		{ "value": "ResourceGatherer/Rates/food.rice", "multiply": 1.15 }
+		{ "value": "ResourceGatherer/Rates/food.rice", "multiply": 1.2 }
 	],
 	"affects": ["Worker"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
