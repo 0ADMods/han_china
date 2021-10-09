@@ -29,7 +29,7 @@
     <Category>GreatTower</Category>
   </BuildRestrictions>
   <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
+    <DefaultArrowCount>2</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Infantry</GarrisonArrowClasses>
   </BuildingAI>

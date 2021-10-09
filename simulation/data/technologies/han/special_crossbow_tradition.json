@@ -18,7 +18,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "armor_plates_ranged.png",
+	"icon": "crossbow_tradition.png",
 	"researchTime": 60,
 	"tooltip": "Range +10 meters for crossbow-wielding units.",
 	"modifications": [

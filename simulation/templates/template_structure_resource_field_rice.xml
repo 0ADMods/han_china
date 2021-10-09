@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource">
-    <BuildRestrictions>
-        <Category>RiceField</Category>
-    </BuildRestrictions>
+<!--    <BuildRestrictions>
+        <Category>Field</Category>
+    </BuildRestrictions>-->
     <Cost>
         <BuildTime>50</BuildTime>
         <Resources>
@@ -18,8 +18,8 @@
         <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
     </Health>
     <Identity>
-        <GenericName>RiceField</GenericName>
-        <VisibleClasses datatype="tokens">RiceField</VisibleClasses>
+        <GenericName>Field</GenericName>
+        <VisibleClasses datatype="tokens">Field</VisibleClasses>
         <Tooltip>Harvest rice for food. Each subsequent gatherer works less efficiently.</Tooltip>
         <Icon>structures/field_rice.png</Icon>
     </Identity>
