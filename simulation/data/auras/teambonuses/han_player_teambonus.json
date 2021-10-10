@@ -1,8 +1,7 @@
 {
 	"type": "global",
 	"affects": ["Defensive"],
-	"affectedPlayers": ["ExclusiveMutualAlly"],
-	"civ": "han",
+	"affectedPlayers": ["MutualAlly"],
 	"modifications": [
 		{
 			"value": "Health/Max", "multiply": 1.2
