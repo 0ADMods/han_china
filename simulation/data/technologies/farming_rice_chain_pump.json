@@ -2,7 +2,7 @@
 	"genericName": "Chain Pump",
 	"description": "Install a chain pump for imporoved irrigation.",
 	"cost": { "food": 0, "wood": 500, "stone": 0, "metal": 250 },
-	"supersedes": "han/gather_water_weeding",
+	"supersedes": "farming_rice_water_weeding",
 	"requirements": { "tech": "phase_city", "civ": "han" },
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "gather_chain_pump.png",
