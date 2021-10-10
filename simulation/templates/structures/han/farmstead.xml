@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_economic_farmstead">
+<Entity parent="template_structure_economic_farmstead_rice">
   <Footprint>
     <Square width="18.0" depth="18.0"/>
     <Height>5.0</Height>
@@ -16,18 +16,6 @@
     <Civ>han</Civ>
     <SpecificName>Cāng</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-        han/gather_seed_drill
-        han/gather_water_weeding
-        han/gather_chain_pump
-        gather_wicker_baskets
-        -gather_farming_plows
-        -gather_farming_training
-        -gather_farming_fertilizer
-        -gather_farming_harvester
-    </Technologies>
-</ProductionQueue>
   <Obstruction>
     <Static width="16.0" depth="16.0"/>
   </Obstruction>
