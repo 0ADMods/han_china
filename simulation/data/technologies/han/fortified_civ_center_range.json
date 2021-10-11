@@ -11,7 +11,7 @@
 		"tech": "phase_town"
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "archery_tradition.png",
+	"icon": "fortified_cc_range.png",
 	"researchTime": 40,
 	"tooltip": "Increases defensive maximum range by 10 meters.",
 	"modifications": [

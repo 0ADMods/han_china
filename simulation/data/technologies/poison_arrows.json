@@ -1,14 +1,20 @@
 {
+	"pair": "pair_unlock_arrows_type",
 	"genericName": "Poison Arrows",
 	"description": ".",
 	"cost": {
 		"food": 500,
 		"metal": 400
 	},
-	"requirements": {"tech": "phase_city", "tech": "unlock_champion_infantry"},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "han" }
+		]
+	},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "poison_arrows.png",
 	"researchTime": 60,
-	"tooltip": "Soldiers +20% ranged attack damage.",
+	"tooltip": "Champion archers use poisoned arrows.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

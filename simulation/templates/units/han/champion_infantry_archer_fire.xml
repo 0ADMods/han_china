@@ -45,7 +45,7 @@
     <UsePoisonArrows>
       <Entity>units/han/champion_infantry_archer_poison</Entity>
       <Tooltip>Switch to poison arrows.</Tooltip>
-      <RequiredTechnology>han/poison_arrows</RequiredTechnology>
+      <RequiredTechnology>poison_arrows</RequiredTechnology>
       <Cost>
         <food>5</food>
         <wood>5</wood>

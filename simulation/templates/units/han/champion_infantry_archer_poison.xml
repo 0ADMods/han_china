@@ -45,7 +45,7 @@
     <UseFireArrows>
       <Entity>units/han/champion_infantry_archer_fire</Entity>
       <Tooltip>Switch to fire arrows.</Tooltip>
-      <RequiredTechnology>han/fire_arrows</RequiredTechnology>
+      <RequiredTechnology>fire_arrows</RequiredTechnology>
       <Cost>
         <food>5</food>
         <wood>5</wood>
