@@ -55,6 +55,6 @@
     </UsePoisonArrows>
   </Upgrade>
   <VisualActor>
-    <Actor>units/han/infantry_archer_c.xml</Actor>
+    <Actor>units/han/infantry_archer_c_fire.xml</Actor>
   </VisualActor>
 </Entity>
