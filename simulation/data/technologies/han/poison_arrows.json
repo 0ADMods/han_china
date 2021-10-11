@@ -1,0 +1,14 @@
+{
+	"genericName": "Poison Arrows",
+	"description": ".",
+	"cost": {
+		"food": 500,
+		"metal": 400
+	},
+	"requirements": {"tech": "phase_city", "tech": "unlock_champion_infantry"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "poison_arrows.png",
+	"researchTime": 60,
+	"tooltip": "Soldiers +20% ranged attack damage.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

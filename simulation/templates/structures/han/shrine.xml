@@ -32,7 +32,7 @@
     <SpecificName>Shrine of Laozi</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Shrine Town</VisibleClasses>
-    <Icon>structures/temple_epic.png</Icon>
+    <Icon>structures/confusianism.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>

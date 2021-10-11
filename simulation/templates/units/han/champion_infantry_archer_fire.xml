@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_infantry_archer">
+  <Attack>
+    <Ranged>
+      <ApplyStatus>
+        <Burning>
+          <Interval>3000</Interval>
+          <Damage>
+            <Fire>2</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+        </Burning>
+      </ApplyStatus>
+    </Ranged>
+  </Attack>
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Palace Guard Archer</GenericName>
+    <GenericName>Palace Guard Fire Archer</GenericName>
     <SpecificName>Hu Ben</SpecificName>
-    <SelectionGroupName>units/han/champion_infantry_archer</SelectionGroupName>
-    <Icon>units/han/champion_infantry_archer.png</Icon>
+    <SelectionGroupName>units/han/champion_infantry_archer_fire</SelectionGroupName>
+    <Icon>units/han/champion_infantry_archer_fire.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <Upgrade>
@@ -18,17 +32,16 @@
       </Cost>
       <Time>3</Time>
     </SwitchToSword>
-    <UseFireArrows>
-      <Entity>units/han/champion_infantry_archer_fire</Entity>
-      <Tooltip>Switch to fire arrows.</Tooltip>
-      <RequiredTechnology>han/fire_arrows</RequiredTechnology>
+    <UseDefaultArrows>
+      <Entity>units/han/champion_infantry_archer</Entity>
+      <Tooltip>Switch to default arrows.</Tooltip>
+      <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
       <Cost>
-        <food>5</food>
         <wood>5</wood>
         <metal>5</metal>
       </Cost>
       <Time>3</Time>
-    </UseFireArrows>
+    </UseDefaultArrows>
     <UsePoisonArrows>
       <Entity>units/han/champion_infantry_archer_poison</Entity>
       <Tooltip>Switch to poison arrows.</Tooltip>
