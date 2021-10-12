@@ -6,7 +6,7 @@
 	"description": "This famous and most important work of the Seven Military Classics teaches Chinese commanders everything about planning battles, maintaining armies, and defeating one's enemies.",
 	"cost": {
 		"food": 1000,
-		"wood": 200,
+		"wood": 500,
 		"stone": 0,
 		"metal": 1000
 	},
@@ -23,53 +23,20 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "art_of_war.png",
 	"researchTime": 40,
-	"tooltip": "Chinese Heroes -75% train time, remaining Fortress and Barracks technologies -50% cost.",
+	"tooltip": "Chinese soldiers +1 resistance and +20% attack damage. +50% vision range, +50% Promotion tickle, +25% health.",
 	"modifications": [
-		{
-			"value": "Cost/BuildTime",
-			"multiply": 0.25,
-			"affects": "Hero"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/wood",
-			"multiply": 0.5,
-			"affects": "Fortress"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/food",
-			"multiply": 0.5,
-			"affects": "Fortress"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/metal",
-			"multiply": 0.5,
-			"affects": "Fortress"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/stone",
-			"multiply": 0.5,
-			"affects": "Fortress"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/wood",
-			"multiply": 0.5,
-			"affects": "Barracks"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/food",
-			"multiply": 0.5,
-			"affects": "Barracks"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/metal",
-			"multiply": 0.5,
-			"affects": "Barracks"
-		},
-		{
-			"value": "ProductionQueue/TechCostMultiplier/stone",
-			"multiply": 0.5,
-			"affects": "Barracks"
-		}
+		{ "value": "Promotion/TrickleRate", "multiply": 0.5, "affects": "Soldier" },
+		{ "value": "Vision/Range", "multiply": 1.5, "affects": "Soldier" },
+		{ "value": "Health/Max", "multiply": 1.25 },
+		{ "value": "Attack/Melee/Splash/Damage/Hack", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Splash/Damage/Pierce", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Splash/Damage/Hack", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Ranged/Splash/Damage/Pierce", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 1.2, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 1, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 1, "affects": "Soldier" },
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 1, "affects": "Soldier" }
 	],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }
