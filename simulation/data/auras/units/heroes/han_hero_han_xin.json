@@ -9,11 +9,11 @@
 			"multiply": 1.2
 		},
 		{
-			"value": "Vision/Range",
+			"value": "Looter/xp",
 			"multiply": 1.2
 		}
 	],
 	"auraName": "Swift Camouflage Maneuvers",
-	"auraDescription": "All Soldiers +20% walk speed and +20% vision range during his lifetime.",
+	"auraDescription": "All Soldiers +20% walk speed and +20% Looter experience during his lifetime.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }

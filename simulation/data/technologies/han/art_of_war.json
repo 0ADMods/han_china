@@ -12,20 +12,16 @@
 	},
 	"requirements": {
 		"all": [
-			{
-				"tech": "phase_city"
-			},
-			{
-				"civ": "han"
-			}
+			{ "tech": "phase_city" },
+			{ "civ": "han" }
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "art_of_war.png",
 	"researchTime": 40,
-	"tooltip": "Chinese soldiers +1 resistance and +20% attack damage. +50% vision range, +50% Promotion tickle, +25% health.",
+	"tooltip": "Chinese soldiers +1 resistance and +20% attack damage. +50% vision range, −50% promotion experience, +25% health.",
 	"modifications": [
-		{ "value": "Promotion/TrickleRate", "multiply": 0.5, "affects": "Soldier" },
+		{ "value": "Promotion/RequiredXp", "multiply": 0.5, "affects": "Soldier" },
 		{ "value": "Vision/Range", "multiply": 1.5, "affects": "Soldier" },
 		{ "value": "Health/Max", "multiply": 1.25 },
 		{ "value": "Attack/Melee/Splash/Damage/Hack", "multiply": 1.2, "affects": "Soldier" },
