@@ -8,7 +8,7 @@
     <Icon>units/han/champion_infantry_swordsman.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
-  <Upgrade>
+  <!--<Upgrade>
     <SwitchToBow>
       <Entity>units/han/champion_infantry_archer</Entity>
       <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
@@ -18,7 +18,7 @@
       </Cost>
       <Time>3</Time>
     </SwitchToBow>
-  </Upgrade>
+  </Upgrade>-->
   <VisualActor>
     <Actor>units/han/infantry_swordsman_c.xml</Actor>
   </VisualActor>

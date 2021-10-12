@@ -8,6 +8,12 @@
     <Civ>han</Civ>
     <SpecificName>Bù</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/ship_fire
+    </Entities>
+  </ProductionQueue>
   <Obstruction>
     <Static width="26.0" depth="35.0"/>
   </Obstruction>

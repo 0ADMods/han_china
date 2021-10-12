@@ -35,8 +35,8 @@
     </Entities>
     <Technologies datatype="tokens">
       han/fortified_civ_center_range
-      han/attack_champion_infantry_swordsman
-      han/attack_champion_infantry_archer
+<!--      han/attack_champion_infantry_swordsman
+      han/attack_champion_infantry_archer-->
       pair_unlock_arrows_type
       -phase_town_{civ}
       -phase_city_{civ}
