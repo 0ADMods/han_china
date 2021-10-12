@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": [ "Barracks", "Fortress", "Stable" ],
+	"modifications": [
+		{ "value": "ProductionQueue/BatchTimeModifier", "multiply": 0.75 }
+	],
+	"auraName": "Champion Army 1",
+	"auraDescription": "Units -25% batch production time.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

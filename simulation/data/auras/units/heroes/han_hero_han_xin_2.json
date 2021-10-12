@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": [ "Soldier" ],
+	"modifications": [
+		{ "value": "Looter/xp", "multiply": 1.2 }
+	],
+	"auraName": "Swift Camouflage Maneuvers 2",
+	"auraDescription": "All Soldiers +20% Looter experience during his lifetime.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

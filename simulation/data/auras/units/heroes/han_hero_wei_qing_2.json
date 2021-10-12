@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": [ "Champion" ],
+	"modifications": [
+		{ "value": "Attack/Capture/Capture", "add": 2 }
+	],
+	"auraName": "Champion Army 2",
+	"auraDescription": "Champions +2 capture attack strength.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}
