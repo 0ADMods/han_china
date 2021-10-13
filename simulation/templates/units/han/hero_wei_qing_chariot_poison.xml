@@ -4,6 +4,20 @@
     units/heroes/han_hero_wei_qing_1
     units/heroes/han_hero_wei_qing_2
   </Auras>
+  <Attack>
+    <Ranged>
+      <ApplyStatus>
+        <Poisoned>
+          <Interval>2000</Interval>
+          <Damage>
+            <Poison>1</Poison>
+          </Damage>
+          <Stackability>Extend</Stackability>
+          <Duration>10000</Duration>
+        </Poisoned>
+      </ApplyStatus>
+    </Ranged>
+  </Attack>
   <Footprint replace="">
     <Square width="10.0" depth="10.0"/>
     <Height>5.0</Height>
@@ -15,6 +29,16 @@
     <Icon>units/han/hero_wei_qing.png</Icon>
   </Identity>
   <Upgrade>
+    <UseDefaultArrows>
+      <Entity>units/han/hero_wei_qing_chariot</Entity>
+      <Tooltip>Switch to default arrows.</Tooltip>
+      <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+      <Cost>
+        <wood>5</wood>
+        <metal>5</metal>
+      </Cost>
+      <Time>3</Time>
+    </UseDefaultArrows>
     <UseFireArrows>
       <Entity>units/han/hero_wei_qing_chariot_fire</Entity>
       <Tooltip>Switch to fire arrows.</Tooltip>
@@ -26,17 +50,6 @@
       </Cost>
       <Time>3</Time>
     </UseFireArrows>
-    <UsePoisonArrows>
-      <Entity>units/han/hero_wei_qing_chariot_poison</Entity>
-      <Tooltip>Switch to poison arrows.</Tooltip>
-      <RequiredTechnology>poison_arrows</RequiredTechnology>
-      <Cost>
-        <food>5</food>
-        <wood>5</wood>
-        <metal>5</metal>
-      </Cost>
-      <Time>3</Time>
-    </UsePoisonArrows>
   </Upgrade>
   <VisualActor>
     <Actor>units/han/hero_chariot_crossbowman_wei_qing_m.xml</Actor>
