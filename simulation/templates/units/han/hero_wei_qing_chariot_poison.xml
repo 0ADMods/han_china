@@ -26,7 +26,7 @@
     <Civ>han</Civ>
     <SpecificName>Wei Qing</SpecificName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <Icon>units/han/hero_wei_qing.png</Icon>
+    <Icon>units/han/hero_wei_qing_poison.png</Icon>
   </Identity>
   <Upgrade>
     <UseDefaultArrows>
