@@ -3,7 +3,7 @@
 	"autoResearch": true,
 	"description": "Han built massive walls, the great wall.",
 	"icon": "wall.png",
-	"tooltip": "City Walls and +100% health.",
+	"tooltip": "City Walls +100% health.",
 	"requirements": { "civ": "han" },
 	"modifications": [
 		{ "value": "Health/Max", "multiply": 2 }

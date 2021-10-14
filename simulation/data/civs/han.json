@@ -12,12 +12,7 @@
 		{
 			"Name": "Defensive Walls",
 			"History": "The Chinese may have been best known for their immeasurably fortified defenses that kept enemy forces at bay long enough to obliterate them.",
-			"Description": "All walls and outposts are significantly cheaper and available earlier."
-		},
-		{
-			"Name": "Naval Prowess",
-			"History": "The Han Chinese developed some of the most underrated and innovative naval tactics of the era, including unmanned Fire Ships set adrift to destroy warring nations' sea vessels and shoreline structures.",
-			"Description": "A diverse navy will grant the Chinese a generously favorable position at sea."
+			"Description": "All walls are significantly stronger."
 		}
 	],
 	"WallSets": [

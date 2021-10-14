@@ -1,11 +1,9 @@
 {
 	"type": "global",
-	"affectedPlayers": [ "Enemy" ],
-	"affects": [ "Worker", "CitizenSoldier" ],
+	"affects": ["Wall"],
 	"modifications": [
-		{ "value": "ResourceGatherer/Rates/food/grain", "multiply": 0.8 }
+		{ "value": "Health/RegenRate", "add": 5 }
 	],
-	"auraName": "Confucian Reforms 1",
-	"auraDescription": "Enemy farming rate -20% during his lifetime.",
-	"overlayIcon": "art/textures/ui/session/auras/farming_penalty.png"
+	"auraName": "Confucian Reforms",
+	"auraDescription": "Walls +5 health regeneration rate."
 }

@@ -1,11 +1,11 @@
 {
-	"type": "global",
-	"affectedPlayers": [ "Enemy" ],
-	"affects": [ "Trader" ],
+	"type": "garrison",
+	"affects": ["Tower"],
 	"modifications": [
-		{  "value": "Trader/GainMultiplier", "multiply": 0.85 }
+		{ "value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.75 },
+		{ "value": "BuildingAI/MaxArrowCount", "multiply": 1.75 }
 	],
-	"auraName": "Confucian Reforms 2",
-	"auraDescription": "Enemy farming rate -20% and land traders -15% trade gain during his lifetime.",
-	"overlayIcon": "art/textures/ui/session/auras/farming_penalty.png"
+	"auraName": "Confucian Reforms",
+	"auraDescription": "When garrisoned, the Tower has +75% arrow count."
 }
+

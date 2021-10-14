@@ -1,10 +1,11 @@
 {
 	"type": "global",
-	"affects": [ "Soldier" ],
+	"affects": [ "Trader" ],
 	"modifications": [
-		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+		{ "value": "Trader/GainMultiplier", "multiply": 1.20 },
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 }
 	],
-	"auraName": "Swift Camouflage Maneuvers 1",
-	"auraDescription": "All Soldiers +20% walk during his lifetime.",
+	"auraName": "Silk Road",
+	"auraDescription": "Land traders +20% trade gain and +15% movement speed during his lifetime.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }

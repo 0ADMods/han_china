@@ -14,30 +14,6 @@
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/han/hero_wei_qing.png</Icon>
   </Identity>
-  <Upgrade>
-    <UseFireArrows>
-      <Entity>units/han/hero_wei_qing_chariot_fire</Entity>
-      <Tooltip>Switch to fire arrows.</Tooltip>
-      <RequiredTechnology>fire_arrows</RequiredTechnology>
-      <Cost>
-        <food>5</food>
-        <wood>5</wood>
-        <metal>5</metal>
-      </Cost>
-      <Time>3</Time>
-    </UseFireArrows>
-    <UsePoisonArrows>
-      <Entity>units/han/hero_wei_qing_chariot_poison</Entity>
-      <Tooltip>Switch to poison arrows.</Tooltip>
-      <RequiredTechnology>poison_arrows</RequiredTechnology>
-      <Cost>
-        <food>5</food>
-        <wood>5</wood>
-        <metal>5</metal>
-      </Cost>
-      <Time>3</Time>
-    </UsePoisonArrows>
-  </Upgrade>
   <VisualActor>
     <Actor>units/han/hero_chariot_crossbowman_wei_qing_m.xml</Actor>
   </VisualActor>

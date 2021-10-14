@@ -1,10 +1,11 @@
 {
 	"type": "global",
-	"affects": [ "Soldier" ],
+	"affects": ["Trade"],
+	"affectedPlayers": ["Enemy"],
 	"modifications": [
-		{ "value": "Looter/xp", "multiply": 1.2 }
+		{ "value": "Market/InternationalBonus", "multiply": 0.8 }
 	],
-	"auraName": "Swift Camouflage Maneuvers 2",
-	"auraDescription": "All Soldiers +20% Looter experience during his lifetime.",
+	"auraName": "Silk Road",
+	"auraDescription": "Enemy -20% international trade bonus.",
 	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }
