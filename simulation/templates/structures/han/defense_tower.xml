@@ -20,7 +20,7 @@
         <metal>100</metal>
         <stone>100</stone>
       </Cost>
-      <Time>200</Time>
+      <Time>30</Time>
       <Variant>upgrading</Variant>
     </Tower1>
   </Upgrade>

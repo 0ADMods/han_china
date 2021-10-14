@@ -1,11 +1,13 @@
 {
-	"type": "garrison",
-	"affects": ["Tower"],
+	"type": "range",
+	"radius": 60,
+	"affects": ["Cavalry"],
 	"modifications": [
-		{ "value": "BuildingAI/GarrisonArrowMultiplier", "multiply": 1.75 },
-		{ "value": "BuildingAI/MaxArrowCount", "multiply": 1.75 }
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.2 }
 	],
 	"auraName": "Confucian Reforms",
-	"auraDescription": "When garrisoned, the Tower has +75% arrow count."
+	"auraDescription": "Cavalry +20% attack damage.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
 }
-

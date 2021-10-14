@@ -34,7 +34,7 @@
         <stone>200</stone>
         <wood>350</wood>
       </Cost>
-      <Time>30</Time>
+      <Time>40</Time>
       <Variant>upgrading</Variant>
     </FortifiedCivilCenter>
   </Upgrade>
