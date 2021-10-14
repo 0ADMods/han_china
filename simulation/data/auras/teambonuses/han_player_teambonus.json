@@ -1,12 +1,10 @@
 {
 	"type": "global",
-	"affects": ["Defensive"],
+	"affects": ["Trade"],
 	"affectedPlayers": ["MutualAlly"],
 	"modifications": [
-		{
-			"value": "Health/Max", "multiply": 1.2
-		}
+		{ "value": "Market/InternationalBonus", "multiply": 1.1 }
 	],
-	"auraName": "Taoism",
-	"auraDescription": "Allied structures +20% health."
+	"auraName": "Chinese Paper",
+	"auraDescription": "Allies +10% international trade bonus."
 }

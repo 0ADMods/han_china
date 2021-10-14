@@ -6,6 +6,5 @@
 		{ "value": "Market/InternationalBonus", "multiply": 0.8 }
 	],
 	"auraName": "Silk Road",
-	"auraDescription": "Enemy -20% international trade bonus.",
-	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+	"auraDescription": "Enemy -20% international trade bonus."
 }
