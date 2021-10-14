@@ -1,11 +1,10 @@
 {
-	"type": "global",
-	"affects": [ "Trader" ],
+	"type": "range",
+	"radius": 60,
+	"affects": ["Soldier"],
 	"modifications": [
-		{ "value": "Trader/GainMultiplier", "multiply": 1.20 },
-		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.15 }
+		{ "value": "Promotion/RequiredXp", "multiply": 0.5 }
 	],
-	"auraName": "Silk Road",
-	"auraDescription": "Land traders +20% trade gain and +15% movement speed during his lifetime.",
-	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+	"auraName": "Northern Army",
+	"auraDescription": "Promotion experience -50%."
 }

@@ -22,8 +22,8 @@
     <Icon>units/han/champion_infantry_archer_fire.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
-  <!--<Upgrade>
-    <SwitchToSword>
+  <Upgrade>
+    <!--<SwitchToSword>
       <Entity>units/han/champion_infantry_swordsman</Entity>
       <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
       <RequiredTechnology>han/attack_champion_infantry_archer</RequiredTechnology>
@@ -31,7 +31,7 @@
         <metal>5</metal>
       </Cost>
       <Time>3</Time>
-    </SwitchToSword>
+    </SwitchToSword>-->
     <UseDefaultArrows>
       <Entity>units/han/champion_infantry_archer</Entity>
       <Tooltip>Switch to default arrows.</Tooltip>
@@ -53,7 +53,7 @@
       </Cost>
       <Time>3</Time>
     </UsePoisonArrows>
-  </Upgrade>-->
+  </Upgrade>
   <VisualActor>
     <Actor>units/han/infantry_archer_c_fire.xml</Actor>
   </VisualActor>

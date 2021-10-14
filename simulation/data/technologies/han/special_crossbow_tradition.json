@@ -9,12 +9,8 @@
 	},
 	"requirements": {
 		"all": [
-			{
-				"tech": "phase_town"
-			},
-			{
-				"civ": "han"
-			}
+			{ "tech": "phase_town" },
+			{ "civ": "han" }
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
@@ -22,21 +18,10 @@
 	"researchTime": 60,
 	"tooltip": "Range +10 meters for crossbow-wielding units.",
 	"modifications": [
-		{
-			"value": "Attack/Ranged/MaxRange",
-			"add": 10.0
-		},
-		{
-			"value": "Attack/Ranged/Spread",
-			"multiply": 0.8
-		},
-		{
-			"value": "Vision/Range",
-			"add": 10.0
-		}
+		{ "value": "Attack/Ranged/MaxRange", "add": 10.0 },
+		{ "value": "Attack/Ranged/Spread", "multiply": 0.8 },
+		{ "value": "Vision/Range", "add": 10.0 }
 	],
-	"affects": [
-		"Crossbowman"
-	],
+	"affects": ["Crossbowman"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

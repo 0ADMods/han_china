@@ -13,7 +13,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "fire_arrows.png",
+	"icon": "arrow_fire.png",
 	"researchTime": 60,
 	"tooltip": "Champion archers use flaming arrows.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"

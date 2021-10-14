@@ -3,8 +3,8 @@
 	"affects": ["Trade"],
 	"affectedPlayers": ["MutualAlly"],
 	"modifications": [
-		{ "value": "Market/InternationalBonus", "multiply": 1.1 }
+		{ "value": "Market/InternationalBonus", "multiply": 1.15 }
 	],
-	"auraName": "Chinese Paper",
-	"auraDescription": "Allies +10% international trade bonus."
+	"auraName": "Silk Road",
+	"auraDescription": "Allies +15% international trade bonus."
 }
