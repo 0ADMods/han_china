@@ -16,7 +16,7 @@
   </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
-      han/iron_casting
+      iron_casting
     </Technologies>
   </ProductionQueue>
   <VisualActor>

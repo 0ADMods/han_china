@@ -18,7 +18,7 @@
       units/{civ}/champion_infantry_swordsman
     </Entities>
     <Technologies datatype="tokens">
-      han/special_crossbow_tradition
+      special_crossbow_tradition
     </Technologies>
   </ProductionQueue>
   <Obstruction>

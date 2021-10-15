@@ -90,11 +90,11 @@
       units/han/minister
     </Entities>
     <Technologies datatype="tokens">
-      han/civil_service_01
-      han/civil_service_02
-      han/civil_engineering_01
-      han/civil_engineering_02
-      han/art_of_war
+      civil_service_01
+      civil_service_02
+      civil_engineering_01
+      civil_engineering_02
+      art_of_war
       unlock_spies
       spy_counter
     </Technologies>
