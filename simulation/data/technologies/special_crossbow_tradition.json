@@ -15,11 +15,10 @@
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "crossbow_tradition.png",
-	"researchTime": 60,
+	"researchTime": 40,
 	"tooltip": "Range +10 meters for crossbow-wielding units.",
 	"modifications": [
 		{ "value": "Attack/Ranged/MaxRange", "add": 10.0 },
-		{ "value": "Attack/Ranged/Spread", "multiply": 0.8 },
 		{ "value": "Vision/Range", "add": 10.0 }
 	],
 	"affects": ["Crossbowman"],

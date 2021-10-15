@@ -8,6 +8,11 @@
     <Civ>han</Civ>
     <SpecificName>Shì</SpecificName>
   </Identity>
+  <ProductionQueue>
+    <Technologies datatype="tokens">
+      paper
+    </Technologies>
+  </ProductionQueue>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>

@@ -1,0 +1,25 @@
+{
+	"genericName": "Paper",
+	"description": ".",
+	"cost": {
+		"food": 200,
+		"wood": 500,
+		"stone": 0,
+		"metal": 100
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "han" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "friendship.png",
+	"researchTime": 40,
+	"tooltip": "Traders +10% trade gain.",
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 1.10 }
+	],
+	"supersedes": "trade_gain_02",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
