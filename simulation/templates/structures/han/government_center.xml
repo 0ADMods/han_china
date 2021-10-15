@@ -4,15 +4,12 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Hack>0.0</Hack>
         <Pierce>12.0</Pierce>
-        <Crush>0.0</Crush>
       </Damage>
-      <MaxRange>72.0</MaxRange>
+      <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
       <Projectile>
         <Speed>75.0</Speed>
         <Spread>1.5</Spread>
@@ -38,6 +35,7 @@
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
+    <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>250</BuildTime>
