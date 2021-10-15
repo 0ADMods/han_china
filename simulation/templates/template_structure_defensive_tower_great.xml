@@ -3,6 +3,7 @@
   <Attack>
     <Ranged>
       <AttackName>Bow</AttackName>
+      <ElevationBonus>20</ElevationBonus>
       <Damage>
         <Pierce>10</Pierce>
       </Damage>
