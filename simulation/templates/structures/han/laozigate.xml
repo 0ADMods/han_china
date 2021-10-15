@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
   <Auras datatype="tokens">
-    structures/han_shrine
+    structures/han_laozi_gate
   </Auras>
   <BuildRestrictions>
-    <Category>Shrine</Category>
+    <Category>LaoziGate</Category>
     <Distance>
-      <FromClass>Shrine</FromClass>
+      <FromClass>LaoziGate</FromClass>
       <MinDistance>150</MinDistance>
     </Distance>
   </BuildRestrictions>
@@ -28,10 +28,10 @@
   </Health>
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Shrine</GenericName>
+    <GenericName>LaoziGate</GenericName>
     <SpecificName>Gate of Laozi</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
-    <VisibleClasses datatype="tokens">Shrine Town</VisibleClasses>
+    <VisibleClasses datatype="tokens">LaoziGate Town</VisibleClasses>
     <Icon>structures/confusianism.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

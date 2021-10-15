@@ -6,8 +6,8 @@
   <EntityLimits>
     <Limits>
       <GovernmentCenter>1</GovernmentCenter>
-      <GreatTower>5</GreatTower>
-      <Shrine>3</Shrine>
+      <GreatTower>4</GreatTower>
+      <LaoziGate>4</LaoziGate>
       <Minister>9</Minister>
     </Limits>
   </EntityLimits>
