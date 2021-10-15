@@ -99,6 +99,15 @@
       spy_counter
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>0.0</food>
+      <wood>0.1</wood>
+      <stone>0.1</stone>
+      <metal>0.1</metal>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
   <TerritoryInfluence>
     <Root>true</Root>
     <Radius>70</Radius>

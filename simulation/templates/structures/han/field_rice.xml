@@ -3,6 +3,7 @@
     <Identity>
         <Civ>han</Civ>
         <SpecificName>Tián</SpecificName>
+        <Classes datatype="tokens">CivSpecific</Classes>
     </Identity>
     <VisualActor>
         <Actor>structures/plot_field_rice_4x4.xml</Actor>

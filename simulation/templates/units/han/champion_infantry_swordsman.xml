@@ -12,7 +12,7 @@
     <!--<SwitchToBow>
       <Entity>units/han/champion_infantry_archer</Entity>
       <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
-      <RequiredTechnology>han/attack_champion_infantry_swordsman</RequiredTechnology>
+      <RequiredTechnology>attack_champion_infantry_swordsman</RequiredTechnology>
       <Cost>
         <wood>5</wood>
       </Cost>
@@ -20,8 +20,8 @@
     </SwitchToBow>-->
     <UsePoisonBlade>
       <Entity>units/han/champion_infantry_swordsman_poison</Entity>
-      <Tooltip>Switch to default arrows.</Tooltip>
-      <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+      <Tooltip>Switch to poisoned blade.</Tooltip>
+      <RequiredTechnology>poison_blades</RequiredTechnology>
       <Cost>
         <wood>5</wood>
         <metal>5</metal>

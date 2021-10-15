@@ -26,7 +26,7 @@
     <!--<SwitchToSword>
       <Entity>units/han/champion_infantry_swordsman</Entity>
       <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
-      <RequiredTechnology>han/attack_champion_infantry_archer</RequiredTechnology>
+      <RequiredTechnology>attack_champion_infantry_archer</RequiredTechnology>
       <Cost>
         <metal>5</metal>
       </Cost>

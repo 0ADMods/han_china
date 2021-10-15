@@ -3,7 +3,7 @@
 	"specificName": {
 		"han": "Gōngchéng"
 	},
-	"supersedes": "han/civil_engineering_01",
+	"supersedes": "civil_engineering_01",
 	"description": "",
 	"cost": {
 		"food": 0,

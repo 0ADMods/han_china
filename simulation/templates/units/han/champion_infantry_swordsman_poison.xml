@@ -26,7 +26,7 @@
     <!--<SwitchToBow>
       <Entity>units/han/champion_infantry_archer</Entity>
       <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
-      <RequiredTechnology>han/attack_champion_infantry_swordsman</RequiredTechnology>
+      <RequiredTechnology>attack_champion_infantry_swordsman</RequiredTechnology>
       <Cost>
         <wood>5</wood>
       </Cost>
@@ -34,7 +34,7 @@
     </SwitchToBow>-->
     <UseDefaultBlade>
       <Entity>units/han/champion_infantry_swordsman</Entity>
-      <Tooltip>Switch to default arrows.</Tooltip>
+      <Tooltip>Switch to default blade.</Tooltip>
       <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
       <Cost>
         <wood>5</wood>

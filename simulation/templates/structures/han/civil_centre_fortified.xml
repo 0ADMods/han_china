@@ -37,6 +37,7 @@
       fortified_civ_center_range
 <!--      attack_champion_infantry_swordsman
       attack_champion_infantry_archer-->
+      poison_blades
       pair_unlock_arrows_type
       -phase_town_{civ}
       -phase_city_{civ}

@@ -3,7 +3,7 @@
 	"specificName": {
 		"han": "Guānliáo"
 	},
-	"supersedes": "han/civil_service_01",
+	"supersedes": "civil_service_01",
 	"description": "",
 	"cost": {
 		"food": 200,

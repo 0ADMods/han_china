@@ -12,6 +12,7 @@
     units/han_minister_garrison
     units/han_minister_gathering
     units/han_minister_building
+    units/han_minister_garrison_governmentcenter
   </Auras>
   <Cost>
     <Population>2</Population>

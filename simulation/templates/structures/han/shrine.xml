@@ -29,7 +29,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Shrine</GenericName>
-    <SpecificName>Shrine of Laozi</SpecificName>
+    <SpecificName>Gate of Laozi</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Shrine Town</VisibleClasses>
     <Icon>structures/confusianism.png</Icon>

@@ -1,6 +1,5 @@
 {
-	"pair": "pair_unlock_arrows_type",
-	"genericName": "Poison Arrows",
+	"genericName": "Poison Blades",
 	"description": ".",
 	"cost": {
 		"food": 500,
@@ -13,8 +12,8 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "arrow_poison.png",
-	"researchTime": 40,
-	"tooltip": "Champion archers use poisoned arrows.",
+	"icon": "vial_poison.png",
+	"researchTime": 60,
+	"tooltip": "Champion swordsmen use poisoned blades.",
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

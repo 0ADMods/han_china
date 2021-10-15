@@ -8,6 +8,7 @@
       <GovernmentCenter>1</GovernmentCenter>
       <GreatTower>5</GreatTower>
       <Shrine>3</Shrine>
+      <Minister>9</Minister>
     </Limits>
   </EntityLimits>
 </Entity>

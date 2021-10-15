@@ -7,6 +7,8 @@
     <Identity>
         <Civ>han</Civ>
         <SpecificName>Dà fángyù tǎ</SpecificName>
+        <Classes datatype="tokens">CivSpecific</Classes>
+        <VisibleClasses datatype="tokens">GreatTower</VisibleClasses>
     </Identity>
     <Obstruction>
         <Static width="7.5" depth="7.5"/>

@@ -10,10 +10,10 @@
 	"modifications": [
 		{
 			"value": "Health/RegenRate",
-			"add": -20
+			"add": -10
 		}
 	],
 	"auraName": "Scythes",
 	"auraDescription": "Nearby enemy units -10 health/second.",
-	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+	"overlayIcon": "art/textures/ui/session/auras/damage.png"
 }
