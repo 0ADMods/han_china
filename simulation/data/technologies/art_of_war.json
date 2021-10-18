@@ -17,9 +17,9 @@
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "art_of_war.png",
 	"researchTime": 40,
-	"tooltip": "Chinese soldiers +1 resistance and +20% attack damage, +25% health.",
+	"tooltip": "Chinese soldiers +1 resistance and +20% attack damage, +15% health.",
 	"modifications": [
-		{ "value": "Health/Max", "multiply": 1.25 },
+		{ "value": "Health/Max", "multiply": 1.15 },
 		{ "value": "Attack/Melee/Splash/Damage/Hack", "multiply": 1.2, "affects": "Soldier" },
 		{ "value": "Attack/Melee/Splash/Damage/Pierce", "multiply": 1.2, "affects": "Soldier" },
 		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 1.2, "affects": "Soldier" },

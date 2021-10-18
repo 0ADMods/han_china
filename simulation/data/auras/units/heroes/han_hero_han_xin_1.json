@@ -1,12 +1,13 @@
 {
 	"type": "range",
-	"radius": 60,
+	"radius": 40,
 	"affects": ["Soldier"],
+	"affectedPlayers": ["Ally"],
 	"modifications": [
 		{ "value": "Promotion/RequiredXp", "multiply": 0.5 }
 	],
 	"auraName": "Northern Army",
-	"auraDescription": "Promotion experience -50%.",
+	"auraDescription": "Own and Allied Soldiers -50% promotion experience.",
 	"overlayIcon": "art/textures/ui/session/auras/xp.png"
 
 }
