@@ -1,6 +1,6 @@
 {
 	"type": "range",
-	"radius": 60,
+	"radius": 40,
 	"affects": ["Cavalry"],
 	"modifications": [
 		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.2 },
