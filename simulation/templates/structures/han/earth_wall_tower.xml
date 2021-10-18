@@ -26,7 +26,7 @@
     <GenericName>Rammed Earth Wall Tower</GenericName>
     <SpecificName>Hāng tǔ qiáng</SpecificName>
     <SelectionGroupName>structures/han_earth_wall_tower</SelectionGroupName>
-    <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
+    <VisibleClasses datatype="tokens">RammedEarthWallTower</VisibleClasses>
     <Icon>structures/siege_wall.png</Icon>
   </Identity>
   <Loot>
