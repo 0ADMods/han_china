@@ -46,9 +46,6 @@
     <Square width="26.0" depth="35.0"/>
     <Height>8.0</Height>
   </Footprint>
-  <BuildRestrictions>
-    <Territory>own ally neutral</Territory>
-  </BuildRestrictions>
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Bù</SpecificName>

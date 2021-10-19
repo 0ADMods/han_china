@@ -14,8 +14,6 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/{civ}/infantry_crossbowman_b
-      units/{civ}/champion_infantry_archer
-      units/{civ}/champion_infantry_swordsman
     </Entities>
     <Technologies datatype="tokens">
       special_crossbow_tradition
