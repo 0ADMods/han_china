@@ -1,7 +1,12 @@
 {
 	"genericName": "Water Weeding",
 	"description": "Grow water weeds to to supply rice plants with nutricients.",
-	"cost": { "food": 0, "wood": 300, "stone": 0, "metal": 150 },
+	"cost": {
+		"food": 0,
+		"wood": 300,
+		"stone": 0,
+		"metal": 150
+	},
 	"supersedes": "farming_rice_seed_drill",
 	"requirements": { "tech": "phase_town", "civ": "han" },
 	"requirementsTooltip": "Unlocked in Town Phase.",

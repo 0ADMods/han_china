@@ -1,8 +1,6 @@
 {
 	"genericName": "Civil Engineering - Level 1",
-	"specificName": {
-		"han": "Gōngchéng"
-	},
+	"specificName": { "han": "Gōngchéng" },
 	"description": "",
 	"cost": {
 		"food": 0,
@@ -12,12 +10,8 @@
 	},
 	"requirements": {
 		"all": [
-			{
-				"tech": "phase_town"
-			},
-			{
-				"civ": "han"
-			}
+			{ "tech": "phase_town" },
+			{ "civ": "han" }
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
@@ -25,33 +19,13 @@
 	"researchTime": 40,
 	"tooltip": "All structures -15% build time, +10% health and -5% cost.",
 	"modifications": [
-		{
-			"value": "Cost/BuildTime",
-			"multiply": 0.85
-		},
-		{
-			"value": "Health/Max",
-			"multiply": 1.1
-		},
-		{
-			"value": "Cost/Resources/food",
-			"multiply": 0.95
-		},
-		{
-			"value": "Cost/Resources/wood",
-			"multiply": 0.95
-		},
-		{
-			"value": "Cost/Resources/stone",
-			"multiply": 0.95
-		},
-		{
-			"value": "Cost/Resources/metal",
-			"multiply": 0.95
-		}
+		{ "value": "Cost/BuildTime","multiply": 0.85 },
+		{ "value": "Health/Max","multiply": 1.1 },
+		{ "value": "Cost/Resources/food", "multiply": 0.95 },
+		{ "value": "Cost/Resources/wood", "multiply": 0.95 },
+		{ "value": "Cost/Resources/stone", "multiply": 0.95 },
+		{ "value": "Cost/Resources/metal", "multiply": 0.95 }
 	],
-	"affects": [
-		"Structure"
-	],
+	"affects": ["Structure"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

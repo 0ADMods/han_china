@@ -1,7 +1,12 @@
 {
 	"genericName": "Seed Drill",
 	"description": "Equip your workers with seed drills.",
-	"cost": { "food": 0, "wood": 200, "stone": 0, "metal": 100 },
+	"cost": {
+		"food": 0,
+		"wood": 200,
+		"stone": 0,
+		"metal": 100
+	},
 	"requirements": { "tech": "phase_village", "civ": "han" },
 	"requirementsTooltip": "Unlocked in Village Phase.",
 	"icon": "gather_seed_drill.png",
