@@ -4,6 +4,6 @@
 	"modifications": [
 		{ "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
 	],
-	"auraName": "Consolidator of the Empire",
-	"auraDescription": "Son of Chandragupta Maurya, Bindusara consolidated the empire, creating a stable state for his son Ashoka to inherit.\nStructures +20% territory influence radius."
+	"auraName": "Territorial Expansion",
+	"auraDescription": "At its height, the Empire's borders spanned from the Fergana Valley in the west, to Korea in the east, and to northern Vietnam in the south.\n."
 }

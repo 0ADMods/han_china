@@ -4,6 +4,6 @@
 	"modifications": [
 		{ "value": "Attack/Capture/Capture", "multiply": 1.15 }
 	],
-	"auraName": "Vamba Moriyar",
-	"auraDescription": "Bindusara is said to have conquered lands to the south of the empire.\nSoldiers +15% capture attack strength."
+	"auraName": "Imperial Music Bureau",
+	"auraDescription": "The Music Bureau was charged directly, by the emperor to perform various tasks related to music, poetry, entertainment, or religious worship.\n."
 }
