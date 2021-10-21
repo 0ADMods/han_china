@@ -9,15 +9,6 @@
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <Upgrade>
-    <!--<SwitchToBow>
-      <Entity>units/han/champion_infantry_archer</Entity>
-      <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
-      <RequiredTechnology>attack_champion_infantry_swordsman</RequiredTechnology>
-      <Cost>
-        <wood>5</wood>
-      </Cost>
-      <Time>3</Time>
-    </SwitchToBow>-->
     <UsePoisonBlade>
       <Entity>units/han/champion_infantry_swordsman_poison</Entity>
       <Tooltip>Switch to poisoned blade.</Tooltip>

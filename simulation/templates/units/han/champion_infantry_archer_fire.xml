@@ -23,15 +23,6 @@
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <Upgrade>
-    <!--<SwitchToSword>
-      <Entity>units/han/champion_infantry_swordsman</Entity>
-      <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
-      <RequiredTechnology>attack_champion_infantry_archer</RequiredTechnology>
-      <Cost>
-        <metal>5</metal>
-      </Cost>
-      <Time>3</Time>
-    </SwitchToSword>-->
     <UseDefaultArrows>
       <Entity>units/han/champion_infantry_archer</Entity>
       <Tooltip>Switch to default arrows.</Tooltip>

@@ -3,9 +3,6 @@
   <Auras datatype="tokens">
     structures/wall_garrisoned
   </Auras>
-<!--  <BuildRestrictions>
-    <Territory>own neutral enemy</Territory>
-  </BuildRestrictions>-->
   <Cost>
     <BuildTime>40</BuildTime>
     <Resources>
