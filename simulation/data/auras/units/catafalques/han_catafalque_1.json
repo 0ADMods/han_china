@@ -5,5 +5,5 @@
 		{ "value": "TerritoryInfluence/Radius", "multiply": 1.2 }
 	],
 	"auraName": "Territorial Expansion",
-	"auraDescription": "At its height, the Empire's borders spanned from the Fergana Valley in the west, to Korea in the east, and to northern Vietnam in the south.\n."
+	"auraDescription": "At its height, the Empire's borders spanned from the Fergana Valley in the west, to Korea in the east, and to northern Vietnam in the south.\nTerritory influence bonus +20%."
 }
