@@ -19,6 +19,10 @@
       units/{civ}/hero_han_xin
       units/{civ}/hero_liu_bang_horse
       units/{civ}/hero_wei_qing_chariot
+      units/{civ}/champion_infantry_swordsman
+      units/{civ}/champion_infantry_archer
+      units/{civ}/champion_cavalry_crossbowman
+      units/{civ}/champion_cavalry_spearman
     </Entities>
   </ProductionQueue>
   <VisualActor>

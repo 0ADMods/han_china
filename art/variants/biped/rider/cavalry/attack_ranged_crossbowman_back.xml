@@ -7,6 +7,7 @@
     <animation file="biped/rider/cavalry/crossbowman/attack_ranged_back.dae" event="0.85" name="attack_ranged" id="Attack4" load="0.47" speed="15"/>
   </animations>
   <props>
-    <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-weapon_L"/>
+    <prop actor="" attachpoint="weapon_L"/>
+    <prop actor="props/units/weapons/arrow_back.xml" attachpoint="loaded-projectile"/>
   </props>
 </variant>

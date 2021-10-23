@@ -3,4 +3,12 @@
   <Auras datatype="tokens">
     teambonuses/han_player_teambonus
   </Auras>
+  <EntityLimits>
+    <Limits>
+      <GovernmentCenter>1</GovernmentCenter>
+      <GreatTower>4</GreatTower>
+      <LaoziGate>4</LaoziGate>
+      <Minister>9</Minister>
+    </Limits>
+  </EntityLimits>
 </Entity>

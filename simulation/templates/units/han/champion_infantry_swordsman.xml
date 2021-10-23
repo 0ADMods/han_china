@@ -5,19 +5,20 @@
     <GenericName>Palace Guard Swordsman</GenericName>
     <SpecificName>Hu Ben</SpecificName>
     <SelectionGroupName>units/han/champion_infantry_swordsman</SelectionGroupName>
-    <Icon>units/han/infantry_swordsman_c.png</Icon>
+    <Icon>units/han/champion_infantry_swordsman.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <Upgrade>
-    <SwitchToBow>
-      <Entity>units/han/champion_infantry_archer</Entity>
-      <Tooltip>Switch weapon from sword (melee) to bow (ranged).</Tooltip>
-      <RequiredTechnology>han/attack_champion_infantry_swordsman</RequiredTechnology>
+    <UsePoisonBlade>
+      <Entity>units/han/champion_infantry_swordsman_poison</Entity>
+      <Tooltip>Switch to poisoned blade.</Tooltip>
+      <RequiredTechnology>poison_blades</RequiredTechnology>
       <Cost>
         <wood>5</wood>
+        <metal>5</metal>
       </Cost>
       <Time>3</Time>
-    </SwitchToBow>
+    </UsePoisonBlade>
   </Upgrade>
   <VisualActor>
     <Actor>units/han/infantry_swordsman_c.xml</Actor>

@@ -1,0 +1,21 @@
+{
+	"genericName": "Arrow Shooters",
+	"description": "Arrow shooters increase the maximum range of the arrows.",
+	"cost": {
+		"food": 0,
+		"wood": 400,
+		"stone": 0,
+		"metal": 300
+	},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "fortified_cc_range.png",
+	"researchTime": 40,
+	"tooltip": "Increases defensive maximum range by 10 meters.",
+	"modifications": [
+		{ "value": "Attack/Ranged/MaxRange", "add": 10 },
+		{ "value": "Vision/Range", "add": 10 }
+	],
+	"affects": ["FortifedCivilCentre"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

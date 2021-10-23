@@ -4,6 +4,10 @@
     <Entities datatype="tokens">
       structures/{civ}/civil_centre_fortified
       structures/{civ}/government_center
+      structures/{civ}/great_tower
+      structures/{civ}/laozigate
+      -structures/wallset_palisade
+      structures/{civ}/wallset_earth
     </Entities>
   </Builder>
   <Identity>

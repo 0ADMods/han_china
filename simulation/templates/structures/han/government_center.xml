@@ -4,15 +4,12 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Hack>0.0</Hack>
         <Pierce>12.0</Pierce>
-        <Crush>0.0</Crush>
       </Damage>
-      <MaxRange>72.0</MaxRange>
+      <MaxRange>60.0</MaxRange>
       <MinRange>0.0</MinRange>
       <PrepareTime>1200</PrepareTime>
       <RepeatTime>2000</RepeatTime>
-      <Delay>0</Delay>
       <Projectile>
         <Speed>75.0</Speed>
         <Spread>1.5</Spread>
@@ -34,10 +31,11 @@
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
   <BuildRestrictions>
-    <Category>UniqueBuilding</Category>
+    <Category>GovernmentCenter</Category>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
+    <RegenRate>5.0</RegenRate>
   </Capturable>
   <Cost>
     <BuildTime>250</BuildTime>
@@ -66,6 +64,7 @@
     <SpecificName>Zhi Hui Zhong Xin</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/government_center.png</Icon>
+    <VisibleClasses datatype="tokens">GovernmentCenter</VisibleClasses>
   </Identity>
   <Health>
     <Max>3000</Max>
@@ -89,15 +88,24 @@
       units/han/minister
     </Entities>
     <Technologies datatype="tokens">
-      han/civil_service_01
-      han/civil_service_02
-      han/civil_engineering_01
-      han/civil_engineering_02
-      han/art_of_war
+      civil_service_01
+      civil_service_02
+      civil_engineering_01
+      civil_engineering_02
+      art_of_war
       unlock_spies
       spy_counter
     </Technologies>
   </ProductionQueue>
+  <ResourceTrickle>
+    <Rates>
+      <food>0.0</food>
+      <wood>0.1</wood>
+      <stone>0.1</stone>
+      <metal>0.1</metal>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
   <TerritoryInfluence>
     <Root>true</Root>
     <Radius>70</Radius>

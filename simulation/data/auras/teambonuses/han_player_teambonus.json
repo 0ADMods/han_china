@@ -1,13 +1,10 @@
 {
 	"type": "global",
-	"affects": ["Defensive"],
-	"affectedPlayers": ["ExclusiveMutualAlly"],
-	"civ": "han",
+	"affects": ["Trade"],
+	"affectedPlayers": ["MutualAlly"],
 	"modifications": [
-		{
-			"value": "Health/Max", "multiply": 1.2
-		}
+		{ "value": "Market/InternationalBonus", "multiply": 1.15 }
 	],
-	"auraName": "Taoism",
-	"auraDescription": "Allied structures +20% health."
+	"auraName": "Silk Road",
+	"auraDescription": "Allies +15% international trade bonus."
 }

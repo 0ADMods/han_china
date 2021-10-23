@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <ApplyStatus>
+        <Poisoned>
+          <Interval>2000</Interval>
+          <Damage>
+            <Poison>1</Poison>
+          </Damage>
+          <Stackability>Extend</Stackability>
+          <Duration>10000</Duration>
+        </Poisoned>
+      </ApplyStatus>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>han</Civ>
+    <GenericName>Palace Guard Poison Swordsman</GenericName>
+    <SpecificName>Hu Ben</SpecificName>
+    <SelectionGroupName>units/han/champion_infantry_swordsman</SelectionGroupName>
+    <Icon>units/han/champion_infantry_swordsman_poison.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+  </Identity>
+  <Upgrade>
+    <UseDefaultBlade>
+      <Entity>units/han/champion_infantry_swordsman</Entity>
+      <Tooltip>Switch to default blade.</Tooltip>
+      <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+      <Cost>
+        <wood>5</wood>
+        <metal>5</metal>
+      </Cost>
+      <Time>3</Time>
+    </UseDefaultBlade>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/han/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

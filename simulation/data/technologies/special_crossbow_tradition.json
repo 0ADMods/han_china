@@ -1,0 +1,26 @@
+{
+	"genericName": "Crossbow Tradition",
+	"description": "The Chinese had a tradition of fine archery and a penchant for using massed crossbowmen in battle.",
+	"cost": {
+		"food": 500,
+		"wood": 500,
+		"stone": 0,
+		"metal": 250
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{ "civ": "han" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "crossbow_tradition.png",
+	"researchTime": 40,
+	"tooltip": "Range +10 meters for crossbow-wielding units.",
+	"modifications": [
+		{ "value": "Attack/Ranged/MaxRange", "add": 10.0 },
+		{ "value": "Vision/Range", "add": 10.0 }
+	],
+	"affects": ["Crossbowman"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

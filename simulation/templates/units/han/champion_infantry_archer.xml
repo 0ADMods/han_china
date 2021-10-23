@@ -5,19 +5,32 @@
     <GenericName>Palace Guard Archer</GenericName>
     <SpecificName>Hu Ben</SpecificName>
     <SelectionGroupName>units/han/champion_infantry_archer</SelectionGroupName>
-    <Icon>units/han/infantry_archer_c.png</Icon>
+    <Icon>units/han/champion_infantry_archer.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <Upgrade>
-    <SwitchToSword>
-      <Entity>units/han/champion_infantry_swordsman</Entity>
-      <Tooltip>Switch weapon from bow (ranged) to sword (melee).</Tooltip>
-      <RequiredTechnology>han/attack_champion_infantry_archer</RequiredTechnology>
+    <UseFireArrows>
+      <Entity>units/han/champion_infantry_archer_fire</Entity>
+      <Tooltip>Switch to fire arrows.</Tooltip>
+      <RequiredTechnology>fire_arrows</RequiredTechnology>
       <Cost>
+        <food>5</food>
+        <wood>5</wood>
         <metal>5</metal>
       </Cost>
       <Time>3</Time>
-    </SwitchToSword>
+    </UseFireArrows>
+    <UsePoisonArrows>
+      <Entity>units/han/champion_infantry_archer_poison</Entity>
+      <Tooltip>Switch to poison arrows.</Tooltip>
+      <RequiredTechnology>poison_arrows</RequiredTechnology>
+      <Cost>
+        <food>5</food>
+        <wood>5</wood>
+        <metal>5</metal>
+      </Cost>
+      <Time>3</Time>
+    </UsePoisonArrows>
   </Upgrade>
   <VisualActor>
     <Actor>units/han/infantry_archer_c.xml</Actor>

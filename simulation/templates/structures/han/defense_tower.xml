@@ -11,6 +11,19 @@
     <Civ>han</Civ>
     <SpecificName>Dū</SpecificName>
   </Identity>
+  <Upgrade>
+    <Tower1>
+      <Entity>structures/{civ}/great_tower</Entity>
+      <Tooltip>Reinforce with stone block, and install shoushe to upgrade this defense tower into a prompt, long range, and accurate bolt tower.</Tooltip>
+      <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <metal>100</metal>
+        <stone>100</stone>
+      </Cost>
+      <Time>30</Time>
+      <Variant>upgrading</Variant>
+    </Tower1>
+  </Upgrade>
   <Obstruction>
     <Static width="7.0" depth="8.0"/>
   </Obstruction>

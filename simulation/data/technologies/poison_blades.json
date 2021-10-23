@@ -1,0 +1,19 @@
+{
+	"genericName": "Poison Blades",
+	"description": ".",
+	"cost": {
+		"food": 500,
+		"metal": 400
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "han" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "vial_poison.png",
+	"researchTime": 60,
+	"tooltip": "Champion swordsmen use poisoned blades.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
