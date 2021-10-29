@@ -4,8 +4,8 @@
     <Melee>
       <AttackName>Halberd</AttackName>
       <Damage>
-        <Hack>8</Hack>
-        <Pierce>4</Pierce>
+        <Hack>3</Hack>
+        <Pierce>3</Pierce>
         <Crush>1</Crush>
       </Damage>
       <MaxRange>6</MaxRange>
@@ -47,4 +47,8 @@
       <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
     </SoundGroups>
   </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.95</WalkSpeed>
+    <Acceleration op="mul">0.95</Acceleration>
+  </UnitMotion>
 </Entity>
