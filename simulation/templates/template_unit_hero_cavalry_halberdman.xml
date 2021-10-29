@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry">
+  <Attack>
+    <Melee>
+      <AttackName>Halberd</AttackName>
+      <Damage>
+        <Hack>18</Hack>
+        <Pierce>18</Pierce>
+        <Crush>3</Crush>
+      </Damage>
+     <MaxRange>6</MaxRange>
+     <PrepareTime>500</PrepareTime>
+     <RepeatTime>1000</RepeatTime>
+     <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Halberdman</VisibleClasses>
+    <GenericName>Hero Cavalry Halberdman</GenericName>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Pierce op="add">1</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+</Entity>
