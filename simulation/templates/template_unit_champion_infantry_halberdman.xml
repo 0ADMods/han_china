@@ -4,12 +4,19 @@
     <Melee>
       <AttackName>Halberd</AttackName>
       <Damage>
-        <Hack>12</Hack>
-        <Crush>4</Crush>
+        <Hack>14</Hack>
+        <Pierce>5</Pierce>
+        <Crush>2</Crush>
       </Damage>
-      <MaxRange>8</MaxRange>
+      <MaxRange>6</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.5</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
       <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
     </Melee>
   </Attack>
