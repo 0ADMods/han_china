@@ -22,6 +22,7 @@
   </Attack>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Halberdman</VisibleClasses>
+    <Tooltip>Counters: 3.5× vs Cavalry.</Tooltip>
     <GenericName>Hero Halberdman</GenericName>
   </Identity>
   <Resistance>

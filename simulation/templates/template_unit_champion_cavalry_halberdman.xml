@@ -11,6 +11,12 @@
       <MaxRange>6</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>2.25</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
       <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
     </Melee>
   </Attack>
@@ -19,6 +25,7 @@
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Melee Halberdman</VisibleClasses>
+    <Tooltip>Counters: 2.25× vs Cavalry.</Tooltip>
     <GenericName>Champion Cavalry Halberdman</GenericName>
   </Identity>
   <Resistance>

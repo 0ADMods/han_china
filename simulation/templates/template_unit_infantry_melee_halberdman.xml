@@ -28,6 +28,7 @@
   </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Halberdman</VisibleClasses>
+    <Tooltip>Counters: 3.5× vs Cavalry.</Tooltip>
     <GenericName>Halberdman</GenericName>
   </Identity>
   <Loot>

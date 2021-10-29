@@ -5,6 +5,7 @@
     <SelectionGroupName>units/han/cavalry_halberdman_b</SelectionGroupName>
     <SpecificName>Tú Qí</SpecificName>
     <Icon>units/han/cavalry_halberdman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/han/cavalry_halberdman_a</Entity>
