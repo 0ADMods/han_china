@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry">
+  <Attack>
+    <Melee>
+      <AttackName>Halberd</AttackName>
+      <Damage>
+        <Hack>6</Hack>
+        <Pierce>6</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+      <MaxRange>6</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.5</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Melee Halberdman</VisibleClasses>
+    <Tooltip>Counters: 3.5× vs Cavalry.</Tooltip>
+    <GenericName>Champion Halberdman</GenericName>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
+  </Identity>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">2</Hack>
+        <Pierce op="add">3</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <attack_melee>attack/weapon/sword_attack.xml</attack_melee>
+    </SoundGroups>
+  </Sound>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.95</WalkSpeed>
+    <Acceleration op="mul">0.95</Acceleration>
+  </UnitMotion>
+</Entity>

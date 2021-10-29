@@ -4,6 +4,9 @@
     <SelectionGroupName>units/han/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Cháng Máo Bīng</SpecificName>
     <Icon>units/han/infantry_spearman.png</Icon>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
   </Identity>
   <Promotion>
     <Entity>units/han/infantry_spearman_a</Entity>
