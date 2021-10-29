@@ -4,6 +4,7 @@
     <SelectionGroupName>units/han/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Cháng Máo Bīng</SpecificName>
     <Icon>units/han/infantry_halberdman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/han/infantry_halberdman_a</Entity>
