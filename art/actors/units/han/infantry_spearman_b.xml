@@ -19,12 +19,12 @@
     <variant file="clothes/han/uniform_b_03.xml"/>
   </group>
   <group>
-    <variant file="biped/base_spearman_shield_relax_celt.xml"/>
     <variant file="biped/carry_food.xml">
       <props>
         <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
+    <variant file="biped/base_spearman_relax.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
