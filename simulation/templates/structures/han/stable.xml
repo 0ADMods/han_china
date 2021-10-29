@@ -16,6 +16,8 @@
     <Entities datatype="tokens">
       units/{civ}/champion_cavalry_crossbowman
       units/{civ}/champion_cavalry_spearman
+      -units/{civ}/cavalry_spearman_b
+      units/{civ}/cavalry_halberdman_b
     </Entities>
   </ProductionQueue>
   <Obstruction>
