@@ -27,6 +27,9 @@
     <VisibleClasses datatype="tokens">Melee Halberdman</VisibleClasses>
     <Tooltip>Counters: 3.5× vs Cavalry.</Tooltip>
     <GenericName>Champion Halberdman</GenericName>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
   </Identity>
   <Resistance>
     <Entity>

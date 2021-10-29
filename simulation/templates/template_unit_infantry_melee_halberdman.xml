@@ -30,6 +30,9 @@
     <VisibleClasses datatype="tokens">Halberdman</VisibleClasses>
     <Tooltip>Counters: 3.5× vs Cavalry.</Tooltip>
     <GenericName>Halberdman</GenericName>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
   </Identity>
   <Loot>
     <wood>4</wood>
