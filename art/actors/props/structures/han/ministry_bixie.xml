@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Chinese CC Bixie statues">
-      <mesh>props/structural/han_government_bixies.dae</mesh>
+      <mesh>props/structural/han_ministry_bixies.dae</mesh>
       <textures>
         <texture file="structural/han_bixie.png" name="baseTex"/>
         <texture file="structural/han_bixie_norm.png" name="normTex"/>

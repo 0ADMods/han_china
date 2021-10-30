@@ -63,7 +63,7 @@
     <GenericName>Imperial Ministry</GenericName>
     <SpecificName>Bùzhǎng jí</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
-    <Icon>structures/government_center.png</Icon>
+    <Icon>structures/imperial_ministry.png</Icon>
     <VisibleClasses datatype="tokens">ImperialMinistry</VisibleClasses>
   </Identity>
   <Health>
@@ -116,6 +116,6 @@
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/han/government_center.xml</Actor>
+    <Actor>structures/han/imperial_ministry.xml</Actor>
   </VisualActor>
 </Entity>
