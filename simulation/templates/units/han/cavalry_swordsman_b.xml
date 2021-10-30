@@ -3,7 +3,7 @@
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Qīngqí</SpecificName>
+    <SpecificName>Dào qíbīng</SpecificName>
     <Icon>units/han/cavalry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
