@@ -2,7 +2,7 @@
 <Entity parent="template_structure_resource_field_rice">
     <Identity>
         <Civ>han</Civ>
-        <SpecificName>Tián</SpecificName>
+        <SpecificName>Dàotián</SpecificName>
         <Classes datatype="tokens">CivSpecific</Classes>
     </Identity>
     <VisualActor>
