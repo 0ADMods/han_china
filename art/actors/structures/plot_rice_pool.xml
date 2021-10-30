@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="1" name="pool 1">
+			<mesh>structural/han_plotrice1.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water01.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 2">
+			<mesh>structural/han_plotrice2.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water02.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 3">
+			<mesh>structural/han_plotrice3.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water03.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 4">
+			<mesh>structural/han_plotrice4.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water04.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 5">
+			<mesh>structural/han_plotrice5.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water05.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 6">
+			<mesh>structural/han_plotrice6.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water06.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 7">
+			<mesh>structural/han_plotrice7.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water07.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 8">
+			<mesh>structural/han_plotrice8.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water08.xml" attachpoint="root"/>
+			</props>
+		</variant>
+		<variant frequency="1" name="pool 9">
+			<mesh>structural/han_plotrice9.dae</mesh>
+			<props>
+				<prop actor="props/structures/rice_water09.xml" attachpoint="root"/>
+			</props>
+		</variant>
+	</group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="gaia/tropic_cliff_mud.png" name="baseTex"/>
+				<texture file="gaia/tropic_cliff_mud_norm.png" name="normTex"/>
+				<texture file="gaia/tropic_cliff_mud_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+	<material>player_trans_parallax_spec.xml</material>
+</actor>

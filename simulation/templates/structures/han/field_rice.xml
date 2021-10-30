@@ -6,6 +6,6 @@
         <Classes datatype="tokens">CivSpecific</Classes>
     </Identity>
     <VisualActor>
-        <Actor>structures/plot_field_rice_4x4.xml</Actor>
+        <Actor>structures/plot_rice_pool.xml</Actor>
     </VisualActor>
 </Entity>
