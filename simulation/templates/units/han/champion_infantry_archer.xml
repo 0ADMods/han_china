@@ -3,7 +3,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Palace Guard Archer</GenericName>
-    <SpecificName>Hu Ben</SpecificName>
+    <SpecificName>Yu Lin</SpecificName>
     <SelectionGroupName>units/han/champion_infantry_archer</SelectionGroupName>
     <Icon>units/han/champion_infantry_archer.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
