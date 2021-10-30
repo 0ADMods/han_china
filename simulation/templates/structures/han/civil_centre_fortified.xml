@@ -20,6 +20,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Fortified Civic Center</GenericName>
+    <SpecificName>Qiánghuà shìzhèng tīng</SpecificName>
     <VisibleClasses datatype="tokens">Defensive FortifedCivilCentre</VisibleClasses>
     <Classes datatype="tokens">CivCentre FortifiedCivilCentre</Classes>
     <RequiredTechnology>phase_city</RequiredTechnology>

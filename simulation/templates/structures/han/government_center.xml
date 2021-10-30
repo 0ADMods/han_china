@@ -61,7 +61,7 @@
     <Civ>han</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Government Center</GenericName>
-    <SpecificName>Zhi Hui Zhong Xin</SpecificName>
+    <SpecificName>Bùzhǎng jí</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/government_center.png</Icon>
     <VisibleClasses datatype="tokens">GovernmentCenter</VisibleClasses>
