@@ -31,7 +31,7 @@
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
   <BuildRestrictions>
-    <Category>GovernmentCenter</Category>
+    <Category>ImperialMinistry</Category>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
@@ -60,11 +60,11 @@
   <Identity>
     <Civ>han</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
-    <GenericName>Government Center</GenericName>
+    <GenericName>Imperial Ministry</GenericName>
     <SpecificName>Bùzhǎng jí</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/government_center.png</Icon>
-    <VisibleClasses datatype="tokens">GovernmentCenter</VisibleClasses>
+    <VisibleClasses datatype="tokens">ImperialMinistry</VisibleClasses>
   </Identity>
   <Health>
     <Max>3000</Max>
