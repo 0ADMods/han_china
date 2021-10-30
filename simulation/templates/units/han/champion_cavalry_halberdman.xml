@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_halberdman">
+  <Identity>
+    <Civ>han</Civ>
+    <SelectionGroupName>units/han/champion_cavalry</SelectionGroupName>
+    <Icon>units/han/champion_cavalry_halberdman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/han/cavalry_halberdman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>
