@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Han Government Center" file="structures/defensive_building.xml">
-      <mesh>structural/han_government.dae</mesh>
+    <variant frequency="1" name="Han Imperial Ministry" file="structures/defensive_building.xml">
+      <mesh>structural/han_ministry.dae</mesh>
       <props>
         <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
       </props>
@@ -11,7 +11,7 @@
         <texture file="structural/han_struct_02.png" name="baseTex"/>
         <texture file="structural/han_struct_02_norm.png" name="normTex"/>
         <texture file="structural/han_struct_02_spec.png" name="specTex"/>
-        <texture file="structural/ao/han_government.png" name="aoTex"/>
+        <texture file="structural/ao/han_ministry.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

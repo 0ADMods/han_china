@@ -5,7 +5,7 @@
   </Auras>
   <EntityLimits>
     <Limits>
-      <GovernmentCenter>1</GovernmentCenter>
+      <ImperialMinistry>1</ImperialMinistry>
       <GreatTower>4</GreatTower>
       <LaoziGate>4</LaoziGate>
       <Minister>9</Minister>

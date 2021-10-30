@@ -1,6 +1,6 @@
 {
 	"type": "garrison",
-	"affects": ["Structure", "!GovernmentCenter"],
+	"affects": ["Structure", "!ImperialMinistry"],
 	"modifications": [
 		{
 			"value": "ProductionQueue/TechCostMultiplier/wood",
