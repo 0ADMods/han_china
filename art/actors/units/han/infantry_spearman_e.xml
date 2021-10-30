@@ -20,6 +20,7 @@
     <variant file="clothes/han/uniform_e_04.xml"/>
   </group>
   <group>
+    <variant file="biped/base_spearman_relax.xml"/>
     <variant file="biped/carry_food.xml">
       <props>
         <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
@@ -40,7 +41,6 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/base_spearman_relax.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
