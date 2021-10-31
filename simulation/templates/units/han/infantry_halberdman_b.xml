@@ -2,7 +2,7 @@
 <Entity parent="civ/han|template_unit_infantry_melee_halberdman">
   <Identity>
     <SelectionGroupName>units/han/infantry_halberdman_b</SelectionGroupName>
-    <SpecificName>Cháng Máo Bīng</SpecificName>
+    <SpecificName>Jǐ bīng</SpecificName>
     <Icon>units/han/infantry_halberdman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

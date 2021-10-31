@@ -3,7 +3,7 @@
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/cavalry_halberdman_b</SelectionGroupName>
-    <SpecificName>Tú Qí</SpecificName>
+    <SpecificName>Jǐ qíbīng</SpecificName>
     <Icon>units/han/cavalry_halberdman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

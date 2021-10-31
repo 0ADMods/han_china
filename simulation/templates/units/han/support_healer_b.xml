@@ -3,7 +3,7 @@
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/support_healer_b</SelectionGroupName>
-    <SpecificName>Yīshī</SpecificName>
+    <SpecificName>Zhìyù zhě</SpecificName>
     <Icon>units/han/support_healer.png</Icon>
   </Identity>
   <Promotion>

@@ -28,8 +28,8 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Imperial Minister</GenericName>
-    <SpecificName>Dàchén</SpecificName>
-    <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only han buildings can garrison ministers</Tooltip>
+    <SpecificName>Chén</SpecificName>
+    <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only han buildings can garrison ministers.</Tooltip>
     <Classes datatype="tokens">Organic Human</Classes>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
     <Icon>units/han/minister.png</Icon>

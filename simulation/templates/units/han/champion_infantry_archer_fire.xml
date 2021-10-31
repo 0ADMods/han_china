@@ -17,7 +17,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Palace Guard Fire Archer</GenericName>
-    <SpecificName>Hu Ben</SpecificName>
+    <SpecificName>Yu Lin</SpecificName>
     <SelectionGroupName>units/han/champion_infantry_archer_fire</SelectionGroupName>
     <Icon>units/han/champion_infantry_archer_fire.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>

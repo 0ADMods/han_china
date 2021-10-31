@@ -2,6 +2,8 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>han</Civ>
+    <GenericName>Cao Cao Guard</GenericName>
+    <SpecificName>Wu Wei Yin</SpecificName>
     <SelectionGroupName>units/han/champion_cavalry</SelectionGroupName>
     <Icon>units/han/champion_cavalry_spearman.png</Icon>
   </Identity>
