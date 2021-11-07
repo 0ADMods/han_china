@@ -74,11 +74,11 @@
       <node id="prop_flag" name="prop_flag" type="NODE">
         <matrix sid="transform">1 0 -8.28764e-9 0.005943298 0 1 0 0 8.28764e-9 0 1 26.97654 0 0 0 1</matrix>
       </node>
-      <node id="prop_projectile" name="prop_projectile" type="NODE">
-        <matrix sid="transform">-4.37114e-8 -1 4.59789e-7 0 1 -4.37112e-8 4.59788e-7 3.8147e-6 -4.59788e-7 4.59789e-7 1 16.05851 0 0 0 1</matrix>
-      </node>
       <node id="prop_garrisoned" name="prop_garrisoned" type="NODE">
         <matrix sid="transform">-4.37114e-8 -1 4.59789e-7 0 1 -4.37112e-8 4.59788e-7 3.8147e-6 -4.59788e-7 4.59789e-7 1 0 0 0 0 1</matrix>
+      </node>
+      <node id="prop_projectile" name="prop_projectile" type="NODE">
+        <matrix sid="transform">-4.37114e-8 -1 4.59789e-7 0 1 -4.37112e-8 4.59788e-7 3.8147e-6 -4.59788e-7 4.59789e-7 1 16.05851 0 0 0 1</matrix>
       </node>
     </visual_scene>
   </library_visual_scenes>
