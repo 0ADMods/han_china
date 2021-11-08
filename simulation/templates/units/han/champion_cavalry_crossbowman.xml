@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_crossbowman">
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Trouble Freeing Forces</GenericName>
-    <SpecificName>Sun Wu</SpecificName>
+    <SpecificName>Sun Wu Trouble Freeing Forces</SpecificName>
     <SelectionGroupName>units/han/cavalry_crossbowman</SelectionGroupName>
     <Icon>units/han/champion_cavalry_crossbowman.png</Icon>
   </Identity>

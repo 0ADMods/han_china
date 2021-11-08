@@ -32,7 +32,7 @@
       units/{civ}/champion_infantry_swordsman
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_archer_b
-      -units/{civ}/cavalry_spearman_b
+      -units/{civ}/cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
       fortified_civ_center_range

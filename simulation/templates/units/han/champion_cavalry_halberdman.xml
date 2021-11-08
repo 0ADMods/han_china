@@ -2,8 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_halberdman">
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Yuan Shao Halberdier</GenericName>
-    <SpecificName>Xian Dun</SpecificName>
+    <SpecificName>Xian Dun Yuan Shao Halberdier</SpecificName>
     <SelectionGroupName>units/han/champion_cavalry</SelectionGroupName>
     <Icon>units/han/champion_cavalry_halberdman.png</Icon>
   </Identity>
