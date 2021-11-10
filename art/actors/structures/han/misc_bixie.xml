@@ -5,8 +5,8 @@
     <variant frequency="100" name="Base">
       <mesh>structural/han_bixie_pedestal.dae</mesh>
       <props>
-        <prop actor="props/structures/han_bixie.xml" attachpoint="root"/>
-        <prop actor="props/structures/han_bixie_nature.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/bixie.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/bixie_nature.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
@@ -19,8 +19,8 @@
     <variant frequency="1" name="alive"/>
     <variant file="structures/destruction_small.xml">
       <props>
-        <prop actor="props/structures/han_bixie.xml" attachpoint="root"/>
-        <prop actor="props/structures/han_bixie_nature.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/bixie.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/bixie_nature.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

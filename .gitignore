@@ -1,0 +1,9 @@
+simulation/templates/builder.xml
+simulation/templates/hoplite.xml
+simulation/templates/merc_inf.xml
+simulation/templates/mercenary.xml
+simulation/templates/merc_cav.xml
+simulation/templates/shrine.xml
+simulation/templates/trading_post.xml
+simulation/templates/mixins/civ/athen.xml
+checkrefs.txt

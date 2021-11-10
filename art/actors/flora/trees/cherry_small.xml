@@ -5,7 +5,7 @@
     <variant name="base">
       <mesh>gaia/tree_apple_trunk_b.dae</mesh>
       <props>
-        <prop actor="gaia/cherry_small_top_a.xml" attachpoint="root"/>
+        <prop actor="flora/trees/cherry_small_top_a.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="gaia/trunk_deciduous_b.dds" name="baseTex"/>
