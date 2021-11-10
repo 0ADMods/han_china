@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/han_princess_tent_1
+    structures/han_princess_tent_2
+    structures/han_princess_tent_3
+    structures/han_princess_tent_4
+  </Auras>
+  <BuildRestrictions>
+    <Territory>ally enemy</Territory>
+    <PlacementType>land</PlacementType>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Capturable>
+    <CapturePoints>700</CapturePoints>
+    <RegenRate>5.0</RegenRate>
+  </Capturable>
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="32.0" depth="32.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Infantry Princess</List>
+    <BuffHeal>0</BuffHeal>
+    <LoadingRange>2</LoadingRange>
+  </GarrisonHolder>
+  <Health>
+    <Max>1200</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>han</Civ>
+    <SpecificName>Princess Camp</SpecificName>
+    <GenericName>PrincessCamp</GenericName>
+    <Icon>structures/embassy_italic.png</Icon>
+    <VisibleClasses datatype="tokens">PrincessCamp</VisibleClasses>
+    <Tooltip>A shelter for the princess.</Tooltip>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <ProductionQueue>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_female_citizen
+      units/{civ}/princess
+    </Entities>
+  </ProductionQueue>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <Population>
+    <Bonus>10</Bonus>
+  </Population>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
+<!--  <Upgrade>
+    <UpgradeToCC>
+      <Entity>structures/han/civil_centre</Entity>
+      <Time>25</Time>
+      <Cost>
+        <stone>200</stone>
+        <metal>200</metal>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <RequiredTechnology>princess_camp_fiefdom</RequiredTechnology>
+      <CheckPlacementRestrictions/>
+    </UpgradeToCC>
+  </Upgrade>-->
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_universal.xml</select>
+      <constructed>interface/complete/building/complete_universal.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+  <TerritoryInfluence>
+    <Root>true</Root>
+    <Radius>40</Radius>
+    <Weight>10000</Weight>
+  </TerritoryInfluence>
+  <VisualActor>
+    <Actor>structures/han/princess_camp.xml</Actor>
+  </VisualActor>
+</Entity>

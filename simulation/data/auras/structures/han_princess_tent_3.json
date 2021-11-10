@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Melee"],
+	"affectedPlayers": ["Ally"],
+	"modifications": [
+		{ "value": "Attack/Melee/Splash/Damage/Hack", "multiply": 1.10 },
+		{ "value": "Attack/Melee/Splash/Damage/Pierce", "multiply": 1.10 },
+		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 1.10 }
+	],
+	"auraName": "Heqin 3",
+	"auraDescription": "Marriage Allliance, +10% melee attack of allied melee units.",
+	"overlayIcon": "art/textures/ui/session/auras/princess.png"
+}

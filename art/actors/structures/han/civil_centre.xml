@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="base" file="structures/defensive_building.xml">
-      <mesh>structural/han_civic_center.dae</mesh>
+      <mesh>structural/han_civic_center_no_towers.dae</mesh>
       <props>
         <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
@@ -14,8 +14,21 @@
         <texture file="structural/han_struct_02.png" name="baseTex"/>
         <texture file="structural/han_struct_02_norm.png" name="normTex"/>
         <texture file="structural/han_struct_02_spec.png" name="specTex"/>
-        <texture file="structural/ao/han_civic_center.png" name="aoTex"/>
+        <texture file="structural/ao/han_civic_center_no_towers.png" name="aoTex"/>
       </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="upgrading">
+      <props>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_nature.xml" attachpoint="root"/>
+      </props>
     </variant>
   </group>
   <group>
@@ -28,7 +41,7 @@
   </group>
   <group>
     <variant frequency="1" name="alive"/>
-    <variant file="structures/destruction_large.xml">
+    <variant file="structures/destruction_medium.xml">
       <props>
         <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>

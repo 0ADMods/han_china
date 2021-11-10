@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/f_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/head_female_han.xml" attachpoint="head"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="clothes/han/hero_wei_qing.xml"/>
+  </group>
+  <group>
+    <variant file="biped/female_base_walk.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant name="Idle" frequency="1"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

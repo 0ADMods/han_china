@@ -15,8 +15,8 @@
           <prop actor="props/units/siege_artillery/bolt_front_med.xml" attachpoint="loaded-projectile"/>
           <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
           <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
-          <prop actor="units/han/shoushe_infantry_a.xml" attachpoint="operator_R"/>
-          <prop actor="units/han/shoushe_infantry_b.xml" attachpoint="operator_L"/>
+          <prop actor="props/units/han/shoushe_infantry_a.xml" attachpoint="operator_R"/>
+          <prop actor="props/units/han/shoushe_infantry_b.xml" attachpoint="operator_L"/>
         </props>
         <textures>
           <texture file="structural/han_siege_shoushe.png" name="baseTex"/>

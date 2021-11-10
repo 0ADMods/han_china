@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit">
+  <Cost>
+    <BuildTime>100</BuildTime>
+    <Population>2</Population>
+    <Resources>
+      <food>200</food>
+      <wood>200</wood>
+    </Resources>
+  </Cost>
+  <Loot>
+    <food>40</food>
+    <wood>40</wood>
+    <xp>120</xp>
+  </Loot>
+  <Health>
+    <Max>300</Max>
+  </Health>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>6</Pierce>
+        <Crush>10</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Footprint replace="">
+    <Height>2.0</Height>
+    <Square width="5.0" depth="12.0"/>
+  </Footprint>
+  <Identity>
+    <Classes datatype="tokens">Diplomat</Classes>
+    <VisibleClasses datatype="tokens">Diplomat</VisibleClasses>
+    <GenericName>Diplomat</GenericName>
+    <Icon>units/catafalque.png</Icon>
+    <SelectionGroupName>template_unit_catafalque_diplomatic</SelectionGroupName>
+    <Formations disable=""/>
+    <Tooltip>A catafalque that transports a diplomat.</Tooltip>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x256/cartouche.png</MainTexture>
+        <MainTextureMask>128x256/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <Sound>
+    <SoundGroups>
+      <order_walk>actor/singlesteps/steps_grass_order.xml</order_walk>
+      <run>actor/singlesteps/steps_grass.xml</run>
+      <select>attack/siege/siege_select.xml</select>
+      <walk>actor/singlesteps/steps_grass.xml</walk>
+    </SoundGroups>
+  </Sound>
+  <TreasureCollector disable=""/>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+    <CanGuard>false</CanGuard>
+  </UnitAI>
+  <UnitMotion>
+    <PassabilityClass>large</PassabilityClass>
+    <WalkSpeed op="mul">0.55</WalkSpeed>
+    <Acceleration op="mul">0.275</Acceleration>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/global/catafalque.xml</Actor>
+  </VisualActor>
+</Entity>

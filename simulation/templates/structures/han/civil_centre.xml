@@ -26,8 +26,8 @@
     </Technologies>
   </ProductionQueue>
   <Upgrade>
-    <FortifiedCivilCenter>
-      <Entity>structures/han/civil_centre_fortified</Entity>
+    <ImperialCourt>
+      <Entity>structures/han/imperial_court</Entity>
       <Tooltip>Greatly increase the health, capture resistance, and garrison capacity of this Civic Center.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
@@ -36,10 +36,10 @@
       </Cost>
       <Time>40</Time>
       <Variant>upgrading</Variant>
-    </FortifiedCivilCenter>
+    </ImperialCourt>
   </Upgrade>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
-    <Actor>structures/han/civil_centre_no_towers.xml</Actor>
+    <Actor>structures/han/civil_centre.xml</Actor>
   </VisualActor>
 </Entity>

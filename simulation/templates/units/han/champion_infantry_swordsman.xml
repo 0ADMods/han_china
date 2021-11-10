@@ -14,8 +14,8 @@
       <Tooltip>Switch to poisoned blade.</Tooltip>
       <RequiredTechnology>poison_blades</RequiredTechnology>
       <Cost>
-        <wood>5</wood>
-        <metal>5</metal>
+        <food>75</food>
+        <metal>25</metal>
       </Cost>
       <Time>3</Time>
     </UsePoisonBlade>

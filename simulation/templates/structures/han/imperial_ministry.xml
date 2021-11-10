@@ -85,7 +85,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/han/minister
+      units/han/support_minister
+      units/{civ}/support_princess
     </Entities>
     <Technologies datatype="tokens">
       civil_service_01
@@ -107,12 +108,12 @@
     <Interval>2000</Interval>
   </ResourceTrickle>
   <TerritoryInfluence>
-    <Root>true</Root>
+    <Root>false</Root>
     <Radius>70</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
   <Vision>
-    <Range>90</Range>
+    <Range>80</Range>
   </Vision>
   <VisualActor>
     <FoundationActor>structures/fndn_8x8.xml</FoundationActor>

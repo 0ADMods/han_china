@@ -9,6 +9,7 @@
       <GreatTower>4</GreatTower>
       <LaoziGate>4</LaoziGate>
       <Minister>9</Minister>
+      <Princess>1</Princess>
     </Limits>
   </EntityLimits>
 </Entity>

@@ -1,0 +1,14 @@
+{
+	"type": "range",
+	"radius": 40,
+	"affects": ["Melee"],
+	"affectedPlayers": ["Enemy"],
+	"modifications": [
+		{ "value": "Attack/Melee/Splash/Damage/Hack", "multiply": 0.5 },
+		{ "value": "Attack/Melee/Splash/Damage/Pierce", "multiply": 0.5 },
+		{ "value": "Attack/Melee/Splash/Damage/Crush", "multiply": 0.5 }
+	],
+	"auraName": "Heqin 4",
+	"auraDescription": "Marriage Allliance, -50% melee attack of enemy melee units.",
+	"overlayIcon": "art/textures/ui/session/auras/standground.png"
+}

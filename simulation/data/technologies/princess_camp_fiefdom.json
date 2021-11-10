@@ -1,0 +1,23 @@
+{
+	"genericName": "Fiefdoms",
+	"description": "A large number of noblemen were living in the capital Chang'an, lobbying court officials while exploiting the central government's budget to cover their expenses despite already having gained great wealth from their own feudal land tenure taxation. Emperor Wu's new policy dictated that they could no longer live off the government's spending and must leave the capital.",
+	"cost": {
+		"food": 200,
+		"wood": 50,
+		"stone": 200,
+		"metal": 200
+	},
+	"requirements": {
+		"all": [
+			{ "entity": { "class": "ImperialCourt", "number": 1 } },
+			{ "civ": "han" }
+		]
+	},
+	"requirementsTooltip": "Unlock fiefdoms.",
+	"icon": "coinage.png",
+	"researchTime": 40,
+	"tooltip": "Unlocks princess camp upgrade if 1 Imperial Court exists.",
+	"affects": ["PrincessCamp"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
+

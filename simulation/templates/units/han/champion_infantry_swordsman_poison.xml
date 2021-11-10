@@ -28,8 +28,7 @@
       <Tooltip>Switch to default blade.</Tooltip>
       <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
       <Cost>
-        <wood>5</wood>
-        <metal>5</metal>
+        <metal>100</metal>
       </Cost>
       <Time>3</Time>
     </UseDefaultBlade>

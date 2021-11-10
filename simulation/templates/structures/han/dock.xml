@@ -49,6 +49,7 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Mǎtóu</SpecificName>
+    <Icon>structures/shipyard.png</Icon>
   </Identity>
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>

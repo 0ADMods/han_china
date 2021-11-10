@@ -6,6 +6,9 @@
   <GarrisonHolder>
     <Max op="mul">2</Max>
   </GarrisonHolder>
+  <Population>
+    <Bonus>30</Bonus>
+  </Population>
   <Cost>
     <BuildTime>500</BuildTime>
     <Resources>
@@ -19,10 +22,10 @@
   </Health>
   <Identity>
     <Civ>han</Civ>
-    <GenericName>Fortified Civic Center</GenericName>
-    <SpecificName>Qiánghuà shìzhèng tīng</SpecificName>
-    <VisibleClasses datatype="tokens">Defensive FortifedCivilCentre</VisibleClasses>
-    <Classes datatype="tokens">CivCentre FortifiedCivilCentre</Classes>
+    <GenericName>Imperial Court</GenericName>
+    <SpecificName>Cháotíng</SpecificName>
+    <VisibleClasses datatype="tokens">Defensive ImperialCourt</VisibleClasses>
+    <Classes datatype="tokens">CivCentre ImperialCourt CivSpecific</Classes>
     <RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>structures/military_settlement.png</Icon>
   </Identity>
@@ -30,20 +33,21 @@
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_archer
       units/{civ}/champion_infantry_swordsman
+      units/{civ}/hero_han_xin
+      units/{civ}/hero_liu_bang_horse
+      units/{civ}/hero_wei_qing_chariot
       -units/{civ}/infantry_spearman_b
       -units/{civ}/infantry_archer_b
       -units/{civ}/cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
       fortified_civ_center_range
-      poison_blades
-      pair_unlock_arrows_type
       -phase_town_{civ}
       -phase_city_{civ}
     </Technologies>
   </ProductionQueue>
   <Upgrade disable=""/>
   <VisualActor>
-    <Actor>structures/han/civil_centre.xml</Actor>
+    <Actor>structures/han/imperial_court.xml</Actor>
   </VisualActor>
 </Entity>

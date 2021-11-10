@@ -16,10 +16,10 @@
                 <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
                 <prop actor="props/units/rock_pile.xml" attachpoint="ammo_1"/>
                 <prop actor="props/units/rock_pile.xml" attachpoint="ammo_2"/>
-                <prop actor="units/han/mangonel_operator_b.xml" attachpoint="engineer_1"/>
-                <prop actor="units/han/mangonel_operator_b.xml" attachpoint="engineer_2"/>
-                <prop actor="units/han/mangonel_operator_b.xml" attachpoint="engineer_3"/>
-                <prop actor="units/han/mangonel_operator_a.xml" attachpoint="engineer_4"/>
+                <prop actor="props/units/han/mangonel_operator_b.xml" attachpoint="engineer_1"/>
+                <prop actor="props/units/han/mangonel_operator_b.xml" attachpoint="engineer_2"/>
+                <prop actor="props/units/han/mangonel_operator_b.xml" attachpoint="engineer_3"/>
+                <prop actor="props/units/han/mangonel_operator_a.xml" attachpoint="engineer_4"/>
             </props>
         </variant>
     </group>

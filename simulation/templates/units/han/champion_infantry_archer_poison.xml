@@ -28,22 +28,11 @@
       <Tooltip>Switch to default arrows.</Tooltip>
       <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
       <Cost>
-        <wood>5</wood>
-        <metal>5</metal>
+        <wood>50</wood>
+        <metal>50</metal>
       </Cost>
       <Time>3</Time>
     </UseDefaultArrows>
-    <UseFireArrows>
-      <Entity>units/han/champion_infantry_archer_fire</Entity>
-      <Tooltip>Switch to fire arrows.</Tooltip>
-      <RequiredTechnology>fire_arrows</RequiredTechnology>
-      <Cost>
-        <food>5</food>
-        <wood>5</wood>
-        <metal>5</metal>
-      </Cost>
-      <Time>3</Time>
-    </UseFireArrows>
   </Upgrade>
   <VisualActor>
     <Actor>units/han/infantry_archer_c.xml</Actor>

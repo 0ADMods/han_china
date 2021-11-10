@@ -32,7 +32,7 @@
     <SpecificName>Lǎozi mén</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">LaoziGate Town</VisibleClasses>
-    <Icon>structures/confusianism.png</Icon>
+    <Icon>structures/arch.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
