@@ -3,7 +3,7 @@
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/cavalry_spearman_b</SelectionGroupName>
-    <SpecificName>Máo qíbīng</SpecificName>
+    <SpecificName>Máo Qíbīng</SpecificName>
     <Icon>units/han/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
