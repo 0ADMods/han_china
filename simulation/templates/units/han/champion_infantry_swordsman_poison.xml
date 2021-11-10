@@ -17,7 +17,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Palace Guard Poison Swordsman</GenericName>
-    <SpecificName>Hu Ben</SpecificName>
+    <SpecificName>Hǔ Bēn</SpecificName>
     <SelectionGroupName>units/han/champion_infantry_swordsman</SelectionGroupName>
     <Icon>units/han/champion_infantry_swordsman_poison.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>

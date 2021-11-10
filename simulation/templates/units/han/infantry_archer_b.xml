@@ -2,7 +2,7 @@
 <Entity parent="civ/han|template_unit_infantry_ranged_archer">
   <Identity>
     <SelectionGroupName>units/han/infantry_archer_b</SelectionGroupName>
-    <SpecificName>Shèshǒu</SpecificName>
+    <SpecificName>Shè Shǒu</SpecificName>
     <Icon>units/han/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

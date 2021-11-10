@@ -17,7 +17,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Rammed Earth Wall Gate</GenericName>
-    <SpecificName>Hāng tǔ qiáng</SpecificName>
+    <SpecificName>Hāngtǔ Qiáng</SpecificName>
     <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
     <Icon>structures/wooden_gate.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>

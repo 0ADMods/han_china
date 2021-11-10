@@ -29,7 +29,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>LaoziGate</GenericName>
-    <SpecificName>Lǎozi mén</SpecificName>
+    <SpecificName>Lǎozǐ Mén</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">LaoziGate Town</VisibleClasses>
     <Icon>structures/arch.png</Icon>

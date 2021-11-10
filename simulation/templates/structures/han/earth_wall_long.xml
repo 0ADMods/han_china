@@ -18,7 +18,7 @@
     <Civ>han</Civ>
     <SelectionGroupName>structures/han/wallset_earth</SelectionGroupName>
     <GenericName>Rammed Earth Wall</GenericName>
-    <SpecificName>Hāng tǔ qiáng</SpecificName>
+    <SpecificName>Hāngtǔ Qiáng</SpecificName>
     <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>
     <Icon>structures/siege_wall.png</Icon>
   </Identity>
