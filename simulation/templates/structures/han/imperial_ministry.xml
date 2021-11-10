@@ -85,7 +85,8 @@
   <ProductionQueue>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/han/support_minister
+      units/{civ}/support_minister
+      units/{civ}/support_princess
     </Entities>
     <Technologies datatype="tokens">
       civil_service_01
@@ -95,6 +96,7 @@
       art_of_war
       unlock_spies
       spy_counter
+      princess_camp_fiefdom
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>
