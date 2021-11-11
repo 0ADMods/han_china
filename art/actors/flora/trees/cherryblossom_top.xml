@@ -31,8 +31,11 @@
     <variant frequency="3" name="leaf-texture-c">
       <textures><texture file="gaia/tree_cherryblossom_c.png" name="baseTex"/></textures>
     </variant>
-    <variant frequency="3" name="leaf-texture-c">
+    <variant frequency="3" name="leaf-texture-d">
       <textures><texture file="gaia/tree_cherryblossom_d.png" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="3" name="leaf-texture-e">
+      <textures><texture file="gaia/tree_cherryblossom_e.png" name="baseTex"/></textures>
     </variant>
   </group>
   <material>basic_trans_wind.xml</material>
