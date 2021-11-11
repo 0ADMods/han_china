@@ -18,6 +18,7 @@
         <wood>200</wood>
       </Cost>
       <CheckPlacementRestrictions/>
+      <Variant>upgrading</Variant>
     </SetupTent>
   </Upgrade>
   <Vision>

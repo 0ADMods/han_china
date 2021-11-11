@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base" file="structures/defensive_building.xml">
+      <mesh>structural/kush_mercenary_camp_01.dae</mesh>
+      <props>
+        <prop actor="props/structures/gauls/house_c_scaffold.xml" attachpoint="kush_tent_01" minheight="-20" maxheight="20"/>
+        <prop actor="props/structures/gauls/house_c_scaffold.xml" attachpoint="kush_tent_03" minheight="-20" maxheight="20"/>
+        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root" minheight="-20" maxheight="20"/>
+        <prop actor="props/units/han/princess.xml" attachpoint="palm_tree" minheight="-20" maxheight="20"/>
+<!--         <prop actor="props/units/han/princess_h.xml" attachpoint="camel_01" minheight="-20" maxheight="20"/> -->
+<!--         <prop actor="props/units/han/shoushe_infantry_a.xml" attachpoint="kush_tent_02" minheight="-20" maxheight="20"/> -->
+<!--         <prop actor="props/units/han/princess_catafalque.xml" attachpoint="kush_tent_04" minheight="-20" maxheight="20"/> -->
+<!--         <prop actor="flora/trees/bamboo.xml" attachpoint="plant" minheight="-20" maxheight="20"/> -->
+<!--         <prop actor="flora/trees/willow_a.xml" attachpoint="fire_camp" minheight="-20" maxheight="20"/> -->
+      </props>
+      <textures>
+        <texture file="null_white.dds" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>
