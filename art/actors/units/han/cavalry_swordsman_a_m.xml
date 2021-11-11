@@ -3,7 +3,7 @@
     <castshadow/>
     <group>
         <variant>
-            <mesh>skeletal/horse.dae</mesh>
+            <mesh>skeletal/horse_persian.dae</mesh>
             <props>
                 <prop actor="units/han/cavalry_swordsman_a_r.xml" attachpoint="rider"/>
                 <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
@@ -27,5 +27,5 @@
             </props>
         </variant>
     </group>
-    <material>basic_trans_parallax_spec.xml</material>
+    <material>no_trans_parallax_spec.xml</material>
 </actor>
