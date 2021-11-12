@@ -27,11 +27,11 @@
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
         <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
-        <prop actor="props/structures/han/princess_camp_fndn_8x8.xml" attachpoint="root"/>
+<!--         <prop actor="props/structures/han/princess_camp_fndn_8x8.xml" attachpoint="root"/> -->
 <!--         <prop actor="props/units/han/princess_h.xml" attachpoint="horse"/> -->
 <!--         <prop actor="props/units/han/shoushe_infantry_a.xml" attachpoint="engineer_a"/> -->
 <!--         <prop actor="structures/fndn_8x8.xml" attachpoint="engineer_a"/> -->
-<!--         <prop actor="props/structures/han/princess_upgrade.xml" attachpoint="root"/> -->
+        <prop actor="props/structures/han/princess_upgrade.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
