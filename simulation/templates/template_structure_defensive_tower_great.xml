@@ -2,28 +2,7 @@
 <Entity parent="template_structure_defensive_tower">
   <Attack>
     <Ranged>
-      <AttackName>Bow</AttackName>
       <ElevationBonus>20</ElevationBonus>
-      <Damage>
-        <Pierce>10</Pierce>
-      </Damage>
-      <MaxRange>60</MaxRange>
-      <MinRange>10</MinRange>
-      <PrepareTime>1200</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
-      <Projectile>
-        <Speed>100</Speed>
-        <Spread>1.5</Spread>
-        <Gravity>50</Gravity>
-        <FriendlyFire>false</FriendlyFire>
-        <LaunchPoint y="3"/>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-      <RangeOverlay>
-        <LineTexture>outline_border.png</LineTexture>
-        <LineTextureMask>outline_border_mask.png</LineTextureMask>
-        <LineThickness>0.175</LineThickness>
-      </RangeOverlay>
     </Ranged>
   </Attack>
   <BuildRestrictions>
@@ -38,12 +17,11 @@
     <BuildTime>200</BuildTime>
     <Resources>
       <stone>200</stone>
-      <wood>100</wood>
+      <wood>150</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="10.0" depth="10.0"/>
-    <Height>15.0</Height>
+    <Height>20.0</Height>
   </Footprint>
   <GarrisonHolder>
     <Max>10</Max>
@@ -52,7 +30,7 @@
     <Max>1600</Max>
   </Health>
   <Identity>
-    <GenericName>Great Tower</GenericName>
+    <GenericName>Great Archery Tower</GenericName>
     <SelectionGroupName>template_structure_defensive_tower_great</SelectionGroupName>
     <VisibleClasses datatype="tokens">GreatTower</VisibleClasses>
     <Icon>structures/tower_bolt.png</Icon>
@@ -60,13 +38,14 @@
   </Identity>
   <Loot>
     <stone>40</stone>
-    <wood>20</wood>
+    <wood>40</wood>
   </Loot>
-  <Obstruction>
-    <Static width="7.0" depth="7.0"/>
-  </Obstruction>
   <ProductionQueue>
     <Technologies datatype="tokens">
+      tower_watch
+      tower_crenellations
+      tower_range
+      tower_murderholes
       tower_health
     </Technologies>
   </ProductionQueue>
