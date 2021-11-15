@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="100" name="Han-Bow">
-      <mesh>props/weapons/bow/weap_han_cavalry_bow.dae</mesh>
+    <variant frequency="100" name="Han-Bow_Comp">
+      <mesh>props/weapons/bow/weap_han_bow_composite.dae</mesh>
       <textures>
         <texture file="props/maur_props_1.png" name="baseTex"/>
       </textures>
