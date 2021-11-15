@@ -18,7 +18,6 @@
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_swordsman
       units/{civ}/champion_infantry_archer
-      units/{civ}/champion_cavalry_crossbowman
     </Entities>
     <Technologies datatype="tokens">
       poison_blades
