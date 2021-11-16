@@ -6,7 +6,7 @@
     </Footprint>
     <Identity>
         <Civ>han</Civ>
-        <SpecificName>Dà shèjiàn tǎ</SpecificName>
+        <SpecificName>Dà Fángyù Tǎ</SpecificName>
         <Classes datatype="tokens">CivSpecific</Classes>
         <VisibleClasses datatype="tokens">GreatTower</VisibleClasses>
     </Identity>
