@@ -61,7 +61,7 @@
     <Civ>han</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <GenericName>Imperial Ministry</GenericName>
-    <SpecificName>Bùzhǎng jí</SpecificName>
+    <SpecificName>Guān Shǔ</SpecificName>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/imperial_ministry.png</Icon>
     <VisibleClasses datatype="tokens">ImperialMinistry</VisibleClasses>
