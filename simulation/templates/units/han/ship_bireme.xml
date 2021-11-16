@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_bireme">
   <Identity>
     <Civ>han</Civ>
-    <SpecificName>Zhuàng Chuán</SpecificName>
+    <SpecificName>Zhàn Chuán</SpecificName>
     <Icon>units/han/ship_bireme.png</Icon>
   </Identity>
   <VisualActor>
