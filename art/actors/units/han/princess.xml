@@ -11,7 +11,7 @@
       <mesh>props/special/catafalque_two_wheel.dae</mesh>
       <props>
         <prop actor="props/units/han/princess_h.xml" attachpoint="horse"/>
-        <prop actor="props/units/han/shoushe_infantry_a.xml" attachpoint="engineer_a"/>
+        <prop actor="props/units/han/princess_escort.xml" attachpoint="engineer_a"/>
       </props>
       <textures>
         <texture file="props/catafalque.png" name="baseTex"/>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant>
+            <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+            <props>
+                <prop actor="props/units/heads/han_warlord_head.xml" attachpoint="head"/>
+                <prop actor="props/units/weapons/spear/han_champion_spear.xml" attachpoint="weapon_R"/>
+                <prop actor="props/units/weapons/sheath/han_jian_sheath_left_a.xml" attachpoint="sheath_L"/>
+                <prop actor="props/units/helmets/han_warlord_neck_guard.xml" attachpoint="head"/>
+                <prop actor="props/units/quivers/han_warlord_quiver_cavalry_right_b.xml" attachpoint="sheath_R"/>
+                <prop actor="props/units/helmets/han_warlord.xml" attachpoint="helmet"/>
+            </props>
+        </variant>
+    </group>
+    <group>
+        <variant file="clothes/han/warlord.xml"/>
+    </group>
+    <group>
+        <variant  file="biped/rider/cavalry/base_spearman_relax_01.xml" frequency="1" name="relax"/>
+        <variant file="biped/rider/death_shield.xml"/>
+    </group>
+    <material>player_trans_spec.xml</material>
+</actor>

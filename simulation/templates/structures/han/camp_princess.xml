@@ -84,6 +84,7 @@
     <Entities datatype="tokens">
       units/{civ}/support_female_citizen
       units/{civ}/support_princess
+      units/{civ}/champion_cavalry_spearman_merc
     </Entities>
   </ProductionQueue>
   <Obstruction>

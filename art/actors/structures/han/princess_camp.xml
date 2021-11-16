@@ -7,7 +7,7 @@
       <props>
         <prop actor="structures/tent_arab.xml" attachpoint="kush_tent_01" minheight="-20" maxheight="20"/>
         <prop actor="structures/tent_big.xml" attachpoint="kush_tent_03" minheight="-20" maxheight="20"/>
-        <prop actor="props/units/han/shoushe_infantry_a.xml" attachpoint="kush_tent_02" minheight="-20" maxheight="20"/>
+        <prop actor="props/units/han/princess_escort.xml" attachpoint="kush_tent_02" minheight="-20" maxheight="20"/>
         <prop actor="props/units/han/princess_catafalque.xml" attachpoint="kush_tent_04" minheight="-20" maxheight="20"/>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root" minheight="-20" maxheight="20"/>
         <prop actor="props/units/han/princess.xml" attachpoint="palm_tree" minheight="-20" maxheight="20"/>

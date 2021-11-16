@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Identity>
+    <Civ>han</Civ>
+    <GenericName>Xiongnu Warlord</GenericName>
+    <SelectionGroupName>units/han/champion_cavalry_merc</SelectionGroupName>
+    <Icon>units/han/merc_xiongnu_warlord.png</Icon>
+  </Identity>
+  <Upgrade>
+    <UseSpear>
+      <Entity>units/han/champion_cavalry_spearman_merc</Entity>
+      <Time>10</Time>
+      <Tooltip>Switch Weapon.</Tooltip>
+    </UseSpear>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/han/cavalry_archer_merc_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

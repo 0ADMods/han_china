@@ -7,11 +7,11 @@
     <Civ>han</Civ>
     <Classes datatype="tokens">Princess</Classes>
     <VisibleClasses datatype="tokens">Princess Support</VisibleClasses>
-    <GenericName>Princess</GenericName>
+    <GenericName>Han Princess</GenericName>
     <SpecificName>Wang Zhaojun</SpecificName>
   </Identity>
   <Upgrade>
-    <SetupTent>
+    <SetupCamp>
       <Entity>structures/han/camp_princess</Entity>
       <Time>25</Time>
       <Cost>
@@ -19,7 +19,7 @@
       </Cost>
       <CheckPlacementRestrictions/>
       <Variant>upgrading</Variant>
-    </SetupTent>
+    </SetupCamp>
   </Upgrade>
   <Vision>
     <Range>50</Range>
