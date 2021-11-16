@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_arsenal">
   <Identity>
     <Civ>han</Civ>
-    <SpecificName>Bīnggōngchǎng</SpecificName>
+    <SpecificName>Bīnggōng Chǎng</SpecificName>
   </Identity>
   <GarrisonHolder>
     <List datatype="tokens">Minister</List>

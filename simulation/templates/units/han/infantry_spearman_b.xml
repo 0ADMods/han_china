@@ -2,7 +2,7 @@
 <Entity parent="civ/han|template_unit_infantry_melee_spearman">
   <Identity>
     <SelectionGroupName>units/han/infantry_spearman_b</SelectionGroupName>
-    <SpecificName>Máo bīng</SpecificName>
+    <SpecificName>Máo Bīng</SpecificName>
     <Icon>units/han/infantry_spearman.png</Icon>
     <Formations datatype="tokens">
       special/formations/anti_cavalry

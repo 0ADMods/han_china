@@ -3,7 +3,7 @@
   <Identity>
     <Civ>han</Civ>
     <GenericName>Rammed Earth Wall</GenericName>
-    <SpecificName>Hāng tǔ qiáng</SpecificName>
+    <SpecificName>Hāngtǔ Qiáng</SpecificName>
     <Tooltip>Wall off an area.</Tooltip>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">RammedEarthWall</VisibleClasses>

@@ -2,7 +2,7 @@
 <Entity parent="civ/han|template_unit_infantry_melee_swordsman">
   <Identity>
     <SelectionGroupName>units/han/infantry_swordsman_b</SelectionGroupName>
-    <SpecificName>Jiànkè</SpecificName>
+    <SpecificName>Dāo Bīng</SpecificName>
     <Icon>units/han/infantry_swordsman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

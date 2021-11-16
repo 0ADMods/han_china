@@ -18,7 +18,7 @@
   </Footprint>
   <Identity>
     <Civ>han</Civ>
-    <SpecificName>Wei Qing</SpecificName>
+    <SpecificName>Wèi Qīng</SpecificName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
     <Icon>units/han/hero_wei_qing.png</Icon>
   </Identity>
