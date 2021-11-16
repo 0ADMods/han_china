@@ -8,6 +8,7 @@
       structures/{civ}/laozigate
       -structures/wallset_palisade
       structures/{civ}/wallset_earth
+      structures/{civ}/camp_princess
     </Entities>
   </Builder>
   <Identity>

@@ -86,7 +86,6 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_minister
-      units/{civ}/support_princess
     </Entities>
     <Technologies datatype="tokens">
       civil_service_01
