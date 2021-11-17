@@ -71,7 +71,6 @@
     <VisibleClasses datatype="tokens">ImperialMinistry</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>200</xp>
     <wood>50</wood>
     <stone>50</stone>
     <metal>20</metal>

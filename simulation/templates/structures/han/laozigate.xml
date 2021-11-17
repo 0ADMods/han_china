@@ -36,8 +36,8 @@
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
-    <stone>20</stone>
-    <metal>20</metal>
+    <stone>10</stone>
+    <wood>20</wood>
   </Loot>
   <Obstruction>
     <Static width="23.0" depth="7.0"/>

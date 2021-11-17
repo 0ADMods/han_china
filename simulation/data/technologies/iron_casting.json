@@ -16,11 +16,11 @@
 	"requirementsTooltip": "Unlocked in Town Phase.",
 	"icon": "iron_casting.png",
 	"researchTime": 40,
-	"tooltip": "+10% gatherspeed and +15% melee attack for every unit",
+	"tooltip": "+10% gatherspeed and +10% melee attack for every unit",
 	"modifications": [
-		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.15 },
-		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.15 },
-		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.15 },
+		{ "value": "Attack/Melee/Damage/Hack", "multiply": 1.10 },
+		{ "value": "Attack/Melee/Damage/Pierce", "multiply": 1.10 },
+		{ "value": "Attack/Melee/Damage/Crush", "multiply": 1.10 },
 		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.1 }
 	],
 	"affects": ["Unit"],
