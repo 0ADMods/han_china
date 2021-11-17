@@ -8,14 +8,14 @@
     <Civ>han</Civ>
     <SpecificName>Jíshì</SpecificName>
   </Identity>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      paper
-    </Technologies>
-  </ProductionQueue>
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      paper
+    </Technologies>
+  </Researcher>
   <VisualActor>
     <Actor>structures/han/market.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>

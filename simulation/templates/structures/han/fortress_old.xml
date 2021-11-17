@@ -14,17 +14,19 @@
   <Obstruction>
     <Static width="34.0" depth="34.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+      poison_blades
+      pair_unlock_arrows_type
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_infantry_swordsman
       units/{civ}/champion_infantry_archer
       units/{civ}/champion_cavalry_crossbowman
     </Entities>
-    <Technologies datatype="tokens">
-      poison_blades
-      pair_unlock_arrows_type
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/han/fortress_old.xml</Actor>
   </VisualActor>

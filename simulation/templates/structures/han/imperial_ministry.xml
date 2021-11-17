@@ -25,14 +25,14 @@
       </RangeOverlay>
     </Ranged>
   </Attack>
+  <BuildRestrictions>
+    <Category>ImperialMinistry</Category>
+  </BuildRestrictions>
   <BuildingAI>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <DefaultArrowCount>3</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
-  <BuildRestrictions>
-    <Category>ImperialMinistry</Category>
-  </BuildRestrictions>
   <Capturable>
     <CapturePoints>3000</CapturePoints>
     <RegenRate>5.0</RegenRate>
@@ -57,6 +57,10 @@
     <BuffHeal>1</BuffHeal>
     <LoadingRange>1</LoadingRange>
   </GarrisonHolder>
+  <Health>
+    <Max>3000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <Civ>han</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
@@ -66,27 +70,19 @@
     <Icon>structures/imperial_ministry.png</Icon>
     <VisibleClasses datatype="tokens">ImperialMinistry</VisibleClasses>
   </Identity>
-  <Health>
-    <Max>3000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
-  </Health>
-  <Obstruction>
-    <Static width="28.0" depth="32.0"/>
-  </Obstruction>
   <Loot>
     <xp>200</xp>
     <wood>50</wood>
     <stone>50</stone>
     <metal>20</metal>
   </Loot>
+  <Obstruction>
+    <Static width="28.0" depth="32.0"/>
+  </Obstruction>
   <Population>
     <Bonus>50</Bonus>
   </Population>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}/support_minister
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       civil_service_01
       civil_service_02
@@ -97,7 +93,7 @@
       spy_counter
       princess_camp_fiefdom
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <ResourceTrickle>
     <Rates>
       <food>0.0</food>
@@ -112,6 +108,12 @@
     <Radius>70</Radius>
     <Weight>30000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_minister
+    </Entities>
+  </Trainer>
   <Vision>
     <Range>80</Range>
   </Vision>

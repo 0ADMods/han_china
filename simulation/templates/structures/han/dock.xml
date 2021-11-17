@@ -30,14 +30,6 @@
     <DefaultArrowCount>3</DefaultArrowCount>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
-  <GarrisonHolder>
-    <Max>10</Max>
-    <EjectHealth>0</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Minister Infantry</List>
-    <BuffHeal>1</BuffHeal>
-    <LoadingRange>1</LoadingRange>
-  </GarrisonHolder>
   <Capturable>
     <CapturePoints>2000</CapturePoints>
     <RegenRate>5.0</RegenRate>
@@ -46,19 +38,19 @@
     <Square width="26.0" depth="35.0"/>
     <Height>8.0</Height>
   </Footprint>
+  <GarrisonHolder>
+    <Max>10</Max>
+    <EjectHealth>0</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Support Minister Infantry</List>
+    <BuffHeal>1</BuffHeal>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Mǎtóu</SpecificName>
     <Icon>structures/shipyard.png</Icon>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      -units/{civ}/ship_fire
-      units/{civ}/infantry_archer_b
-      units/{civ}/infantry_swordsman_b
-    </Entities>
-  </ProductionQueue>
   <Obstruction>
     <Static width="26.0" depth="35.0"/>
   </Obstruction>
@@ -67,6 +59,14 @@
     <Radius>90</Radius>
     <Weight>15000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      -units/{civ}/ship_fire
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_swordsman_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/han/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>

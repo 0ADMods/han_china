@@ -40,7 +40,7 @@
     <stone>40</stone>
     <wood>40</wood>
   </Loot>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       tower_watch
       tower_crenellations
@@ -48,7 +48,7 @@
       tower_murderholes
       tower_health
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>36</Radius>

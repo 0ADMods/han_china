@@ -9,12 +9,7 @@
     <SpecificName>Dà Lóu Chuán</SpecificName>
     <Icon>units/han/ship_quinquereme.png</Icon>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_swordsman_b
-      units/{civ}/infantry_archer_b
-    </Entities>
+  <Researcher>
     <TechCostMultiplier>
       <food>1.0</food>
       <wood>1.0</wood>
@@ -22,7 +17,14 @@
       <metal>1.0</metal>
       <time>1.0</time>
     </TechCostMultiplier>
-  </ProductionQueue>
+  </Researcher>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_b
+      units/{civ}/infantry_archer_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/han/towership.xml</Actor>
   </VisualActor>

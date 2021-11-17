@@ -14,11 +14,11 @@
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       iron_casting
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/han/forge.xml</Actor>
   </VisualActor>

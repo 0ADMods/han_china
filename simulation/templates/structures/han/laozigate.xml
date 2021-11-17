@@ -44,6 +44,7 @@
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
+  <Researcher disable=""/>
   <Resistance>
     <Entity>
       <Damage>
@@ -60,6 +61,7 @@
     </SoundGroups>
   </Sound>
   <TerritoryDecay disable=""/>
+  <Trainer disable=""/>
   <VisualActor>
     <Actor>structures/han/shrine.xml</Actor>
     <FoundationActor>structures/fndn_6x2.xml</FoundationActor>

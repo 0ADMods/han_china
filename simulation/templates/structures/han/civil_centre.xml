@@ -14,17 +14,19 @@
   <Obstruction>
     <Static width="41.0" depth="33.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_spies
+      -spy_counter
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_archer_b
       units/{civ}/cavalry_archer_b
     </Entities>
-    <Technologies datatype="tokens">
-      -unlock_spies
-      -spy_counter
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <Upgrade>
     <ImperialCourt>
       <Entity>structures/han/imperial_court</Entity>
