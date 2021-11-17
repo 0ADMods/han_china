@@ -3,23 +3,23 @@
 	"affects": ["Structure", "!ImperialMinistry"],
 	"modifications": [
 		{
-			"value": "ProductionQueue/TechCostMultiplier/wood",
+			"value": "Researcher/TechCostMultiplier/wood",
 			"multiply": 0.98
 		},
 		{
-			"value": "ProductionQueue/TechCostMultiplier/food",
+			"value": "Researcher/TechCostMultiplier/food",
 			"multiply": 0.98
 		},
 		{
-			"value": "ProductionQueue/TechCostMultiplier/metal",
+			"value": "Researcher/TechCostMultiplier/metal",
 			"multiply": 0.98
 		},
 		{
-			"value": "ProductionQueue/TechCostMultiplier/stone",
+			"value": "Researcher/TechCostMultiplier/stone",
 			"multiply": 0.98
 		},
 		{
-			"value": "ProductionQueue/TechCostMultiplier/time",
+			"value": "Researcher/TechCostMultiplier/time",
 			"multiply": 0.98
 		}
 	],

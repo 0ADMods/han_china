@@ -50,35 +50,12 @@
     <Classes datatype="tokens">CivSpecific</Classes>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}/support_female_citizen
-      units/{civ}/princess
-    </Entities>
-  </ProductionQueue>
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>
   <Population>
     <Bonus>10</Bonus>
   </Population>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
-<!--  <Upgrade>
-    <UpgradeToCC>
-      <Entity>structures/han/civil_centre</Entity>
-      <Time>25</Time>
-      <Cost>
-        <stone>200</stone>
-        <metal>200</metal>
-      </Cost>
-      <Variant>upgrading</Variant>
-      <RequiredTechnology>princess_camp_fiefdom</RequiredTechnology>
-      <CheckPlacementRestrictions/>
-    </UpgradeToCC>
-  </Upgrade>-->
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_universal.xml</select>
@@ -94,6 +71,16 @@
     <Radius>40</Radius>
     <Weight>10000</Weight>
   </TerritoryInfluence>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_female_citizen
+      units/{civ}/princess
+    </Entities>
+  </Trainer>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
   <VisualActor>
     <Actor>structures/han/princess_camp.xml</Actor>
   </VisualActor>

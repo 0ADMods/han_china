@@ -34,15 +34,15 @@
   <Loot>
     <wood>20</wood>
   </Loot>
-  <ProductionQueue>
+  <RallyPoint disable=""/>
+  <Researcher>
     <Technologies datatype="tokens">
       farming_rice_seed_drill
       farming_rice_water_weeding
       farming_rice_chain_pump
       gather_wicker_baskets
     </Technologies>
-  </ProductionQueue>
-  <RallyPoint disable=""/>
+  </Researcher>
   <ResourceDropsite>
     <Types>food</Types>
     <Sharable>true</Sharable>

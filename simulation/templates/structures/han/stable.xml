@@ -11,17 +11,17 @@
     <Civ>han</Civ>
     <SpecificName>Mǎ Jiù</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/champion_cavalry_crossbowman
       units/{civ}/cavalry_halberdman_b
       -units/{civ}/cavalry_spearman_b
     </Entities>
-  </ProductionQueue>
-  <Obstruction>
-    <Static width="20.0" depth="20.0"/>
-  </Obstruction>
+  </Trainer>
   <VisualActor>
     <Actor>structures/han/stable.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

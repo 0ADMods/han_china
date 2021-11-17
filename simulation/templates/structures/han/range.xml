@@ -14,11 +14,11 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_crossbowman_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/han/range.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
