@@ -17,6 +17,7 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}/cavalry_halberdman_b
       -units/{civ}/cavalry_spearman_b
     </Entities>
   </Trainer>
