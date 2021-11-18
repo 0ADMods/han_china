@@ -13,7 +13,7 @@
       <Projectile>
         <Speed>60.0</Speed>
         <Spread>2</Spread>
-        <Gravity>25</Gravity>
+        <Gravity>9.81</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
