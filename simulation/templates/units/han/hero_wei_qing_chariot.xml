@@ -5,13 +5,6 @@
     units/heroes/han_hero_wei_qing_2
     units/heroes/han_hero_wei_qing_3
   </Auras>
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Crush>3</Crush>
-      </Damage>
-    </Ranged>
-  </Attack>
   <Footprint replace="">
     <Square width="10.0" depth="10.0"/>
     <Height>5.0</Height>

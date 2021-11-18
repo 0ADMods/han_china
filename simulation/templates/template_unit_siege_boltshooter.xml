@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege">
+  <Attack>
+    <Ranged>
+      <AttackName>Bolt</AttackName>
+      <Damage>
+        <Pierce>240</Pierce>
+      </Damage>
+      <MaxRange>125</MaxRange>
+      <MinRange>15</MinRange>
+      <PrepareTime>5000</PrepareTime>
+      <RepeatTime>6000</RepeatTime>
+      <Projectile>
+        <Speed>70</Speed>
+        <Spread>1</Spread>
+        <Gravity>9.81</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
+      <Splash>
+        <Shape>Linear</Shape>
+        <Range>9</Range>
+        <FriendlyFire>false</FriendlyFire>
+        <Damage>
+          <Pierce>70</Pierce>
+          <Crush>10</Crush>
+        </Damage>
+      </Splash>
+    </Ranged>
+  </Attack>
+  <Cost>
+    <BuildTime>20</BuildTime>
+    <Resources>
+      <wood>250</wood>
+      <metal>250</metal>
+    </Resources>
+    <Population>2</Population>
+  </Cost>
+  <Footprint replace="">
+    <Square width="5.0" depth="12.0"/>
+    <Height>2.0</Height>
+  </Footprint>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Ranged BoltShooter</VisibleClasses>
+    <GenericName>Bolt Shooter</GenericName>
+  </Identity>
+  <Loot>
+    <xp>200</xp>
+    <wood>50</wood>
+    <metal>50</metal>
+  </Loot>
+  <Pack>
+    <Time>10000</Time>
+  </Pack>
+  <Sound>
+    <SoundGroups>
+      <attack_impact_ranged>attack/impact/arrow_metal.xml</attack_impact_ranged>
+      <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.9</WalkSpeed>
+    <Acceleration op="mul">0.9</Acceleration>
+  </UnitMotion>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+</Entity>

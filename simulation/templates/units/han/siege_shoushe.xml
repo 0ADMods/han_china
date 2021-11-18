@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_boltshooter">
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Crush>10</Crush>
-      </Damage>
-      <Splash>
-        <FriendlyFire>false</FriendlyFire>
-        <Damage>
-          <Crush>3</Crush>
-        </Damage>
-      </Splash>
-    </Ranged>
-  </Attack>
   <Footprint replace="">
     <Square width="10.0" depth="10.0"/>
     <Height>5.0</Height>

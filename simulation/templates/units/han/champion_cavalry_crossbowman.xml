@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion_cavalry_crossbowman">
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Crush>2</Crush>
-      </Damage>
-    </Ranged>
-  </Attack>
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Sun Wu Trouble Freeing Forces</SpecificName>
