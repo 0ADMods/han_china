@@ -8,8 +8,8 @@
         <Crush>1</Crush>
       </Damage>
       <MaxRange>105</MaxRange>
-      <PrepareTime>200</PrepareTime>
-      <RepeatTime>3000</RepeatTime>
+      <PrepareTime>9000</PrepareTime>
+      <RepeatTime>10000</RepeatTime>
       <Projectile>
         <Speed>68.0</Speed>
         <Spread>0.8</Spread>
