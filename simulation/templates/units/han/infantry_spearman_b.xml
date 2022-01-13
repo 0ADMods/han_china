@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman">
+<Entity parent="civ/han|template_unit_infantry_melee_spearman">
   <Identity>
     <SelectionGroupName>units/han/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Máo Bīng</SpecificName>
