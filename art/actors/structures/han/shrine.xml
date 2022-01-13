@@ -9,8 +9,8 @@
       </props>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
-        <texture file="structural/han_struct_02.png" name="normTex"/>
-        <texture file="structural/han_struct_02.png" name="specTex"/>
+        <texture file="structural/han_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/han_struct_02_spec.png" name="specTex"/>
         <texture file="structural/ao/han_shrine.png" name="aoTex"/>
       </textures>
     </variant>
