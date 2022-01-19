@@ -5,7 +5,7 @@
     <variant frequency="1" name="base" file="structures/defensive_building.xml">
       <mesh>structural/han_fortress.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/han_struct_02.png" name="baseTex"/>
@@ -19,7 +19,10 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="flag"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_01"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_02"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_03"/>
+        <prop actor="props/special/common/garrison_flag_han.xml" attachpoint="garrisoned_04"/>
       </props>
     </variant>
   </group>
