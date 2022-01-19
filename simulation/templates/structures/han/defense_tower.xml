@@ -13,7 +13,7 @@
   </Identity>
   <Upgrade>
     <GreatArcheryTower>
-      <Entity>structures/{civ}/great_tower</Entity>
+      <Entity>structures/{civ}/defense_tower_great</Entity>
       <Tooltip>Reinforced great archery tower.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
