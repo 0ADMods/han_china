@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_spearman_relax.xml">
+    <variant>
       <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
@@ -25,7 +25,7 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_spearman_shield_relax.xml" name="Spearman-Shield-Relax" />
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>
