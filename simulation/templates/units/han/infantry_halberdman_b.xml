@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="civ/han|template_unit_infantry_melee_halberdman">
+<Entity parent="template_unit_infantry_melee_halberdman">
   <Identity>
+    <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_halberdman_b</SelectionGroupName>
     <SpecificName>Jǐ Bīng</SpecificName>
     <Icon>units/han/infantry_halberdman.png</Icon>
