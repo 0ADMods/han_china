@@ -14,6 +14,9 @@
     <DefaultArrowCount>2</DefaultArrowCount>
     <MaxArrowCount>10</MaxArrowCount>
   </BuildingAI>
+  <BuildRestrictions>
+    <Category>GreatTower</Category>
+  </BuildRestrictions>
   <GarrisonHolder>
     <Max>10</Max>
   </GarrisonHolder>
@@ -33,6 +36,7 @@
   <TerritoryInfluence>
     <Radius op="add">10</Radius>
   </TerritoryInfluence>
+  <Upgrade disable=""/>
   <Vision>
     <Range op="add">10</Range>
   </Vision>
