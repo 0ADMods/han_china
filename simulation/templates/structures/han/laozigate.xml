@@ -40,7 +40,8 @@
     <metal>20</metal>
   </Loot>
   <Obstruction>
-    <Static width="23.0" depth="7.0"/>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
