@@ -15,9 +15,6 @@
   <StatusBars>
     <HeightOffset>20</HeightOffset>
   </StatusBars>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
   <VisualActor>
     <Actor>structures/han/pagoda.xml</Actor>
   </VisualActor>
