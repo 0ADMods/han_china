@@ -32,7 +32,7 @@
     <SpecificName>Lǎozǐ Mén</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">LaoziGate Town</VisibleClasses>
-    <Icon>structures/arch.png</Icon>
+    <Icon>structures/paifang.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Loot>
@@ -40,6 +40,7 @@
     <metal>20</metal>
   </Loot>
   <Obstruction>
+    <Static width="23.0" depth="7.0"/>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
   </Obstruction>
