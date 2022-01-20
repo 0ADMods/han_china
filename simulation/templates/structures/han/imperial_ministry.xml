@@ -52,6 +52,7 @@
   <Population>
     <Bonus>20</Bonus>
   </Population>
+  <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       civil_service_01
