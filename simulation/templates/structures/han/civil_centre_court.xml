@@ -33,7 +33,6 @@
     <Technologies datatype="tokens">
       fortified_civ_center_range
       -phase_town_{civ}
-      -phase_city_{civ}
     </Technologies>
   </Researcher>
   <Trainer>
