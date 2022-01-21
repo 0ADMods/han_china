@@ -7,7 +7,7 @@
     <Category>LaoziGate</Category>
     <Distance>
       <FromClass>LaoziGate</FromClass>
-      <MinDistance>150</MinDistance>
+      <MinDistance>80</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Capturable disable=""/>
