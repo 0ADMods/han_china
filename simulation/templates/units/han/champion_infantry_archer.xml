@@ -8,28 +8,6 @@
     <Icon>units/han/champion_infantry_archer.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
-  <Upgrade>
-    <UseFireArrows>
-      <Entity>units/han/champion_infantry_archer_fire</Entity>
-      <Tooltip>Switch to fire arrows.</Tooltip>
-      <RequiredTechnology>fire_arrows</RequiredTechnology>
-      <Cost>
-        <food>50</food>
-        <stone>50</stone>
-      </Cost>
-      <Time>3</Time>
-    </UseFireArrows>
-    <UsePoisonArrows>
-      <Entity>units/han/champion_infantry_archer_poison</Entity>
-      <Tooltip>Switch to poison arrows.</Tooltip>
-      <RequiredTechnology>poison_arrows</RequiredTechnology>
-      <Cost>
-        <food>50</food>
-        <metal>50</metal>
-      </Cost>
-      <Time>3</Time>
-    </UsePoisonArrows>
-  </Upgrade>
   <VisualActor>
     <Actor>units/han/infantry_archer_c.xml</Actor>
   </VisualActor>

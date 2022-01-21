@@ -8,18 +8,6 @@
     <Icon>units/han/champion_infantry_swordsman.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
-  <Upgrade>
-    <UsePoisonBlade>
-      <Entity>units/han/champion_infantry_swordsman_poison</Entity>
-      <Tooltip>Switch to poisoned blade.</Tooltip>
-      <RequiredTechnology>poison_blades</RequiredTechnology>
-      <Cost>
-        <food>75</food>
-        <metal>25</metal>
-      </Cost>
-      <Time>3</Time>
-    </UsePoisonBlade>
-  </Upgrade>
   <VisualActor>
     <Actor>units/han/infantry_swordsman_c.xml</Actor>
   </VisualActor>
