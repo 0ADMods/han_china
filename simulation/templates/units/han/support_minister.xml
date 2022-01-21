@@ -38,6 +38,9 @@
   <Minimap>
     <Type>hero</Type>
   </Minimap>
+  <Position>
+    <TurnRate>8</TurnRate>
+  </Position>
   <Resistance>
     <Entity>
       <Damage>
