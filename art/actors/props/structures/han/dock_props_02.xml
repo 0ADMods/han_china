@@ -6,8 +6,9 @@
     <mesh>props/han_dockprops_02.dae</mesh>
     <textures>
       <texture file="structural/han_struct.png" name="baseTex"/>
+      <texture file="structural/ao/han_dock.png" name="aoTex"/>
     </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_ao.xml</material>
 </actor>
