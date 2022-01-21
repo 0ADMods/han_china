@@ -12,7 +12,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in Village Phase.",
-	"icon": "gather_seed_drill.png",
+	"icon": "torsion_springs.png",
 	"researchTime": 50,
 	"tooltip": "Workers +25% rice gather rate.",
 	"modifications": [

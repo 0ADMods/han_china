@@ -16,17 +16,12 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
+      -attack_soldiers_will
+      art_of_war
       poison_blades
-      pair_unlock_arrows_type
+      poison_arrows
     </Technologies>
   </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/champion_infantry_swordsman
-      units/{civ}/champion_infantry_archer
-      units/{civ}/champion_cavalry_crossbowman
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/han/fortress.xml</Actor>
   </VisualActor>

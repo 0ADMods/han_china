@@ -1,10 +1,9 @@
 {
-	"pair": "pair_unlock_arrows_type",
 	"genericName": "Poison Arrows",
-	"description": ".",
+	"description": "",
 	"cost": {
-		"food": 500,
-		"metal": 400
+		"food": 800,
+		"wood": 800
 	},
 	"requirements": {
 		"all": [
@@ -14,7 +13,13 @@
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "arrow_poison.png",
-	"researchTime": 40,
-	"tooltip": "Champion archers use poisoned arrows.",
+	"researchTime": 50,
+	"tooltip": "Ranged Soldiers +20% attack damage.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Hack", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.2 },
+		{ "value": "Attack/Ranged/Damage/Crush", "multiply": 1.2 }
+	],
+	"affects": ["Soldier"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

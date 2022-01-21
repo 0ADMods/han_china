@@ -13,7 +13,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in City Phase.",
-	"icon": "gather_chain_pump.png",
+	"icon": "flood_control.png",
 	"researchTime": 70,
 	"tooltip": "Workers +25% rice gather rate.",
 	"modifications": [

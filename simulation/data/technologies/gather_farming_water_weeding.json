@@ -13,7 +13,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "gather_water_weeding.png",
+	"icon": "irrigation.png",
 	"researchTime": 60,
 	"tooltip": "Workers +25% rice gather rate.",
 	"modifications": [
