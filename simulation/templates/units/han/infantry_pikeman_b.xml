@@ -2,13 +2,13 @@
 <Entity parent="template_unit_infantry_melee_pikeman">
   <Identity>
     <Civ>han</Civ>
-    <SelectionGroupName>units/han/infantry_halberdman_b</SelectionGroupName>
+    <SelectionGroupName>units/han/infantry_pikeman_b</SelectionGroupName>
     <SpecificName>Jǐ Bīng</SpecificName>
     <Icon>units/han/infantry_halberdman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
-    <Entity>units/han/infantry_halberdman_a</Entity>
+    <Entity>units/han/infantry_pikeman_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/han/infantry_halberdman_b.xml</Actor>
