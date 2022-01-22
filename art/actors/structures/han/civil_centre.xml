@@ -23,8 +23,8 @@
     <variant frequency="1" name="Idle"/>
     <variant name="upgrading">
       <props>
-        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
-        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="props/structures/construction/scaf_3x3_tower.xml" attachpoint="scaffold-right"/>
+        <prop actor="props/structures/construction/scaf_3x3_tower.xml" attachpoint="scaffold-left"/>
         <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>
