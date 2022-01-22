@@ -31,7 +31,6 @@
   </Population>
   <Researcher>
     <Technologies datatype="tokens">
-      fortified_civ_center_range
       -phase_town_{civ}
     </Technologies>
   </Researcher>
