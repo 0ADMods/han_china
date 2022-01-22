@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_halberdman">
+<Entity parent="template_unit_infantry_melee_pikeman">
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_halberdman_b</SelectionGroupName>
