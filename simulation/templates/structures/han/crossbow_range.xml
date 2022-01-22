@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_range">
   <Footprint>
-    <Square width="26.0" depth="24.0"/>
+    <Square width="28.0" depth="24.0"/>
     <Height>5.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -10,10 +10,12 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Bǎ Chǎng</SpecificName>
-    <GenericName>Archery Range</GenericName>
+    <GenericName>Crossbow Range</GenericName>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="22.0"/>
+    <Static width="26.0" depth="22.0"/>
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
@@ -22,6 +24,8 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
+      -units/{civ}/infantry_archer_b
+      -units/{civ}/champion_infantry_archer
       units/{civ}/cavalry_crossbowman_b
       units/{civ}/champion_cavalry_crossbowman
     </Entities>

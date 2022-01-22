@@ -17,10 +17,11 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}/champion_cavalry_spearman
     </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/han/stable.xml</Actor>
-    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
