@@ -22,6 +22,13 @@
       poison_arrows
     </Technologies>
   </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_han_xin_horse
+      units/{civ}/hero_liu_bang_horse
+      units/{civ}/hero_wei_qing_chariot
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/han/fortress.xml</Actor>
   </VisualActor>
