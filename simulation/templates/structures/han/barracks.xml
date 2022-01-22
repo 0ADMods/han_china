@@ -14,19 +14,8 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-      special_crossbow_tradition
-    </Technologies>
-  </Researcher>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/infantry_crossbowman_b
-      units/{civ}/infantry_halberdman_b
-    </Entities>
-  </Trainer>
   <VisualActor>
     <Actor>structures/han/barracks.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>
 </Entity>

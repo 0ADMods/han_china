@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_range">
   <Footprint>
-    <Square width="22.0" depth="22.0"/>
+    <Square width="26.0" depth="24.0"/>
     <Height>5.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -10,17 +10,24 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Bǎ Chǎng</SpecificName>
+    <GenericName>Archery Range</GenericName>
   </Identity>
   <Obstruction>
-    <Static width="20.0" depth="20.0"/>
+    <Static width="24.0" depth="22.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      special_crossbow_tradition
+    </Technologies>
+  </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_crossbowman_b
+      units/{civ}/cavalry_crossbowman_b
+      units/{civ}/champion_cavalry_crossbowman
     </Entities>
   </Trainer>
   <VisualActor>
     <Actor>structures/han/range.xml</Actor>
-    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
