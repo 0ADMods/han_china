@@ -15,8 +15,8 @@
       structures/{civ}/corral
       structures/{civ}/dock
       structures/{civ}/barracks
-      structures/{civ}/crossbow_range
       structures/{civ}/stable
+      structures/{civ}/crossbow_range
       structures/{civ}/elephant_stable
       structures/{civ}/arsenal
       structures/{civ}/forge
