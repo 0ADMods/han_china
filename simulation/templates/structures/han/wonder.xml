@@ -15,7 +15,7 @@
     <Static width="48.0" depth="43.0"/>
   </Obstruction>
   <VisualActor>
-    <FoundationActor>structures/fndn_8x8.xml</FoundationActor>
+    <FoundationActor>structures/fndn_theater.xml</FoundationActor>
     <Actor>structures/han/wonder.xml</Actor>
   </VisualActor>
 </Entity>
