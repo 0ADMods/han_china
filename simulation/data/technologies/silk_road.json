@@ -17,7 +17,7 @@
 	"researchTime": 50,
 	"tooltip": "Traders +20% international trade bonus.",
 	"modifications": [
-		{ "value": "Market/InternationalBonus", "add": 0.2 }
+		{ "value": "Market/InternationalBonus", "multiply": 1.2 }
 	],
 	"affects": ["Trade"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
