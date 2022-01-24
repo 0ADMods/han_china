@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee_pikeman">
+  <Attack>
+    <Melee>
+      <AttackName>Halberdier</AttackName>
+      <Damage>
+        <Hack op="add">1</Hack>
+        <Pierce op="add">1</Pierce>
+      </Damage>
+    </Melee>
+  </Attack>
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_pikeman_b</SelectionGroupName>
@@ -13,6 +22,14 @@
   <VisualActor>
     <Actor>units/han/infantry_halberdman_b.xml</Actor>
   </VisualActor>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">-2</Hack>
+        <Pierce op="add">-2</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
   <ResourceGatherer>
     <Rates>
       <food.rice>0.35</food.rice>
