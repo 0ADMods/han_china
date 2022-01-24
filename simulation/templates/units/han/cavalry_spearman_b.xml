@@ -5,6 +5,7 @@
     <SelectionGroupName>units/han/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Máo Qíbīng</SpecificName>
     <Icon>units/han/cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
     <Entity>units/han/cavalry_spearman_a</Entity>
