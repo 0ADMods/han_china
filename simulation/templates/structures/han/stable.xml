@@ -14,10 +14,18 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -unlock_champion_cavalry
+    </Technologies>
+  </Researcher>
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/champion_cavalry_spearman
+      units/{civ}/cavalry_crossbowman_b
+      -units/{civ}/champion_cavalry
+      -units/{civ}/champion_chariot
+      -units/{civ}/war_dog
     </Entities>
   </Trainer>
   <VisualActor>

@@ -4,7 +4,7 @@
     <Rate>1.0</Rate>
     <Entities datatype="tokens">
       structures/{civ}/civil_centre
-      structures/{civ}/imperial_ministry
+      structures/{civ}/ministry
       structures/{civ}/crannog
       structures/{civ}/military_colony
       structures/{civ}/house
@@ -16,9 +16,8 @@
       structures/{civ}/dock
       structures/{civ}/barracks
       structures/{civ}/stable
-      structures/{civ}/crossbow_range
+      structures/{civ}/practice_range
       structures/{civ}/elephant_stable
-      structures/{civ}/arsenal
       structures/{civ}/forge
       structures/{civ}/temple
       structures/{civ}/market
@@ -26,6 +25,8 @@
       structures/{civ}/outpost
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
+      structures/{civ}/arsenal
+      structures/{civ}/academy
       structures/{civ}/fortress
       structures/wallset_palisade
       structures/{civ}/wallset_siege

@@ -24,10 +24,10 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
-      -units/{civ}/infantry_archer_b
+      units/{civ}/infantry_crossbowman_b
+      -units/{civ}/champion_infantry_javelineer
+      -units/{civ}/champion_infantry_slinger
       -units/{civ}/champion_infantry_archer
-      units/{civ}/cavalry_crossbowman_b
-      units/{civ}/champion_cavalry_crossbowman
     </Entities>
   </Trainer>
   <VisualActor>
