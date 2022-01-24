@@ -29,6 +29,7 @@
         <prop actor="props/structures/han/civic_center_leaves.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_trunks.xml" attachpoint="root"/>
         <prop actor="props/structures/han/civic_center_nature.xml" attachpoint="root"/>
+        <prop actor="props/structures/han/civic_center_bixie.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
