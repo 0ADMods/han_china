@@ -17,6 +17,9 @@
   <BuildRestrictions>
     <Category>GreatTower</Category>
   </BuildRestrictions>
+  <Capturable>
+    <CapturePoints op="mul">2</CapturePoints>
+  </Capturable>
   <GarrisonHolder>
     <Max>10</Max>
   </GarrisonHolder>
