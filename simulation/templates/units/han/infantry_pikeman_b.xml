@@ -35,4 +35,9 @@
       <food.rice>0.35</food.rice>
     </Rates>
   </ResourceGatherer>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
+  </UnitAI>
 </Entity>

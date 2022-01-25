@@ -5,9 +5,6 @@
     <SelectionGroupName>units/han/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Máo Bīng</SpecificName>
     <Icon>units/han/infantry_spearman.png</Icon>
-    <Formations datatype="tokens">
-      special/formations/anti_cavalry
-    </Formations>
   </Identity>
   <Promotion>
     <Entity>units/han/infantry_spearman_a</Entity>
@@ -20,4 +17,9 @@
       <food.rice>0.35</food.rice>
     </Rates>
   </ResourceGatherer>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/anti_cavalry
+    </Formations>
+  </UnitAI>
 </Entity>
