@@ -9,6 +9,11 @@
       </Damage>
     </Melee>
   </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/wallset_palisade
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_pikeman_b</SelectionGroupName>

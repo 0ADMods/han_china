@@ -29,6 +29,7 @@
       structures/{civ}/academy
       structures/{civ}/fortress
       structures/wallset_palisade
+      structures/{civ}/wallset_palisade
       structures/{civ}/wallset_siege
       structures/{civ}/wallset_stone
       structures/{civ}/theater

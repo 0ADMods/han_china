@@ -7,6 +7,11 @@
       </Damage>
     </Ranged>
   </Attack>
+  <Builder>
+    <Entities datatype="tokens">
+      -structures/wallset_palisade
+    </Entities>
+  </Builder>
   <Identity>
     <Civ>han</Civ>
     <SelectionGroupName>units/han/infantry_crossbowman_b</SelectionGroupName>
