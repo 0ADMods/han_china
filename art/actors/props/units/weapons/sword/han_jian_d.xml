@@ -2,11 +2,13 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="100" name="Base">
+        <variant frequency="1" name="weap_han_sword_d">
+            <mesh>props/weapons/sword/weap_han_sword_d.dae</mesh>
             <textures>
                 <texture file="props/prop_weap.dds" name="baseTex"/>
+                <texture file="props/prop_weap.dds" name="specTex"/>
             </textures>
-            <mesh>props/weapons/sword/weap_han_sword_d.dae</mesh>
         </variant>
     </group>
+    <material>no_trans_spec.xml</material>
 </actor>
