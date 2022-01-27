@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_defensive_palisade">
-  <Cost>
-    <BuildTime>12</BuildTime>
-    <Resources>
-      <wood>12</wood>
-    </Resources>
-  </Cost>
-  <Footprint>
-    <Square width="28.0" depth="4.0"/>
-    <Height>6.0</Height>
-  </Footprint>
-  <Health>
-    <Max op="mul">0.6</Max>
-  </Health>
+<Entity parent="structures/palisades_long">
   <Identity>
     <GenericName>Bamboo Stockade</GenericName>
-    <Tooltip>Can be converted into a Palisade Gate.</Tooltip>
   </Identity>
-  <Loot>
-    <wood>3</wood>
-  </Loot>
-  <Obstruction>
-    <Static width="26.0" depth="2.0"/>
-  </Obstruction>
-  <StatusBars>
-    <HeightOffset>7.0</HeightOffset>
-  </StatusBars>
-  <Upgrade>
+  <Upgrade replace="">
     <Gate>
-      <Entity>structures/palisades_gate</Entity>
+      <Entity>structures/han/palisades_gate</Entity>
       <Tooltip>Allow units access through Palisades. Can be locked to prevent access.</Tooltip>
       <Cost>
         <wood>10</wood>
@@ -38,10 +15,6 @@
     </Gate>
   </Upgrade>
   <VisualActor>
-    <Actor>structures/palisade_bamboo_long.xml</Actor>
-    <FoundationActor>structures/fndn_3x1.xml</FoundationActor>
+    <Actor>structures/special/palisade_bamboo_long.xml</Actor>
   </VisualActor>
-  <WallPiece>
-    <Length>26</Length>
-  </WallPiece>
 </Entity>

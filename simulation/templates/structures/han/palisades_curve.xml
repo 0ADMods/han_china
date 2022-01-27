@@ -6,10 +6,6 @@
       <wood>10</wood>
     </Resources>
   </Cost>
-  <Footprint>
-    <Square width="8" depth="8"/>
-    <Height>6</Height>
-  </Footprint>
   <Identity>
     <GenericName>Bamboo Stockade</GenericName>
   </Identity>
@@ -23,7 +19,7 @@
     <HeightOffset>7</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/palisade_bamboo_curved_short.xml</Actor>
+    <Actor>structures/special/palisade_bamboo_curved_short.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>8</Length>

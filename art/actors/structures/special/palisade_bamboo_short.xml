@@ -2,10 +2,10 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Long Bamboo Palisade">
-      <mesh>structural/palisade_bamboo_long.dae</mesh>
+    <variant frequency="1" name="Short Bamboo Palisade">
+      <mesh>structural/palisade_bamboo_short.dae</mesh>
       <props>
-        <prop actor="structures/palisade_bamboo_long_nature.xml" attachpoint="root"/>
+        <prop actor="props/special/palisade_bamboo_short_nature.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="props/dockprops.png" name="baseTex"/>
