@@ -68,6 +68,9 @@
       units/{civ}/champion_infantry_archer
       units/{civ}/champion_cavalry
       units/{civ}/champion_cavalry_spearman
+      units/{civ}/champion_cavalry_swordsman
+      units/{civ}/champion_cavalry_javelineer
+      units/{civ}/champion_cavalry_archer
       units/{civ}/champion_cavalry_crossbowman  
       units/{civ}/champion_chariot
       units/{civ}/war_dog
