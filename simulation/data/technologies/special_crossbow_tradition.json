@@ -14,7 +14,7 @@
 		]
 	},
 	"requirementsTooltip": "Unlocked in Town Phase.",
-	"icon": "archery_tradition.png",
+	"icon": "armor_plates_ranged.png",
 	"researchTime": 40,
 	"tooltip": "Range +10 meters, −10% ranged attack spread for crossbow-wielding units.",
 	"modifications": [
