@@ -18,6 +18,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
+      archer_attack_spread
       special_crossbow_tradition
     </Technologies>
   </Researcher>

@@ -16,6 +16,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
+      -archer_attack_spread
       iron_casting
     </Technologies>
   </Researcher>
