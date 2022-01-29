@@ -31,7 +31,7 @@
     <ImperialCourt>
       <Entity>structures/han/civil_centre_court</Entity>
       <Tooltip>Greatly increase the health, capture resistance, and garrison capacity of this Civic Center. Unlock training of Heroes and Champions from this Civic Center.</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
+      <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
         <stone>300</stone>
         <wood>300</wood>
