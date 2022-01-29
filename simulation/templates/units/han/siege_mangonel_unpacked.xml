@@ -7,7 +7,7 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Tóushí Chē</SpecificName>
-    <Icon>units/rome_siege_onager.png</Icon>
+    <Icon>units/han/siege_mangonel.png</Icon>
   </Identity>
   <Pack>
     <Entity>units/han/siege_mangonel_packed</Entity>
