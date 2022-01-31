@@ -11,7 +11,8 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/clothes_e.xml"/>
+    <variant file="clothes/han/uniform_a_01.xml"/>
+    <variant file="clothes/han/uniform_a_02.xml"/>
   </group>
   <group>
     <variant frequency="1" name="cap-var">
