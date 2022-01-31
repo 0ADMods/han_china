@@ -2,7 +2,7 @@
 <actor version="1">
     <castshadow/>
     <group>
-        <variant frequency="1" name="han_Barracks_Props_Shield_c">
+        <variant frequency="1" name="han_temple_cauldron">
             <mesh>structural/han_temple_cauldron.dae</mesh>
         </variant>
     </group>
