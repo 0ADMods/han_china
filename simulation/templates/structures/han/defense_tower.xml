@@ -14,13 +14,12 @@
   <Upgrade>
     <GreatArcheryTower>
       <Entity>structures/{civ}/defense_tower_great</Entity>
-      <Tooltip>Reinforced great archery tower.</Tooltip>
+      <Tooltip>This tower has greater range, greater attack, greater health, and is twice as difficult to capture.</Tooltip>
       <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
-        <wood>100</wood>
-        <stone>100</stone>
+        <stone>200</stone>
       </Cost>
-      <Time>30</Time>
+      <Time>40</Time>
       <Variant>upgrading</Variant>
     </GreatArcheryTower>
   </Upgrade>
