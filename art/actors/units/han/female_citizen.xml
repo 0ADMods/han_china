@@ -6,6 +6,7 @@
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_female_han.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -15,11 +16,7 @@
   </group>
   <group>
     <variant file="biped/female_base_walk.xml"/>
-    <variant file="biped/female_carry_food.xml">
-      <props>
-        <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
+    <variant file="biped/female_carry_food.xml"/>
     <variant file="biped/female_carry_meat.xml"/>
     <variant file="biped/female_carry_wood.xml"/>
     <variant file="biped/female_carry_stone.xml"/>
