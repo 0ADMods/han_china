@@ -2,8 +2,8 @@
 	"genericName": "Poison Blades",
 	"description": "",
 	"cost": {
-		"food": 800,
-		"metal": 800
+		"food": 1200,
+		"metal": 1200
 	},
 	"requirements": {
 		"all": [

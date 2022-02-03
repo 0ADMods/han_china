@@ -2,8 +2,8 @@
 	"genericName": "Poison Arrows",
 	"description": "",
 	"cost": {
-		"food": 800,
-		"wood": 800
+		"food": 1200,
+		"wood": 1200
 	},
 	"requirements": {
 		"all": [
