@@ -2,13 +2,13 @@
 
 <Scenario version="7">
 	<Environment>
-		<SkySet>sunny</SkySet>
-		<SunColor r="0.960784" g="0.929412" b="0.811765"/>
+		<SkySet>default</SkySet>
+		<SunColor r="0.956863" g="0.929412" b="0.811765"/>
 		<SunElevation angle="1.5708"/>
 		<SunRotation angle="-0.0434505"/>
-		<AmbientColor r="0.368627" g="0.376471" b="0.419608"/>
+		<AmbientColor r="0.364706" g="0.376471" b="0.419608"/>
 		<Fog>
-			<FogFactor>0.00379883</FogFactor>
+			<FogFactor>0.00280273</FogFactor>
 			<FogThickness>0</FogThickness>
 			<FogColor r="0.847059" g="0.937255" b="0.937255"/>
 		</Fog>
@@ -32,7 +32,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="816.282" y="91.3628" z="193.38"/>
+		<Position x="682.319" y="86.932" z="106.504"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -6473,14 +6473,14 @@
 		<Entity uid="1310">
 			<Template>gaia/tree/strangler</Template>
 			<Player>0</Player>
-			<Position x="901.07343" z="124.99593"/>
+			<Position x="891.21387" z="137.1727"/>
 			<Orientation y="2.52709"/>
 			<Actor seed="53898"/>
 		</Entity>
 		<Entity uid="1311">
 			<Template>gaia/tree/strangler</Template>
 			<Player>0</Player>
-			<Position x="910.4217" z="115.30532"/>
+			<Position x="911.39917" z="129.49213"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="55060"/>
 		</Entity>
@@ -16808,6 +16808,69 @@
 			<Position x="157.8758" z="607.70887"/>
 			<Orientation y="-1.25062"/>
 			<Actor seed="53922"/>
+		</Entity>
+		<Entity uid="2851">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="757.7616" z="210.19965"/>
+			<Orientation y="3.06563"/>
+			<Actor seed="62286"/>
+		</Entity>
+		<Entity uid="2852">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="742.91553" z="214.60444"/>
+			<Orientation y="0.6963"/>
+			<Actor seed="50216"/>
+		</Entity>
+		<Entity uid="2853">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="749.54975" z="205.55"/>
+			<Orientation y="1.00318"/>
+			<Actor seed="3900"/>
+		</Entity>
+		<Entity uid="2854">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="760.93226" z="192.95005"/>
+			<Orientation y="-3.94433"/>
+			<Actor seed="1980"/>
+		</Entity>
+		<Entity uid="2855">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="769.45203" z="198.3682"/>
+			<Orientation y="-2.92803"/>
+			<Actor seed="56766"/>
+		</Entity>
+		<Entity uid="2856">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="748.04084" z="196.64402"/>
+			<Orientation y="-2.0093"/>
+			<Actor seed="20328"/>
+		</Entity>
+		<Entity uid="2857">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="730.67701" z="207.6431"/>
+			<Orientation y="-1.76603"/>
+			<Actor seed="28036"/>
+		</Entity>
+		<Entity uid="2858">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="729.20301" z="215.19254"/>
+			<Orientation y="-2.49944"/>
+			<Actor seed="13414"/>
+		</Entity>
+		<Entity uid="2859">
+			<Template>gaia/tree/cherry_blossom</Template>
+			<Player>0</Player>
+			<Position x="737.90656" z="205.38602"/>
+			<Orientation y="1.22489"/>
+			<Actor seed="23942"/>
 		</Entity>
 	</Entities>
 	<Paths/>
