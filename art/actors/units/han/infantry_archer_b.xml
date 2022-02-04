@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/han_bandana.xml" attachpoint="helmet"/>
@@ -15,8 +15,21 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_b_02.xml"/>
-    <variant file="clothes/han/uniform_b_03.xml"/>
+    <variant name="Han-Tunic-01">
+      <textures>
+        <texture file="skeletal/han_tunic_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Tunic-02">
+      <textures>
+        <texture file="skeletal/han_tunic_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Tunic-03">
+      <textures>
+        <texture file="skeletal/han_tunic_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/base_archer_relax.xml"/>
@@ -55,5 +68,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

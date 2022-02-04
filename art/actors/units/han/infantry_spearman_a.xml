@@ -12,14 +12,30 @@
         <prop actor="props/units/weapons/spear/han_standard_spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/sheath/han_jian_sheath_left_b.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="skeletal/han_lamellar_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_a_01.xml"/>
-    <variant file="clothes/han/uniform_a_04.xml"/>
+    <variant name="Han-Armor-Lamellar-01-Lacqurered-01">
+      <textures>
+        <texture file="skeletal/han_lamellar_01_lacquered_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Lamellar-01-Lacqurered-02">
+      <textures>
+        <texture file="skeletal/han_lamellar_01_lacquered_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Lamellar-01-Lacqurered-03">
+      <textures>
+        <texture file="skeletal/han_lamellar_01_lacquered_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml"/>
+    <variant file="biped/base_spearman_shield_relax.xml"/>
     <variant file="biped/carry_food.xml">
       <props>
         <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>

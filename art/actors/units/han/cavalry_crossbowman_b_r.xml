@@ -12,8 +12,21 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_b_02.xml"/>
-    <variant file="clothes/han/uniform_b_03.xml"/>
+    <variant name="Han-Tunic-01">
+      <textures>
+        <texture file="skeletal/han_tunic_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Tunic-02">
+      <textures>
+        <texture file="skeletal/han_tunic_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Tunic-03">
+      <textures>
+        <texture file="skeletal/han_tunic_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="cap-var">
@@ -34,7 +47,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_crossbowman_relax_back.xml" name="Crossbowman-Relax-Back" frequency="1"/>
+    <variant file="biped/rider/cavalry/base_crossbowman_relax_back.xml" frequency="1" name="Crossbowman-Relax-Back"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

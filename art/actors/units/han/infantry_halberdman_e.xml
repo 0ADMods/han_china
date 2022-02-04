@@ -10,16 +10,30 @@
         <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/sheath/han_jian_sheath_left_b.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="skeletal/han_scale_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_e_01.xml"/>
-    <variant file="clothes/han/uniform_e_02.xml"/>
-    <variant file="clothes/han/uniform_e_03.xml"/>
-    <variant file="clothes/han/uniform_e_04.xml"/>
+    <variant name="Han-Armor-Scale-01-Lacquered-01">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Scale-01-Lacquered-02">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Scale-01-Lacquered-03">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
-    <variant file="biped/base_pikeman_relax.xml" name="Pikeman-Shield-Relax" frequency="1"/>
+    <variant file="biped/base_pikeman_relax.xml" frequency="1" name="Pikeman-Shield-Relax"/>
     <variant file="biped/carry_food.xml">
       <props>
         <prop actor="props/units/helmets/han_ricehat.xml" attachpoint="helmet"/>

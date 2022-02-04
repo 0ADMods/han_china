@@ -10,10 +10,27 @@
         <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/sheath/han_jian_sheath_left_a.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="skeletal/han_scale_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_c_01.xml"/>
+    <variant name="Han-Armor-Scale-01-Lacquered-01">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Scale-01-Lacquered-02">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Scale-01-Lacquered-03">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>

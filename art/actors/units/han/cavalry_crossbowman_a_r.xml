@@ -9,11 +9,27 @@
         <prop actor="props/units/weapons/crossbow/han_nu.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
       </props>
+      <textures>
+        <texture file="skeletal/han_lamellar_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_a_01.xml"/>
-    <variant file="clothes/han/uniform_a_04.xml"/>
+    <variant name="Han-Armor-Lamellar-01-Lacqurered-01">
+      <textures>
+        <texture file="skeletal/han_lamellar_01_lacquered_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Lamellar-01-Lacqurered-02">
+      <textures>
+        <texture file="skeletal/han_lamellar_01_lacquered_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Lamellar-01-Lacqurered-03">
+      <textures>
+        <texture file="skeletal/han_lamellar_01_lacquered_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="cap-var">
@@ -34,7 +50,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_crossbowman_relax_back.xml" name="Crossbowman-Relax-Back" frequency="1"/>
+    <variant file="biped/rider/cavalry/base_crossbowman_relax_back.xml" frequency="1" name="Crossbowman-Relax-Back"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>

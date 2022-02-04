@@ -2,8 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="Base" frequency="1">
-      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
@@ -13,7 +13,12 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/hero_wei_qing.xml"/>
+    <variant name="Han-Armor-Scale-Hero-01-Lacquered-01">
+      <textures>
+        <texture file="skeletal/han_scale_hero_01_lacquered_01.png" name="baseTex"/>
+        <texture file="skeletal/han_scale_hero_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/base_crossbowman_ready.xml"/>

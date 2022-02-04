@@ -1,25 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/han_cap.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/bow/han_bow.xml" attachpoint="weapon_bow"/>
         <prop actor="props/units/quivers/han_quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="skeletal/han_scale_01_spec.png" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_e_01.xml"/>
-    <variant file="clothes/han/uniform_e_02.xml"/>
-    <variant file="clothes/han/uniform_e_03.xml"/>
-    <variant file="clothes/han/uniform_e_04.xml"/>
+    <variant name="Han-Armor-Scale-01-Lacquered-01">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Scale-01-Lacquered-02">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Han-Armor-Scale-01-Lacquered-03">
+      <textures>
+        <texture file="skeletal/han_scale_01_lacquered_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" name="Archer-Relax-Hip" frequency="1"/>
+    <variant file="biped/rider/cavalry/base_archer_relax_hip.xml" frequency="1" name="Archer-Relax-Hip"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
