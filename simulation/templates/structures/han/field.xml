@@ -20,7 +20,7 @@
     <DiminishingReturns>0.90</DiminishingReturns>
   </ResourceSupply>
   <VisualActor>
-    <Actor>structures/han/field_rice.xml</Actor>
+    <Actor>structures/rice_paddy.xml</Actor>
     <FoundationActor>props/structures/decals/rice_paddy_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
