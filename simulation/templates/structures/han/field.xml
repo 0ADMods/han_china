@@ -7,7 +7,7 @@
   <Identity>
     <Civ>han</Civ>
     <SpecificName>Dàotián</SpecificName>
-    <Classes datatype="tokens">CivSpecific</Classes>
+    <GenericName>Rice Paddy</GenericName>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
