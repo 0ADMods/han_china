@@ -15,8 +15,8 @@
   <group>
     <variant name="Han-Armor-Scale-Hero-01-Iron-01">
       <textures>
-        <texture file="skeletal/han_scale_hero_01_iron_01.png" name="baseTex"/>
-        <texture file="skeletal/han_scale_hero_01_spec.png" name="specTex"/>
+        <texture file="skeletal/han/scale_hero_01_iron_01.png" name="baseTex"/>
+        <texture file="skeletal/han/scale_hero_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

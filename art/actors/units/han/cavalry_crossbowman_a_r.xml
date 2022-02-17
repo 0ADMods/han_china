@@ -10,24 +10,24 @@
         <prop actor="props/units/quivers/han_bolt_quiver.xml" attachpoint="back"/>
       </props>
       <textures>
-        <texture file="skeletal/han_lamellar_01_spec.png" name="specTex"/>
+        <texture file="skeletal/han/lamellar_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant name="Han-Armor-Lamellar-01-Lacqurered-01">
       <textures>
-        <texture file="skeletal/han_lamellar_01_lacquered_01.png" name="baseTex"/>
+        <texture file="skeletal/han/lamellar_01_lacquered_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-01-Lacqurered-02">
       <textures>
-        <texture file="skeletal/han_lamellar_01_lacquered_02.png" name="baseTex"/>
+        <texture file="skeletal/han/lamellar_01_lacquered_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-01-Lacqurered-03">
       <textures>
-        <texture file="skeletal/han_lamellar_01_lacquered_03.png" name="baseTex"/>
+        <texture file="skeletal/han/lamellar_01_lacquered_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

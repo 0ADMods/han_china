@@ -12,24 +12,24 @@
         <prop actor="props/units/quivers/han_quiver_hip.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
-        <texture file="skeletal/han_scale_01_spec.png" name="specTex"/>
+        <texture file="skeletal/han/scale_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant name="Han-Armor-Scale-01-Lacquered-01">
       <textures>
-        <texture file="skeletal/han_scale_01_lacquered_01.png" name="baseTex"/>
+        <texture file="skeletal/han/scale_01_lacquered_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Scale-01-Lacquered-02">
       <textures>
-        <texture file="skeletal/han_scale_01_lacquered_02.png" name="baseTex"/>
+        <texture file="skeletal/han/scale_01_lacquered_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Scale-01-Lacquered-03">
       <textures>
-        <texture file="skeletal/han_scale_01_lacquered_03.png" name="baseTex"/>
+        <texture file="skeletal/han/scale_01_lacquered_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

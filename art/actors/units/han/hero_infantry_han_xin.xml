@@ -15,7 +15,7 @@
     </variant>
   </group>
   <group>
-    <variant file="clothes/han/uniform_c_03.xml"/>
+    <variant file="clothes/han/uniform_e_03.xml"/>
   </group>
   <group>
     <variant frequency="1" name="open_helmet">

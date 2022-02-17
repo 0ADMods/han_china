@@ -12,24 +12,24 @@
         <prop actor="props/units/weapons/sheath/han_jian_sheath_left_b.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
-        <texture file="skeletal/han_lamellar_02_spec.png" name="specTex"/>
+        <texture file="skeletal/han/lamellar_02_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-01">
       <textures>
-        <texture file="skeletal/han_lamellar_02_lacquered_01.png" name="baseTex"/>
+        <texture file="skeletal/han/lamellar_02_lacquered_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-02">
       <textures>
-        <texture file="skeletal/han_lamellar_02_lacquered_02.png" name="baseTex"/>
+        <texture file="skeletal/han/lamellar_02_lacquered_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant name="Han-Armor-Lamellar-02-Lacqurered-03">
       <textures>
-        <texture file="skeletal/han_lamellar_02_lacquered_03.png" name="baseTex"/>
+        <texture file="skeletal/han/lamellar_02_lacquered_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
